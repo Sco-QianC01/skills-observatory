@@ -21,6 +21,10 @@ test('Atom uses alternate link and publication date rather than retrieval date',
   const [item] = parseFeed(atom, source, now);
   assert.equal(item.url, 'https://www.youtube.com/watch?v=sample');
   assert.equal(item.publishedAt, '2026-10-30T12:30:00.000Z');
+  assert.equal(item.dateLabel, '原文');
+  const [updatedOnly] = parseFeed(atom.replace(/<published>.*?<\/published>/, ''), source, now);
+  assert.equal(updatedOnly.publishedAt, '2026-11-01T00:00:00.000Z');
+  assert.equal(updatedOnly.dateLabel, '更新');
 });
 
 test('Unknown dates remain null, external entities and malformed XML are rejected', () => {
@@ -70,6 +74,46 @@ test('No X token produces a truthful pending state, without a network call', asy
     fetchImpl: async () => { throw new Error('Should not fetch without credentials'); } });
   assert.equal(result.sources[0].status, 'needs_credentials');
   assert.equal(result.items.length, 0);
+});
+
+test('Browser selections are normalized and never reported as automatic collection success', async () => {
+  const xSource = { ...source, id: 'x-search', platform: 'X', type: 'x' };
+  const raw = { sourceId: xSource.id, title: '<b>Public post</b>', url: 'https://x.com/example/status/1?utm_source=web',
+    summary: '<script>unsafe()</script><p>Short finding</p>', publishedAt: '2026-10-31T00:00:00Z' };
+  const result = await collect({ sources: [xSource], now, browserState: { readOn: '2026-11-01' },
+    browserItems: [raw, { ...raw, url: 'javascript:alert(1)' },
+      { ...raw, url: 'https://x.com/example/status/2', publishedAt: '2026-11-10T00:00:00Z' }],
+    previous: { sources: [{ id: xSource.id, status: 'cached', lastSuccessAt: '2026-11-01T01:00:00Z' }] },
+    fetchImpl: async () => { throw new Error('No API token'); } });
+  assert.equal(result.items.length, 1);
+  assert.equal(result.items[0].title, 'Public post');
+  assert.equal(result.items[0].summary, 'Short finding');
+  assert.equal(result.items[0].url, 'https://x.com/example/status/1');
+  assert.equal(result.items[0].kind, 'browser');
+  assert.equal(result.items[0].browserReadOn, '2026-11-01');
+  assert.equal(result.sources[0].lastSuccessAt, null);
+  assert.equal(result.sources[0].manualReadOn, '2026-11-01');
+  assert.equal(result.sources[0].status, 'cached');
+  assert.equal(result.collection.successfulSources, 0);
+});
+
+test('X retains its real API success through an error and repeated browser-only collections', async () => {
+  const xSource = { ...source, id: 'x-search', platform: 'X', type: 'x' };
+  const options = { sources: [xSource], now };
+  const success = await collect({ ...options, xBearer: 'test-only',
+    fetchImpl: async () => Response.json({ data: [{ id: '1', text: 'Public workflow', created_at: '2026-10-31T00:00:00Z' }] }) });
+  const failed = await collect({ ...options, previous: success, xBearer: 'test-only',
+    fetchImpl: async () => new Response('unavailable', { status: 503 }) });
+  const browserItems = [{ sourceId: xSource.id, title: 'Manual selection', url: 'https://x.com/example/status/2',
+    publishedAt: '2026-10-31T00:00:00Z' }];
+  const first = await collect({ ...options, previous: failed, browserItems });
+  const second = await collect({ ...options, previous: first, browserItems });
+  for (const result of [success, failed, first, second]) {
+    assert.equal(result.sources[0].lastAutomaticSuccessAt, now.toISOString());
+    assert.equal(result.sources[0].lastSuccessAt, now.toISOString());
+  }
+  assert.equal(second.sources[0].status, 'cached');
+  assert.equal(second.collection.successfulSources, 0);
 });
 
 test('Worker accepts a complete bounded index and rejects invalid snapshots', () => {

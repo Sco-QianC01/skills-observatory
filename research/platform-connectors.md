@@ -38,15 +38,17 @@ README 要求 Node.js 22+，支持 stdio 与 HTTP `/mcp`。远程 HTTP 身份验
 
 ## 官方频道与 Atom 实测
 
-三个 handle 页面均 HTTP 200，其 canonical URL 与提取的 channel ID 一致。三个 Atom 请求也均 HTTP 200，使用 Python 标准库 XML 解析器成功解析，每个 feed 返回 15 条；以下“最新”只指本次 feed 返回记录按 `published` 排序的最新一条，不保证覆盖频道全部历史、会员、私有或计划发布视频。
+三个 handle 页面已实际读取，其 canonical URL 与提取的 channel ID 一致。早先的请求曾成功解析三个 Atom，每个返回 15 条；随后在 2026-11-01 的复检中，OpenAI 与 Google DeepMind 的 Atom 返回 HTTP 404，Anthropic 返回 HTTP 200、15 条。频道 ID 已核对，不能为了消除 404 随意替换为其他频道。
 
-| 官方频道 | channel ID | 成功的官方 Atom URL | 最新条目原始 published（UTC） |
+下表的日期与视频是早先成功请求留下的样本，不能当作当前最新视频清单。当前可用性以本站每轮采集状态为准；接口失败时保留有效的既有条目并显示错误。
+
+| 官方频道 | channel ID | 官方 Atom URL | 历史样本 published（UTC） |
 | --- | --- | --- | --- |
 | OpenAI | `UCXZCJLdBC09xxGZ6gcdrc6A` | https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A | `2026-10-30T20:17:12+00:00` |
 | Anthropic | `UCrDwWp7EBBv4NwvScIpBDOA` | https://www.youtube.com/feeds/videos.xml?channel_id=UCrDwWp7EBBv4NwvScIpBDOA | `2026-09-23T18:01:32+00:00` |
 | Google DeepMind | `UCP7jMXSY2xbc3KCAE0MHQ-A` | https://www.youtube.com/feeds/videos.xml?channel_id=UCP7jMXSY2xbc3KCAE0MHQ-A | `2026-10-27T16:00:41+00:00` |
 
-对应最新标题与视频：
+对应的历史样本标题与视频：
 
 - OpenAI：[There are many futures. Which do you want to build?](https://www.youtube.com/watch?v=o4D1J1YWjhg)
 - Anthropic：[Inside Anthropic's molecular biology lab](https://www.youtube.com/watch?v=DdCEmlAydcw)
@@ -62,4 +64,4 @@ Atom 发布日期必须取 `<entry><published>`，不能用 feed 更新时间、
 
 ## 本次验收边界
 
-已验证项目存在、默认分支、当前源码路径、两份 MIT 许可、实际凭据分层、官方频道 ID 与 Atom 可读性。xMCP 无已确认许可证；OpenAI 官网链接因 403 未反查成功；未验证任何 MCP 的安装后运行、字幕提取、OAuth 或 X API 账户额度。浏览器登录态可读证据来自主 agent，与本研究的公开 Atom/API 请求分开记录。
+已验证项目存在、默认分支、所读源码路径、两份 MIT 许可、实际凭据分层与官方频道 ID。Atom 可用性在请求间发生变化，最近复检仅 Anthropic 成功，不能概括为三个频道持续可用。xMCP 无已确认许可证；OpenAI 官网链接因 403 未反查成功；未验证任何 MCP 的安装后运行、字幕提取、OAuth 或 X API 账户额度。浏览器登录态可读证据来自主 agent，与公开 Atom/API 请求分开记录。

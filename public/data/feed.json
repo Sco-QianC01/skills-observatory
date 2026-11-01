@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-01T04:27:55.135Z",
-  "lastAttemptAt": "2026-11-01T04:27:55.135Z",
+  "generatedAt": "2026-11-01T04:57:26.900Z",
+  "lastAttemptAt": "2026-11-01T04:57:26.900Z",
   "schedule": "每日 02:17、08:17、14:17、20:17（北京时间）采集；GitHub 调度可能延迟。",
   "retentionDays": 90,
   "collection": {
-    "successfulSources": 7,
+    "successfulSources": 8,
     "totalSources": 11,
-    "itemCount": 133,
+    "itemCount": 153,
     "mode": "公开订阅 / API + 人工精读",
     "fullTextRepublished": false
   },
@@ -19,7 +19,7 @@
       "url": "https://openai.com/news/rss.xml",
       "status": "ok",
       "count": 14,
-      "lastSuccessAt": "2026-11-01T04:27:55.135Z",
+      "lastSuccessAt": "2026-11-01T04:57:26.900Z",
       "error": null
     },
     {
@@ -29,7 +29,7 @@
       "url": "https://blog.google/technology/ai/rss/",
       "status": "ok",
       "count": 12,
-      "lastSuccessAt": "2026-11-01T04:27:55.135Z",
+      "lastSuccessAt": "2026-11-01T04:57:26.900Z",
       "error": null
     },
     {
@@ -39,7 +39,7 @@
       "url": "https://huggingface.co/blog/feed.xml",
       "status": "ok",
       "count": 12,
-      "lastSuccessAt": "2026-11-01T04:27:55.135Z",
+      "lastSuccessAt": "2026-11-01T04:57:26.900Z",
       "error": null
     },
     {
@@ -47,10 +47,10 @@
       "name": "OpenAI · YouTube",
       "platform": "YouTube",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A",
-      "status": "error",
+      "status": "ok",
       "count": 10,
-      "lastSuccessAt": "2026-11-01T04:18:26.105Z",
-      "error": "来源返回 HTTP 404"
+      "lastSuccessAt": "2026-11-01T04:57:26.900Z",
+      "error": null
     },
     {
       "id": "yt-anthropic",
@@ -59,7 +59,7 @@
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCrDwWp7EBBv4NwvScIpBDOA",
       "status": "error",
       "count": 7,
-      "lastSuccessAt": "2026-11-01T04:18:26.105Z",
+      "lastSuccessAt": "2026-11-01T04:51:05.130Z",
       "error": "来源返回 HTTP 404"
     },
     {
@@ -70,7 +70,7 @@
       "status": "error",
       "count": 0,
       "lastSuccessAt": null,
-      "error": "来源返回 HTTP 404"
+      "error": "来源返回 HTTP 500"
     },
     {
       "id": "github-skills",
@@ -79,7 +79,7 @@
       "url": "https://github.com/topics/agent-skills",
       "status": "ok",
       "count": 14,
-      "lastSuccessAt": "2026-11-01T04:27:55.135Z",
+      "lastSuccessAt": "2026-11-01T04:57:26.900Z",
       "error": null
     },
     {
@@ -89,7 +89,7 @@
       "url": "https://github.com/topics/workflow-automation",
       "status": "ok",
       "count": 12,
-      "lastSuccessAt": "2026-11-01T04:27:55.135Z",
+      "lastSuccessAt": "2026-11-01T04:57:26.900Z",
       "error": null
     },
     {
@@ -99,7 +99,7 @@
       "url": "https://github.com/topics/llm",
       "status": "ok",
       "count": 14,
-      "lastSuccessAt": "2026-11-01T04:27:55.135Z",
+      "lastSuccessAt": "2026-11-01T04:57:26.900Z",
       "error": null
     },
     {
@@ -109,7 +109,7 @@
       "url": "https://news.ycombinator.com/",
       "status": "ok",
       "count": 12,
-      "lastSuccessAt": "2026-11-01T04:27:55.135Z",
+      "lastSuccessAt": "2026-11-01T04:57:26.900Z",
       "error": null
     },
     {
@@ -119,8 +119,10 @@
       "url": "https://x.com/search?q=agent%20skills&f=live",
       "status": "cached",
       "count": 4,
-      "lastSuccessAt": "2026-11-01T04:10:22.370Z",
-      "error": "已收录 Edge 实际读取的公开分享。云端 X API 尚未配置；浏览器采集时间见最近成功。"
+      "manualReadOn": "2026-11-01",
+      "lastSuccessAt": null,
+      "lastAutomaticSuccessAt": null,
+      "error": "已选录 Edge 实际读取的公开分享；云端 X API 尚未配置，选录内容不会自动刷新。"
     },
     {
       "id": "editorial-writing",
@@ -136,58 +138,369 @@
   ],
   "items": [
     {
-      "title": "Team-Commonly/commonly",
-      "summary": "One pod for your team and the agents each of you runs: your own Claude Code, or a hosted agent in one click. Open source (Apache-2.0), self-hostable.",
-      "url": "https://github.com/Team-Commonly/commonly",
-      "publishedAt": "2026-11-01T04:27:38.000Z",
+      "title": "ashhart/TensorFold",
+      "summary": "LLM Inference Engine for Metal, CUDA and Vulkan.",
+      "url": "https://github.com/ashhart/TensorFold",
+      "publishedAt": "2026-11-01T04:57:22.000Z",
       "dateLabel": "仓库更新",
       "tags": [
-        "agent-framework",
-        "agent-harness",
-        "agent-protocol",
-        "agentic",
-        "agentic-ai",
-        "agents"
+        "ai",
+        "ai-tools",
+        "llm",
+        "llm-inference",
+        "llm-tools"
       ],
-      "stars": 1376,
+      "stars": 1572,
       "license": "Apache-2.0",
-      "id": "7aaa74d4010b34187874",
+      "id": "8c3204e0095f8429d0c7",
       "platform": "GitHub",
       "sourceId": "github-ai",
       "sourceName": "GitHub · AI 开源",
       "category": "开源项目",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected"
     },
     {
-      "title": "cocoindex-io/cocoindex",
-      "summary": "Incremental engine for long horizon agents 🌟 Star if you like it!",
-      "url": "https://github.com/cocoindex-io/cocoindex",
-      "publishedAt": "2026-11-01T04:27:11.000Z",
+      "title": "NousResearch/hermes-agent",
+      "summary": "The agent that grows with you",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "publishedAt": "2026-11-01T04:57:16.000Z",
       "dateLabel": "仓库更新",
       "tags": [
-        "agentic-data-framework",
         "ai",
+        "ai-agent",
         "ai-agents",
-        "change-data-capture",
-        "codebase-intelligence",
-        "context-engineering"
+        "anthropic",
+        "chatgpt",
+        "claude"
       ],
-      "stars": 11790,
-      "license": "Apache-2.0",
-      "id": "0427915b5acefaae860d",
+      "stars": 259231,
+      "license": "MIT",
+      "id": "ec2b8bd43eefd65f9cb1",
       "platform": "GitHub",
       "sourceId": "github-ai",
       "sourceName": "GitHub · AI 开源",
       "category": "开源项目",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
+      "kind": "collected"
+    },
+    {
+      "title": "DayuanJiang/next-ai-draw-io",
+      "summary": "Draw and edit draw.io diagrams by chatting with an AI. Web app, desktop app, and an MCP server for Claude Code, Cursor, Codex and VS Code.",
+      "url": "https://github.com/DayuanJiang/next-ai-draw-io",
+      "publishedAt": "2026-11-01T04:57:11.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "ai",
+        "architecture-diagram",
+        "claude-code",
+        "deepseek-harness",
+        "diagram-generator",
+        "diagrams"
+      ],
+      "stars": 36530,
+      "license": "Apache-2.0",
+      "id": "ad5e3b1d8018e6ad6e75",
+      "platform": "GitHub",
+      "sourceId": "github-ai",
+      "sourceName": "GitHub · AI 开源",
+      "category": "开源项目",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
+      "kind": "collected"
+    },
+    {
+      "title": "QwenLM/qwen-code",
+      "summary": "An open-source AI coding agent that lives in your terminal.",
+      "url": "https://github.com/QwenLM/qwen-code",
+      "publishedAt": "2026-11-01T04:57:09.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "agentic",
+        "ai",
+        "ai-agent",
+        "ai-coding",
+        "cli",
+        "coding-agent"
+      ],
+      "stars": 28854,
+      "license": "Apache-2.0",
+      "id": "1922d9d520f9ceba156c",
+      "platform": "GitHub",
+      "sourceId": "github-ai",
+      "sourceName": "GitHub · AI 开源",
+      "category": "开源项目",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
+      "kind": "collected"
+    },
+    {
+      "title": "JKHeadley/instar",
+      "summary": "Persistent Claude Code agents with scheduling, sessions, memory, and Telegram.",
+      "url": "https://github.com/JKHeadley/instar",
+      "publishedAt": "2026-11-01T04:56:57.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "agent-framework",
+        "agent-identity",
+        "agent-infrastructure",
+        "agent-memory",
+        "agent-skills",
+        "ai-agents"
+      ],
+      "stars": 85,
+      "license": "MIT",
+      "id": "f2ed32d449024a57c318",
+      "platform": "GitHub",
+      "sourceId": "github-skills",
+      "sourceName": "GitHub · Agent Skills",
+      "category": "Skills",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
+      "kind": "collected"
+    },
+    {
+      "title": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "summary": "ARIS ⚔️ (Auto-Research-In-Sleep) — Lightweight Markdown-only skills for autonomous ML research: cross-model review loops, idea discovery, and experiment automation. No framework, no lock-in — works with Claude Code, Codex, OpenClaw, or any LLM agent.",
+      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep",
+      "publishedAt": "2026-11-01T04:56:49.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "ai-research",
+        "ai-tools",
+        "aris",
+        "autonomous-agent",
+        "claude",
+        "claude-code"
+      ],
+      "stars": 18375,
+      "license": "MIT",
+      "id": "cbaa9ddabf5692b3e121",
+      "platform": "GitHub",
+      "sourceId": "github-ai",
+      "sourceName": "GitHub · AI 开源",
+      "category": "开源项目",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
+      "kind": "collected"
+    },
+    {
+      "title": "sgl-project/sglang",
+      "summary": "SGLang is a high-performance serving framework for large language models and multimodal models.",
+      "url": "https://github.com/sgl-project/sglang",
+      "publishedAt": "2026-11-01T04:56:47.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "attention",
+        "blackwell",
+        "cuda",
+        "deepseek",
+        "diffusion",
+        "glm"
+      ],
+      "stars": 38329,
+      "license": "Apache-2.0",
+      "id": "d831938b547e28348ca6",
+      "platform": "GitHub",
+      "sourceId": "github-ai",
+      "sourceName": "GitHub · AI 开源",
+      "category": "开源项目",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
+      "kind": "collected"
+    },
+    {
+      "title": "matrixarkai/TemporalStore",
+      "summary": "Open-source Rust TemporalStore for LLM context management, temporal features, and risk control",
+      "url": "https://github.com/matrixarkai/TemporalStore",
+      "publishedAt": "2026-11-01T04:56:39.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "ai-infrastructure",
+        "context-engineering",
+        "context-runtime",
+        "feature-store",
+        "llm",
+        "llm-context"
+      ],
+      "stars": 212,
+      "license": "Apache-2.0",
+      "id": "cca0928e0e4c646dfc57",
+      "platform": "GitHub",
+      "sourceId": "github-ai",
+      "sourceName": "GitHub · AI 开源",
+      "category": "开源项目",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
+      "kind": "collected"
+    },
+    {
+      "title": "paperclipai/paperclip",
+      "summary": "The open-source app everyone uses to manage agents at work",
+      "url": "https://github.com/paperclipai/paperclip",
+      "publishedAt": "2026-11-01T04:56:00.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "acpx",
+        "agent-orchestration",
+        "agent-skills",
+        "agentic-ai",
+        "ai-agents",
+        "ai-engineering"
+      ],
+      "stars": 109552,
+      "license": "MIT",
+      "id": "a5e43b1572bfaf36e264",
+      "platform": "GitHub",
+      "sourceId": "github-skills",
+      "sourceName": "GitHub · Agent Skills",
+      "category": "Skills",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
+      "kind": "collected"
+    },
+    {
+      "title": "yetone/magpie",
+      "summary": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+      "url": "https://github.com/yetone/magpie",
+      "publishedAt": "2026-11-01T04:55:58.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "claude-code",
+        "codex",
+        "deepseek",
+        "gemini-cli",
+        "llm",
+        "macos"
+      ],
+      "stars": 27076,
+      "license": "MIT",
+      "id": "4683cd570ef39debe973",
+      "platform": "GitHub",
+      "sourceId": "github-ai",
+      "sourceName": "GitHub · AI 开源",
+      "category": "开源项目",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
+      "kind": "collected"
+    },
+    {
+      "title": "DemonDamon/AgenticX",
+      "summary": "AgenticX is a unified, production-ready multi-agent platform — Python SDK + CLI (agx) + Studio server + Machi desktop app. Features Meta-Agent orchestration, 15+ LLM providers, MCP Hub, hierarchical memory, avatar & group chat, skill ecosystem, safety sandbox,",
+      "url": "https://github.com/DemonDamon/AgenticX",
+      "publishedAt": "2026-11-01T04:55:46.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "agent-framework",
+        "agentic-workflows",
+        "ai-agent",
+        "ai-orchestration",
+        "chatbot",
+        "desktop-app"
+      ],
+      "stars": 847,
+      "license": "Apache-2.0",
+      "id": "dff5cf5ca366c8ab14b8",
+      "platform": "GitHub",
+      "sourceId": "github-ai",
+      "sourceName": "GitHub · AI 开源",
+      "category": "开源项目",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
+      "kind": "collected"
+    },
+    {
+      "title": "ooples/token-optimizer-mcp",
+      "summary": "Measure token savings per AI coding agent, optimize context, and share a live local knowledge graph across 16 CLI clients.",
+      "url": "https://github.com/ooples/token-optimizer-mcp",
+      "publishedAt": "2026-11-01T04:55:26.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "ai",
+        "caching",
+        "claude",
+        "compression",
+        "gemini-cli-extension",
+        "llm"
+      ],
+      "stars": 563,
+      "license": "MIT",
+      "id": "aab05239a7e3f79636e6",
+      "platform": "GitHub",
+      "sourceId": "github-ai",
+      "sourceName": "GitHub · AI 开源",
+      "category": "开源项目",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
+      "kind": "collected"
+    },
+    {
+      "title": "CherryHQ/cherry-studio",
+      "summary": "Your AI workspace for models, agents, and productivity.",
+      "url": "https://github.com/CherryHQ/cherry-studio",
+      "publishedAt": "2026-11-01T04:55:14.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "agent-skills",
+        "agent-workspace",
+        "agentic-workspace",
+        "ai-agents",
+        "ai-models",
+        "ai-productivity"
+      ],
+      "stars": 53140,
+      "license": "AGPL-3.0",
+      "id": "b1b1542da472edd24925",
+      "platform": "GitHub",
+      "sourceId": "github-skills",
+      "sourceName": "GitHub · Agent Skills",
+      "category": "Skills",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
+      "kind": "collected"
+    },
+    {
+      "title": "Human-Agent-Society/reef",
+      "summary": "Infrastructure for continually self‑improving agents",
+      "url": "https://github.com/Human-Agent-Society/reef",
+      "publishedAt": "2026-11-01T04:54:44.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "agent-infrastructure",
+        "ai-agents",
+        "continual-learning",
+        "inference",
+        "llm",
+        "llm-training"
+      ],
+      "stars": 7782,
+      "license": "Apache-2.0",
+      "id": "1e97fcf6e4c7f15411ae",
+      "platform": "GitHub",
+      "sourceId": "github-ai",
+      "sourceName": "GitHub · AI 开源",
+      "category": "开源项目",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
+      "kind": "collected"
+    },
+    {
+      "title": "wanshuiyin/HERO-Anti-OverDefense",
+      "summary": "HERO = Hashing · Edge cases · Rubrics · Overbuild — the four shapes coding agents over-defend in. A paste-in contract that stops them. Works with Claude Code, Codex, Antigravity, Cursor, Copilot, Windsurf, Gemini CLI.",
+      "url": "https://github.com/wanshuiyin/HERO-Anti-OverDefense",
+      "publishedAt": "2026-11-01T04:54:36.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "agents-md",
+        "ai-agents",
+        "antigravity",
+        "claude-code",
+        "claude-md",
+        "codex"
+      ],
+      "stars": 533,
+      "license": "MIT",
+      "id": "a50b26c15524b8ee9bef",
+      "platform": "GitHub",
+      "sourceId": "github-ai",
+      "sourceName": "GitHub · AI 开源",
+      "category": "开源项目",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected"
     },
     {
       "title": "smithersai/smithers",
       "summary": "Smithers is an agentic workflow framework for defining workflows in simple TypeScript configuration files and executing them quickly, durably, and reliably",
       "url": "https://github.com/smithersai/smithers",
-      "publishedAt": "2026-11-01T04:26:39.000Z",
+      "publishedAt": "2026-11-01T04:52:12.000Z",
       "dateLabel": "仓库更新",
       "tags": [
         "agent-orchestration",
@@ -204,7 +517,483 @@
       "sourceId": "github-ai",
       "sourceName": "GitHub · AI 开源",
       "category": "开源项目",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
+      "kind": "collected"
+    },
+    {
+      "title": "langbot-app/LangBot",
+      "summary": "Production-grade platform for building agentic IM bots - 生产级多平台智能机器人开发平台/ Agent、知识库编排、插件系统 / Bots for Discord / Slack / LINE / Telegram / WeChat(企业微信, 企微智能机器人, 公众号) / 飞书 / 钉钉 / QQ / Matrix e.g. Integrated with ChatGPT(GPT), DeepSeek, Dify, n8n, Langflow, Coze,",
+      "url": "https://github.com/langbot-app/LangBot",
+      "publishedAt": "2026-11-01T04:51:51.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "agent",
+        "coze",
+        "deepseek",
+        "dify",
+        "dingtalk",
+        "discord"
+      ],
+      "stars": 18636,
+      "license": "Apache-2.0",
+      "id": "a44c7aa65560264887f0",
+      "platform": "GitHub",
+      "sourceId": "github-ai",
+      "sourceName": "GitHub · AI 开源",
+      "category": "开源项目",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
+      "kind": "collected"
+    },
+    {
+      "title": "Cotal-AI/Cotal",
+      "summary": "The open standard for agent coordination",
+      "url": "https://github.com/Cotal-AI/Cotal",
+      "publishedAt": "2026-11-01T04:51:05.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "a2a",
+        "agent-communication",
+        "agent-mesh",
+        "agent-orchestration",
+        "agent-skills",
+        "ai"
+      ],
+      "stars": 373,
+      "license": "Apache-2.0",
+      "id": "85b35344986150527527",
+      "platform": "GitHub",
+      "sourceId": "github-skills",
+      "sourceName": "GitHub · Agent Skills",
+      "category": "Skills",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
+      "kind": "collected"
+    },
+    {
+      "title": "Team-Commonly/commonly",
+      "summary": "One pod for your team and the agents each of you runs: your own Claude Code, or a hosted agent in one click. Open source (Apache-2.0), self-hostable.",
+      "url": "https://github.com/Team-Commonly/commonly",
+      "publishedAt": "2026-11-01T04:50:37.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "agent-framework",
+        "agent-harness",
+        "agent-protocol",
+        "agentic",
+        "agentic-ai",
+        "agents"
+      ],
+      "stars": 1376,
+      "license": "Apache-2.0",
+      "id": "7aaa74d4010b34187874",
+      "platform": "GitHub",
+      "sourceId": "github-ai",
+      "sourceName": "GitHub · AI 开源",
+      "category": "开源项目",
+      "collectedAt": "2026-11-01T04:51:05.130Z",
+      "kind": "collected"
+    },
+    {
+      "title": "blogminhquy/javis-os",
+      "summary": "项目未提供简介，请阅读仓库说明。",
+      "url": "https://github.com/blogminhquy/javis-os",
+      "publishedAt": "2026-11-01T04:50:28.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "agent-operations",
+        "agent-optimization",
+        "agent-orchestration",
+        "agent-orchestrator",
+        "agent-os",
+        "ai-agent"
+      ],
+      "stars": 494,
+      "license": "MIT",
+      "id": "b4e57f107ea1df729406",
+      "platform": "GitHub",
+      "sourceId": "github-ai",
+      "sourceName": "GitHub · AI 开源",
+      "category": "开源项目",
+      "collectedAt": "2026-11-01T04:51:05.130Z",
+      "kind": "collected"
+    },
+    {
+      "title": "cocoindex-io/cocoindex",
+      "summary": "Incremental engine for long horizon agents 🌟 Star if you like it!",
+      "url": "https://github.com/cocoindex-io/cocoindex",
+      "publishedAt": "2026-11-01T04:47:41.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "agentic-data-framework",
+        "ai",
+        "ai-agents",
+        "change-data-capture",
+        "codebase-intelligence",
+        "context-engineering"
+      ],
+      "stars": 11790,
+      "license": "Apache-2.0",
+      "id": "0427915b5acefaae860d",
+      "platform": "GitHub",
+      "sourceId": "github-ai",
+      "sourceName": "GitHub · AI 开源",
+      "category": "开源项目",
+      "collectedAt": "2026-11-01T04:51:05.130Z",
+      "kind": "collected"
+    },
+    {
+      "title": "morluto/rea",
+      "summary": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "url": "https://github.com/morluto/rea",
+      "publishedAt": "2026-11-01T04:47:20.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "agent-skills",
+        "ai",
+        "android",
+        "claude-code",
+        "cli",
+        "cpp"
+      ],
+      "stars": 416018,
+      "license": "MIT",
+      "id": "458c04cd04ca960bc316",
+      "platform": "GitHub",
+      "sourceId": "github-skills",
+      "sourceName": "GitHub · Agent Skills",
+      "category": "Skills",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
+      "kind": "collected"
+    },
+    {
+      "title": "EvolvingLMMs-Lab/LLaVA-OneVision-2",
+      "summary": "Fully Open Framework for Democratized Multimodal Training",
+      "url": "https://github.com/EvolvingLMMs-Lab/LLaVA-OneVision-2",
+      "publishedAt": "2026-11-01T04:46:45.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "llava",
+        "llava-onevision",
+        "llm",
+        "mllm",
+        "qwen3",
+        "vision-language-model"
+      ],
+      "stars": 1227,
+      "license": "Apache-2.0",
+      "id": "915369bb693656fa2891",
+      "platform": "GitHub",
+      "sourceId": "github-ai",
+      "sourceName": "GitHub · AI 开源",
+      "category": "开源项目",
+      "collectedAt": "2026-11-01T04:51:05.130Z",
+      "kind": "collected"
+    },
+    {
+      "title": "IncarnaMind/IncarnaMind",
+      "summary": "From messy files to a checked report. A free, open-source desktop app for macOS, Windows and Linux: write and analyse with AI from your own files, check each sentence and figure against them, and export to Word. Meeting notes too. Works with ChatGPT, Claude, G",
+      "url": "https://github.com/IncarnaMind/IncarnaMind",
+      "publishedAt": "2026-11-01T04:45:52.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "ai-assistant",
+        "chat-with-pdf",
+        "citations",
+        "desktop-app",
+        "document-qa",
+        "fact-checking"
+      ],
+      "stars": 848,
+      "license": "Apache-2.0",
+      "id": "fdbe6edd100e1b42d9ef",
+      "platform": "GitHub",
+      "sourceId": "github-ai",
+      "sourceName": "GitHub · AI 开源",
+      "category": "开源项目",
+      "collectedAt": "2026-11-01T04:51:05.130Z",
+      "kind": "collected"
+    },
+    {
+      "title": "elie222/rakazo",
+      "summary": "Open-source Grok Bot alternative. Choose your own model and sandbox.",
+      "url": "https://github.com/elie222/rakazo",
+      "publishedAt": "2026-11-01T04:45:33.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "ai-agents",
+        "chatgpt",
+        "docker",
+        "electron",
+        "expo",
+        "grok"
+      ],
+      "stars": 6477,
+      "license": "Apache-2.0",
+      "id": "f7d22c75b9c000f9ab1c",
+      "platform": "GitHub",
+      "sourceId": "github-ai",
+      "sourceName": "GitHub · AI 开源",
+      "category": "开源项目",
+      "collectedAt": "2026-11-01T04:51:05.130Z",
+      "kind": "collected"
+    },
+    {
+      "title": "bytedance/deer-flow",
+      "summary": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
+      "url": "https://github.com/bytedance/deer-flow",
+      "publishedAt": "2026-11-01T04:45:14.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "agent",
+        "agentic",
+        "agentic-framework",
+        "agentic-workflow",
+        "ai",
+        "ai-agents"
+      ],
+      "stars": 84792,
+      "license": "MIT",
+      "id": "16389f32495280ea98c7",
+      "platform": "GitHub",
+      "sourceId": "github-ai",
+      "sourceName": "GitHub · AI 开源",
+      "category": "开源项目",
+      "collectedAt": "2026-11-01T04:51:05.130Z",
+      "kind": "collected"
+    },
+    {
+      "title": "CatVinci-Studio/Textus",
+      "summary": "The next-generation Markdown editor, with an AI writing assistant. Free and open source for macOS, Windows and Linux.",
+      "url": "https://github.com/CatVinci-Studio/Textus",
+      "publishedAt": "2026-11-01T04:44:31.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "ai",
+        "ai-writing",
+        "deepseek",
+        "editor",
+        "linux",
+        "llm"
+      ],
+      "stars": 559,
+      "license": "MIT",
+      "id": "0467c64d16ea922933c3",
+      "platform": "GitHub",
+      "sourceId": "github-ai",
+      "sourceName": "GitHub · AI 开源",
+      "category": "开源项目",
+      "collectedAt": "2026-11-01T04:51:05.130Z",
+      "kind": "collected"
+    },
+    {
+      "title": "localai-org/vllm.cpp",
+      "summary": "a community oriented 1:1, vLLM-alike (Continuous batching, paged KV) engine in C++ with additional features (GGUF, RadixAttention, Cache-aware scheduling, ...)",
+      "url": "https://github.com/localai-org/vllm.cpp",
+      "publishedAt": "2026-11-01T04:44:25.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "continous-batching",
+        "cpp20",
+        "llm",
+        "mlx",
+        "paged-attention",
+        "radixattention"
+      ],
+      "stars": 474,
+      "license": "Apache-2.0",
+      "id": "12ffa352d08fa5bac91f",
+      "platform": "GitHub",
+      "sourceId": "github-ai",
+      "sourceName": "GitHub · AI 开源",
+      "category": "开源项目",
+      "collectedAt": "2026-11-01T04:51:05.130Z",
+      "kind": "collected"
+    },
+    {
+      "title": "basecamp/hey-cli",
+      "summary": "HEY CLI and Agent Skills",
+      "url": "https://github.com/basecamp/hey-cli",
+      "publishedAt": "2026-11-01T04:43:31.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "agent-skills",
+        "hey"
+      ],
+      "stars": 423,
+      "license": "MIT",
+      "id": "cceaf3dd76fc7d654544",
+      "platform": "GitHub",
+      "sourceId": "github-skills",
+      "sourceName": "GitHub · Agent Skills",
+      "category": "Skills",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
+      "kind": "collected"
+    },
+    {
+      "title": "agentskillexchange/skills",
+      "summary": "Curated, trusted open catalog of AI agent skills for OpenClaw, Claude Code, Codex, GitHub Copilot, Gemini, Cursor, MCP, LangChain, and more. Browse, install, and verify reusable agent workflows.",
+      "url": "https://github.com/agentskillexchange/skills",
+      "publishedAt": "2026-11-01T04:39:35.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "agent-marketplace",
+        "agent-skills",
+        "agent-tools",
+        "ai-agents",
+        "ai-tools",
+        "awesome-list"
+      ],
+      "stars": 59,
+      "license": "MIT",
+      "id": "97460e370aedd7e06142",
+      "platform": "GitHub",
+      "sourceId": "github-skills",
+      "sourceName": "GitHub · Agent Skills",
+      "category": "Skills",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
+      "kind": "collected"
+    },
+    {
+      "title": "datamodel-code-generator/datamodel-code-generator",
+      "summary": "Generate Pydantic v2 models, dataclasses, TypedDict, and msgspec.Struct from OpenAPI, JSON Schema, GraphQL, Avro, Protobuf, and raw JSON/YAML/CSV.",
+      "url": "https://github.com/datamodel-code-generator/datamodel-code-generator",
+      "publishedAt": "2026-11-01T04:38:47.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "agent-skills",
+        "code-generator",
+        "csv",
+        "dataclass",
+        "datamodel",
+        "fastapi"
+      ],
+      "stars": 4048,
+      "license": "MIT",
+      "id": "ce8f192773f2487400ed",
+      "platform": "GitHub",
+      "sourceId": "github-skills",
+      "sourceName": "GitHub · Agent Skills",
+      "category": "Skills",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
+      "kind": "collected"
+    },
+    {
+      "title": "tw93/Kami",
+      "summary": "👩‍🚒 Good content deserves good paper. Layout rules and templates that let AI agents export PDF, PNG and editable PowerPoint.",
+      "url": "https://github.com/tw93/Kami",
+      "publishedAt": "2026-11-01T04:38:09.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "agent-skills",
+        "ai-agents",
+        "claude-code",
+        "codex",
+        "document-design",
+        "pdf"
+      ],
+      "stars": 12185,
+      "license": "MIT",
+      "id": "be8f3b5853b03d8a9f7a",
+      "platform": "GitHub",
+      "sourceId": "github-skills",
+      "sourceName": "GitHub · Agent Skills",
+      "category": "Skills",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
+      "kind": "collected"
+    },
+    {
+      "title": "wdcjx/Embedded-programming",
+      "summary": "面向 AI Agent 的 STM32 开发技能：SPL/HAL × 裸机/FreeRTOS 四轨代码生成，带引脚分配表、接线表与静态纪律检查器，沉淀 73 条实测坑。24 篇领域文档覆盖 Keil/IAR/CMake。",
+      "url": "https://github.com/wdcjx/Embedded-programming",
+      "publishedAt": "2026-11-01T04:35:19.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "agent-skills",
+        "claude-skills",
+        "deepseek-harness",
+        "embedded",
+        "freertos",
+        "hal"
+      ],
+      "stars": 32,
+      "license": "MIT",
+      "id": "8b422bf351dca5883a55",
+      "platform": "GitHub",
+      "sourceId": "github-skills",
+      "sourceName": "GitHub · Agent Skills",
+      "category": "Skills",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
+      "kind": "collected"
+    },
+    {
+      "title": "bytechefhq/bytechef",
+      "summary": "Open-source AI agents and workflow automation. Self-host or embed in your SaaS. Apache 2.0 alternative to n8n and Zapier.",
+      "url": "https://github.com/bytechefhq/bytechef",
+      "publishedAt": "2026-11-01T04:33:39.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "ai",
+        "ai-agents",
+        "api",
+        "automation",
+        "embedded-ipaas",
+        "hacktoberfest"
+      ],
+      "stars": 1052,
+      "license": "未声明或未识别，请核对仓库许可",
+      "id": "8fab7f8f1f4a757114f9",
+      "platform": "GitHub",
+      "sourceId": "github-workflows",
+      "sourceName": "GitHub · AI 工作流",
+      "category": "工作流",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
+      "kind": "collected"
+    },
+    {
+      "title": "kyy-logs/code-review-skill",
+      "summary": "Auditable code review skill for Claude Code and Codex: four independent probes, evidence-backed findings, and a JSON-derived merge gate.",
+      "url": "https://github.com/kyy-logs/code-review-skill",
+      "publishedAt": "2026-11-01T04:31:27.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "agent-skills",
+        "ai-code-review",
+        "claude-code",
+        "code-review",
+        "codex",
+        "developer-tools"
+      ],
+      "stars": 89,
+      "license": "MIT",
+      "id": "ebe97d0208a517eb22e5",
+      "platform": "GitHub",
+      "sourceId": "github-skills",
+      "sourceName": "GitHub · Agent Skills",
+      "category": "Skills",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
+      "kind": "collected"
+    },
+    {
+      "title": "imfeh2/fora",
+      "summary": "Run your own organization of agents",
+      "url": "https://github.com/imfeh2/fora",
+      "publishedAt": "2026-11-01T04:28:32.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "agent",
+        "agent-runtime",
+        "agentic-workflows",
+        "ai",
+        "ai-agent",
+        "ai-workspace"
+      ],
+      "stars": 318,
+      "license": "Apache-2.0",
+      "id": "e5e6309218762de4b4cb",
+      "platform": "GitHub",
+      "sourceId": "github-workflows",
+      "sourceName": "GitHub · AI 工作流",
+      "category": "工作流",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected"
     },
     {
@@ -275,7 +1064,7 @@
       "sourceId": "github-workflows",
       "sourceName": "GitHub · AI 工作流",
       "category": "工作流",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected"
     },
     {
@@ -327,54 +1116,6 @@
       "kind": "collected"
     },
     {
-      "title": "datamodel-code-generator/datamodel-code-generator",
-      "summary": "Generate Pydantic v2 models, dataclasses, TypedDict, and msgspec.Struct from OpenAPI, JSON Schema, GraphQL, Avro, Protobuf, and raw JSON/YAML/CSV.",
-      "url": "https://github.com/datamodel-code-generator/datamodel-code-generator",
-      "publishedAt": "2026-11-01T04:25:26.000Z",
-      "dateLabel": "仓库更新",
-      "tags": [
-        "agent-skills",
-        "code-generator",
-        "csv",
-        "dataclass",
-        "datamodel",
-        "fastapi"
-      ],
-      "stars": 4048,
-      "license": "MIT",
-      "id": "ce8f192773f2487400ed",
-      "platform": "GitHub",
-      "sourceId": "github-skills",
-      "sourceName": "GitHub · Agent Skills",
-      "category": "Skills",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
-      "kind": "collected"
-    },
-    {
-      "title": "Cotal-AI/Cotal",
-      "summary": "The open standard for agent coordination",
-      "url": "https://github.com/Cotal-AI/Cotal",
-      "publishedAt": "2026-11-01T04:25:20.000Z",
-      "dateLabel": "仓库更新",
-      "tags": [
-        "a2a",
-        "agent-communication",
-        "agent-mesh",
-        "agent-orchestration",
-        "agent-skills",
-        "ai"
-      ],
-      "stars": 373,
-      "license": "Apache-2.0",
-      "id": "85b35344986150527527",
-      "platform": "GitHub",
-      "sourceId": "github-skills",
-      "sourceName": "GitHub · Agent Skills",
-      "category": "Skills",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
-      "kind": "collected"
-    },
-    {
       "title": "reactive-resume/reactive-resume",
       "summary": "A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever. Try it out today!",
       "url": "https://github.com/reactive-resume/reactive-resume",
@@ -388,14 +1129,14 @@
         "javascript",
         "mcp-server"
       ],
-      "stars": 45136,
+      "stars": 45139,
       "license": "MIT",
       "id": "ebbf4c9b837ca6d0f06a",
       "platform": "GitHub",
       "sourceId": "github-skills",
       "sourceName": "GitHub · Agent Skills",
       "category": "Skills",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected"
     },
     {
@@ -419,30 +1160,6 @@
       "sourceId": "github-ai",
       "sourceName": "GitHub · AI 开源",
       "category": "开源项目",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
-      "kind": "collected"
-    },
-    {
-      "title": "tw93/Kami",
-      "summary": "👩‍🚒 Good content deserves good paper. Layout rules and templates that let AI agents export PDF, PNG and editable PowerPoint.",
-      "url": "https://github.com/tw93/Kami",
-      "publishedAt": "2026-11-01T04:25:12.000Z",
-      "dateLabel": "仓库更新",
-      "tags": [
-        "agent-skills",
-        "ai-agents",
-        "claude-code",
-        "codex",
-        "document-design",
-        "pdf"
-      ],
-      "stars": 12186,
-      "license": "MIT",
-      "id": "be8f3b5853b03d8a9f7a",
-      "platform": "GitHub",
-      "sourceId": "github-skills",
-      "sourceName": "GitHub · Agent Skills",
-      "category": "Skills",
       "collectedAt": "2026-11-01T04:27:55.135Z",
       "kind": "collected"
     },
@@ -519,30 +1236,6 @@
       "kind": "collected"
     },
     {
-      "title": "paperclipai/paperclip",
-      "summary": "The open-source app everyone uses to manage agents at work",
-      "url": "https://github.com/paperclipai/paperclip",
-      "publishedAt": "2026-11-01T04:23:47.000Z",
-      "dateLabel": "仓库更新",
-      "tags": [
-        "acpx",
-        "agent-orchestration",
-        "agent-skills",
-        "agentic-ai",
-        "ai-agents",
-        "ai-engineering"
-      ],
-      "stars": 109545,
-      "license": "MIT",
-      "id": "a5e43b1572bfaf36e264",
-      "platform": "GitHub",
-      "sourceId": "github-ai",
-      "sourceName": "GitHub · AI 开源",
-      "category": "开源项目",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
-      "kind": "collected"
-    },
-    {
       "title": "superiorlu/AITreasureBox",
       "summary": "🤖 Automatically collected AI repos, tools, websites, papers & tutorials. 实用AI百宝箱 💎",
       "url": "https://github.com/superiorlu/AITreasureBox",
@@ -591,6 +1284,30 @@
       "kind": "collected"
     },
     {
+      "title": "citrolabs/ego-lite",
+      "summary": "The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
+      "url": "https://github.com/citrolabs/ego-lite",
+      "publishedAt": "2026-11-01T04:23:00.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "agent-skills",
+        "ai-agent",
+        "automation",
+        "browser",
+        "browser-automation",
+        "claude-code"
+      ],
+      "stars": 21031,
+      "license": "MIT",
+      "id": "dbbcb182b33b2dd84bd0",
+      "platform": "GitHub",
+      "sourceId": "github-skills",
+      "sourceName": "GitHub · Agent Skills",
+      "category": "Skills",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
+      "kind": "collected"
+    },
+    {
       "title": "milvus-io/milvus",
       "summary": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search",
       "url": "https://github.com/milvus-io/milvus",
@@ -635,79 +1352,7 @@
       "sourceId": "github-skills",
       "sourceName": "GitHub · Agent Skills",
       "category": "Skills",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
-      "kind": "collected"
-    },
-    {
-      "title": "JKHeadley/instar",
-      "summary": "Persistent Claude Code agents with scheduling, sessions, memory, and Telegram.",
-      "url": "https://github.com/JKHeadley/instar",
-      "publishedAt": "2026-11-01T04:21:36.000Z",
-      "dateLabel": "仓库更新",
-      "tags": [
-        "agent-framework",
-        "agent-identity",
-        "agent-infrastructure",
-        "agent-memory",
-        "agent-skills",
-        "ai-agents"
-      ],
-      "stars": 85,
-      "license": "MIT",
-      "id": "f2ed32d449024a57c318",
-      "platform": "GitHub",
-      "sourceId": "github-skills",
-      "sourceName": "GitHub · Agent Skills",
-      "category": "Skills",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
-      "kind": "collected"
-    },
-    {
-      "title": "morluto/rea",
-      "summary": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-      "url": "https://github.com/morluto/rea",
-      "publishedAt": "2026-11-01T04:19:53.000Z",
-      "dateLabel": "仓库更新",
-      "tags": [
-        "agent-skills",
-        "ai",
-        "android",
-        "claude-code",
-        "cli",
-        "cpp"
-      ],
-      "stars": 415967,
-      "license": "MIT",
-      "id": "458c04cd04ca960bc316",
-      "platform": "GitHub",
-      "sourceId": "github-skills",
-      "sourceName": "GitHub · Agent Skills",
-      "category": "Skills",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
-      "kind": "collected"
-    },
-    {
-      "title": "wdcjx/Embedded-programming",
-      "summary": "面向 AI Agent 的 STM32 开发技能：SPL/HAL × 裸机/FreeRTOS 四轨代码生成，带引脚分配表、接线表与静态纪律检查器，沉淀 73 条实测坑。24 篇领域文档覆盖 Keil/IAR/CMake。",
-      "url": "https://github.com/wdcjx/Embedded-programming",
-      "publishedAt": "2026-11-01T04:19:36.000Z",
-      "dateLabel": "仓库更新",
-      "tags": [
-        "agent-skills",
-        "claude-skills",
-        "deepseek-harness",
-        "embedded",
-        "freertos",
-        "hal"
-      ],
-      "stars": 32,
-      "license": "MIT",
-      "id": "8b422bf351dca5883a55",
-      "platform": "GitHub",
-      "sourceId": "github-skills",
-      "sourceName": "GitHub · Agent Skills",
-      "category": "Skills",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected"
     },
     {
@@ -879,30 +1524,6 @@
       "kind": "collected"
     },
     {
-      "title": "matrixarkai/TemporalStore",
-      "summary": "Open-source Rust TemporalStore for LLM context management, temporal features, and risk control",
-      "url": "https://github.com/matrixarkai/TemporalStore",
-      "publishedAt": "2026-11-01T04:16:10.000Z",
-      "dateLabel": "仓库更新",
-      "tags": [
-        "ai-infrastructure",
-        "context-engineering",
-        "context-runtime",
-        "feature-store",
-        "llm",
-        "llm-context"
-      ],
-      "stars": 212,
-      "license": "Apache-2.0",
-      "id": "cca0928e0e4c646dfc57",
-      "platform": "GitHub",
-      "sourceId": "github-ai",
-      "sourceName": "GitHub · AI 开源",
-      "category": "开源项目",
-      "collectedAt": "2026-11-01T04:18:26.105Z",
-      "kind": "collected"
-    },
-    {
       "title": "wangzan101/Mika",
       "summary": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
       "url": "https://github.com/wangzan101/Mika",
@@ -975,30 +1596,6 @@
       "kind": "collected"
     },
     {
-      "title": "DemonDamon/AgenticX",
-      "summary": "AgenticX is a unified, production-ready multi-agent platform — Python SDK + CLI (agx) + Studio server + Machi desktop app. Features Meta-Agent orchestration, 15+ LLM providers, MCP Hub, hierarchical memory, avatar & group chat, skill ecosystem, safety sandbox,",
-      "url": "https://github.com/DemonDamon/AgenticX",
-      "publishedAt": "2026-11-01T04:14:40.000Z",
-      "dateLabel": "仓库更新",
-      "tags": [
-        "agent-framework",
-        "agentic-workflows",
-        "ai-agent",
-        "ai-orchestration",
-        "chatbot",
-        "desktop-app"
-      ],
-      "stars": 847,
-      "license": "Apache-2.0",
-      "id": "dff5cf5ca366c8ab14b8",
-      "platform": "GitHub",
-      "sourceId": "github-ai",
-      "sourceName": "GitHub · AI 开源",
-      "category": "开源项目",
-      "collectedAt": "2026-11-01T04:18:26.105Z",
-      "kind": "collected"
-    },
-    {
       "title": "syahiidkamil/Software-Engineer-AI-Agent-Atlas",
       "summary": "SWE-ATLAS turns Claude Code into a senior AI software engineer agent: multi-project workspaces with memory, wireframe & prototype first planning, secrets kept out of chat, psql, browser QA runners, and CI/CD-aware deploys. One command: npx swe-atlas new-projec",
       "url": "https://github.com/syahiidkamil/Software-Engineer-AI-Agent-Atlas",
@@ -1023,102 +1620,6 @@
       "kind": "collected"
     },
     {
-      "title": "NousResearch/hermes-agent",
-      "summary": "The agent that grows with you",
-      "url": "https://github.com/NousResearch/hermes-agent",
-      "publishedAt": "2026-11-01T04:14:19.000Z",
-      "dateLabel": "仓库更新",
-      "tags": [
-        "ai",
-        "ai-agent",
-        "ai-agents",
-        "anthropic",
-        "chatgpt",
-        "claude"
-      ],
-      "stars": 259226,
-      "license": "MIT",
-      "id": "ec2b8bd43eefd65f9cb1",
-      "platform": "GitHub",
-      "sourceId": "github-ai",
-      "sourceName": "GitHub · AI 开源",
-      "category": "开源项目",
-      "collectedAt": "2026-11-01T04:18:26.105Z",
-      "kind": "collected"
-    },
-    {
-      "title": "sgl-project/sglang",
-      "summary": "SGLang is a high-performance serving framework for large language models and multimodal models.",
-      "url": "https://github.com/sgl-project/sglang",
-      "publishedAt": "2026-11-01T04:13:20.000Z",
-      "dateLabel": "仓库更新",
-      "tags": [
-        "attention",
-        "blackwell",
-        "cuda",
-        "deepseek",
-        "diffusion",
-        "glm"
-      ],
-      "stars": 38328,
-      "license": "Apache-2.0",
-      "id": "d831938b547e28348ca6",
-      "platform": "GitHub",
-      "sourceId": "github-ai",
-      "sourceName": "GitHub · AI 开源",
-      "category": "开源项目",
-      "collectedAt": "2026-11-01T04:18:26.105Z",
-      "kind": "collected"
-    },
-    {
-      "title": "CherryHQ/cherry-studio",
-      "summary": "Your AI workspace for models, agents, and productivity.",
-      "url": "https://github.com/CherryHQ/cherry-studio",
-      "publishedAt": "2026-11-01T04:09:46.000Z",
-      "dateLabel": "仓库更新",
-      "tags": [
-        "agent-skills",
-        "agent-workspace",
-        "agentic-workspace",
-        "ai-agents",
-        "ai-models",
-        "ai-productivity"
-      ],
-      "stars": 53139,
-      "license": "AGPL-3.0",
-      "id": "b1b1542da472edd24925",
-      "platform": "GitHub",
-      "sourceId": "github-skills",
-      "sourceName": "GitHub · Agent Skills",
-      "category": "Skills",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
-      "kind": "collected"
-    },
-    {
-      "title": "kyy-logs/code-review-skill",
-      "summary": "Auditable code review skill for Claude Code and Codex: four independent probes, evidence-backed findings, and a JSON-derived merge gate.",
-      "url": "https://github.com/kyy-logs/code-review-skill",
-      "publishedAt": "2026-11-01T04:08:55.000Z",
-      "dateLabel": "仓库更新",
-      "tags": [
-        "agent-skills",
-        "ai-code-review",
-        "claude-code",
-        "code-review",
-        "codex",
-        "developer-tools"
-      ],
-      "stars": 88,
-      "license": "MIT",
-      "id": "ebe97d0208a517eb22e5",
-      "platform": "GitHub",
-      "sourceId": "github-skills",
-      "sourceName": "GitHub · Agent Skills",
-      "category": "Skills",
-      "collectedAt": "2026-11-01T04:18:26.105Z",
-      "kind": "collected"
-    },
-    {
       "title": "n8n-io/n8n",
       "summary": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
       "url": "https://github.com/n8n-io/n8n",
@@ -1132,14 +1633,14 @@
         "data-flow",
         "development"
       ],
-      "stars": 209225,
+      "stars": 209226,
       "license": "未声明或未识别，请核对仓库许可",
       "id": "c37165a31cd3fc399e84",
       "platform": "GitHub",
       "sourceId": "github-workflows",
       "sourceName": "GitHub · AI 工作流",
       "category": "工作流",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected"
     },
     {
@@ -1259,11 +1760,11 @@
       "sourceId": "github-workflows",
       "sourceName": "GitHub · AI 工作流",
       "category": "工作流",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected"
     },
     {
-      "id": "x-2116740975221727409",
+      "id": "43766acecc8c06250a37",
       "title": "Codex 使用资料：从 AGENTS.md 到 Skills 与审批设置",
       "summary": "社区作者整理了 Codex 仓库与官方文档入口，涉及项目指令、Skills 和审批设置。可沿原帖查找资料，再对照官方文档核实具体用法。",
       "url": "https://x.com/FromWageToOwner/status/2116740975221727409",
@@ -1272,7 +1773,6 @@
       "sourceName": "X · Skills 与工作流",
       "category": "社区热议",
       "publishedAt": "2026-11-01T03:55:50.000Z",
-      "collectedAt": "2026-11-01T04:10:22.370Z",
       "tags": [
         "Codex",
         "Skills",
@@ -1280,10 +1780,12 @@
       ],
       "kind": "browser",
       "dateLabel": "原帖",
-      "cautions": "已读取公开原帖；收录不代表已完成其中各项安装与兼容性测试。"
+      "cautions": "已读取公开原帖；收录不代表已完成其中各项安装与兼容性测试。",
+      "browserReadOn": "2026-11-01",
+      "collectedAt": "2026-11-01T04:57:26.900Z"
     },
     {
-      "id": "x-2116740471762677869",
+      "id": "6af061509471dbbca942",
       "title": "Superpowers：把需求讨论、实施计划和代码审阅接成工作流",
       "summary": "原帖介绍 obra/superpowers，讨论需求梳理、计划、测试和代码审阅如何衔接。适合从工作步骤入手阅读项目，使用前仍需核对当前版本与适用环境。",
       "url": "https://x.com/the_real_siqide/status/2116740471762677869",
@@ -1292,17 +1794,18 @@
       "sourceName": "X · Skills 与工作流",
       "category": "社区热议",
       "publishedAt": "2026-11-01T03:53:50.000Z",
-      "collectedAt": "2026-11-01T04:10:22.370Z",
       "tags": [
         "Superpowers",
         "开发工作流"
       ],
       "kind": "browser",
       "dateLabel": "原帖",
-      "cautions": "社区作者的项目介绍；原帖中的版本、数量和效果宣称未作为本索引的已验证结论。"
+      "cautions": "社区作者的项目介绍；原帖中的版本、数量和效果宣称未作为本索引的已验证结论。",
+      "browserReadOn": "2026-11-01",
+      "collectedAt": "2026-11-01T04:57:26.900Z"
     },
     {
-      "id": "x-2116740354154070511",
+      "id": "42c118d5528dce0c7763",
       "title": "Agent Readiness：检查项目是否便于编码 Agent 使用",
       "summary": "原帖分享 Luminary-AI-Solutions/agent-readiness 及其 Skills 入口，关注项目对编码 Agent 的可读性与准备情况。具体检查项以项目说明和源码为准。",
       "url": "https://x.com/ikkistan/status/2116740354154070511",
@@ -1311,7 +1814,6 @@
       "sourceName": "X · Skills 与工作流",
       "category": "社区热议",
       "publishedAt": "2026-11-01T03:53:22.000Z",
-      "collectedAt": "2026-11-01T04:10:22.370Z",
       "tags": [
         "Agent",
         "项目检查",
@@ -1319,10 +1821,12 @@
       ],
       "kind": "browser",
       "dateLabel": "原帖",
-      "cautions": "已读取公开分享，尚未在本项目安装运行该工具。"
+      "cautions": "已读取公开分享，尚未在本项目安装运行该工具。",
+      "browserReadOn": "2026-11-01",
+      "collectedAt": "2026-11-01T04:57:26.900Z"
     },
     {
-      "id": "x-2116739831875453084",
+      "id": "3ac47e98e6c725fd3b64",
       "title": "从 Skills 索引找到上游：VoltAgent、Anthropic 与 Agent Skills",
       "summary": "原帖汇集 VoltAgent/awesome-agent-skills、anthropics/skills 和 Agent Skills 规范入口。索引可以帮助发现项目，判断用途、许可和安全性仍应回到上游仓库。",
       "url": "https://x.com/the_real_siqide/status/2116739831875453084",
@@ -1331,7 +1835,6 @@
       "sourceName": "X · Skills 与工作流",
       "category": "社区热议",
       "publishedAt": "2026-11-01T03:51:17.000Z",
-      "collectedAt": "2026-11-01T04:10:22.370Z",
       "tags": [
         "Skills 索引",
         "VoltAgent",
@@ -1339,7 +1842,9 @@
       ],
       "kind": "browser",
       "dateLabel": "原帖",
-      "cautions": "社区索引不构成安装推荐；本次未逐一运行索引中的第三方 Skills。"
+      "cautions": "社区索引不构成安装推荐；本次未逐一运行索引中的第三方 Skills。",
+      "browserReadOn": "2026-11-01",
+      "collectedAt": "2026-11-01T04:57:26.900Z"
     },
     {
       "title": "coco-research/coco",
@@ -1362,7 +1867,7 @@
       "sourceId": "github-workflows",
       "sourceName": "GitHub · AI 工作流",
       "category": "工作流",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected"
     },
     {
@@ -1386,7 +1891,7 @@
       "sourceId": "github-workflows",
       "sourceName": "GitHub · AI 工作流",
       "category": "工作流",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected"
     },
     {
@@ -1410,31 +1915,7 @@
       "sourceId": "github-workflows",
       "sourceName": "GitHub · AI 工作流",
       "category": "工作流",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
-      "kind": "collected"
-    },
-    {
-      "title": "bytechefhq/bytechef",
-      "summary": "Open-source AI agents and workflow automation. Self-host or embed in your SaaS. Apache 2.0 alternative to n8n and Zapier.",
-      "url": "https://github.com/bytechefhq/bytechef",
-      "publishedAt": "2026-10-31T23:36:52.000Z",
-      "dateLabel": "仓库更新",
-      "tags": [
-        "ai",
-        "ai-agents",
-        "api",
-        "automation",
-        "embedded-ipaas",
-        "hacktoberfest"
-      ],
-      "stars": 1052,
-      "license": "未声明或未识别，请核对仓库许可",
-      "id": "8fab7f8f1f4a757114f9",
-      "platform": "GitHub",
-      "sourceId": "github-workflows",
-      "sourceName": "GitHub · AI 工作流",
-      "category": "工作流",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected"
     },
     {
@@ -1458,7 +1939,7 @@
       "sourceId": "github-workflows",
       "sourceName": "GitHub · AI 工作流",
       "category": "工作流",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected"
     },
     {
@@ -1482,7 +1963,7 @@
       "sourceId": "github-workflows",
       "sourceName": "GitHub · AI 工作流",
       "category": "工作流",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected"
     },
     {
@@ -1506,7 +1987,7 @@
       "sourceId": "github-workflows",
       "sourceName": "GitHub · AI 工作流",
       "category": "工作流",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected"
     },
     {
@@ -1530,7 +2011,7 @@
       "sourceId": "github-workflows",
       "sourceName": "GitHub · AI 工作流",
       "category": "工作流",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected"
     },
     {
@@ -1562,6 +2043,7 @@
       "url": "https://www.youtube.com/watch?v=o4D1J1YWjhg",
       "summary": "",
       "publishedAt": "2026-10-30T20:17:12.000Z",
+      "dateLabel": "原文",
       "tags": [
         "OpenAI",
         "视频"
@@ -1571,9 +2053,8 @@
       "sourceId": "yt-openai",
       "sourceName": "OpenAI · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-01T04:18:26.105Z",
-      "kind": "collected",
-      "dateLabel": "原文"
+      "collectedAt": "2026-11-01T04:57:26.900Z",
+      "kind": "collected"
     },
     {
       "title": "nemotron-halloween",
@@ -1586,7 +2067,7 @@
       "sourceId": "huggingface",
       "sourceName": "Hugging Face",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected",
       "dateLabel": "原文"
     },
@@ -1604,14 +2085,14 @@
       "sourceId": "hn-ai",
       "sourceName": "Hacker News · AI 讨论",
       "category": "社区热议",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected",
       "dateLabel": "原文"
     },
     {
       "title": "AI isn't replacing SREs, it's deskilling them",
       "url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
-      "summary": "Hacker News 社区讨论，收录时 649 点、474 条评论。摘要与观点请以原文为准。",
+      "summary": "Hacker News 社区讨论，收录时 650 点、475 条评论。摘要与观点请以原文为准。",
       "publishedAt": "2026-10-30T15:52:18.000Z",
       "tags": [
         "社区讨论"
@@ -1622,7 +2103,7 @@
       "sourceId": "hn-ai",
       "sourceName": "Hacker News · AI 讨论",
       "category": "社区热议",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected",
       "dateLabel": "原文"
     },
@@ -1631,6 +2112,7 @@
       "url": "https://www.youtube.com/shorts/7TtGMileCus",
       "summary": "“Before ChatGPT Work, we were walking. Now with ChatGPT Work, we are running.” For Gen's Howie Xu, that means understanding how a new product’s onboarding experience is working within two or three hours of release. Finding answers used to mean repeated handoff",
       "publishedAt": "2026-10-30T15:24:48.000Z",
+      "dateLabel": "原文",
       "tags": [
         "OpenAI",
         "视频"
@@ -1640,15 +2122,15 @@
       "sourceId": "yt-openai",
       "sourceName": "OpenAI · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-01T04:18:26.105Z",
-      "kind": "collected",
-      "dateLabel": "原文"
+      "collectedAt": "2026-11-01T04:57:26.900Z",
+      "kind": "collected"
     },
     {
       "title": "How Gen uses ChatGPT Work to turn data Into decisions | OpenAI",
       "url": "https://www.youtube.com/watch?v=Oi9DHk57KeQ",
       "summary": "“Before ChatGPT Work, we were walking. Now with ChatGPT Work, we are running.” For Gen's Howie Xu, that means understanding how a new product’s onboarding experience is working within two or three hours of release. Finding answers used to mean repeated handoff",
       "publishedAt": "2026-10-30T15:22:47.000Z",
+      "dateLabel": "原文",
       "tags": [
         "OpenAI",
         "视频"
@@ -1658,9 +2140,8 @@
       "sourceId": "yt-openai",
       "sourceName": "OpenAI · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-01T04:18:26.105Z",
-      "kind": "collected",
-      "dateLabel": "原文"
+      "collectedAt": "2026-11-01T04:57:26.900Z",
+      "kind": "collected"
     },
     {
       "title": "Cisco gives engineer unlimited AI tokens to rewrite legacy code",
@@ -1676,7 +2157,7 @@
       "sourceId": "hn-ai",
       "sourceName": "Hacker News · AI 讨论",
       "category": "社区热议",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected",
       "dateLabel": "原文"
     },
@@ -1693,7 +2174,7 @@
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected",
       "dateLabel": "原文"
     },
@@ -1710,7 +2191,7 @@
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected",
       "dateLabel": "原文"
     },
@@ -1727,7 +2208,7 @@
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected",
       "dateLabel": "原文"
     },
@@ -1736,6 +2217,7 @@
       "url": "https://www.youtube.com/shorts/GNYHDltnwZQ",
       "summary": "“We have about 600 applications that have been built by different people in the company.” At Zendesk, teams across sales, marketing, and operations are building applications for their own work. ChatGPT Enterprise is available to every employee, and business us",
       "publishedAt": "2026-10-29T22:48:11.000Z",
+      "dateLabel": "原文",
       "tags": [
         "OpenAI",
         "视频"
@@ -1745,9 +2227,8 @@
       "sourceId": "yt-openai",
       "sourceName": "OpenAI · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-01T04:18:26.105Z",
-      "kind": "collected",
-      "dateLabel": "原文"
+      "collectedAt": "2026-11-01T04:57:26.900Z",
+      "kind": "collected"
     },
     {
       "title": "We ran AI agent swarms in Minecraft and Mindustry",
@@ -1763,7 +2244,7 @@
       "sourceId": "hn-ai",
       "sourceName": "Hacker News · AI 讨论",
       "category": "社区热议",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected",
       "dateLabel": "原文"
     },
@@ -1780,7 +2261,7 @@
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected",
       "dateLabel": "原文"
     },
@@ -1789,6 +2270,7 @@
       "url": "https://www.youtube.com/watch?v=L6pzlo1QvoM",
       "summary": "“We have about 600 applications that have been built by different people in the company.” At Zendesk, teams across sales, marketing, and operations are building applications for their own work. ChatGPT Enterprise is available to every employee, and business us",
       "publishedAt": "2026-10-29T16:23:43.000Z",
+      "dateLabel": "原文",
       "tags": [
         "OpenAI",
         "视频"
@@ -1798,9 +2280,8 @@
       "sourceId": "yt-openai",
       "sourceName": "OpenAI · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-01T04:18:26.105Z",
-      "kind": "collected",
-      "dateLabel": "原文"
+      "collectedAt": "2026-11-01T04:57:26.900Z",
+      "kind": "collected"
     },
     {
       "title": "Granite Switch 4.1.1 — Update models like you update software",
@@ -1813,7 +2294,7 @@
       "sourceId": "huggingface",
       "sourceName": "Hugging Face",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected",
       "dateLabel": "原文"
     },
@@ -1830,7 +2311,7 @@
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected",
       "dateLabel": "原文"
     },
@@ -1845,7 +2326,7 @@
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected",
       "dateLabel": "原文"
     },
@@ -1860,7 +2341,7 @@
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected",
       "dateLabel": "原文"
     },
@@ -1875,7 +2356,7 @@
       "sourceId": "huggingface",
       "sourceName": "Hugging Face",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected",
       "dateLabel": "原文"
     },
@@ -1890,7 +2371,7 @@
       "sourceId": "huggingface",
       "sourceName": "Hugging Face",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected",
       "dateLabel": "原文"
     },
@@ -1905,7 +2386,7 @@
       "sourceId": "huggingface",
       "sourceName": "Hugging Face",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected",
       "dateLabel": "原文"
     },
@@ -1914,6 +2395,7 @@
       "url": "https://www.youtube.com/watch?v=ujmyzWSj8IU",
       "summary": "Starting today, eligible ChatGPT Pro and Business subscribers can claim up to $500 per month in API credits to build apps and agents. Credit amounts depend on the plan. Pro plans get $100, $200 or $500 per month by tier. Business plans get $20 per paid Standar",
       "publishedAt": "2026-10-28T23:45:26.000Z",
+      "dateLabel": "原文",
       "tags": [
         "OpenAI",
         "视频"
@@ -1923,9 +2405,8 @@
       "sourceId": "yt-openai",
       "sourceName": "OpenAI · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-01T04:18:26.105Z",
-      "kind": "collected",
-      "dateLabel": "原文"
+      "collectedAt": "2026-11-01T04:57:26.900Z",
+      "kind": "collected"
     },
     {
       "title": "Kentucky man becomes the first humanist granted religious exemption from AI",
@@ -1941,7 +2422,7 @@
       "sourceId": "hn-ai",
       "sourceName": "Hacker News · AI 讨论",
       "category": "社区热议",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected",
       "dateLabel": "原文"
     },
@@ -1958,7 +2439,7 @@
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected",
       "dateLabel": "原文"
     },
@@ -1967,6 +2448,7 @@
       "url": "https://www.youtube.com/shorts/kP26OlW5PBk",
       "summary": "“If you're an executive, you are the ceiling for AI fluency for your organization.” Merge co-founder and CEO Shensi Ding manages the non-R&D side of the business. She also codes. Using Codex, she asked it to help redesign a feature using the product’s existing",
       "publishedAt": "2026-10-28T11:51:11.000Z",
+      "dateLabel": "原文",
       "tags": [
         "OpenAI",
         "视频"
@@ -1976,15 +2458,15 @@
       "sourceId": "yt-openai",
       "sourceName": "OpenAI · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-01T04:18:26.105Z",
-      "kind": "collected",
-      "dateLabel": "原文"
+      "collectedAt": "2026-11-01T04:57:26.900Z",
+      "kind": "collected"
     },
     {
       "title": "Why Merge CEO Shensi Ding stays hands-on with Codex",
       "url": "https://www.youtube.com/watch?v=6ep8Vvm4Bdw",
       "summary": "“If you're an executive, you are the ceiling for AI fluency for your organization.” Merge co-founder and CEO Shensi Ding manages the non-R&D side of the business. She also codes. With Codex, she asked for help redesigning a feature without prescribing the solu",
       "publishedAt": "2026-10-28T11:50:26.000Z",
+      "dateLabel": "原文",
       "tags": [
         "OpenAI",
         "视频"
@@ -1994,9 +2476,8 @@
       "sourceId": "yt-openai",
       "sourceName": "OpenAI · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-01T04:18:26.105Z",
-      "kind": "collected",
-      "dateLabel": "原文"
+      "collectedAt": "2026-11-01T04:57:26.900Z",
+      "kind": "collected"
     },
     {
       "title": "The future of the firm",
@@ -2011,7 +2492,7 @@
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected",
       "dateLabel": "原文"
     },
@@ -2020,6 +2501,7 @@
       "url": "https://www.youtube.com/watch?v=M2Oa42hF67E",
       "summary": "NDA reviews once took up around 20% of Legora’s legal team’s capacity. Today, that figure is under 1%. General Counsel Emma Kadri Bergström shares how AI is helping her team reclaim time, support a rapidly growing business and take on more complex work, while ",
       "publishedAt": "2026-10-28T09:45:24.000Z",
+      "dateLabel": "原文",
       "tags": [
         "OpenAI",
         "视频"
@@ -2029,15 +2511,15 @@
       "sourceId": "yt-openai",
       "sourceName": "OpenAI · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-01T04:18:26.105Z",
-      "kind": "collected",
-      "dateLabel": "原文"
+      "collectedAt": "2026-11-01T04:57:26.900Z",
+      "kind": "collected"
     },
     {
       "title": "Building the future of legal work with AI | Legora CEO Max Junestrand",
       "url": "https://www.youtube.com/watch?v=UOfmD1fY-i8",
       "summary": "Legora co-founder and CEO Max Junestrand wants to make legal expertise available wherever it’s needed. He shares how OpenAI helped turn that ambition into a platform, why staying AI-native matters as the company grows, and what becomes possible when lawyers ca",
       "publishedAt": "2026-10-28T09:45:18.000Z",
+      "dateLabel": "原文",
       "tags": [
         "OpenAI",
         "视频"
@@ -2047,9 +2529,8 @@
       "sourceId": "yt-openai",
       "sourceName": "OpenAI · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-01T04:18:26.105Z",
-      "kind": "collected",
-      "dateLabel": "原文"
+      "collectedAt": "2026-11-01T04:57:26.900Z",
+      "kind": "collected"
     },
     {
       "title": "Legora is building the agentic operating system for legal work",
@@ -2062,7 +2543,7 @@
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected",
       "dateLabel": "原文"
     },
@@ -2080,7 +2561,7 @@
       "sourceId": "hn-ai",
       "sourceName": "Hacker News · AI 讨论",
       "category": "社区热议",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected",
       "dateLabel": "原文"
     },
@@ -2095,7 +2576,7 @@
       "sourceId": "huggingface",
       "sourceName": "Hugging Face",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected",
       "dateLabel": "原文"
     },
@@ -2113,7 +2594,7 @@
       "sourceId": "hn-ai",
       "sourceName": "Hacker News · AI 讨论",
       "category": "社区热议",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected",
       "dateLabel": "原文"
     },
@@ -2131,7 +2612,7 @@
       "sourceId": "hn-ai",
       "sourceName": "Hacker News · AI 讨论",
       "category": "社区热议",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected",
       "dateLabel": "原文"
     },
@@ -2146,7 +2627,7 @@
       "sourceId": "huggingface",
       "sourceName": "Hugging Face",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected",
       "dateLabel": "原文"
     },
@@ -2161,7 +2642,7 @@
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected",
       "dateLabel": "原文"
     },
@@ -2179,7 +2660,7 @@
       "sourceId": "hn-ai",
       "sourceName": "Hacker News · AI 讨论",
       "category": "社区热议",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected",
       "dateLabel": "原文"
     },
@@ -2197,7 +2678,7 @@
       "sourceId": "hn-ai",
       "sourceName": "Hacker News · AI 讨论",
       "category": "社区热议",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected",
       "dateLabel": "原文"
     },
@@ -2214,7 +2695,7 @@
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected",
       "dateLabel": "原文"
     },
@@ -2232,7 +2713,7 @@
       "sourceId": "hn-ai",
       "sourceName": "Hacker News · AI 讨论",
       "category": "社区热议",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected",
       "dateLabel": "原文"
     },
@@ -2247,7 +2728,7 @@
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected",
       "dateLabel": "原文"
     },
@@ -2264,7 +2745,7 @@
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected",
       "dateLabel": "原文"
     },
@@ -2282,7 +2763,7 @@
       "sourceId": "hn-ai",
       "sourceName": "Hacker News · AI 讨论",
       "category": "社区热议",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected",
       "dateLabel": "原文"
     },
@@ -2301,7 +2782,7 @@
       "sourceId": "google-ai",
       "sourceName": "Google AI",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected",
       "dateLabel": "原文"
     },
@@ -2316,7 +2797,7 @@
       "sourceId": "huggingface",
       "sourceName": "Hugging Face",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected",
       "dateLabel": "原文"
     },
@@ -2331,7 +2812,7 @@
       "sourceId": "huggingface",
       "sourceName": "Hugging Face",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected",
       "dateLabel": "原文"
     },
@@ -2346,7 +2827,7 @@
       "sourceId": "huggingface",
       "sourceName": "Hugging Face",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected",
       "dateLabel": "原文"
     },
@@ -2361,7 +2842,7 @@
       "sourceId": "huggingface",
       "sourceName": "Hugging Face",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected",
       "dateLabel": "原文"
     },
@@ -2376,7 +2857,7 @@
       "sourceId": "huggingface",
       "sourceName": "Hugging Face",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected",
       "dateLabel": "原文"
     },
@@ -2404,7 +2885,7 @@
         "编辑方法",
         "事实核验"
       ],
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "sourceId": "editorial-writing",
       "sourceName": "写作资料 · 原文精读"
     },
@@ -2422,7 +2903,7 @@
       "sourceId": "google-ai",
       "sourceName": "Google AI",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected",
       "dateLabel": "原文"
     },
@@ -2440,7 +2921,7 @@
       "sourceId": "google-ai",
       "sourceName": "Google AI",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected",
       "dateLabel": "原文"
     },
@@ -2457,7 +2938,7 @@
       "sourceId": "google-ai",
       "sourceName": "Google AI",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected",
       "dateLabel": "原文"
     },
@@ -2479,7 +2960,7 @@
       "sourceId": "google-ai",
       "sourceName": "Google AI",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected",
       "dateLabel": "原文"
     },
@@ -2496,7 +2977,7 @@
       "sourceId": "google-ai",
       "sourceName": "Google AI",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected",
       "dateLabel": "原文"
     },
@@ -2523,7 +3004,7 @@
         "编辑方法",
         "事实核验"
       ],
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "sourceId": "editorial-writing",
       "sourceName": "写作资料 · 原文精读"
     },
@@ -2532,6 +3013,7 @@
       "url": "https://www.youtube.com/watch?v=DdCEmlAydcw",
       "summary": "Some of the biggest discoveries in biology started with someone noticing something strange in one of the many molecular machines found in nature. We’re introducing a new molecular biology research group and lab at Anthropic to see if Claude can help scientists",
       "publishedAt": "2026-09-23T18:01:32.000Z",
+      "dateLabel": "原文",
       "tags": [
         "Anthropic",
         "视频"
@@ -2541,9 +3023,8 @@
       "sourceId": "yt-anthropic",
       "sourceName": "Anthropic · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-01T04:18:26.105Z",
-      "kind": "collected",
-      "dateLabel": "原文"
+      "collectedAt": "2026-11-01T04:51:05.130Z",
+      "kind": "collected"
     },
     {
       "title": "Google Beam expands with new regions, partners, and customers",
@@ -2560,7 +3041,7 @@
       "sourceId": "google-ai",
       "sourceName": "Google AI",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected",
       "dateLabel": "原文"
     },
@@ -2587,7 +3068,7 @@
         "编辑方法",
         "事实核验"
       ],
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "sourceId": "editorial-writing",
       "sourceName": "写作资料 · 原文精读"
     },
@@ -2604,7 +3085,7 @@
       "sourceId": "google-ai",
       "sourceName": "Google AI",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected",
       "dateLabel": "原文"
     },
@@ -2621,7 +3102,7 @@
       "sourceId": "google-ai",
       "sourceName": "Google AI",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected",
       "dateLabel": "原文"
     },
@@ -2638,7 +3119,7 @@
       "sourceId": "google-ai",
       "sourceName": "Google AI",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected",
       "dateLabel": "原文"
     },
@@ -2655,7 +3136,7 @@
       "sourceId": "google-ai",
       "sourceName": "Google AI",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected",
       "dateLabel": "原文"
     },
@@ -2673,7 +3154,7 @@
       "sourceId": "google-ai",
       "sourceName": "Google AI",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "kind": "collected",
       "dateLabel": "原文"
     },
@@ -2682,6 +3163,7 @@
       "url": "https://www.youtube.com/shorts/uVS88gnaxcg",
       "summary": "Claude Fable 5.1 is the latest upgrade to our most capable class of models. It excels at complex, long-running tasks, and its research capabilities offer an early glimpse of how AI will contribute to scientific progress. It excels at complex, multi-step work, ",
       "publishedAt": "2026-09-01T19:21:24.000Z",
+      "dateLabel": "原文",
       "tags": [
         "Anthropic",
         "视频"
@@ -2691,15 +3173,15 @@
       "sourceId": "yt-anthropic",
       "sourceName": "Anthropic · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-01T04:18:26.105Z",
-      "kind": "collected",
-      "dateLabel": "原文"
+      "collectedAt": "2026-11-01T04:51:05.130Z",
+      "kind": "collected"
     },
     {
       "title": "Introducing Claude Fable 5.1",
       "url": "https://www.youtube.com/watch?v=ROF2Nv_KjOM",
       "summary": "Claude Fable 5.1 is the latest upgrade to our most capable class of models. It excels at complex, long-running tasks, and its research capabilities offer an early glimpse of how AI will contribute to scientific progress. It excels at complex, multi-step work, ",
       "publishedAt": "2026-09-01T18:02:31.000Z",
+      "dateLabel": "原文",
       "tags": [
         "Anthropic",
         "视频"
@@ -2709,15 +3191,15 @@
       "sourceId": "yt-anthropic",
       "sourceName": "Anthropic · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-01T04:18:26.105Z",
-      "kind": "collected",
-      "dateLabel": "原文"
+      "collectedAt": "2026-11-01T04:51:05.130Z",
+      "kind": "collected"
     },
     {
       "title": "Model Hardware Standard: AI operating physical equipment",
       "url": "https://www.youtube.com/watch?v=UxJZrCFzTHY",
       "summary": "The Model Hardware Standard (MHS) is a new standard for AI agents to safely operate physical equipment in scientific research and advanced manufacturing. MHS started as part of a beneficial deployments project between Anthropic and HHMI Janelia Research Campus",
       "publishedAt": "2026-08-28T00:40:16.000Z",
+      "dateLabel": "原文",
       "tags": [
         "Anthropic",
         "视频"
@@ -2727,15 +3209,15 @@
       "sourceId": "yt-anthropic",
       "sourceName": "Anthropic · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-01T04:18:26.105Z",
-      "kind": "collected",
-      "dateLabel": "原文"
+      "collectedAt": "2026-11-01T04:51:05.130Z",
+      "kind": "collected"
     },
     {
       "title": "We're building a way for AI models to connect to any device and run real experiments.",
       "url": "https://www.youtube.com/shorts/djVUCj5i4sw",
       "summary": "Scientists spend a significant amount of their time just getting their devices to communicate with one another. Each device tends to have its own programming interface, and so far there has been no standardized way to integrate them, or to allow them to connec",
       "publishedAt": "2026-08-27T19:42:35.000Z",
+      "dateLabel": "原文",
       "tags": [
         "Anthropic",
         "视频"
@@ -2745,15 +3227,15 @@
       "sourceId": "yt-anthropic",
       "sourceName": "Anthropic · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-01T04:18:26.105Z",
-      "kind": "collected",
-      "dateLabel": "原文"
+      "collectedAt": "2026-11-01T04:51:05.130Z",
+      "kind": "collected"
     },
     {
       "title": "AI models can now help run physical science experiments",
       "url": "https://www.youtube.com/watch?v=P1zBiAQU1IA",
       "summary": "The Model Hardware Standard (MHS) is a new standard for AI agents to safely operate physical equipment in scientific research and advanced manufacturing. MHS began as a collaboration between Anthropic’s Beneficial Deployments team and HHMI Janelia Research Cam",
       "publishedAt": "2026-08-27T17:54:32.000Z",
+      "dateLabel": "原文",
       "tags": [
         "Anthropic",
         "视频"
@@ -2763,15 +3245,15 @@
       "sourceId": "yt-anthropic",
       "sourceName": "Anthropic · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-01T04:18:26.105Z",
-      "kind": "collected",
-      "dateLabel": "原文"
+      "collectedAt": "2026-11-01T04:51:05.130Z",
+      "kind": "collected"
     },
     {
       "title": "How Icelanders are thinking about AI",
       "url": "https://www.youtube.com/watch?v=iF5IWjOWcA4",
       "summary": "In late 2025, Iceland’s government launched one of the world’s first national AI education pilots, giving teachers who volunteered access to AI tools. We visited Iceland to find out how people are thinking about AI. More information about the pilot: https://ww",
       "publishedAt": "2026-08-10T14:30:52.000Z",
+      "dateLabel": "原文",
       "tags": [
         "Anthropic",
         "视频"
@@ -2781,9 +3263,8 @@
       "sourceId": "yt-anthropic",
       "sourceName": "Anthropic · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-01T04:18:26.105Z",
-      "kind": "collected",
-      "dateLabel": "原文"
+      "collectedAt": "2026-11-01T04:51:05.130Z",
+      "kind": "collected"
     },
     {
       "id": "4a101e8309cb4bd32d9c",
@@ -2808,7 +3289,7 @@
         "编辑方法",
         "事实核验"
       ],
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "sourceId": "editorial-writing",
       "sourceName": "写作资料 · 原文精读"
     },
@@ -2835,7 +3316,7 @@
         "编辑方法",
         "事实核验"
       ],
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "sourceId": "editorial-writing",
       "sourceName": "写作资料 · 原文精读"
     },
@@ -2863,7 +3344,7 @@
         "编辑方法",
         "事实核验"
       ],
-      "collectedAt": "2026-11-01T04:27:55.135Z",
+      "collectedAt": "2026-11-01T04:57:26.900Z",
       "sourceId": "editorial-writing",
       "sourceName": "写作资料 · 原文精读"
     }

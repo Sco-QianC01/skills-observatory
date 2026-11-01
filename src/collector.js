@@ -65,6 +65,7 @@ export function parseFeed(xml, source, now = new Date()) {
       url: asArray(item.link).find((link) => !link['@_rel'] || link['@_rel'] === 'alternate')?.['@_href'],
       summary: item.summary || item['media:group']?.['media:description'] || '',
       publishedAt: text(item.published || item.updated),
+      dateLabel: item.published ? '原文' : '更新',
       tags: [source.name.replace(' · YouTube', ''), '视频'],
     }));
   } else { throw new Error('无法识别 RSS / Atom 结构'); }
@@ -165,23 +166,31 @@ export async function collect({ previous = {}, curated = [], browserItems = [], 
       const source = sources[next++];
       const prior = (previous.sources || []).find((entry) => entry.id === source.id);
       const base = { id: source.id, name: source.name, platform: source.platform, url: source.url };
+      const lastAutomaticSuccessAt = prior?.lastAutomaticSuccessAt || (prior?.status === 'ok' ? prior.lastSuccessAt : null) || null;
       try {
         const items = await fetchSource(source, { now, fetchImpl, githubToken, xBearer });
         if (items === null) {
-          const captured = browserItems.filter((item) => item.sourceId === source.id);
+          const manualReadOn = validDate(browserState?.readOn || browserState?.collectedAt, now)?.slice(0, 10) || null;
+          const captured = browserItems.filter((item) => item.sourceId === source.id)
+            .map((item) => normalize({ ...item, kind: 'browser', browserReadOn: manualReadOn }, source, now))
+            .filter(Boolean).slice(0, source.limit);
           incoming.push(...captured);
           states.push({ ...base, status: captured.length ? 'cached' : 'needs_credentials',
-            count: captured.length, lastSuccessAt: browserState?.collectedAt || prior?.lastSuccessAt || null,
-            error: captured.length ? '已收录 Edge 实际读取的公开分享。云端 X API 尚未配置；浏览器采集时间见最近成功。' : 'X 云端自动采集需配置开发者 Bearer Token；浏览器登录不能替代 API 授权。' });
+            count: captured.length, manualReadOn,
+            lastSuccessAt: lastAutomaticSuccessAt, lastAutomaticSuccessAt,
+            error: captured.length ? '已选录 Edge 实际读取的公开分享；云端 X API 尚未配置，选录内容不会自动刷新。' : 'X 云端自动采集需配置开发者 Bearer Token；浏览器登录不能替代 API 授权。' });
           continue;
         }
         if (!items.length) throw new Error('来源未返回有效条目，保留已有资料');
         incoming.push(...items.slice(0, source.limit));
         successes++;
-        states.push({ ...base, status: 'ok', count: Math.min(items.length, source.limit), lastSuccessAt: now.toISOString(), error: null });
+        states.push({ ...base, status: 'ok', count: Math.min(items.length, source.limit), lastSuccessAt: now.toISOString(),
+          ...(source.type === 'x' ? { lastAutomaticSuccessAt: now.toISOString() } : {}), error: null });
       } catch (error) {
         states.push({ ...base, status: 'error', count: (previous.items || []).filter((item) => item.sourceId === source.id).length,
-          lastSuccessAt: prior?.lastSuccessAt || null, error: error.name === 'TimeoutError' ? '来源响应超时，保留已有资料' : String(error.message || error).slice(0, 180) });
+          lastSuccessAt: source.type === 'x' ? lastAutomaticSuccessAt : prior?.lastSuccessAt || null,
+          ...(source.type === 'x' ? { lastAutomaticSuccessAt } : {}),
+          error: error.name === 'TimeoutError' ? '来源响应超时，保留已有资料' : String(error.message || error).slice(0, 180) });
       }
     }
   }));

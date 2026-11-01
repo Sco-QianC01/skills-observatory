@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-01T04:10:22.370Z",
+  "readOn": "2026-11-01",
   "method": "Edge 浏览器公开页面读取",
   "url": "https://x.com/search?src=typed_query&f=live&q=agent+skills",
   "items": [
@@ -13,7 +13,6 @@
       "sourceName": "X · Skills 与工作流",
       "category": "社区热议",
       "publishedAt": "2026-11-01T03:55:50.000Z",
-      "collectedAt": "2026-11-01T04:10:22.370Z",
       "tags": ["Codex", "Skills", "官方文档入口"],
       "kind": "browser",
       "dateLabel": "原帖",
@@ -29,7 +28,6 @@
       "sourceName": "X · Skills 与工作流",
       "category": "社区热议",
       "publishedAt": "2026-11-01T03:53:50.000Z",
-      "collectedAt": "2026-11-01T04:10:22.370Z",
       "tags": ["Superpowers", "开发工作流"],
       "kind": "browser",
       "dateLabel": "原帖",
@@ -45,7 +43,6 @@
       "sourceName": "X · Skills 与工作流",
       "category": "社区热议",
       "publishedAt": "2026-11-01T03:53:22.000Z",
-      "collectedAt": "2026-11-01T04:10:22.370Z",
       "tags": ["Agent", "项目检查", "Skills"],
       "kind": "browser",
       "dateLabel": "原帖",
@@ -61,7 +58,6 @@
       "sourceName": "X · Skills 与工作流",
       "category": "社区热议",
       "publishedAt": "2026-11-01T03:51:17.000Z",
-      "collectedAt": "2026-11-01T04:10:22.370Z",
       "tags": ["Skills 索引", "VoltAgent", "Anthropic"],
       "kind": "browser",
       "dateLabel": "原帖",

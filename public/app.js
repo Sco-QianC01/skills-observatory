@@ -28,7 +28,7 @@ function dateText(value, includeTime = false) {
 function safeUrl(value) {
   try {
     const url = new URL(String(value));
-    return ["https:", "http:"].includes(url.protocol) ? url.href : null;
+    return ["https:", "http:"].includes(url.protocol) && !url.username && !url.password ? url.href : null;
   } catch {
     return null;
   }
@@ -74,6 +74,7 @@ function renderStory(item) {
   if (item.category) meta.append(node("span", "meta-dot", "·"), node("span", "", item.category));
   meta.append(node("span", "meta-dot", "·"), node("span", "original-date", dateValue(item.publishedAt) === null ? "未提供原文日期" : `${item.dateLabel || "原文"} ${dateText(item.publishedAt)}`));
   if (item.kind === "curated") meta.append(node("span", "curated-label", "编辑选读"));
+  if (item.kind === "browser") meta.append(node("span", "curated-label", "浏览器选录"));
   article.append(meta);
   const heading = node("h3");
   heading.append(externalLink(item.url, "story-title", item.title || "未命名资料"));
@@ -143,6 +144,7 @@ function render() {
 
 function statusLabel(source) {
   const status = String(source.status || "unknown").toLowerCase();
+  if (status === "cached" && source.manualReadOn) return ["浏览器选录 · API 待接入", true];
   if (["ok", "success", "healthy", "connected", "active"].includes(status)) return ["采集正常", false];
   if (["disabled", "pending", "unconfigured", "not_configured", "not-configured", "needs_credentials", "not_connected"].includes(status)) return ["待接入", true];
   if (["error", "failed", "failure", "unavailable"].includes(status)) return ["采集失败", true];
@@ -164,7 +166,9 @@ function renderSources() {
     const [label, warning] = statusLabel(source);
     top.append(node("span", `source-state${warning ? " warning" : ""}`, label));
     row.append(top);
-    const metadata = [source.platform, typeof source.count === "number" ? `${source.count} 条` : null, `最近成功：${dateText(source.lastSuccessAt, true)}`].filter(Boolean);
+    const metadata = [source.platform, typeof source.count === "number" ? `${source.count} 条` : null,
+      source.manualReadOn ? `人工查阅：${source.manualReadOn}` : null,
+      `${source.id === "editorial-writing" ? "最近核对" : "自动采集最近成功"}：${dateText(source.lastSuccessAt, source.id !== "editorial-writing")}`].filter(Boolean);
     row.append(node("p", "source-detail", metadata.join(" · ")));
     if (source.error) row.append(node("p", "source-error", typeof source.error === "string" ? source.error : JSON.stringify(source.error)));
     list.append(row);
