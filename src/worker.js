@@ -6,7 +6,8 @@ const JSON_HEADERS = {
 
 export function validFeed(feed) {
   return feed && feed.version === 1 && Array.isArray(feed.items) && Array.isArray(feed.sources)
-    && feed.items.length <= 450 && Number.isFinite(Date.parse(feed.generatedAt))
+    && feed.items.length <= 450 && (feed.events === undefined || (Array.isArray(feed.events) && feed.events.length <= 120))
+    && (feed.regions === undefined || Array.isArray(feed.regions)) && Number.isFinite(Date.parse(feed.generatedAt))
     && Date.parse(feed.generatedAt) < Date.now() + 300_000;
 }
 

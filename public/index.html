@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="theme-color" content="#315a43">
-    <meta name="description" content="新知录：收录 AI 动态、开源项目、Skills 与专业写作方法，保留原始出处与采集状态。">
-    <title>新知录 · AI 与开源资料索引</title>
+    <meta name="description" content="新知录：音乐科技、AI、开源技能与周边活动的资料索引，保留原始出处与采集状态。">
+    <title>新知录 · 音乐科技与 AI 资料索引</title>
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="/style.css">
     <script defer src="/app.js"></script>
@@ -14,7 +14,7 @@
     <a class="skip-link" href="#feed">跳到资料列表</a>
     <div class="page">
       <header class="masthead">
-        <div class="masthead-top"><span>AI · 开源 · 写作方法</span><span id="edition-date">资料与出处</span></div>
+        <div class="masthead-top"><span>音乐科技 · AI · 开源技能</span><span id="edition-date">资料与出处</span></div>
         <div class="masthead-main">
           <a class="wordmark" href="/" aria-label="新知录首页">新知录<span>THE KNOWLEDGE INDEX</span></a>
           <div class="masthead-note"><p>从新消息，读到好方法。</p><button id="source-button" class="text-button" type="button">来源与采集状态 <span aria-hidden="true">↗</span></button></div>
@@ -22,12 +22,19 @@
       </header>
 
       <section class="editorial" aria-labelledby="editorial-title">
-        <div class="editorial-label"><span class="section-kicker">本期专题</span><span>写作与编辑</span></div>
-        <div class="editorial-copy"><h1 id="editorial-title">把话写清楚，<br class="desktop-break">从核对事实开始。</h1><p>先看证据够不够，再看段落往哪里走。精选的写作指南，关心内容、读者和每一次具体的修改。</p><button class="inline-link" id="writing-filter" type="button">阅读写作选集 <span aria-hidden="true">→</span></button></div>
-        <div class="editorial-quote"><span class="small-label">编辑手记</span><p>保留“可能”，<br>也保留“尚未验证”。</p><span>流畅的文字，也应有准确的分寸。</span></div>
+        <div class="editorial-label"><span class="section-kicker">阅读方向</span><span>工具与实践</span></div>
+        <div class="editorial-copy"><h1 id="editorial-title">音乐科技、AI<br class="desktop-break">与创作的工具。</h1><p>从声音制作、实时交互到开源技能，沿着原始出处阅读新消息与实践方法。</p><button class="inline-link" id="music-filter" type="button">阅读音乐科技 <span aria-hidden="true">→</span></button></div>
+        <div class="editorial-quote"><span class="small-label">阅读专题</span><p>写作与研究</p><button class="inline-link" id="writing-filter" type="button">阅读写作选集 <span aria-hidden="true">→</span></button></div>
       </section>
 
+      <section class="events-section" aria-labelledby="events-title">
+        <div class="events-heading"><div><span class="section-kicker">线下与周边</span><h2 id="events-title">周边活动</h2></div><label class="select-field"><span class="sr-only">活动与本地新闻地域</span><select id="region"><option value="macau">澳门</option><option value="hongkong">香港</option><option value="zhuhai">珠海</option></select></label></div>
+        <p class="region-note">澳门及周边为暂定范围，可切换</p>
+        <div id="events-list" class="events-list" aria-live="polite"><p class="events-empty">正在读取活动资料…</p></div>
+        <div class="events-footer"><span id="region-official"></span><button id="more-events" class="text-button" type="button" hidden>展开更多活动 ↓</button></div>
+      </section>
       <nav class="categories" id="categories" aria-label="资料分类"></nav>
+      <div id="topics" class="topics" aria-label="阅读主题"></div>
       <div class="workspace">
         <main id="feed">
           <div class="feed-heading"><h2 id="feed-title">全部资料</h2><span id="result-count" aria-live="polite">正在读取</span></div>
