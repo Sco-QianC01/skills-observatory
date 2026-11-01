@@ -1,0 +1,71 @@
+{
+  "collectedAt": "2026-11-01T04:10:22.370Z",
+  "method": "Edge 浏览器公开页面读取",
+  "url": "https://x.com/search?src=typed_query&f=live&q=agent+skills",
+  "items": [
+    {
+      "id": "x-2116740975221727409",
+      "title": "Codex 使用资料：从 AGENTS.md 到 Skills 与审批设置",
+      "summary": "社区作者整理了 Codex 仓库与官方文档入口，涉及项目指令、Skills 和审批设置。可沿原帖查找资料，再对照官方文档核实具体用法。",
+      "url": "https://x.com/FromWageToOwner/status/2116740975221727409",
+      "platform": "X",
+      "sourceId": "x-search",
+      "sourceName": "X · Skills 与工作流",
+      "category": "社区热议",
+      "publishedAt": "2026-11-01T03:55:50.000Z",
+      "collectedAt": "2026-11-01T04:10:22.370Z",
+      "tags": ["Codex", "Skills", "官方文档入口"],
+      "kind": "browser",
+      "dateLabel": "原帖",
+      "cautions": "已读取公开原帖；收录不代表已完成其中各项安装与兼容性测试。"
+    },
+    {
+      "id": "x-2116740471762677869",
+      "title": "Superpowers：把需求讨论、实施计划和代码审阅接成工作流",
+      "summary": "原帖介绍 obra/superpowers，讨论需求梳理、计划、测试和代码审阅如何衔接。适合从工作步骤入手阅读项目，使用前仍需核对当前版本与适用环境。",
+      "url": "https://x.com/the_real_siqide/status/2116740471762677869",
+      "platform": "X",
+      "sourceId": "x-search",
+      "sourceName": "X · Skills 与工作流",
+      "category": "社区热议",
+      "publishedAt": "2026-11-01T03:53:50.000Z",
+      "collectedAt": "2026-11-01T04:10:22.370Z",
+      "tags": ["Superpowers", "开发工作流"],
+      "kind": "browser",
+      "dateLabel": "原帖",
+      "cautions": "社区作者的项目介绍；原帖中的版本、数量和效果宣称未作为本索引的已验证结论。"
+    },
+    {
+      "id": "x-2116740354154070511",
+      "title": "Agent Readiness：检查项目是否便于编码 Agent 使用",
+      "summary": "原帖分享 Luminary-AI-Solutions/agent-readiness 及其 Skills 入口，关注项目对编码 Agent 的可读性与准备情况。具体检查项以项目说明和源码为准。",
+      "url": "https://x.com/ikkistan/status/2116740354154070511",
+      "platform": "X",
+      "sourceId": "x-search",
+      "sourceName": "X · Skills 与工作流",
+      "category": "社区热议",
+      "publishedAt": "2026-11-01T03:53:22.000Z",
+      "collectedAt": "2026-11-01T04:10:22.370Z",
+      "tags": ["Agent", "项目检查", "Skills"],
+      "kind": "browser",
+      "dateLabel": "原帖",
+      "cautions": "已读取公开分享，尚未在本项目安装运行该工具。"
+    },
+    {
+      "id": "x-2116739831875453084",
+      "title": "从 Skills 索引找到上游：VoltAgent、Anthropic 与 Agent Skills",
+      "summary": "原帖汇集 VoltAgent/awesome-agent-skills、anthropics/skills 和 Agent Skills 规范入口。索引可以帮助发现项目，判断用途、许可和安全性仍应回到上游仓库。",
+      "url": "https://x.com/the_real_siqide/status/2116739831875453084",
+      "platform": "X",
+      "sourceId": "x-search",
+      "sourceName": "X · Skills 与工作流",
+      "category": "社区热议",
+      "publishedAt": "2026-11-01T03:51:17.000Z",
+      "collectedAt": "2026-11-01T04:10:22.370Z",
+      "tags": ["Skills 索引", "VoltAgent", "Anthropic"],
+      "kind": "browser",
+      "dateLabel": "原帖",
+      "cautions": "社区索引不构成安装推荐；本次未逐一运行索引中的第三方 Skills。"
+    }
+  ]
+}

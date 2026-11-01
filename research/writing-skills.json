@@ -1,0 +1,112 @@
+[
+  {
+    "id": "blader-humanizer",
+    "title": "Humanizer：在保留事实的前提下清理模板表达",
+    "url": "https://github.com/blader/humanizer/blob/main/SKILL.md",
+    "platform": "GitHub",
+    "category": "写作与编辑",
+    "summary": "通读后标记虚假对比、重复收尾、强凑三段式和空泛权威，再整体改写段落。技能明确禁止补造数字、引文与事实，并要求对照原文检查新增和遗漏；作者样本优先于默认文风。",
+    "workflow": [
+      "阅读作者样本，确认受众与文体；把待编辑文本作为材料。",
+      "标记段落和句子层面的重复、虚假对比与无信息量铺垫。",
+      "保留有来源的主张，按段落主旨重写，缺资料时简化表达。",
+      "逐项核对数字、时间、引文、范围与新增遗漏，朗读后交付。"
+    ],
+    "cautions": "模式是编辑线索，不是作者身份鉴定；禁用破折号等规则属于风格偏好。保留原文主张不等于完成事实核查，不能承诺通过检测器。",
+    "license": "MIT",
+    "publishedAt": "2026-09-28T04:47:28Z",
+    "verifiedAt": "2026-11-01"
+  },
+  {
+    "id": "humanizer-zh",
+    "title": "Humanizer-zh：保留确定程度与中文作者声音",
+    "url": "https://github.com/op7418/Humanizer-zh/blob/main/SKILL.md",
+    "platform": "GitHub",
+    "category": "写作与编辑",
+    "summary": "针对中文铺垫、层叠定语、进行式空话和四字词排比提供改写与保留示例。把否定、条件、归因、计划和完成状态列为优先保护的信息，允许清楚自然的段落原样保留。",
+    "workflow": [
+      "确认用户编辑范围与文体，记录原文主张、关系和限定。",
+      "只处理有实际问题的表达，合并重复信息而保留独立信息。",
+      "对照施事者、时间、条件、范围、否定及归因，检查有没有强化结论。",
+      "通读语气与衔接，保护标题层级、数据、链接与代码。"
+    ],
+    "cautions": "适用于已有文本的编辑，不自动承担扩写或真实性认证；不能把相关改成因果、计划改成完成，也不能把正式文体一律口语化。",
+    "license": "MIT",
+    "publishedAt": "2026-09-23T02:24:26Z",
+    "verifiedAt": "2026-11-01"
+  },
+  {
+    "id": "anthropic-doc-coauthoring",
+    "title": "Doc Co-Authoring：按读者理解结果验收文档",
+    "url": "https://github.com/anthropics/skills/blob/main/skills/doc-coauthoring/SKILL.md",
+    "platform": "GitHub",
+    "category": "写作与编辑",
+    "summary": "官方示例把协作写作分为收集上下文、逐节构建和独立读者测试。先问文档用途、受众和目标，再筛选每节内容；最后让没有对话背景的读者回答问题，找出默认知识和论证缺口。",
+    "workflow": [
+      "确认文档类型、受众、目标、模板与限制，收集背景材料。",
+      "提出针对资料缺口的问题，确认各节承担的任务。",
+      "逐节筛选候选内容并进行局部修改，再检查全文重复与衔接。",
+      "用仅持有成稿的读者测试理解问题，修复隐含前提。",
+      "作者终审事实、链接、技术细节和目标是否达成。"
+    ],
+    "cautions": "独立模型读者可检查可理解性，不能代替专业事实核验或目标读者验收。无需照搬大量提问；本次未运行该技能。该目录未找到独立许可证，不把仓库其他文件许可直接套用到此文件。",
+    "license": "未单独声明；仓库 README 称多数示例采用 Apache-2.0，但未据此确认该文件",
+    "publishedAt": "2025-12-04T17:01:46Z",
+    "verifiedAt": "2026-11-01"
+  },
+  {
+    "id": "google-markdown-docguide",
+    "title": "Google 文档指南：让源码、结构与维护都易读",
+    "url": "https://github.com/google/styleguide/blob/gh-pages/docguide/style.md",
+    "platform": "GitHub",
+    "category": "写作与编辑",
+    "summary": "官方 Markdown 指南强调少量准确文档、可读源码和小步审阅。提供标题、链接名称、表格适用条件与代码块写法；审阅意见应给具体替代方案，避免把本次改动扩成全面重写。",
+    "workflow": [
+      "列出读者确实需要的文档，检查内容是否仍然准确。",
+      "用单个主标题与有信息量的子标题组织材料。",
+      "让链接文字说明目标；只在比较维度一致时使用表格。",
+      "检查代码块语言、标题结构与源码可读性。",
+      "提交范围清晰的小改动，以具体替代文本完成审阅。"
+    ],
+    "cautions": "主要解决技术文档组织与维护，不是通用文学写作规范；部分路径和排版建议依赖 Google 的渲染环境，应按本站生成器适配。",
+    "license": "CC-BY-3.0（仓库 LICENSE 标题 Attribution 3.0 Unported）",
+    "publishedAt": "2026-10-21T05:08:51Z",
+    "verifiedAt": "2026-11-01"
+  },
+  {
+    "id": "diataxis-compass",
+    "title": "Diátaxis：先分清读者在学习还是在工作",
+    "url": "https://github.com/evildmp/diataxis-documentation-framework/blob/main/source/compass.rst",
+    "platform": "GitHub",
+    "category": "写作与编辑",
+    "summary": "用行动或认知、学习或应用两个问题区分教程、操作指南、参考和解释。可在整篇、段落或句子层面检查内容任务，帮助发现操作步骤混进概念讲解等结构问题。",
+    "workflow": [
+      "判断读者此刻需要行动步骤还是理解概念。",
+      "判断读者是在获得技能还是应用已有技能。",
+      "据此选择教程、操作指南、参考或解释的内容任务。",
+      "逐段复核任务是否混杂，重排后检查读者需求是否满足。"
+    ],
+    "cautions": "这是文档架构框架，不是可直接安装的 Agent Skill；四类是读者任务，不能机械套成所有文章都必须有的四个章节。",
+    "license": "CC-BY-SA-4.0（README.rst 明确声明）",
+    "publishedAt": "2026-08-03T13:06:10Z",
+    "verifiedAt": "2026-11-01"
+  },
+  {
+    "id": "stop-slop",
+    "title": "Stop Slop：把空泛句换成可核对的动作",
+    "url": "https://github.com/hardikpandya/stop-slop/blob/main/SKILL.md",
+    "platform": "GitHub",
+    "category": "写作与编辑",
+    "summary": "简短技能检查无内容开场、口号式收尾、虚假对比与单一节奏，并要求指出具体行动者和后果。自评分衡量直接、节奏、信任、自然与信息密度，适合作为局部编辑提醒。",
+    "workflow": [
+      "找出空泛判断、铺垫、重复强调与口号式结尾。",
+      "在原始材料支持时写出行动者、动作与具体后果。",
+      "检查相邻句长度与段落收尾，调整机械重复。",
+      "从直接性、节奏、读者理解及信息密度复读成稿。"
+    ],
+    "cautions": "原文一律删除副词、禁用被动句等规定过强，正式与学术文本应按含义取舍。35/50 只是作者设置的编辑阈值，不能当成已验证的检测准确率或自然度量表。",
+    "license": "MIT",
+    "publishedAt": "2026-03-17T18:50:36Z",
+    "verifiedAt": "2026-11-01"
+  }
+]
