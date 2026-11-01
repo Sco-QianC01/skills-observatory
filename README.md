@@ -6,6 +6,14 @@
 
 自动短摘用于判断是否值得打开原文，不代表全文精读结论。采集时间、原文发布日期、仓库更新时间和技能文件更新时间分别标注，不相互替代。
 
+## 阅读界面
+
+2026-11-01 重设计以查找和阅读资料为主：桌面采用左侧目录、中央连续列表、右侧活动栏；手机默认收起分类，保留直接可见的搜索和文章。移除了大幅宣传标题、装饰性编号与重复标签，采用冷白背景、系统中文字体和细分隔线。清除筛选可以在列表有结果时使用，分类目录支持键盘操作和屏幕宽度切换。
+
+实际读取了 [Impeccable](https://github.com/pbakaus/impeccable/blob/main/skill/SKILL.src.md) 与 [Anthropic frontend-design](https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md) 的原始说明，结合阅读任务取舍；出处、许可和未采用的建议见 [设计研究](research/frontend-redesign.md)，实施规范见 [DESIGN.md](DESIGN.md)。
+
+本地语法检查和 24 项测试通过，真实浏览器 18/18 通过，报告为 `evidence/redesign-local-browser.json`。在相同视口下，第一条资料距页面顶部从桌面约 1370px、手机约 1888px，分别缩至约 419px、537px；1440px、900px、390px、320px 布局均无横向溢出。验收包括搜索、分类、排序、分页、写作详情、地区偏好、活动入口、来源弹窗、键盘焦点与请求失败后的重试。线上发布结果以部署说明和当前任务记录为准。
+
 ## 采集来源
 
 来源与限额见 [src/sources.js](src/sources.js)，解析、合并和失败处理见 [src/collector.js](src/collector.js)。
@@ -28,9 +36,9 @@
 
 当前云端索引生成于 `2026-11-01T08:35:19.294Z`（北京时间 16:35），包含 261 条资料、24 场活动；25 个动态来源中 22 个成功。Steinberg 本轮成功采集 12 条，三路 YouTube 各成功采集 10 条；`github-skills`、`github-ai` 本轮有效条目为 0，状态为错误，分别保留 28、52 条既有资料。X API 未配置，保留浏览器人工选录 4 条，状态为 `cached`，不计为自动成功。
 
-本次在前端焦点和失败状态修复后实际运行 `npm run check && npm test`，语法检查通过，24 项测试全部通过。本地浏览器验收 16/16 通过，证据为 `evidence/music-local-local-browser.json`：覆盖桌面 1440px、移动 390px/320px、地区与主题持久化、键盘焦点、feed 503 与断网重试、活动日期和空状态；页面、控制台及请求错误均为 0。此后新增的标题 CSS `text-wrap: balance` 已由正式生产浏览器验收覆盖。
+上一版音乐科技与区域扩展在前端焦点和失败状态修复后实际运行 `npm run check && npm test`，语法检查通过，24 项测试全部通过。本地浏览器验收 16/16 通过，证据为 `evidence/music-local-local-browser.json`：覆盖桌面 1440px、移动 390px/320px、地区与主题持久化、键盘焦点、feed 503 与断网重试、活动日期和空状态；页面、控制台及请求错误均为 0。该版标题 CSS `text-wrap: balance` 已由对应生产浏览器验收覆盖。
 
-生产浏览器实际验收 16/16 PASS，执行退出 0，报告为 `evidence/music-local-production-browser.json`。1440×1000、390×844 和 320px 宽度均无横向溢出，控制台错误、页面错误及失败请求均为 0；筛选、地区持久化、活动时间地点与多场次、503 错误与重试、原生键盘焦点均通过。主任务另已查看 `production-desktop`、`mobile-top`、`ai-event` 三张截图。
+该版生产浏览器实际验收 16/16 PASS，执行退出 0，报告为 `evidence/music-local-production-browser.json`。1440×1000、390×844 和 320px 宽度均无横向溢出，控制台错误、页面错误及失败请求均为 0；筛选、地区持久化、活动时间地点与多场次、503 错误与重试、原生键盘焦点均通过。主任务另已查看 `production-desktop`、`mobile-top`、`ai-event` 三张截图。
 
 功能提交 `6a22a4931ee4446eadadb2ec7e98ae037bbabe7d` 已推送；本次 [Actions 运行 41289478145](https://github.com/Sco-QianC01/skills-observatory/actions/runs/41289478145) 经 `workflow_dispatch` 实际完成并成功，10 个步骤全部成功，包括 `npm test`、采集和 `Save source index`，证据为 `evidence/music-local-actions.json`。bot 索引提交 `fb5fd97` 已取回并快进合并。
 

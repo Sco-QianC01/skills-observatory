@@ -82,13 +82,15 @@ function renderEvents() {
     if (event.registrationText) article.append(node("p", "event-source", `报名方式（原文）：${event.registrationText}`));
     const deadline = calendarDay(event.registrationClosesOn || event.registrationDeadline);
     if (deadline) article.append(node("p", "event-deadline", `${deadline < today ? "报名已截止" : "报名截止"} · ${dateText(`${deadline}T12:00:00+08:00`)}`));
-    article.append(externalLink(event.url, "original-link", "查看官方详情 ↗"));
+    article.append(externalLink(event.url, "original-link", "查看官方详情"));
     return article;
   });
   el("events-list").replaceChildren(...(rows.length ? rows : [node("p", "events-empty", state.loadFailed && !state.feed ? "活动资料暂时未能载入，请稍后重新获取。" : "暂无已收录的进行中或即将开始活动。")]));
   el("more-events").hidden = events.length <= state.eventLimit;
   const region = state.regions.find((entry) => entry.id === state.region);
-  el("region-official").replaceChildren(...(region?.calendarUrl ? [externalLink(region.calendarUrl, "original-link", `${region.calendarLabel || `${region.name || "当地"}官方活动日历`} ↗`)] : []));
+  const regionName = region?.name || el("region").selectedOptions[0]?.textContent || "所选城市";
+  el("region-note").textContent = state.region === "macau" ? "澳门为暂定范围，可切换城市。" : `已选择${regionName}，可切换城市。`;
+  el("region-official").replaceChildren(...(region?.calendarUrl ? [externalLink(region.calendarUrl, "original-link", region.calendarLabel || `${regionName}官方活动日历`)] : []));
 }
 
 function node(tag, className, text) {
@@ -151,6 +153,7 @@ function renderCategories() {
     button.setAttribute("aria-pressed", String(state.category === category));
     button.querySelector(".category-count").textContent = state.items.filter((item) => regionMatches(item) && (category === "全部" || item.category === category)).length;
   });
+  el("current-category").textContent = state.category;
 }
 
 function renderStory(item) {
@@ -163,17 +166,17 @@ function renderStory(item) {
   if (item.kind === "curated") meta.append(node("span", "curated-label", "编辑选读"));
   if (item.kind === "browser") meta.append(node("span", "curated-label", "浏览器选录"));
   article.append(meta);
-  const heading = node("h3");
+  const heading = node("h2");
   heading.append(externalLink(item.url, "story-title", item.title || "未命名资料"));
   article.append(heading);
   if (item.summary) article.append(node("p", "story-summary", item.summary));
   const bottom = node("div", "story-bottom");
   const tags = node("div", "tags");
-  const tagList = Array.isArray(item.tags) ? item.tags.slice(0, 5) : [];
+  const tagList = Array.isArray(item.tags) ? item.tags.slice(0, 3) : [];
   tagList.forEach((tag) => tags.append(node("span", "tag", tag)));
   if (!tagList.length && item.sourceName) tags.append(node("span", "", item.sourceName));
   if (typeof item.stars === "number") tags.append(node("span", "", `★ ${new Intl.NumberFormat("zh-CN", { notation: "compact" }).format(item.stars)}`));
-  bottom.append(tags, externalLink(item.url, "original-link", "阅读原文 ↗"));
+  bottom.append(tags, externalLink(item.url, "original-link", "阅读原文"));
   article.append(bottom);
   const workflow = Array.isArray(item.workflow) ? item.workflow : [];
   if (workflow.length || item.cautions || item.license) {
@@ -221,13 +224,14 @@ function render() {
     if (second === null) return -1;
     return (first - second) * direction;
   });
-  el("feed-title").textContent = state.category === "全部" ? "全部资料" : state.category;
+  el("feed-title").textContent = state.category === "全部" ? "最近收录" : state.category;
+  el("reset-filters").hidden = !query && !platform && !state.topic && state.category === "全部" && direction === -1;
   el("result-count").textContent = `${filtered.length} 条资料`;
   const visible = filtered.slice(0, state.limit);
   el("stories").replaceChildren(...visible.map(renderStory));
   el("empty-state").hidden = filtered.length > 0;
   el("empty-state").querySelector("h3").textContent = state.loadFailed && !state.feed ? "资料暂时未能载入" : "还没有匹配的资料";
-  el("empty-state").querySelector("p").textContent = state.loadFailed && !state.feed ? "请使用右侧的“重新获取资料”再试一次。" : "换一个词，或清除主题、平台与分类筛选。";
+  el("empty-state").querySelector("p").textContent = state.loadFailed && !state.feed ? "请使用收录说明中的“重新获取资料”再试一次。" : "换一个词，或清除主题、平台与分类筛选。";
   el("load-more").hidden = filtered.length <= visible.length;
   el("showing-count").textContent = filtered.length ? `已展示 ${visible.length} / ${filtered.length} 条` : "";
 }
@@ -293,7 +297,7 @@ function applyFeed(feed, mode) {
   }));
   if (platforms.includes(currentPlatform)) el("platform").value = currentPlatform;
   const date = dateValue(feed.generatedAt);
-  el("edition-date").textContent = date === null ? "采集时间未提供" : `${dateText(feed.generatedAt)} · 资料索引`;
+  el("edition-date").textContent = date === null ? "采集时间未提供" : `更新于 ${dateText(feed.generatedAt)}`;
   el("schedule").textContent = scheduleText(feed.schedule);
   const prefix = mode === "api" ? "在线索引" : mode === "bundled" ? "部署副本 · 实时索引暂不可用" : mode === "static" ? "静态副本 · 在线接口暂不可用" : "浏览器缓存 · 网络获取失败";
   const failures = state.sources.filter((source) => ["error", "failed", "failure", "unavailable"].includes(String(source.status).toLowerCase())).length;
@@ -385,5 +389,12 @@ el("source-button").addEventListener("click", () => {
 });
 el("close-sources").addEventListener("click", () => el("sources-dialog").close());
 el("sources-dialog").addEventListener("close", () => el("source-button").focus());
+const desktopLayout = matchMedia("(min-width: 760px)");
+function syncCatalogue() {
+  el("catalogue").open = desktopLayout.matches;
+  el("catalogue").querySelector("summary").tabIndex = desktopLayout.matches ? -1 : 0;
+}
+desktopLayout.addEventListener("change", syncCatalogue);
+syncCatalogue();
 renderCategories();
 loadFeed();
