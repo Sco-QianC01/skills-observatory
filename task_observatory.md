@@ -9,8 +9,9 @@
 - [x] `npm run check && npm test` 通过，24/24 测试通过；独立前端差异审查通过。
 - [x] 本地真实浏览器 18/18 通过：1440px、900px、390px、320px 无横向溢出；桌面第一条资料约 419px，手机约 537px。报告为 `evidence/redesign-local-browser.json`。
 - [x] 主任务查看桌面、390px 手机及 320px 手机实际截图，中文显示正常，控件无遮挡。
-- [ ] 推送 GitHub 并部署 Cloudflare。
-- [ ] 对正式线上页面运行相同的 18 项浏览器验收并核对截图。
+- [x] 重设计代码 `3a4113c` 已推送 GitHub；复用现有本机授权部署 Cloudflare，版本 `089c64ef-0de5-43ee-9e96-c6c621e5f97d`。
+- [x] 2026-11-01 09:53 UTC 正式站点首页、`/health`、`/api/feed` 均 200，数据来自 GitHub，线上 `app.js`、`style.css` 字节与本地一致。证据为 `evidence/redesign-production-http.json`。
+- [x] 正式线上页面运行相同浏览器验收 18/18 PASS、退出 0，页面／控制台／请求错误均为 0，报告为 `evidence/redesign-production-browser.json`；主任务已查看正式站点桌面与手机截图。
 
 ## 上一版音乐科技与区域扩展
 

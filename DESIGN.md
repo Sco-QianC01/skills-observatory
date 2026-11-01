@@ -30,7 +30,7 @@ components:
 
 新知录是用于检索、阅读和回看资料的工具。首页直接提供搜索与阅读列表；AI 与开源工作流、音乐科技和港珠澳活动共用清楚的导航，各自采用适合其信息的组织方式。设计表达来自准确的层级、自然的中文排版与熟悉的操作。
 
-v2 已完成本地实现，真实浏览器 18 项验收通过，覆盖 1440px、900px、390px 和 320px；发布与线上验收记录见 task_observatory.md。研究出处与取舍见 research/frontend-redesign.md。
+v2 已推送至 GitHub 并部署 Cloudflare，本地和正式线上真实浏览器均 18 项验收通过，覆盖 1440px、900px、390px 和 320px；发布与线上验收记录见 task_observatory.md。研究出处与取舍见 research/frontend-redesign.md。
 
 # Colors
 

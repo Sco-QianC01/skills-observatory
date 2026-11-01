@@ -14,6 +14,8 @@
 
 本地语法检查和 24 项测试通过，真实浏览器 18/18 通过，报告为 `evidence/redesign-local-browser.json`。在相同视口下，第一条资料距页面顶部从桌面约 1370px、手机约 1888px，分别缩至约 419px、537px；1440px、900px、390px、320px 布局均无横向溢出。验收包括搜索、分类、排序、分页、写作详情、地区偏好、活动入口、来源弹窗、键盘焦点与请求失败后的重试。线上发布结果以部署说明和当前任务记录为准。
 
+重设计代码提交 `3a4113c` 已推送至 GitHub，并完成 Cloudflare 部署。正式站点运行同一份浏览器验收，18/18 通过，控制台错误、页面错误和失败请求均为 0；主任务已查看正式站点桌面与手机截图。报告为 `evidence/redesign-production-browser.json`，HTTP 和静态资源字节比对见 `evidence/redesign-production-http.json`。这些本机验收产物不进入公开仓库。
+
 ## 采集来源
 
 来源与限额见 [src/sources.js](src/sources.js)，解析、合并和失败处理见 [src/collector.js](src/collector.js)。
@@ -80,7 +82,7 @@ npm run dev
 npm run deploy
 ```
 
-该命令调用 Wrangler，需先在本机或部署环境完成相应 Cloudflare 授权，并确认目标账号与 [wrangler.jsonc](wrangler.jsonc) 配置。本次已实际部署至 [Cloudflare 站点](https://skills-observatory.ancient-art-9bbf.workers.dev)，版本 `4ade365a-2d74-4041-9980-a03eef20e5f4`；首页、`/health`、`/api/feed` 均 HTTP 200，数据接口响应头 `X-Feed-Origin: github`，索引生成时间与上述云端快照吻合，生产浏览器 16/16 验收通过。此前版本 `efa5b309-b0be-40a0-86a1-a75a6fef90b2` 仅保留为上一次部署基线。
+该命令调用 Wrangler，需先在本机或部署环境完成相应 Cloudflare 授权，并确认目标账号与 [wrangler.jsonc](wrangler.jsonc) 配置。重设计已实际部署至 [Cloudflare 站点](https://skills-observatory.ancient-art-9bbf.workers.dev)，版本 `089c64ef-0de5-43ee-9e96-c6c621e5f97d`；2026-11-01 09:53 UTC 验收首页、`/health`、`/api/feed` 均 HTTP 200，数据接口响应头 `X-Feed-Origin: github`，索引生成时间与上述云端快照吻合，线上 `app.js`、`style.css` 与本地文件字节一致，生产浏览器 18/18 验收通过。此前音乐科技扩展版本 `4ade365a-2d74-4041-9980-a03eef20e5f4` 仅保留为上一版部署基线。
 
 [src/worker.js](src/worker.js) 提供静态资源与 `/api/feed`：
 
