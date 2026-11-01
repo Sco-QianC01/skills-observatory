@@ -50,10 +50,14 @@ hush! 表格共 18 行活动，“11月14及15日”的低洼供电派对展开�
 
 ## 平台连接边界
 
-本次真实采集生成于 `2026-11-01T08:05:09.381Z`（北京时间 16:05），包含 253 条资料、24 场活动，25 个动态来源中 23 个成功。OpenAI、Anthropic、Google DeepMind 三路 YouTube Atom 均成功，各 10 条；Steinberg 本轮 `fetch failed`，计 0 条。
+当前云端快照生成于 `2026-11-01T08:35:19.294Z`（北京时间 16:35），包含 261 条资料、24 场活动，25 个动态来源中 22 个成功。OpenAI、Anthropic、Google DeepMind 三路 YouTube Atom 均成功，各 10 条；Steinberg 本轮成功 12 条。`github-skills`、`github-ai` 本轮有效条目为 0，状态为错误，分别保留 28、52 条既有资料；X 为人工选录 4 条缓存，不计为自动成功。
 
 主任务在前端焦点及失败状态修复后实际执行 `npm run check && npm test`，语法检查通过，24/24 测试通过。这是代码检查证据，不替代浏览器、部署或 Actions 验收。
 
-本地浏览器另已完成 16/16 验收，记录为 `evidence/music-local-local-browser.json`。覆盖桌面 1440px、移动 390px 和 320px、地区与主题持久化、键盘焦点、feed 503 和断网重试、活动日期及空状态；页面、控制台、请求错误均为 0。验收后仅新增标题 `text-wrap: balance`，将由上线后的浏览器验收再次覆盖；本地结果不能代替生产部署或 Actions 结果。
+本地浏览器另已完成 16/16 验收，记录为 `evidence/music-local-local-browser.json`。覆盖桌面 1440px、移动 390px 和 320px、地区与主题持久化、键盘焦点、feed 503 和断网重试、活动日期及空状态；页面、控制台、请求错误均为 0。此后新增的标题 `text-wrap: balance` 已由生产浏览器验收覆盖。
 
-X API 未配置，仍使用浏览器人工选录 4 条；登录 Edge 中的人工选录不代表 X API、xMCP 或定时自动采集可用。YouTube Atom 的失败保留缓存策略仍然有效，但本次三路请求没有失败。采集结果不代替部署验收；README 中旧部署与 Actions 仅为上一次基线，本次生产部署、在线接口、浏览器交互及定时工作流的最终验收由主任务记录补充。
+生产浏览器实际 16/16 PASS，退出 0，报告为 `evidence/music-local-production-browser.json`。1440×1000、390×844 和 320px 宽度均无横向溢出；控制台错误、页面错误和失败请求均为 0。筛选、地区持久化、活动时间地点与多场次、503 错误与重试、原生键盘焦点通过。主任务已实际查看 `production-desktop`、`mobile-top`、`ai-event` 三张截图；这些证据仅覆盖执行时刻与指定视口。
+
+功能提交 `6a22a4931ee4446eadadb2ec7e98ae037bbabe7d` 已推送，本次 Actions `41289478145` 经手动触发实际 `completed/success`，10 个步骤全部成功，包括 `npm test`、采集及 `Save source index`，证据为 `evidence/music-local-actions.json`；bot 索引提交 `fb5fd97` 已快进合并。Cloudflare 部署版本 `4ade365a-2d74-4041-9980-a03eef20e5f4` 已成功，首页、健康检查、数据接口均 HTTP 200，数据源响应头为 `github`，生成时间吻合云端快照；正式生产浏览器 16/16 验收通过。
+
+X API 未配置，仍使用浏览器人工选录 4 条；登录 Edge 中的人工选录不代表 X API、xMCP 或定时自动采集可用。YouTube Atom 的失败保留缓存策略仍然有效，但本次三路请求没有失败。README 中明确标注的旧部署与旧 Actions 仅为上一次基线，不与本次证据混用。

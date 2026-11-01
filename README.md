@@ -26,9 +26,13 @@
 
 区域暂定澳门，可切换香港和珠海；这不是经过定位确认的当前所在地。香港康文署文化节目搜寻、珠海文广旅体局门户提供官方外部入口，不表示本站已自动抓取这些入口中的活动。来源实测与解析边界见 [音乐科技与区域来源研究](research/music-local-sources.md)。
 
-本次实际采集索引生成于 `2026-11-01T08:05:09.381Z`（北京时间 16:05），包含 253 条资料、24 场活动；25 个动态来源中 23 个成功。Steinberg 本轮 `fetch failed`，计 0 条；X API 未配置，保留浏览器人工选录 4 条。该结果是采集验收，不表示本次生产部署或浏览器验收已完成。
+当前云端索引生成于 `2026-11-01T08:35:19.294Z`（北京时间 16:35），包含 261 条资料、24 场活动；25 个动态来源中 22 个成功。Steinberg 本轮成功采集 12 条，三路 YouTube 各成功采集 10 条；`github-skills`、`github-ai` 本轮有效条目为 0，状态为错误，分别保留 28、52 条既有资料。X API 未配置，保留浏览器人工选录 4 条，状态为 `cached`，不计为自动成功。
 
-本次在前端焦点和失败状态修复后实际运行 `npm run check && npm test`，语法检查通过，24 项测试全部通过。本地浏览器验收 16/16 通过，证据为 `evidence/music-local-local-browser.json`：覆盖桌面 1440px、移动 390px/320px、地区与主题持久化、键盘焦点、feed 503 与断网重试、活动日期和空状态；页面、控制台及请求错误均为 0。此后仅新增标题 CSS `text-wrap: balance`，待正式上线浏览器验收再次覆盖。生产部署与本次 Actions 验收仍待记录。
+本次在前端焦点和失败状态修复后实际运行 `npm run check && npm test`，语法检查通过，24 项测试全部通过。本地浏览器验收 16/16 通过，证据为 `evidence/music-local-local-browser.json`：覆盖桌面 1440px、移动 390px/320px、地区与主题持久化、键盘焦点、feed 503 与断网重试、活动日期和空状态；页面、控制台及请求错误均为 0。此后新增的标题 CSS `text-wrap: balance` 已由正式生产浏览器验收覆盖。
+
+生产浏览器实际验收 16/16 PASS，执行退出 0，报告为 `evidence/music-local-production-browser.json`。1440×1000、390×844 和 320px 宽度均无横向溢出，控制台错误、页面错误及失败请求均为 0；筛选、地区持久化、活动时间地点与多场次、503 错误与重试、原生键盘焦点均通过。主任务另已查看 `production-desktop`、`mobile-top`、`ai-event` 三张截图。
+
+功能提交 `6a22a4931ee4446eadadb2ec7e98ae037bbabe7d` 已推送；本次 [Actions 运行 41289478145](https://github.com/Sco-QianC01/skills-observatory/actions/runs/41289478145) 经 `workflow_dispatch` 实际完成并成功，10 个步骤全部成功，包括 `npm test`、采集和 `Save source index`，证据为 `evidence/music-local-actions.json`。bot 索引提交 `fb5fd97` 已取回并快进合并。
 
 X 的登录 Edge 会话已在 2026-11-01 实际读取并手动选录 4 条公开分享，记录的 `readOn` 为 `2026-11-01`；这与开发者 API 授权是两条通路。采集脚本可读取 `public/data/browser-x.json` 中的浏览器快照，但不会操作浏览器或自动刷新该快照。当前没有 X API Token，也未连接 xMCP；最新索引状态为 `cached`、4 条，自动采集的 `lastSuccessAt=null`，不能把手动阅读日期当成 API 成功时间。浏览器登录不使云端 API 自动可用。
 
@@ -68,7 +72,7 @@ npm run dev
 npm run deploy
 ```
 
-该命令调用 Wrangler，需先在本机或部署环境完成相应 Cloudflare 授权，并确认目标账号与 [wrangler.jsonc](wrangler.jsonc) 配置。上一次部署基线为 [Cloudflare 站点](https://skills-observatory.ancient-art-9bbf.workers.dev)，版本 `efa5b309-b0be-40a0-86a1-a75a6fef90b2`；当时 `/health`、`/` 与 `/api/feed` 均返回 HTTP 200，接口响应头为 `X-Feed-Origin: github`。该基线不能证明本次音乐科技与区域扩展已上线，本次部署与在线验收记录待补充。
+该命令调用 Wrangler，需先在本机或部署环境完成相应 Cloudflare 授权，并确认目标账号与 [wrangler.jsonc](wrangler.jsonc) 配置。本次已实际部署至 [Cloudflare 站点](https://skills-observatory.ancient-art-9bbf.workers.dev)，版本 `4ade365a-2d74-4041-9980-a03eef20e5f4`；首页、`/health`、`/api/feed` 均 HTTP 200，数据接口响应头 `X-Feed-Origin: github`，索引生成时间与上述云端快照吻合，生产浏览器 16/16 验收通过。此前版本 `efa5b309-b0be-40a0-86a1-a75a6fef90b2` 仅保留为上一次部署基线。
 
 [src/worker.js](src/worker.js) 提供静态资源与 `/api/feed`：
 
@@ -116,4 +120,4 @@ npm run deploy
 - `evidence/browser-acceptance.mjs` 实际运行退出 0，`evidence/browser-acceptance.json` 为 11/11 PASS。覆盖桌面 1440×1000、手机 390×844 和 320px 宽度，验证搜索、分类、排序、分页 16 到 32 条、6 条写作选读详情、来源弹窗 Esc 关闭与焦点恢复、安全外链及无横向溢出；控制台、页面和请求错误均为 0。
 - 负责人已查看 `desktop.png`、`mobile.png`、`writing.png`、`sources-mobile.png`，确认中文字体正常、布局无遮挡。先前 QA 环境的共享库和字体问题已用隔离 Chromium 运行库、项目 Fontconfig 及已有 Windows 字体解决，未安装系统依赖或改动产品。
 
-以上是对应执行时刻与指定视口的证据，不保证未来每轮成功或覆盖所有设备。X API/MCP 与 YouTube MCP 尚未连接；当前三路 YouTube Atom 均已采集成功，Atom 不依赖 YouTube MCP。本次扩展待完成项见 [当前任务记录](task_observatory.md)；原交付记录保留在 [.phrase 任务记录](.phrase/phases/current/task_observatory.md)。
+以上是对应执行时刻与指定视口的证据，不保证未来每轮成功或覆盖所有设备。X API/MCP 与 YouTube MCP 尚未连接；当前三路 YouTube Atom 均已采集成功，Atom 不依赖 YouTube MCP。本次扩展验收见 [当前任务记录](task_observatory.md)；原交付记录保留在 [.phrase 任务记录](.phrase/phases/current/task_observatory.md)。
