@@ -1,6 +1,6 @@
 # 新知录架构决策
 
-日期：2026-11-01。状态：实现已采用；运行与线上交付待验收。
+日期：2026-11-01。状态：实现已采用；负责人已确认本地检查、GitHub、Actions、实采、Cloudflare 部署与 HTTP 接口，以及桌面/移动浏览器 11/11 验收和截图检查。平台接入与来源降级限制保留。
 
 1. 用 Node.js 22 采集脚本与 GitHub Actions 定时任务生成 JSON，再由 Cloudflare Worker 提供静态站与 raw GitHub 代理。复用仓库与静态资源，不另加数据库或 Cloudflare 定时采集器。
 2. Worker 只接受 HTTPS `raw.githubusercontent.com` 数据上游，进行基本结构校验与短缓存；失败使用部署副本。优先保持阅读可用，并通过来源时间与错误状态提示新鲜度限制。

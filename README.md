@@ -1,5 +1,7 @@
 # 新知录
 
+在线阅读：[skills-observatory.ancient-art-9bbf.workers.dev](https://skills-observatory.ancient-art-9bbf.workers.dev) · [GitHub 仓库](https://github.com/Sco-QianC01/skills-observatory)
+
 面向中文读者的 AI、Skills、开源项目与写作方法资料索引。自动采集公开订阅和 API 元数据，结合人工阅读整理的写作资料，保留原始标题、出处、日期含义与来源状态。页面支持全字段搜索、分类与平台筛选、日期排序，以及写作步骤和许可限制的展开阅读。
 
 自动短摘用于判断是否值得打开原文，不代表全文精读结论。采集时间、原文发布日期、仓库更新时间和技能文件更新时间分别标注，不相互替代。
@@ -11,15 +13,15 @@
 | 来源 | 采集方式 | 凭据与当前验收范围 |
 | --- | --- | --- |
 | OpenAI News、Google AI、Hugging Face Blog | 官方 RSS | 无需 API key；以每次生成索引中的来源状态为准 |
-| OpenAI、Anthropic、Google DeepMind 视频 | 官方 YouTube Atom | 三个频道 ID 与 Atom 已实际请求、解析验证，无需 API key |
+| OpenAI、Anthropic、Google DeepMind 视频 | 官方 YouTube Atom | 无需 API key；2026-11-01 05:03 UTC 实采 OpenAI、Anthropic HTTP 404，分别保留 10、7 条历史资料 |
 | GitHub Agent Skills、AI 工作流与 LLM 项目 | GitHub repository search API | 按主题、星数门槛和更新时间检索；Actions 使用 `GITHUB_TOKEN` |
 | Hacker News AI 讨论 | Algolia 公开搜索 API | 收录近七天且分数大于 5 的讨论；分数是采集时快照 |
 | X Skills 与工作流分享 | X recent search API；可合并人工浏览器快照 | 云端自动采集需要 `X_BEARER_TOKEN` 及相应 API 权限 |
 | 专业写作与编辑指南 | 人工阅读原始文件后整理 | 从 [writing-skills.json](research/writing-skills.json) 导入，标为编辑选读 |
 
-X 的登录 Edge 会话已经实际读到公开分享；这与开发者 API 授权是两条通路。采集脚本可读取 `public/data/browser-x.json` 中的浏览器快照，但不会操作浏览器或自动刷新该快照。缺少 `X_BEARER_TOKEN` 时，有快照则标记保留资料，没有快照则标记待接入；浏览器登录不使云端 API 自动可用。
+X 的登录 Edge 会话已在 2026-11-01 实际读取并手动选录 4 条公开分享，记录的 `readOn` 为 `2026-11-01`；这与开发者 API 授权是两条通路。采集脚本可读取 `public/data/browser-x.json` 中的浏览器快照，但不会操作浏览器或自动刷新该快照。当前没有 X API Token，也未连接 xMCP；最新索引状态为 `cached`、4 条，自动采集的 `lastSuccessAt=null`，不能把手动阅读日期当成 API 成功时间。浏览器登录不使云端 API 自动可用。
 
-YouTube 频道为 OpenAI `UCXZCJLdBC09xxGZ6gcdrc6A`、Anthropic `UCrDwWp7EBBv4NwvScIpBDOA`、Google DeepMind `UCP7jMXSY2xbc3KCAE0MHQ-A`。Atom 只提供有限的近期条目，不保证覆盖频道全部视频。具体成功请求、原始日期和身份核验边界见 [平台连接器研究](research/platform-connectors.md)。
+YouTube 频道为 OpenAI `UCXZCJLdBC09xxGZ6gcdrc6A`、Anthropic `UCrDwWp7EBBv4NwvScIpBDOA`、Google DeepMind `UCP7jMXSY2xbc3KCAE0MHQ-A`。Atom 只提供有限的近期条目，不保证覆盖频道全部视频。请求可用性会变化，失败时如实保留错误和有效历史条目，不据此替换已核对的频道 ID。具体历史请求、原始日期和身份核验边界见 [平台连接器研究](research/platform-connectors.md)。
 
 ## 更新与保留
 
@@ -53,7 +55,7 @@ npm run dev
 npm run deploy
 ```
 
-该命令调用 Wrangler，需先在本机或部署环境完成相应 Cloudflare 授权，并确认目标账号与 [wrangler.jsonc](wrangler.jsonc) 配置。此处只说明部署方式，不代表站点已发布或云端验收已完成。
+该命令调用 Wrangler，需先在本机或部署环境完成相应 Cloudflare 授权，并确认目标账号与 [wrangler.jsonc](wrangler.jsonc) 配置。本轮已实际部署至 [Cloudflare 站点](https://skills-observatory.ancient-art-9bbf.workers.dev)，版本为 `efa5b309-b0be-40a0-86a1-a75a6fef90b2`；`/health`、`/` 与 `/api/feed` 均已返回 HTTP 200，接口响应头 `X-Feed-Origin: github`。桌面与移动浏览器交互验收已通过，范围见下方交付记录。
 
 [src/worker.js](src/worker.js) 提供静态资源与 `/api/feed`：
 
@@ -91,4 +93,14 @@ npm run deploy
 
 本站原创代码采用 [MIT License](LICENSE)。第三方文章、摘要所引材料、技能原文、商标与外链目标保留各自权利；本站代码许可不为这些内容重新授权。具体转载、改编或安装前，应分别核对来源许可与署名要求。
 
-截至 2026-11-01，采集器、静态前端、Worker 代理、Actions 工作流与六份写作资料整理已形成实现。测试执行结果、GitHub 远端读回、Actions 实际运行、Cloudflare 线上接口与桌面/移动浏览器验收，仍需交付负责人确认后记录于 [.phrase 任务记录](.phrase/phases/current/task_observatory.md)。配置存在不代表已部署，来源可读取不代表所有采集通路均已接入。
+截至 2026-11-01，交付负责人已确认以下结果：
+
+- 公开仓库 [Sco-QianC01/skills-observatory](https://github.com/Sco-QianC01/skills-observatory) 已创建，代码提交为 `56ae4dfe6d6324a8248aa7008d031c50439f694c`；bot 提交 `55c2598dc3229c6087a1c45a6f56bbcdac211d3a` 仅更新索引，已快进合入本地。
+- [GitHub Actions 运行 41275374636](https://github.com/Sco-QianC01/skills-observatory/actions/runs/41275374636) 经 `workflow_dispatch` 实际成功，2026-11-01 `05:02:47Z` 至 `05:03:06Z` 的 10 个步骤全部成功，包含测试。
+- `npm test` 的 11 项测试及 `npm run check` 语法检查均通过；新工作流中的测试也通过。
+- 最新索引 `generatedAt=2026-11-01T05:03:00.818Z`，171 条，11 个动态来源中 8 个成功；OpenAI、Anthropic YouTube HTTP 404，分别保留 10、7 条历史资料，X 为手动选录的 4 条缓存。
+- Cloudflare 已实际部署，首页、健康检查、数据接口均 HTTP 200，数据接口响应来源为 `github`；版本和地址见上方部署说明。
+- `evidence/browser-acceptance.mjs` 实际运行退出 0，`evidence/browser-acceptance.json` 为 11/11 PASS。覆盖桌面 1440×1000、手机 390×844 和 320px 宽度，验证搜索、分类、排序、分页 16 到 32 条、6 条写作选读详情、来源弹窗 Esc 关闭与焦点恢复、安全外链及无横向溢出；控制台、页面和请求错误均为 0。
+- 负责人已查看 `desktop.png`、`mobile.png`、`writing.png`、`sources-mobile.png`，确认中文字体正常、布局无遮挡。先前 QA 环境的共享库和字体问题已用隔离 Chromium 运行库、项目 Fontconfig 及已有 Windows 字体解决，未安装系统依赖或改动产品。
+
+以上是对应执行时刻与指定视口的证据，不保证未来每轮成功或覆盖所有设备。当前剩余限制是 X API/MCP 与 YouTube MCP 未连接，以及两个 YouTube Atom 源本轮 HTTP 404 后使用历史资料，见 [.phrase 任务记录](.phrase/phases/current/task_observatory.md)。
