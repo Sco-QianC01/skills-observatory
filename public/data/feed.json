@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-01T08:05:09.381Z",
-  "lastAttemptAt": "2026-11-01T08:05:09.381Z",
+  "generatedAt": "2026-11-01T08:35:19.294Z",
+  "lastAttemptAt": "2026-11-01T08:35:19.294Z",
   "schedule": "每日 02:17、08:17、14:17、20:17（北京时间）采集；GitHub 调度可能延迟。",
   "retentionDays": 90,
   "readingProfile": {
@@ -43,9 +43,9 @@
     }
   ],
   "collection": {
-    "successfulSources": 23,
+    "successfulSources": 22,
     "totalSources": 25,
-    "itemCount": 253,
+    "itemCount": 261,
     "eventCount": 24,
     "mode": "公开订阅 / API + 人工精读",
     "fullTextRepublished": false
@@ -60,7 +60,7 @@
       "scope": "AI 动态",
       "status": "ok",
       "count": 14,
-      "lastSuccessAt": "2026-11-01T08:05:09.381Z",
+      "lastSuccessAt": "2026-11-01T08:35:19.294Z",
       "error": null
     },
     {
@@ -72,7 +72,7 @@
       "scope": "AI 动态",
       "status": "ok",
       "count": 12,
-      "lastSuccessAt": "2026-11-01T08:05:09.381Z",
+      "lastSuccessAt": "2026-11-01T08:35:19.294Z",
       "error": null
     },
     {
@@ -84,7 +84,7 @@
       "scope": "AI 动态",
       "status": "ok",
       "count": 12,
-      "lastSuccessAt": "2026-11-01T08:05:09.381Z",
+      "lastSuccessAt": "2026-11-01T08:35:19.294Z",
       "error": null
     },
     {
@@ -96,7 +96,7 @@
       "scope": "视频分享",
       "status": "ok",
       "count": 10,
-      "lastSuccessAt": "2026-11-01T08:05:09.381Z",
+      "lastSuccessAt": "2026-11-01T08:35:19.294Z",
       "error": null
     },
     {
@@ -108,7 +108,7 @@
       "scope": "视频分享",
       "status": "ok",
       "count": 10,
-      "lastSuccessAt": "2026-11-01T08:05:09.381Z",
+      "lastSuccessAt": "2026-11-01T08:35:19.294Z",
       "error": null
     },
     {
@@ -120,7 +120,7 @@
       "scope": "视频分享",
       "status": "ok",
       "count": 10,
-      "lastSuccessAt": "2026-11-01T08:05:09.381Z",
+      "lastSuccessAt": "2026-11-01T08:35:19.294Z",
       "error": null
     },
     {
@@ -130,10 +130,10 @@
       "url": "https://github.com/topics/agent-skills",
       "type": "github",
       "scope": "Skills",
-      "status": "ok",
-      "count": 8,
+      "status": "error",
+      "count": 28,
       "lastSuccessAt": "2026-11-01T08:05:09.381Z",
-      "error": null
+      "error": "来源未返回有效条目，保留已有资料"
     },
     {
       "id": "github-workflows",
@@ -143,8 +143,8 @@
       "type": "github",
       "scope": "工作流",
       "status": "ok",
-      "count": 11,
-      "lastSuccessAt": "2026-11-01T08:05:09.381Z",
+      "count": 9,
+      "lastSuccessAt": "2026-11-01T08:35:19.294Z",
       "error": null
     },
     {
@@ -154,10 +154,10 @@
       "url": "https://github.com/topics/llm",
       "type": "github",
       "scope": "开源项目",
-      "status": "ok",
-      "count": 3,
+      "status": "error",
+      "count": 52,
       "lastSuccessAt": "2026-11-01T08:05:09.381Z",
-      "error": null
+      "error": "来源未返回有效条目，保留已有资料"
     },
     {
       "id": "hn-ai",
@@ -168,7 +168,7 @@
       "scope": "社区热议",
       "status": "ok",
       "count": 12,
-      "lastSuccessAt": "2026-11-01T08:05:09.381Z",
+      "lastSuccessAt": "2026-11-01T08:35:19.294Z",
       "error": null
     },
     {
@@ -194,7 +194,7 @@
       "scope": "音乐科技",
       "status": "ok",
       "count": 12,
-      "lastSuccessAt": "2026-11-01T08:05:09.381Z",
+      "lastSuccessAt": "2026-11-01T08:35:19.294Z",
       "error": null
     },
     {
@@ -204,10 +204,10 @@
       "url": "https://forums.steinberg.net/c/announcements/5.rss",
       "type": "rss",
       "scope": "音乐科技",
-      "status": "error",
-      "count": 0,
-      "lastSuccessAt": null,
-      "error": "fetch failed"
+      "status": "ok",
+      "count": 12,
+      "lastSuccessAt": "2026-11-01T08:35:19.294Z",
+      "error": null
     },
     {
       "id": "derivative-community",
@@ -218,7 +218,7 @@
       "scope": "音乐科技",
       "status": "ok",
       "count": 7,
-      "lastSuccessAt": "2026-11-01T08:05:09.381Z",
+      "lastSuccessAt": "2026-11-01T08:35:19.294Z",
       "error": null
     },
     {
@@ -230,7 +230,7 @@
       "scope": "音乐科技",
       "status": "ok",
       "count": 5,
-      "lastSuccessAt": "2026-11-01T08:05:09.381Z",
+      "lastSuccessAt": "2026-11-01T08:35:19.294Z",
       "error": null
     },
     {
@@ -242,7 +242,7 @@
       "scope": "音乐科技",
       "status": "ok",
       "count": 10,
-      "lastSuccessAt": "2026-11-01T08:05:09.381Z",
+      "lastSuccessAt": "2026-11-01T08:35:19.294Z",
       "error": null
     },
     {
@@ -254,7 +254,7 @@
       "scope": "音乐科技",
       "status": "ok",
       "count": 6,
-      "lastSuccessAt": "2026-11-01T08:05:09.381Z",
+      "lastSuccessAt": "2026-11-01T08:35:19.294Z",
       "error": null
     },
     {
@@ -265,8 +265,8 @@
       "type": "github",
       "scope": "音乐科技",
       "status": "ok",
-      "count": 8,
-      "lastSuccessAt": "2026-11-01T08:05:09.381Z",
+      "count": 6,
+      "lastSuccessAt": "2026-11-01T08:35:19.294Z",
       "error": null
     },
     {
@@ -278,7 +278,7 @@
       "scope": "音乐科技",
       "status": "ok",
       "count": 8,
-      "lastSuccessAt": "2026-11-01T08:05:09.381Z",
+      "lastSuccessAt": "2026-11-01T08:35:19.294Z",
       "error": null
     },
     {
@@ -291,7 +291,7 @@
       "region": "macau",
       "status": "ok",
       "count": 5,
-      "lastSuccessAt": "2026-11-01T08:05:09.381Z",
+      "lastSuccessAt": "2026-11-01T08:35:19.294Z",
       "error": null
     },
     {
@@ -304,7 +304,7 @@
       "region": "macau",
       "status": "ok",
       "count": 10,
-      "lastSuccessAt": "2026-11-01T08:05:09.381Z",
+      "lastSuccessAt": "2026-11-01T08:35:19.294Z",
       "error": null
     },
     {
@@ -317,7 +317,7 @@
       "region": "hongkong",
       "status": "ok",
       "count": 10,
-      "lastSuccessAt": "2026-11-01T08:05:09.381Z",
+      "lastSuccessAt": "2026-11-01T08:35:19.294Z",
       "error": null
     },
     {
@@ -330,7 +330,7 @@
       "region": "zhuhai",
       "status": "ok",
       "count": 8,
-      "lastSuccessAt": "2026-11-01T08:05:09.381Z",
+      "lastSuccessAt": "2026-11-01T08:35:19.294Z",
       "error": null
     },
     {
@@ -343,7 +343,7 @@
       "region": "macau",
       "status": "ok",
       "count": 5,
-      "lastSuccessAt": "2026-11-01T08:05:09.381Z",
+      "lastSuccessAt": "2026-11-01T08:35:19.294Z",
       "error": null
     },
     {
@@ -356,7 +356,7 @@
       "region": "macau",
       "status": "ok",
       "count": 19,
-      "lastSuccessAt": "2026-11-01T08:05:09.381Z",
+      "lastSuccessAt": "2026-11-01T08:35:19.294Z",
       "error": null
     },
     {
@@ -722,7 +722,7 @@
       "sourceId": "github-workflows",
       "sourceName": "GitHub · AI 工作流",
       "category": "工作流",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "topics": []
     },
@@ -747,7 +747,7 @@
       "sourceId": "github-workflows",
       "sourceName": "GitHub · AI 工作流",
       "category": "工作流",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "topics": [
         "写作与研究"
@@ -774,7 +774,7 @@
       "sourceId": "github-workflows",
       "sourceName": "GitHub · AI 工作流",
       "category": "工作流",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "topics": []
     },
@@ -1799,7 +1799,7 @@
       "sourceId": "github-spatial-audio",
       "sourceName": "GitHub · 空间音频",
       "category": "音乐科技",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "topics": [
         "空间音频"
@@ -1826,7 +1826,7 @@
       "sourceId": "github-audio-midi",
       "sourceName": "GitHub · 音频转 MIDI",
       "category": "音乐科技",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "topics": [
         "AI 音乐",
@@ -2496,7 +2496,7 @@
       "sourceId": "macau-news",
       "sourceName": "澳门特区政府 · 新闻",
       "category": "本地新闻",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [],
@@ -2623,7 +2623,7 @@
       "sourceId": "github-workflows",
       "sourceName": "GitHub · AI 工作流",
       "category": "工作流",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "topics": []
     },
@@ -2646,7 +2646,7 @@
       "dateLabel": "原帖",
       "cautions": "已读取公开原帖；收录不代表已完成其中各项安装与兼容性测试。",
       "browserReadOn": "2026-11-01",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "topics": []
     },
     {
@@ -2667,7 +2667,7 @@
       "dateLabel": "原帖",
       "cautions": "社区作者的项目介绍；原帖中的版本、数量和效果宣称未作为本索引的已验证结论。",
       "browserReadOn": "2026-11-01",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "topics": []
     },
     {
@@ -2689,7 +2689,7 @@
       "dateLabel": "原帖",
       "cautions": "已读取公开分享，尚未在本项目安装运行该工具。",
       "browserReadOn": "2026-11-01",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "topics": []
     },
     {
@@ -2711,7 +2711,7 @@
       "dateLabel": "原帖",
       "cautions": "社区索引不构成安装推荐；本次未逐一运行索引中的第三方 Skills。",
       "browserReadOn": "2026-11-01",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "topics": []
     },
     {
@@ -2725,7 +2725,7 @@
       "sourceId": "hongkong-news",
       "sourceName": "香港特区政府 · 新闻公报",
       "category": "本地新闻",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [],
@@ -2742,7 +2742,7 @@
       "sourceId": "hongkong-news",
       "sourceName": "香港特区政府 · 新闻公报",
       "category": "本地新闻",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [],
@@ -2759,7 +2759,7 @@
       "sourceId": "hongkong-news",
       "sourceName": "香港特区政府 · 新闻公报",
       "category": "本地新闻",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [],
@@ -2786,7 +2786,7 @@
       "sourceId": "github-workflows",
       "sourceName": "GitHub · AI 工作流",
       "category": "工作流",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "topics": []
     },
@@ -2811,7 +2811,7 @@
       "sourceId": "github-workflows",
       "sourceName": "GitHub · AI 工作流",
       "category": "工作流",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "topics": []
     },
@@ -2836,7 +2836,7 @@
       "sourceId": "github-spatial-audio",
       "sourceName": "GitHub · 空间音频",
       "category": "音乐科技",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "topics": [
         "空间音频"
@@ -2888,7 +2888,7 @@
       "sourceId": "github-workflows",
       "sourceName": "GitHub · AI 工作流",
       "category": "工作流",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "topics": []
     },
@@ -2913,7 +2913,7 @@
       "sourceId": "github-spatial-audio",
       "sourceName": "GitHub · 空间音频",
       "category": "音乐科技",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "topics": [
         "空间音频"
@@ -2967,7 +2967,7 @@
       "sourceId": "github-spatial-audio",
       "sourceName": "GitHub · 空间音频",
       "category": "音乐科技",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "topics": [
         "空间音频",
@@ -2995,7 +2995,7 @@
       "sourceId": "github-workflows",
       "sourceName": "GitHub · AI 工作流",
       "category": "工作流",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "topics": []
     },
@@ -3010,7 +3010,7 @@
       "sourceId": "zhuhai-news",
       "sourceName": "珠海市政府 · 珠海要闻",
       "category": "本地新闻",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "tags": [],
       "kind": "collected",
       "dateLabel": "原文",
@@ -3028,7 +3028,7 @@
       "sourceId": "zhuhai-news",
       "sourceName": "珠海市政府 · 珠海要闻",
       "category": "本地新闻",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "tags": [],
       "kind": "collected",
       "dateLabel": "原文",
@@ -3056,7 +3056,7 @@
       "sourceId": "github-workflows",
       "sourceName": "GitHub · AI 工作流",
       "category": "工作流",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "topics": []
     },
@@ -3081,7 +3081,7 @@
       "sourceId": "github-spatial-audio",
       "sourceName": "GitHub · 空间音频",
       "category": "音乐科技",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "topics": [
         "空间音频"
@@ -3098,7 +3098,7 @@
       "sourceId": "hongkong-news",
       "sourceName": "香港特区政府 · 新闻公报",
       "category": "本地新闻",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [],
@@ -3115,7 +3115,7 @@
       "sourceId": "macau-news",
       "sourceName": "澳门特区政府 · 新闻",
       "category": "本地新闻",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [],
@@ -3157,7 +3157,7 @@
       "sourceId": "macau-news",
       "sourceName": "澳门特区政府 · 新闻",
       "category": "本地新闻",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -3176,7 +3176,7 @@
       "sourceId": "macau-news",
       "sourceName": "澳门特区政府 · 新闻",
       "category": "本地新闻",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -3195,7 +3195,7 @@
       "sourceId": "macau-news",
       "sourceName": "澳门特区政府 · 新闻",
       "category": "本地新闻",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -3224,7 +3224,7 @@
       "sourceId": "github-spatial-audio",
       "sourceName": "GitHub · 空间音频",
       "category": "音乐科技",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "topics": [
         "空间音频"
@@ -3241,7 +3241,7 @@
       "sourceId": "hongkong-news",
       "sourceName": "香港特区政府 · 新闻公报",
       "category": "本地新闻",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [],
@@ -3258,7 +3258,7 @@
       "sourceId": "hongkong-news",
       "sourceName": "香港特区政府 · 新闻公报",
       "category": "本地新闻",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [],
@@ -3275,7 +3275,7 @@
       "sourceId": "hongkong-news",
       "sourceName": "香港特区政府 · 新闻公报",
       "category": "本地新闻",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [],
@@ -3292,7 +3292,7 @@
       "sourceId": "hongkong-news",
       "sourceName": "香港特区政府 · 新闻公报",
       "category": "本地新闻",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [],
@@ -3309,7 +3309,7 @@
       "sourceId": "hongkong-news",
       "sourceName": "香港特区政府 · 新闻公报",
       "category": "本地新闻",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [],
@@ -3329,7 +3329,7 @@
       "sourceId": "yt-openai",
       "sourceName": "OpenAI · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "topics": []
     },
@@ -3344,7 +3344,7 @@
       "sourceId": "huggingface",
       "sourceName": "Hugging Face",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -3363,7 +3363,7 @@
       "sourceId": "hn-ai",
       "sourceName": "Hacker News · AI 讨论",
       "category": "社区热议",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -3379,7 +3379,7 @@
       "sourceId": "zhuhai-news",
       "sourceName": "珠海市政府 · 珠海要闻",
       "category": "本地新闻",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "tags": [],
       "kind": "collected",
       "dateLabel": "原文",
@@ -3397,7 +3397,7 @@
       "sourceId": "zhuhai-news",
       "sourceName": "珠海市政府 · 珠海要闻",
       "category": "本地新闻",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "tags": [],
       "kind": "collected",
       "dateLabel": "原文",
@@ -3415,7 +3415,7 @@
       "sourceId": "zhuhai-news",
       "sourceName": "珠海市政府 · 珠海要闻",
       "category": "本地新闻",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "tags": [],
       "kind": "collected",
       "dateLabel": "原文",
@@ -3433,7 +3433,7 @@
       "sourceId": "zhuhai-news",
       "sourceName": "珠海市政府 · 珠海要闻",
       "category": "本地新闻",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "tags": [],
       "kind": "collected",
       "dateLabel": "原文",
@@ -3451,7 +3451,7 @@
       "sourceId": "zhuhai-news",
       "sourceName": "珠海市政府 · 珠海要闻",
       "category": "本地新闻",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "tags": [],
       "kind": "collected",
       "dateLabel": "原文",
@@ -3469,7 +3469,7 @@
       "sourceId": "zhuhai-news",
       "sourceName": "珠海市政府 · 珠海要闻",
       "category": "本地新闻",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "tags": [],
       "kind": "collected",
       "dateLabel": "原文",
@@ -3490,7 +3490,7 @@
       "sourceId": "hn-ai",
       "sourceName": "Hacker News · AI 讨论",
       "category": "社区热议",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -3509,7 +3509,7 @@
       "sourceId": "yt-openai",
       "sourceName": "OpenAI · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "topics": []
     },
@@ -3527,7 +3527,7 @@
       "sourceId": "yt-openai",
       "sourceName": "OpenAI · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "topics": []
     },
@@ -3542,7 +3542,7 @@
       "sourceId": "hongkong-news",
       "sourceName": "香港特区政府 · 新闻公报",
       "category": "本地新闻",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [],
@@ -3551,7 +3551,7 @@
     {
       "title": "Cisco gives engineer unlimited AI tokens to rewrite legacy code",
       "url": "https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/",
-      "summary": "Hacker News 社区讨论，收录时 305 点、380 条评论。摘要与观点请以原文为准。",
+      "summary": "Hacker News 社区讨论，收录时 305 点、381 条评论。摘要与观点请以原文为准。",
       "publishedAt": "2026-10-30T14:08:20.000Z",
       "tags": [
         "社区讨论"
@@ -3562,7 +3562,7 @@
       "sourceId": "hn-ai",
       "sourceName": "Hacker News · AI 讨论",
       "category": "社区热议",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -3580,7 +3580,7 @@
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -3598,7 +3598,7 @@
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -3616,7 +3616,7 @@
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -3635,7 +3635,7 @@
       "sourceId": "yt-openai",
       "sourceName": "OpenAI · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "topics": []
     },
@@ -3653,7 +3653,7 @@
       "sourceId": "hn-ai",
       "sourceName": "Hacker News · AI 讨论",
       "category": "社区热议",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -3671,7 +3671,7 @@
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -3690,7 +3690,7 @@
       "sourceId": "yt-openai",
       "sourceName": "OpenAI · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "topics": []
     },
@@ -3705,7 +3705,7 @@
       "sourceId": "macau-culture",
       "sourceName": "澳门文化局 · 新闻",
       "category": "本地新闻",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "tags": [],
       "kind": "collected",
       "dateLabel": "原文",
@@ -3723,7 +3723,7 @@
       "sourceId": "huggingface",
       "sourceName": "Hugging Face",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -3741,7 +3741,7 @@
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -3757,7 +3757,7 @@
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -3775,7 +3775,7 @@
       "sourceId": "derivative-community",
       "sourceName": "TouchDesigner · 官方社区讨论",
       "category": "音乐科技",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "社区发帖",
       "topics": [
@@ -3797,7 +3797,7 @@
       "sourceId": "derivative-community",
       "sourceName": "TouchDesigner · 官方社区讨论",
       "category": "音乐科技",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "社区发帖",
       "topics": [
@@ -3816,7 +3816,7 @@
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -3832,7 +3832,7 @@
       "sourceId": "huggingface",
       "sourceName": "Hugging Face",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -3848,7 +3848,7 @@
       "sourceId": "huggingface",
       "sourceName": "Hugging Face",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -3864,7 +3864,7 @@
       "sourceId": "huggingface",
       "sourceName": "Hugging Face",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -3883,7 +3883,7 @@
       "sourceId": "yt-openai",
       "sourceName": "OpenAI · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "topics": []
     },
@@ -3906,7 +3906,7 @@
       "sourceId": "github-music-research",
       "sourceName": "GitHub · 音乐信息检索",
       "category": "音乐科技",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "topics": [
         "AI 音乐",
@@ -3924,7 +3924,7 @@
       "sourceId": "macau-culture",
       "sourceName": "澳门文化局 · 新闻",
       "category": "本地新闻",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "tags": [],
       "kind": "collected",
       "dateLabel": "原文",
@@ -3942,7 +3942,7 @@
       "sourceId": "macau-culture",
       "sourceName": "澳门文化局 · 新闻",
       "category": "本地新闻",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "tags": [],
       "kind": "collected",
       "dateLabel": "原文",
@@ -3960,7 +3960,7 @@
       "sourceId": "macau-culture",
       "sourceName": "澳门文化局 · 新闻",
       "category": "本地新闻",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "tags": [],
       "kind": "collected",
       "dateLabel": "原文",
@@ -3978,7 +3978,7 @@
       "sourceId": "macau-culture",
       "sourceName": "澳门文化局 · 新闻",
       "category": "本地新闻",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "tags": [],
       "kind": "collected",
       "dateLabel": "原文",
@@ -3996,7 +3996,7 @@
       "sourceId": "macau-culture",
       "sourceName": "澳门文化局 · 新闻",
       "category": "本地新闻",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "tags": [],
       "kind": "collected",
       "dateLabel": "原文",
@@ -4014,7 +4014,7 @@
       "sourceId": "macau-culture",
       "sourceName": "澳门文化局 · 新闻",
       "category": "本地新闻",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "tags": [],
       "kind": "collected",
       "dateLabel": "原文",
@@ -4032,7 +4032,7 @@
       "sourceId": "macau-culture",
       "sourceName": "澳门文化局 · 新闻",
       "category": "本地新闻",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "tags": [],
       "kind": "collected",
       "dateLabel": "原文",
@@ -4058,7 +4058,7 @@
       "sourceId": "github-music-research",
       "sourceName": "GitHub · 音乐信息检索",
       "category": "音乐科技",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "topics": [
         "AI 音乐",
@@ -4079,10 +4079,30 @@
       "sourceId": "hn-ai",
       "sourceName": "Hacker News · AI 讨论",
       "category": "社区热议",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
+    },
+    {
+      "title": "Nuendo 15.0.40 Maintenance Update",
+      "url": "https://forums.steinberg.net/t/nuendo-15-0-40-maintenance-update/1044510",
+      "summary": "Dear all, We are happy to announce the availability of the Nuendo 15.0.40 maintenance update. This update resolves several issues across the entire application while also introducing diverse improvements. A list with all issue resolutions can be found in the N",
+      "publishedAt": "2026-10-28T13:17:29.000Z",
+      "tags": [
+        "Announcements"
+      ],
+      "id": "87cbeb7a1ed6c555a92f",
+      "platform": "官方公告",
+      "sourceId": "steinberg-updates",
+      "sourceName": "Steinberg · 官方公告",
+      "category": "音乐科技",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
+      "kind": "collected",
+      "dateLabel": "原文",
+      "topics": [
+        "音乐制作"
+      ]
     },
     {
       "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
@@ -4097,10 +4117,30 @@
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
+    },
+    {
+      "title": "Cubase 15.0.40 Maintenance Update",
+      "url": "https://forums.steinberg.net/t/cubase-15-0-40-maintenance-update/1044504",
+      "summary": "October 28, 2026 – The Cubase 15.0.40 maintenance update is now available. The update introduces many fixes and enhancements in several areas of the application. Release Notes You can find all information on Cubase 15.0.40 in the release notes . 1 post - 1 par",
+      "publishedAt": "2026-10-28T12:47:46.000Z",
+      "tags": [
+        "Announcements"
+      ],
+      "id": "e52e1ebf5202d5c37f8f",
+      "platform": "官方公告",
+      "sourceId": "steinberg-updates",
+      "sourceName": "Steinberg · 官方公告",
+      "category": "音乐科技",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
+      "kind": "collected",
+      "dateLabel": "原文",
+      "topics": [
+        "音乐制作"
+      ]
     },
     {
       "title": "Pausing between lines in CHOP Execute DAT",
@@ -4115,7 +4155,7 @@
       "sourceId": "derivative-community",
       "sourceName": "TouchDesigner · 官方社区讨论",
       "category": "音乐科技",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "社区发帖",
       "topics": [
@@ -4137,7 +4177,7 @@
       "sourceId": "yt-openai",
       "sourceName": "OpenAI · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "topics": []
     },
@@ -4155,7 +4195,7 @@
       "sourceId": "yt-openai",
       "sourceName": "OpenAI · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "topics": []
     },
@@ -4172,7 +4212,7 @@
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -4191,7 +4231,7 @@
       "sourceId": "yt-openai",
       "sourceName": "OpenAI · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "topics": []
     },
@@ -4209,7 +4249,7 @@
       "sourceId": "yt-openai",
       "sourceName": "OpenAI · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "topics": []
     },
@@ -4224,7 +4264,7 @@
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -4243,7 +4283,7 @@
       "sourceId": "hn-ai",
       "sourceName": "Hacker News · AI 讨论",
       "category": "社区热议",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -4259,7 +4299,7 @@
       "sourceId": "huggingface",
       "sourceName": "Hugging Face",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -4278,7 +4318,7 @@
       "sourceId": "hn-ai",
       "sourceName": "Hacker News · AI 讨论",
       "category": "社区热议",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -4297,7 +4337,7 @@
       "sourceId": "hn-ai",
       "sourceName": "Hacker News · AI 讨论",
       "category": "社区热议",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -4313,7 +4353,7 @@
       "sourceId": "huggingface",
       "sourceName": "Hugging Face",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -4334,7 +4374,7 @@
       "sourceId": "yt-deepmind",
       "sourceName": "Google DeepMind · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "topics": [
         "实时交互",
@@ -4352,7 +4392,7 @@
       "sourceId": "macau-culture",
       "sourceName": "澳门文化局 · 新闻",
       "category": "本地新闻",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "tags": [],
       "kind": "collected",
       "dateLabel": "原文",
@@ -4370,7 +4410,7 @@
       "sourceId": "macau-culture",
       "sourceName": "澳门文化局 · 新闻",
       "category": "本地新闻",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "tags": [],
       "kind": "collected",
       "dateLabel": "原文",
@@ -4388,10 +4428,30 @@
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
+    },
+    {
+      "title": "Steinberg Download Pages to Remain Offline - UPDATE [EN/DE]",
+      "url": "https://forums.steinberg.net/t/steinberg-download-pages-to-remain-offline-update-en-de/1044445",
+      "summary": "[Update - 30 October 2026] We have been able to create a temporary download page to provide both software and hardware downloads again. As this is a temporary solution until we have our new download pages available, the content is available in English only. Us",
+      "publishedAt": "2026-10-27T12:36:35.000Z",
+      "tags": [
+        "Announcements"
+      ],
+      "id": "ac56e392b14a171e2f5a",
+      "platform": "官方公告",
+      "sourceId": "steinberg-updates",
+      "sourceName": "Steinberg · 官方公告",
+      "category": "音乐科技",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
+      "kind": "collected",
+      "dateLabel": "原文",
+      "topics": [
+        "音乐制作"
+      ]
     },
     {
       "title": "AudioPlayCHOP - 7.1?",
@@ -4406,7 +4466,7 @@
       "sourceId": "derivative-community",
       "sourceName": "TouchDesigner · 官方社区讨论",
       "category": "音乐科技",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "社区发帖",
       "topics": [
@@ -4428,7 +4488,7 @@
       "sourceId": "hn-ai",
       "sourceName": "Hacker News · AI 讨论",
       "category": "社区热议",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -4447,7 +4507,7 @@
       "sourceId": "hn-ai",
       "sourceName": "Hacker News · AI 讨论",
       "category": "社区热议",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -4473,7 +4533,7 @@
       "sourceId": "github-music-research",
       "sourceName": "GitHub · 音乐信息检索",
       "category": "音乐科技",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "topics": [
         "AI 音乐",
@@ -4493,7 +4553,7 @@
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -4512,7 +4572,7 @@
       "sourceId": "hn-ai",
       "sourceName": "Hacker News · AI 讨论",
       "category": "社区热议",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -4530,7 +4590,7 @@
       "sourceId": "derivative-community",
       "sourceName": "TouchDesigner · 官方社区讨论",
       "category": "音乐科技",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "社区发帖",
       "topics": [
@@ -4552,7 +4612,7 @@
       "sourceId": "derivative-community",
       "sourceName": "TouchDesigner · 官方社区讨论",
       "category": "音乐科技",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "社区发帖",
       "topics": [
@@ -4571,7 +4631,7 @@
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -4599,7 +4659,7 @@
       "sourceId": "github-music-research",
       "sourceName": "GitHub · 音乐信息检索",
       "category": "音乐科技",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "topics": [
         "AI 音乐",
@@ -4620,7 +4680,7 @@
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -4639,7 +4699,7 @@
       "sourceId": "hn-ai",
       "sourceName": "Hacker News · AI 讨论",
       "category": "社区热议",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -4659,7 +4719,7 @@
       "sourceId": "google-ai",
       "sourceName": "Google AI",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -4687,7 +4747,7 @@
       "sourceId": "github-music-research",
       "sourceName": "GitHub · 音乐信息检索",
       "category": "音乐科技",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "topics": [
         "AI 音乐",
@@ -4716,7 +4776,7 @@
       "sourceId": "github-music-research",
       "sourceName": "GitHub · 音乐信息检索",
       "category": "音乐科技",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "topics": [
         "AI 音乐",
@@ -4745,7 +4805,7 @@
       "sourceId": "github-audio-midi",
       "sourceName": "GitHub · 音频转 MIDI",
       "category": "音乐科技",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "topics": [
         "AI 音乐",
@@ -4763,7 +4823,7 @@
       "sourceId": "huggingface",
       "sourceName": "Hugging Face",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -4779,7 +4839,7 @@
       "sourceId": "huggingface",
       "sourceName": "Hugging Face",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -4804,7 +4864,7 @@
       "sourceId": "github-music-research",
       "sourceName": "GitHub · 音乐信息检索",
       "category": "音乐科技",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "topics": [
         "AI 音乐",
@@ -4832,7 +4892,7 @@
       "sourceId": "github-music-research",
       "sourceName": "GitHub · 音乐信息检索",
       "category": "音乐科技",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "topics": [
         "AI 音乐",
@@ -4852,7 +4912,7 @@
       "sourceId": "derivative-community",
       "sourceName": "TouchDesigner · 官方社区讨论",
       "category": "音乐科技",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "社区发帖",
       "topics": [
@@ -4875,7 +4935,7 @@
       "sourceId": "ableton-blog",
       "sourceName": "Ableton · 创作与技术",
       "category": "音乐科技",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -4893,7 +4953,7 @@
       "sourceId": "huggingface",
       "sourceName": "Hugging Face",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -4909,7 +4969,7 @@
       "sourceId": "huggingface",
       "sourceName": "Hugging Face",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -4925,7 +4985,7 @@
       "sourceId": "huggingface",
       "sourceName": "Hugging Face",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -4954,7 +5014,7 @@
         "编辑方法",
         "事实核验"
       ],
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "sourceId": "editorial-writing",
       "sourceName": "写作资料 · 原文精读",
       "topics": [
@@ -4975,7 +5035,7 @@
       "sourceId": "google-ai",
       "sourceName": "Google AI",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -4994,7 +5054,7 @@
       "sourceId": "ableton-link",
       "sourceName": "Ableton Link · 正式发行",
       "category": "音乐科技",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "topics": [
         "实时交互",
@@ -5015,7 +5075,7 @@
       "sourceId": "github-audio-ai",
       "sourceName": "IRCAM ACIDS · 音频研究开源",
       "category": "音乐科技",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "topics": [
         "AI 音乐",
@@ -5036,7 +5096,7 @@
       "sourceId": "ableton-blog",
       "sourceName": "Ableton · 创作与技术",
       "category": "音乐科技",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -5058,7 +5118,7 @@
       "sourceId": "yt-deepmind",
       "sourceName": "Google DeepMind · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "topics": [
         "写作与研究"
@@ -5078,7 +5138,7 @@
       "sourceId": "yt-deepmind",
       "sourceName": "Google DeepMind · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "topics": [
         "写作与研究"
@@ -5098,7 +5158,7 @@
       "sourceId": "google-ai",
       "sourceName": "Google AI",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -5117,7 +5177,7 @@
       "sourceId": "yt-deepmind",
       "sourceName": "Google DeepMind · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "topics": [
         "写作与研究"
@@ -5137,7 +5197,7 @@
       "sourceId": "yt-deepmind",
       "sourceName": "Google DeepMind · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "topics": [
         "写作与研究"
@@ -5158,7 +5218,7 @@
       "sourceId": "ableton-blog",
       "sourceName": "Ableton · 创作与技术",
       "category": "音乐科技",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -5178,7 +5238,7 @@
       "sourceId": "google-ai",
       "sourceName": "Google AI",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -5201,7 +5261,7 @@
       "sourceId": "google-ai",
       "sourceName": "Google AI",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -5222,7 +5282,7 @@
       "sourceId": "yt-deepmind",
       "sourceName": "Google DeepMind · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "topics": [
         "写作与研究"
@@ -5242,7 +5302,7 @@
       "sourceId": "ableton-blog",
       "sourceName": "Ableton · 创作与技术",
       "category": "音乐科技",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -5262,7 +5322,7 @@
       "sourceId": "google-ai",
       "sourceName": "Google AI",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -5281,7 +5341,7 @@
       "sourceId": "ableton-blog",
       "sourceName": "Ableton · 创作与技术",
       "category": "音乐科技",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -5302,7 +5362,7 @@
       "sourceId": "ableton-blog",
       "sourceName": "Ableton · 创作与技术",
       "category": "音乐科技",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -5332,7 +5392,7 @@
         "编辑方法",
         "事实核验"
       ],
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "sourceId": "editorial-writing",
       "sourceName": "写作资料 · 原文精读",
       "topics": [
@@ -5353,7 +5413,7 @@
       "sourceId": "yt-anthropic",
       "sourceName": "Anthropic · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "topics": [
         "写作与研究"
@@ -5374,7 +5434,7 @@
       "sourceId": "google-ai",
       "sourceName": "Google AI",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -5395,7 +5455,7 @@
       "sourceId": "yt-deepmind",
       "sourceName": "Google DeepMind · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "topics": [
         "写作与研究"
@@ -5415,7 +5475,7 @@
       "sourceId": "ableton-link",
       "sourceName": "Ableton Link · 正式发行",
       "category": "音乐科技",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "topics": [
         "实时交互",
@@ -5445,7 +5505,7 @@
         "编辑方法",
         "事实核验"
       ],
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "sourceId": "editorial-writing",
       "sourceName": "写作资料 · 原文精读",
       "topics": [
@@ -5465,7 +5525,7 @@
       "sourceId": "google-ai",
       "sourceName": "Google AI",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -5483,7 +5543,7 @@
       "sourceId": "google-ai",
       "sourceName": "Google AI",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -5501,7 +5561,7 @@
       "sourceId": "google-ai",
       "sourceName": "Google AI",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -5519,7 +5579,7 @@
       "sourceId": "google-ai",
       "sourceName": "Google AI",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -5538,11 +5598,31 @@
       "sourceId": "google-ai",
       "sourceName": "Google AI",
       "category": "AI 动态",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
         "写作与研究"
+      ]
+    },
+    {
+      "title": "VST Live 3.0.60 Is Available Now",
+      "url": "https://forums.steinberg.net/t/vst-live-3-0-60-is-available-now/1040969",
+      "summary": "Hi everyone, We’re happy to announce that VST Live 3.0.60 is now available! This maintenance update brings further stability improvements, workflow refinements, important bug fixes, and several new features across many areas of VST Live. You can download VST L",
+      "publishedAt": "2026-09-10T11:29:53.000Z",
+      "tags": [
+        "Announcements"
+      ],
+      "id": "1bae7c5eeb14eb5ccd77",
+      "platform": "官方公告",
+      "sourceId": "steinberg-updates",
+      "sourceName": "Steinberg · 官方公告",
+      "category": "音乐科技",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
+      "kind": "collected",
+      "dateLabel": "原文",
+      "topics": [
+        "音乐制作"
       ]
     },
     {
@@ -5559,7 +5639,7 @@
       "sourceId": "ableton-blog",
       "sourceName": "Ableton · 创作与技术",
       "category": "音乐科技",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -5580,7 +5660,7 @@
       "sourceId": "yt-deepmind",
       "sourceName": "Google DeepMind · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "topics": [
         "写作与研究"
@@ -5602,7 +5682,7 @@
       "sourceId": "ableton-blog",
       "sourceName": "Ableton · 创作与技术",
       "category": "音乐科技",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -5623,7 +5703,7 @@
       "sourceId": "yt-deepmind",
       "sourceName": "Google DeepMind · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "topics": []
     },
@@ -5641,9 +5721,29 @@
       "sourceId": "yt-deepmind",
       "sourceName": "Google DeepMind · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "topics": []
+    },
+    {
+      "title": "Cubasis 3.8.6 for iOS and Android is available now",
+      "url": "https://forums.steinberg.net/t/cubasis-3-8-6-for-ios-and-android-is-available-now/1040567",
+      "summary": "Hi all, We are pleased to announce the immediate availability of Cubasis 3.8.6 for iOS and Android. Download Cubasis on the App Store Get Cubasis on Google Play This maintenance update delivers numerous stability, usability, and performance improvements, addre",
+      "publishedAt": "2026-09-04T05:16:13.000Z",
+      "tags": [
+        "Announcements"
+      ],
+      "id": "1b31457f260e36f344bd",
+      "platform": "官方公告",
+      "sourceId": "steinberg-updates",
+      "sourceName": "Steinberg · 官方公告",
+      "category": "音乐科技",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
+      "kind": "collected",
+      "dateLabel": "原文",
+      "topics": [
+        "音乐制作"
+      ]
     },
     {
       "title": "A Step-by-Step Guide for Creating Rhythmic Pads",
@@ -5659,7 +5759,7 @@
       "sourceId": "ableton-blog",
       "sourceName": "Ableton · 创作与技术",
       "category": "音乐科技",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -5680,7 +5780,7 @@
       "sourceId": "ableton-blog",
       "sourceName": "Ableton · 创作与技术",
       "category": "音乐科技",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -5701,7 +5801,7 @@
       "sourceId": "yt-anthropic",
       "sourceName": "Anthropic · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "topics": [
         "写作与研究"
@@ -5721,7 +5821,7 @@
       "sourceId": "yt-anthropic",
       "sourceName": "Anthropic · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "topics": [
         "写作与研究"
@@ -5741,7 +5841,7 @@
       "sourceId": "ableton-blog",
       "sourceName": "Ableton · 创作与技术",
       "category": "音乐科技",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -5762,7 +5862,7 @@
       "sourceId": "yt-anthropic",
       "sourceName": "Anthropic · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "topics": [
         "写作与研究"
@@ -5782,7 +5882,7 @@
       "sourceId": "yt-anthropic",
       "sourceName": "Anthropic · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "topics": [
         "写作与研究"
@@ -5802,7 +5902,7 @@
       "sourceId": "yt-anthropic",
       "sourceName": "Anthropic · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "topics": [
         "写作与研究"
@@ -5822,7 +5922,27 @@
       "sourceId": "ableton-blog",
       "sourceName": "Ableton · 创作与技术",
       "category": "音乐科技",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
+      "kind": "collected",
+      "dateLabel": "原文",
+      "topics": [
+        "音乐制作"
+      ]
+    },
+    {
+      "title": "Upcoming: Optional Diagnostic and Usage Data Collection",
+      "url": "https://forums.steinberg.net/t/upcoming-optional-diagnostic-and-usage-data-collection/1038846",
+      "summary": "We’ve published an overview of the upcoming introduction of optional diagnostic and usage data collection in selected Steinberg products. The overview explains: Why we’re introducing diagnostic and usage data collection What information may be collected What i",
+      "publishedAt": "2026-08-11T09:41:02.000Z",
+      "tags": [
+        "Announcements"
+      ],
+      "id": "4f9e7e9d91aa785ccaab",
+      "platform": "官方公告",
+      "sourceId": "steinberg-updates",
+      "sourceName": "Steinberg · 官方公告",
+      "category": "音乐科技",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -5843,9 +5963,49 @@
       "sourceId": "yt-anthropic",
       "sourceName": "Anthropic · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "kind": "collected",
       "topics": []
+    },
+    {
+      "title": "HALion Sonic Play for iPhone, iPad and AUv3 is Available Now",
+      "url": "https://forums.steinberg.net/t/halion-sonic-play-for-iphone-ipad-and-auv3-is-available-now/1038321",
+      "summary": "Hi all, We are pleased to announce the release of HALion Sonic Play for iPhone, iPad, and AUv3-compatible hosts. HALion Sonic Play is our new music workstation app, featuring more than 2,000 sounds covering a wide range of musical genres, along with an arpeggi",
+      "publishedAt": "2026-08-04T05:58:51.000Z",
+      "tags": [
+        "Announcements"
+      ],
+      "id": "e971061f1fb5631c63a1",
+      "platform": "官方公告",
+      "sourceId": "steinberg-updates",
+      "sourceName": "Steinberg · 官方公告",
+      "category": "音乐科技",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
+      "kind": "collected",
+      "dateLabel": "原文",
+      "topics": [
+        "音乐制作"
+      ]
+    },
+    {
+      "title": "Verve 1.1, Etude 1.1 and Iconica Sketch 1.2 Updates Available for iOS and Android",
+      "url": "https://forums.steinberg.net/t/verve-1-1-etude-1-1-and-iconica-sketch-1-2-updates-available-for-ios-and-android/1038319",
+      "summary": "Hi all, We are pleased to announce the immediate availability of the free Verve 1.1, Etude 1.1, and Iconica Sketch 1.2 updates for iPhone, iPad, and AUv3-compatible hosts. These updates add user preset management with AUv3 compatibility, an enhanced preset bro",
+      "publishedAt": "2026-08-04T05:55:54.000Z",
+      "tags": [
+        "Announcements"
+      ],
+      "id": "a5b4300f0e575c407b32",
+      "platform": "官方公告",
+      "sourceId": "steinberg-updates",
+      "sourceName": "Steinberg · 官方公告",
+      "category": "音乐科技",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
+      "kind": "collected",
+      "dateLabel": "原文",
+      "topics": [
+        "音乐制作"
+      ]
     },
     {
       "id": "4a101e8309cb4bd32d9c",
@@ -5870,7 +6030,7 @@
         "编辑方法",
         "事实核验"
       ],
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "sourceId": "editorial-writing",
       "sourceName": "写作资料 · 原文精读",
       "topics": [
@@ -5900,7 +6060,7 @@
         "编辑方法",
         "事实核验"
       ],
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "sourceId": "editorial-writing",
       "sourceName": "写作资料 · 原文精读",
       "topics": [
@@ -5931,7 +6091,7 @@
         "编辑方法",
         "事实核验"
       ],
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "sourceId": "editorial-writing",
       "sourceName": "写作资料 · 原文精读",
       "topics": [
@@ -5952,7 +6112,7 @@
       "summary": "[2024年11月28日至2026年11月8日 ] 前言 紫禁城建成於明永樂十八年（1420），至今已有600多年的歷史。作為明清兩代的皇宮，共有24位皇帝在此生活居住。宮殿建築歷來是中國古代營造的重點所在，紫禁城更是宮殿建築發展的集大成者。紫禁城宮殿作為中國古代宮殿建築的典範，具有深厚的建築歷史文化積澱，體現出宮殿建築技術與藝術的完美結合的最高境界。 此次建築展覽共分為木作意匠、玻璃異彩、彩畫錦繡、琉光溢彩、金窗繡戶五個部分，集中展示了紫禁城建築的木作、玻璃、彩畫、琉璃和內簷裝修。無論是技藝，還是用料，這些展品都",
       "publishedAt": "2026-10-26T07:32:57.000Z",
       "dateLabel": "来源更新",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "sourceId": "macau-events",
       "sourceName": "澳门文化局 · 活动日历",
       "region": "macau",
@@ -5973,7 +6133,7 @@
       "summary": "[2026年4月27日至12月27日 ]",
       "publishedAt": "2026-10-13T01:26:48.000Z",
       "dateLabel": "来源更新",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "sourceId": "macau-events",
       "sourceName": "澳门文化局 · 活动日历",
       "region": "macau",
@@ -5992,7 +6152,7 @@
       "summary": "[2026年8月22日至11月2日 ]",
       "publishedAt": "2026-08-07T06:45:18.000Z",
       "dateLabel": "来源更新",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "sourceId": "macau-events",
       "sourceName": "澳门文化局 · 活动日历",
       "region": "macau",
@@ -6011,7 +6171,7 @@
       "summary": "[2026年10月20日至2027年12月31日 ]",
       "publishedAt": "2026-10-23T07:39:43.000Z",
       "dateLabel": "来源更新",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "sourceId": "macau-events",
       "sourceName": "澳门文化局 · 活动日历",
       "region": "macau",
@@ -6030,7 +6190,7 @@
       "summary": "",
       "publishedAt": "2026-10-27T16:00:00.000Z",
       "dateLabel": "来源更新",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "sourceId": "macau-hush-2026",
       "sourceName": "澳门文化局 · hush! 2026",
       "region": "macau",
@@ -6049,7 +6209,7 @@
       "summary": "",
       "publishedAt": "2026-10-27T16:00:00.000Z",
       "dateLabel": "来源更新",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "sourceId": "macau-hush-2026",
       "sourceName": "澳门文化局 · hush! 2026",
       "region": "macau",
@@ -6068,7 +6228,7 @@
       "summary": "",
       "publishedAt": "2026-10-27T16:00:00.000Z",
       "dateLabel": "来源更新",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "sourceId": "macau-hush-2026",
       "sourceName": "澳门文化局 · hush! 2026",
       "region": "macau",
@@ -6087,7 +6247,7 @@
       "summary": "",
       "publishedAt": "2026-10-27T16:00:00.000Z",
       "dateLabel": "来源更新",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "sourceId": "macau-hush-2026",
       "sourceName": "澳门文化局 · hush! 2026",
       "region": "macau",
@@ -6106,7 +6266,7 @@
       "summary": "",
       "publishedAt": "2026-10-27T16:00:00.000Z",
       "dateLabel": "来源更新",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "sourceId": "macau-hush-2026",
       "sourceName": "澳门文化局 · hush! 2026",
       "region": "macau",
@@ -6125,7 +6285,7 @@
       "summary": "",
       "publishedAt": "2026-10-27T16:00:00.000Z",
       "dateLabel": "来源更新",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "sourceId": "macau-hush-2026",
       "sourceName": "澳门文化局 · hush! 2026",
       "region": "macau",
@@ -6144,7 +6304,7 @@
       "summary": "",
       "publishedAt": "2026-10-27T16:00:00.000Z",
       "dateLabel": "来源更新",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "sourceId": "macau-hush-2026",
       "sourceName": "澳门文化局 · hush! 2026",
       "region": "macau",
@@ -6163,7 +6323,7 @@
       "summary": "",
       "publishedAt": "2026-10-27T16:00:00.000Z",
       "dateLabel": "来源更新",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "sourceId": "macau-hush-2026",
       "sourceName": "澳门文化局 · hush! 2026",
       "region": "macau",
@@ -6182,7 +6342,7 @@
       "summary": "",
       "publishedAt": "2026-10-27T16:00:00.000Z",
       "dateLabel": "来源更新",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "sourceId": "macau-hush-2026",
       "sourceName": "澳门文化局 · hush! 2026",
       "region": "macau",
@@ -6201,7 +6361,7 @@
       "summary": "",
       "publishedAt": "2026-10-27T16:00:00.000Z",
       "dateLabel": "来源更新",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "sourceId": "macau-hush-2026",
       "sourceName": "澳门文化局 · hush! 2026",
       "region": "macau",
@@ -6220,7 +6380,7 @@
       "summary": "",
       "publishedAt": "2026-10-27T16:00:00.000Z",
       "dateLabel": "来源更新",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "sourceId": "macau-hush-2026",
       "sourceName": "澳门文化局 · hush! 2026",
       "region": "macau",
@@ -6241,7 +6401,7 @@
       "summary": "",
       "publishedAt": "2026-10-27T16:00:00.000Z",
       "dateLabel": "来源更新",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "sourceId": "macau-hush-2026",
       "sourceName": "澳门文化局 · hush! 2026",
       "region": "macau",
@@ -6260,7 +6420,7 @@
       "summary": "",
       "publishedAt": "2026-10-27T16:00:00.000Z",
       "dateLabel": "来源更新",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "sourceId": "macau-hush-2026",
       "sourceName": "澳门文化局 · hush! 2026",
       "region": "macau",
@@ -6279,7 +6439,7 @@
       "summary": "",
       "publishedAt": "2026-10-27T16:00:00.000Z",
       "dateLabel": "来源更新",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "sourceId": "macau-hush-2026",
       "sourceName": "澳门文化局 · hush! 2026",
       "region": "macau",
@@ -6298,7 +6458,7 @@
       "summary": "",
       "publishedAt": "2026-10-27T16:00:00.000Z",
       "dateLabel": "来源更新",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "sourceId": "macau-hush-2026",
       "sourceName": "澳门文化局 · hush! 2026",
       "region": "macau",
@@ -6317,7 +6477,7 @@
       "summary": "",
       "publishedAt": "2026-10-27T16:00:00.000Z",
       "dateLabel": "来源更新",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "sourceId": "macau-hush-2026",
       "sourceName": "澳门文化局 · hush! 2026",
       "region": "macau",
@@ -6336,7 +6496,7 @@
       "summary": "[2026年11月14日至22日 ] 澳門城市文化節將於11月14日至22日，在澳門格蘭披治大賽車期間限定登場，通過新穎的文化互動及體驗，傳播澳門的“中國第一”寶貴的文化資源。透過世界遺產、非物質文化遺產，展現中西文明交匯的特色，讓大眾感受澳門文化的深度與絢麗。 澳門綜藝館化為“澳門時光廣場”，以“城韻流轉，中西共生”為題，特設澳門與中西文明主題展覽、文化體驗、非遺展演及文創攤位。此外，活動亦延伸至大賽車附近不同場地，更開放多個世遺景點，設“澳門歷史城區 OPEN DAY”，包括何東圖書館、鄭家大屋、議事亭藏書樓、",
       "publishedAt": "2026-10-21T08:38:39.000Z",
       "dateLabel": "来源更新",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "sourceId": "macau-events",
       "sourceName": "澳门文化局 · 活动日历",
       "region": "macau",
@@ -6355,7 +6515,7 @@
       "summary": "",
       "publishedAt": "2026-10-27T16:00:00.000Z",
       "dateLabel": "来源更新",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "sourceId": "macau-hush-2026",
       "sourceName": "澳门文化局 · hush! 2026",
       "region": "macau",
@@ -6374,7 +6534,7 @@
       "summary": "",
       "publishedAt": "2026-10-27T16:00:00.000Z",
       "dateLabel": "来源更新",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "sourceId": "macau-hush-2026",
       "sourceName": "澳门文化局 · hush! 2026",
       "region": "macau",
@@ -6393,7 +6553,7 @@
       "summary": "",
       "publishedAt": "2026-10-27T16:00:00.000Z",
       "dateLabel": "来源更新",
-      "collectedAt": "2026-11-01T08:05:09.381Z",
+      "collectedAt": "2026-11-01T08:35:19.294Z",
       "sourceId": "macau-hush-2026",
       "sourceName": "澳门文化局 · hush! 2026",
       "region": "macau",
