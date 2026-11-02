@@ -1,133 +1,77 @@
 # 新知录
 
-在线阅读：[skills-observatory.ancient-art-9bbf.workers.dev](https://skills-observatory.ancient-art-9bbf.workers.dev) · [GitHub 仓库](https://github.com/Sco-QianC01/skills-observatory)
+中文阅读博客，关注音乐科技、AI、开源工作流、版权政策、财经消息与港珠澳活动。保留原始标题、出处和日期；短摘帮助决定是否打开原文，不代表全文精读。
 
-面向中文读者的 AI、Skills、音乐科技、区域文化资讯与写作方法资料索引。自动采集公开订阅和 API 元数据，结合人工阅读整理的写作资料，保留原始标题、出处、日期含义与来源状态。页面支持全字段搜索、分类与平台筛选、日期排序，以及写作步骤和许可限制的展开阅读。
+站点：<https://skills-observatory.ancient-art-9bbf.workers.dev>。仓库：<https://github.com/Sco-QianC01/skills-observatory>。本轮博客版已通过本地测试与浏览器验收，推送和正式部署仍在进行，见 [任务记录](task_observatory.md)。
 
-自动短摘用于判断是否值得打开原文，不代表全文精读结论。采集时间、原文发布日期、仓库更新时间和技能文件更新时间分别标注，不相互替代。
+## 阅读与检索
 
-## 阅读界面
+桌面采用文章主栏和侧栏，提供“选读、全部文章、稍后读”三个视图；侧栏展示阅读兴趣、政策消息与周边活动。手机改为单列。版式与交互约定见 [DESIGN.md](DESIGN.md)。
 
-2026-11-01 重设计以查找和阅读资料为主：桌面采用左侧目录、中央连续列表、右侧活动栏；手机默认收起分类，保留直接可见的搜索和文章。移除了大幅宣传标题、装饰性编号与重复标签，采用冷白背景、系统中文字体和细分隔线。清除筛选可以在列表有结果时使用，分类目录支持键盘操作和屏幕宽度切换。
+搜索覆盖已收录标题、摘要、来源、主题、作者等元数据，不搜索原站全文。空格连接多个条件取AND，支持双引号短语、`-排除词`、`source:WIPO`、`topic:音乐制作`、`after:2026-10-01`、`before:2026-11-02`；日期按北京时间且包含当天。分类、主题、平台、来源和日期筛选可以组合，提供新旧、相关度和按关注排序。
 
-实际读取了 [Impeccable](https://github.com/pbakaus/impeccable/blob/main/skill/SKILL.src.md) 与 [Anthropic frontend-design](https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md) 的原始说明，结合阅读任务取舍；出处、许可和未采用的建议见 [设计研究](research/frontend-redesign.md)，实施规范见 [DESIGN.md](DESIGN.md)。
+用户可选择九个主题；六项工具兴趣为Cubase、Kontakt、Ableton Live、Max/MSP、TouchDesigner、ACE Studio，不表示各工具均有独立订阅或可单独编辑。关注主题影响首页近期选读与推荐排序。偏好和最多200篇稍后读保存在当前浏览器，不跨设备同步；清理浏览器数据会移除这些记录。
 
-本地语法检查和 24 项测试通过，真实浏览器 18/18 通过，报告为 `evidence/redesign-local-browser.json`。在相同视口下，第一条资料距页面顶部从桌面约 1370px、手机约 1888px，分别缩至约 419px、537px；1440px、900px、390px、320px 布局均无横向溢出。验收包括搜索、分类、排序、分页、写作详情、地区偏好、活动入口、来源弹窗、键盘焦点与请求失败后的重试。线上发布结果以部署说明和当前任务记录为准。
+GitHub、YouTube、X、新闻搜索是用户点击后跳转的外站入口，不表示本站自动抓取搜索结果。澳门只是可改为香港或珠海的暂设阅读范围，不使用定位推断所在地；城市选择影响本地新闻和活动，国际财经法律信息保留发布辖区。
 
-重设计代码提交 `3a4113c` 已推送至 GitHub，并完成 Cloudflare 部署。正式站点运行同一份浏览器验收，18/18 通过，控制台错误、页面错误和失败请求均为 0；主任务已查看正式站点桌面与手机截图。报告为 `evidence/redesign-production-browser.json`，HTTP 和静态资源字节比对见 `evidence/redesign-production-http.json`。这些本机验收产物不进入公开仓库。
+## 来源与当前快照
 
-## 采集来源
+来源配置见 [src/sources.js](src/sources.js)，采集实现见 [src/collector.js](src/collector.js)。当前为42个动态来源和1个人工编辑来源，共43个入口。
 
-来源与限额见 [src/sources.js](src/sources.js)，解析、合并和失败处理见 [src/collector.js](src/collector.js)。
+|内容|采集方式与边界|
+|---|---|
+|AI与音乐科技|官方RSS/Atom、Steinberg公告、TouchDesigner社区及正式发行；社区讨论不标作官方公告|
+|GitHub项目|repository search API，失败时可回退到明确对应的release Atom；仓库推送时间与发行日期分别保留|
+|财经与法律|HKMA、Fed、ECB、SEC、英国官方机构、WIPO等；标注辖区和原文日期，新闻或指南不等同已生效法律|
+|本地新闻与活动|澳门、香港、珠海官方RSS或HTML；活动单独保存日期、场地及原文参加方式|
+|写作方法|人工阅读原始资料后整理，标为编辑选读，见 [写作研究](research/writing-workflow.md)|
+|X|当前没有API访问凭据，仅保留人工选录快照，状态为cached；不会自动操作浏览器刷新快照|
+|YouTube|OpenAI、Anthropic、DeepMind官方Atom，只覆盖有限近期条目；不依赖也不声称已连接YouTube MCP|
 
-当前配置含 25 个动态来源，围绕音乐制作、AI 音乐、实时交互、视听艺术、空间音频、写作与研究六个主题组织，工具兴趣包括 Cubase、Kontakt、Ableton Live、Max/MSP、TouchDesigner 与 ACE Studio。工具兴趣不表示每个产品均已接入专属官方消息源。
+本轮本地数据快照生成于 `2026-11-02T08:16:43.564Z`；合并云端索引中59篇有效历史文章后，含445篇文章、24项活动，原有采集与成功时间保持不变。43个来源中40个状态ok（39自动、1编辑）、1个cached（X人工选录）、2个error。Native Instruments本轮429且无缓存；Steinberg失败但保留6条有效历史记录，最近自动成功为2026-11-01。这是该次采集的结果，后续状态以生成索引为准。
 
-| 来源 | 采集方式 | 凭据与当前验收范围 |
-| --- | --- | --- |
-| OpenAI News、Google AI、Hugging Face Blog | 官方 RSS | 无需 API key；以每次生成索引中的来源状态为准 |
-| OpenAI、Anthropic、Google DeepMind 视频 | 官方 YouTube Atom | 无需 API key；2026-11-01 08:05 UTC 实采三路均成功，各 10 条 |
-| GitHub Agent Skills、AI 工作流与 LLM 项目 | GitHub repository search API | 按主题、星数门槛和更新时间检索；Actions 使用 `GITHUB_TOKEN` |
-| Hacker News AI 讨论 | Algolia 公开搜索 API | 收录近七天且分数大于 5 的讨论；分数是采集时快照 |
-| X Skills 与工作流分享 | X recent search API；可合并人工浏览器快照 | 云端自动采集需要 `X_BEARER_TOKEN` 及相应 API 权限 |
-| 专业写作与编辑指南 | 人工阅读原始文件后整理 | 从 [writing-skills.json](research/writing-skills.json) 导入，标为编辑选读 |
-| Ableton、Steinberg、TouchDesigner、Ableton Link | 官方博客与公告 RSS、社区 RSS、GitHub releases | 社区发帖、官方公告和正式发行分别标注 |
-| 音频转 MIDI、空间音频、音乐信息检索、IRCAM ACIDS | GitHub repository search API | 仓库推送时间不代表新版发行日期 |
-| 澳门、香港、珠海官方新闻与澳门文化活动 | RSS、官方 HTML 列表及活动表 | 新闻按兴趣词筛选；活动单独保存日期、场地与参加方法 |
-
-区域暂定澳门，可切换香港和珠海；这不是经过定位确认的当前所在地。香港康文署文化节目搜寻、珠海文广旅体局门户提供官方外部入口，不表示本站已自动抓取这些入口中的活动。来源实测与解析边界见 [音乐科技与区域来源研究](research/music-local-sources.md)。
-
-当前云端索引生成于 `2026-11-01T08:35:19.294Z`（北京时间 16:35），包含 261 条资料、24 场活动；25 个动态来源中 22 个成功。Steinberg 本轮成功采集 12 条，三路 YouTube 各成功采集 10 条；`github-skills`、`github-ai` 本轮有效条目为 0，状态为错误，分别保留 28、52 条既有资料。X API 未配置，保留浏览器人工选录 4 条，状态为 `cached`，不计为自动成功。
-
-上一版音乐科技与区域扩展在前端焦点和失败状态修复后实际运行 `npm run check && npm test`，语法检查通过，24 项测试全部通过。本地浏览器验收 16/16 通过，证据为 `evidence/music-local-local-browser.json`：覆盖桌面 1440px、移动 390px/320px、地区与主题持久化、键盘焦点、feed 503 与断网重试、活动日期和空状态；页面、控制台及请求错误均为 0。该版标题 CSS `text-wrap: balance` 已由对应生产浏览器验收覆盖。
-
-该版生产浏览器实际验收 16/16 PASS，执行退出 0，报告为 `evidence/music-local-production-browser.json`。1440×1000、390×844 和 320px 宽度均无横向溢出，控制台错误、页面错误及失败请求均为 0；筛选、地区持久化、活动时间地点与多场次、503 错误与重试、原生键盘焦点均通过。主任务另已查看 `production-desktop`、`mobile-top`、`ai-event` 三张截图。
-
-功能提交 `6a22a4931ee4446eadadb2ec7e98ae037bbabe7d` 已推送；本次 [Actions 运行 41289478145](https://github.com/Sco-QianC01/skills-observatory/actions/runs/41289478145) 经 `workflow_dispatch` 实际完成并成功，10 个步骤全部成功，包括 `npm test`、采集和 `Save source index`，证据为 `evidence/music-local-actions.json`。bot 索引提交 `fb5fd97` 已取回并快进合并。
-
-X 的登录 Edge 会话已在 2026-11-01 实际读取并手动选录 4 条公开分享，记录的 `readOn` 为 `2026-11-01`；这与开发者 API 授权是两条通路。采集脚本可读取 `public/data/browser-x.json` 中的浏览器快照，但不会操作浏览器或自动刷新该快照。当前没有 X API Token，也未连接 xMCP；最新索引状态为 `cached`、4 条，自动采集的 `lastSuccessAt=null`，不能把手动阅读日期当成 API 成功时间。浏览器登录不使云端 API 自动可用。
-
-YouTube 频道为 OpenAI `UCXZCJLdBC09xxGZ6gcdrc6A`、Anthropic `UCrDwWp7EBBv4NwvScIpBDOA`、Google DeepMind `UCP7jMXSY2xbc3KCAE0MHQ-A`。Atom 只提供有限的近期条目，不保证覆盖频道全部视频。请求可用性会变化，失败时如实保留错误和有效历史条目，不据此替换已核对的频道 ID。具体历史请求、原始日期和身份核验边界见 [平台连接器研究](research/platform-connectors.md)。
+新增来源与HTTP/XML探针见 [核验报告](research/verified-sources-20261102.md)。NI订阅部分内容较旧，不用采集日期替换原文日期。财经法律资料用于了解信息，不构成投资建议或个案法律意见；适用地域和生效时间以原始机构文本为准。
 
 ## 更新与保留
 
-[采集工作流](.github/workflows/collect.yml) 使用 GitHub Actions cron `17 */6 * * *`，即北京时间每日 **02:17、08:17、14:17、20:17**。GitHub 定时任务可能排队或延迟，不保证准点；也可使用 `workflow_dispatch` 手动触发。定时工作流需在默认分支启用，并允许工作流以 `contents: write` 权限提交索引变更。
+[GitHub Actions](.github/workflows/collect.yml) 使用 `17 */6 * * *`，即北京时间每日02:17、08:17、14:17、20:17，可能排队或延迟；支持手动触发。工作流需要提交索引的权限。Cloudflare Worker负责静态资源和数据代理，不执行这一定时采集。
 
-每轮最多四个来源并发，单请求超时 18 秒，响应体上限 2.5 MB。新闻资料按规范化 URL 去重，通常保留近 90 天的自动资料，编辑选读不受日期窗口限制，新闻资料上限 450 条。缺少原文日期时保持未知，不用采集时间补填。
+RSS/Atom采集有界：最多四源并发，每源18秒预算，瞬时错误最多重试一次，响应体有大小限制。按规范化URL去重，自动文章通常保留90天，总量上限450篇并按来源公平分配；编辑选读不受文章日期窗口限制。缺少原文日期时保持未知。
 
-活动使用独立的 `startsOn`、`endsOn` 与来源发布日期，按活动结束日期保留，仍在展期或举办期内的活动不套用新闻的 90 天窗口。同一公告 URL 下的不同表演或日期保留独立条目，活动上限 120 条。hush! 2026 的原始表有 18 行活动，“11月14及15日”展开后为 19 场；多时段保留原文，不臆造未提供的时间。日历系列活动须回原文确认具体场次与开放时间。
+活动按结束日期保留，不套用文章90天窗口，最多120项；同一公告下不同日期和表演可单列。具体场次、开放时间与报名条件仍需回原文核对。香港康文署和珠海文广旅体局外链属于官方入口，不表示已自动抓取其中全部活动。
 
-来源失败时保留仍在保留范围内的既有条目，记录错误和最近成功时间。所有自动来源均未成功时，采集命令以失败状态退出；工作流仍会尝试保存更新后的状态索引。因此，页面存在内容、命令生成文件与某个来源本次成功是不同的状态，应查看来源对话框确认。
+来源失败时保留仍有效的历史条目，记录错误和真实最近成功时间；全部自动来源失败时采集命令失败退出。页面有文章不等于本轮采集成功。前端依次尝试在线接口、静态副本、浏览器缓存，并显示实际回退状态。
 
-## 本地开发
+## 本地验收
 
-需要 Node.js 22 或更新版本。按锁文件安装依赖后运行：
+使用Node.js 22或更新版本：
 
 ```sh
 npm ci
-npm run collect
-npm test
 npm run check
+npm test
+npm run collect
 npm run dev
 ```
 
-`npm run collect` 会访问公开网络并更新 `public/data/feed.json`，从已有索引、写作研究条目及可选浏览器快照合并生成新索引。`npm test` 运行 Node 测试，`npm run check` 检查 Worker、采集器与前端脚本语法。`npm run dev` 通过 Wrangler 启动本地开发环境，访问地址以终端输出为准。
+`collect`访问公开网络并更新 `public/data/feed.json`；`check`和`test`检查代码与测试，不能替代真实浏览器验收。开发地址以Wrangler输出为准。本轮语法检查及50项测试通过；本地真实Chromium浏览器20项通过，覆盖搜索、组合筛选、兴趣与收藏持久化、320/390/900/1440px布局、接口与静态索引失败后的缓存回退，以及无缓存时的重试。正常访问的控制台、运行时和请求错误均为0。验收报告为 `evidence/blog-local-browser.json`，证据目录不提交版本库。
 
-本地采集可通过环境变量提供 `GITHUB_TOKEN`；不提供时仍会尝试公开 GitHub 请求，但更容易受到匿名请求额度限制。X API 接入使用 `X_BEARER_TOKEN`。在 GitHub Actions 中，前者由工作流令牌提供，后者读取同名仓库 secret。不要把令牌写入公开配置、数据文件或研究文档；无需为查看页面配置这些凭据。
+GitHub采集可使用环境变量 `GITHUB_TOKEN`，无令牌时使用公开请求更容易遇到限流；X自动API采集需要 `X_BEARER_TOKEN`及访问权限。不要把令牌写入配置、数据或文档。浏览页面无需配置这些凭据。
 
-## Cloudflare 部署
-
-部署入口：
+## 部署
 
 ```sh
 npm run deploy
 ```
 
-该命令调用 Wrangler，需先在本机或部署环境完成相应 Cloudflare 授权，并确认目标账号与 [wrangler.jsonc](wrangler.jsonc) 配置。重设计已实际部署至 [Cloudflare 站点](https://skills-observatory.ancient-art-9bbf.workers.dev)，版本 `089c64ef-0de5-43ee-9e96-c6c621e5f97d`；2026-11-01 09:53 UTC 验收首页、`/health`、`/api/feed` 均 HTTP 200，数据接口响应头 `X-Feed-Origin: github`，索引生成时间与上述云端快照吻合，线上 `app.js`、`style.css` 与本地文件字节一致，生产浏览器 18/18 验收通过。此前音乐科技扩展版本 `4ade365a-2d74-4041-9980-a03eef20e5f4` 仅保留为上一版部署基线。
+部署需已授权的Cloudflare账号，并核对 [wrangler.jsonc](wrangler.jsonc)。本轮部署尚未最终完成，不在此记录未经核验的新版本号。
 
-[src/worker.js](src/worker.js) 提供静态资源与 `/api/feed`：
+[Worker](src/worker.js) 的 `/api/feed`优先请求 `FEED_URL`，只接受HTTPS的 `raw.githubusercontent.com`地址，成功响应缓存120秒；失败时回退到部署包内 `/data/feed.json`。静态兜底副本随部署更新。`/health`只说明服务存活，不证明来源成功或数据新鲜。变更仓库或分支时同时核对 `FEED_URL`。
 
-- 静态页面和随部署打包的资料副本来自 `public/`。
-- `/api/feed` 优先读取 `FEED_URL` 指向的 GitHub raw JSON，并校验基本结构；当前实现只接受 HTTPS 的 `raw.githubusercontent.com` 地址。
-- 成功的上游响应采用 120 秒缓存；上游请求或校验失败时，回退到部署包内的 `/data/feed.json`。
-- `/health` 返回 Worker 的基本存活信息，不能代替采集成功或资料新鲜度验收。
+## 研究与许可
 
-**这是 Worker 静态资源加 GitHub JSON 代理，不是 Cloudflare Cron 采集。** 更新采集逻辑由 GitHub Actions 完成并提交 JSON；Worker 从配置的 GitHub 地址读取新索引，静态兜底副本则随下一次部署更新。修改仓库归属或分支时，应同时检查 `FEED_URL`，避免读取旧项目的数据。
+写作资料固定版本、许可与适用限制见 [写作研究](research/writing-workflow.md)；平台MCP调研见 [连接器研究](research/platform-connectors.md)。源码调研不等于安装或连接，浏览器登录也不等于取得云端API权限。
 
-前端请求在线接口失败后还会尝试静态 JSON 和浏览器缓存，并标明回退状态。资料是否新鲜应结合索引生成时间、来源最近成功时间与错误状态判断。
+采集工作流研究核验RSSHub当前为AGPL v3，Crawl4AI、Miniflux为Apache 2.0；n8n使用Sustainable Use License且有企业许可例外，不能笼统称为OSI开源。这些服务本轮均未安装，具体文档及端点见 [核验报告](research/verified-sources-20261102.md)。
 
-## 写作资料与连接器边界
-
-六份写作来源的具体文件、提交 SHA、许可与适用限制见 [写作方法研究](research/writing-workflow.md)，可供采集器读取的记录见 [writing-skills.json](research/writing-skills.json)。整理顺序为事实与确定程度、段落结构、具体表达、读者审阅；不为追求自然感编造经历、数据、引文或结论。
-
-| 原文 | 本站整理的用途 |
-| --- | --- |
-| [Humanizer · SKILL.md](https://github.com/blader/humanizer/blob/main/SKILL.md) | 识别模板表达，保留事实后改写段落 |
-| [Humanizer-zh · SKILL.md](https://github.com/op7418/Humanizer-zh/blob/main/SKILL.md) | 保护中文语义、确定程度与作者声音 |
-| [Anthropic · Doc Co-Authoring](https://github.com/anthropics/skills/blob/main/skills/doc-coauthoring/SKILL.md) | 收集上下文、逐节构建、独立读者检查 |
-| [Google · Markdown Style Guide](https://github.com/google/styleguide/blob/gh-pages/docguide/style.md) | 组织技术文档、链接与可维护源码 |
-| [Diátaxis · Compass](https://github.com/evildmp/diataxis-documentation-framework/blob/main/source/compass.rst) | 按读者任务区分教程、操作、参考和解释 |
-| [Stop Slop · SKILL.md](https://github.com/hardikpandya/stop-slop/blob/main/SKILL.md) | 检查空泛表达、重复收尾与具体行动 |
-
-以上链接跟随各项目分支更新；本次精读版本的固定提交链接保存在研究文档中。写作条目的 `publishedAt` 表示所链接文件最近一次提交时间，`verifiedAt` 表示资料核验日期，均不表示项目首发日期。
-
-“去模板化”属于编辑工作，不是作者身份鉴定，不能保证检测率下降或规避 AI 检测器。禁词表与模型自评分也不能替代事实核验、学术要求或作者终审。
-
-[平台连接器研究](research/platform-connectors.md) 核验了 `xdevplatform/xmcp`、`coyaSONG/youtube-mcp-server` 和 `mrsknetwork/ytmcp` 的公开源码、许可及凭据要求。**这些 MCP 仅完成源码调研，尚未安装或连接。** 当前 Atom 采集不依赖 YouTube MCP，浏览器读取也不能作为 xMCP 已接入的证据。
-
-各原始项目的许可分别记录，公开可读不等于可任意再分发。本站保留原文外链与短摘，不重新发布来源全文；专业和时效性结论仍应回到原始材料核对。
-
-## 许可与交付状态
-
-本站原创代码采用 [MIT License](LICENSE)。第三方文章、摘要所引材料、技能原文、商标与外链目标保留各自权利；本站代码许可不为这些内容重新授权。具体转载、改编或安装前，应分别核对来源许可与署名要求。
-
-以下为 2026-11-01 上一次交付基线，不能替代本次扩展的验收：
-
-- 公开仓库 [Sco-QianC01/skills-observatory](https://github.com/Sco-QianC01/skills-observatory) 已创建，代码提交为 `56ae4dfe6d6324a8248aa7008d031c50439f694c`；bot 提交 `55c2598dc3229c6087a1c45a6f56bbcdac211d3a` 仅更新索引，已快进合入本地。
-- [GitHub Actions 运行 41275374636](https://github.com/Sco-QianC01/skills-observatory/actions/runs/41275374636) 经 `workflow_dispatch` 实际成功，2026-11-01 `05:02:47Z` 至 `05:03:06Z` 的 10 个步骤全部成功，包含测试。
-- 当时 `npm test`、`npm run check` 及工作流测试通过；当前测试数量与结果以本次实际执行为准。
-- 上一次索引生成于 `2026-11-01T05:03:00.818Z`；OpenAI、Anthropic YouTube HTTP 404 后保留有效历史资料，X 使用人工选录缓存。当前条目数与来源状态以最新生成索引为准。
-- Cloudflare 已实际部署，首页、健康检查、数据接口均 HTTP 200，数据接口响应来源为 `github`；版本和地址见上方部署说明。
-- `evidence/browser-acceptance.mjs` 实际运行退出 0，`evidence/browser-acceptance.json` 为 11/11 PASS。覆盖桌面 1440×1000、手机 390×844 和 320px 宽度，验证搜索、分类、排序、分页 16 到 32 条、6 条写作选读详情、来源弹窗 Esc 关闭与焦点恢复、安全外链及无横向溢出；控制台、页面和请求错误均为 0。
-- 负责人已查看 `desktop.png`、`mobile.png`、`writing.png`、`sources-mobile.png`，确认中文字体正常、布局无遮挡。先前 QA 环境的共享库和字体问题已用隔离 Chromium 运行库、项目 Fontconfig 及已有 Windows 字体解决，未安装系统依赖或改动产品。
-
-以上是对应执行时刻与指定视口的证据，不保证未来每轮成功或覆盖所有设备。X API/MCP 与 YouTube MCP 尚未连接；当前三路 YouTube Atom 均已采集成功，Atom 不依赖 YouTube MCP。本次扩展验收见 [当前任务记录](task_observatory.md)；原交付记录保留在 [.phrase 任务记录](.phrase/phases/current/task_observatory.md)。
+本站原创代码使用 [MIT License](LICENSE)。第三方文章、技能原文、商标及链接目标保留各自权利；公开可读不代表可任意再分发。本站提供外链与短摘，不重新发布来源全文。写作编辑不能保证AI检测率或替代作者终审。
