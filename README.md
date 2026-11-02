@@ -2,7 +2,7 @@
 
 中文阅读博客，关注音乐科技、AI、开源工作流、版权政策、财经消息与港珠澳活动。保留原始标题、出处和日期；短摘帮助决定是否打开原文，不代表全文精读。
 
-站点：<https://skills-observatory.ancient-art-9bbf.workers.dev>。仓库：<https://github.com/Sco-QianC01/skills-observatory>。本轮博客版已通过本地测试与浏览器验收，推送和正式部署仍在进行，见 [任务记录](task_observatory.md)。
+站点：<https://skills-observatory.ancient-art-9bbf.workers.dev>。仓库：<https://github.com/Sco-QianC01/skills-observatory>。博客版已推送并部署，2026-11-02 通过正式站点浏览器和HTTP验收，见 [任务记录](task_observatory.md)。
 
 ## 阅读与检索
 
@@ -16,7 +16,7 @@ GitHub、YouTube、X、新闻搜索是用户点击后跳转的外站入口，不
 
 ## 来源与当前快照
 
-来源配置见 [src/sources.js](src/sources.js)，采集实现见 [src/collector.js](src/collector.js)。当前为42个动态来源和1个人工编辑来源，共43个入口。
+来源配置见 [src/sources.js](src/sources.js)，采集实现见 [src/collector.js](src/collector.js)。当前为41个自动采集来源、1个X人工选录来源和1个编辑选读来源，共43个入口。
 
 |内容|采集方式与边界|
 |---|---|
@@ -28,7 +28,9 @@ GitHub、YouTube、X、新闻搜索是用户点击后跳转的外站入口，不
 |X|当前没有API访问凭据，仅保留人工选录快照，状态为cached；不会自动操作浏览器刷新快照|
 |YouTube|OpenAI、Anthropic、DeepMind官方Atom，只覆盖有限近期条目；不依赖也不声称已连接YouTube MCP|
 
-本轮本地数据快照生成于 `2026-11-02T08:16:43.564Z`；合并云端索引中59篇有效历史文章后，含445篇文章、24项活动，原有采集与成功时间保持不变。43个来源中40个状态ok（39自动、1编辑）、1个cached（X人工选录）、2个error。Native Instruments本轮429且无缓存；Steinberg失败但保留6条有效历史记录，最近自动成功为2026-11-01。这是该次采集的结果，后续状态以生成索引为准。
+本轮云端数据快照生成于 `2026-11-02T09:43:26.398Z`（北京时间17:43），含450篇文章、24项活动。41个自动来源和1个编辑来源状态为ok，X人工选录来源为cached；自动来源本轮没有失败。成功获取订阅不等于一定存在近期条目：Native Instruments、WIPO Lex和英国法律订阅本轮均无符合保留条件的文章，不补写日期或凑入旧闻。
+
+[Actions运行41422947590](https://github.com/Sco-QianC01/skills-observatory/actions/runs/41422947590) 的测试、采集及索引保存步骤均已实际成功，生成索引提交 `b227d4e`。此前本地采集曾遇到NI限流、Steinberg请求失败；恢复与保留机制的本地验收仍记录在任务文件中，不能把本次成功推断为以后每次均成功。
 
 新增来源与HTTP/XML探针见 [核验报告](research/verified-sources-20261102.md)。NI订阅部分内容较旧，不用采集日期替换原文日期。财经法律资料用于了解信息，不构成投资建议或个案法律意见；适用地域和生效时间以原始机构文本为准。
 
@@ -54,7 +56,7 @@ npm run collect
 npm run dev
 ```
 
-`collect`访问公开网络并更新 `public/data/feed.json`；`check`和`test`检查代码与测试，不能替代真实浏览器验收。开发地址以Wrangler输出为准。本轮语法检查及50项测试通过；本地真实Chromium浏览器20项通过，覆盖搜索、组合筛选、兴趣与收藏持久化、320/390/900/1440px布局、接口与静态索引失败后的缓存回退，以及无缓存时的重试。正常访问的控制台、运行时和请求错误均为0。验收报告为 `evidence/blog-local-browser.json`，证据目录不提交版本库。
+`collect`访问公开网络并更新 `public/data/feed.json`；`check`和`test`检查代码与测试，不能替代真实浏览器验收。开发地址以Wrangler输出为准。本轮语法检查及50项测试通过；本地和正式站点真实Chromium浏览器各20项通过，覆盖搜索、组合筛选、兴趣与收藏持久化、320/390/900/1440px布局、接口与静态索引失败后的缓存回退，以及无缓存时的重试。正常访问的控制台、运行时和请求错误均为0。验收报告为 `evidence/blog-local-browser.json`、`evidence/blog-production-browser.json`；证据目录不提交版本库。
 
 GitHub采集可使用环境变量 `GITHUB_TOKEN`，无令牌时使用公开请求更容易遇到限流；X自动API采集需要 `X_BEARER_TOKEN`及访问权限。不要把令牌写入配置、数据或文档。浏览页面无需配置这些凭据。
 
@@ -64,7 +66,7 @@ GitHub采集可使用环境变量 `GITHUB_TOKEN`，无令牌时使用公开请�
 npm run deploy
 ```
 
-部署需已授权的Cloudflare账号，并核对 [wrangler.jsonc](wrangler.jsonc)。本轮部署尚未最终完成，不在此记录未经核验的新版本号。
+部署需已授权的Cloudflare账号，并核对 [wrangler.jsonc](wrangler.jsonc)。本轮已部署版本 `f90da890-ffd4-4bde-aae6-db948164678b`。2026-11-02 09:50 UTC核验：首页、`/health`、`/api/feed`、静态索引及三项前端资源均为HTTP 200；API来自GitHub且与静态索引一致，线上JS/CSS哈希与本地一致。证据为 `evidence/blog-production-http.json`；主任务已查看正式站桌面与手机截图。
 
 [Worker](src/worker.js) 的 `/api/feed`优先请求 `FEED_URL`，只接受HTTPS的 `raw.githubusercontent.com`地址，成功响应缓存120秒；失败时回退到部署包内 `/data/feed.json`。静态兜底副本随部署更新。`/health`只说明服务存活，不证明来源成功或数据新鲜。变更仓库或分支时同时核对 `FEED_URL`。
 
