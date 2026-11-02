@@ -9,10 +9,13 @@
 - [x] 主任务实际执行 `npm run check` 与 `npm test`，58/58测试通过，日志 `evidence/imagine-unit-tests.log`。
 - [x] 本地真实Chromium浏览器阅读功能20/20、主题与设计11/11通过，报告 `evidence/imagine-local-browser.json`、`evidence/imagine-local-theme.json`。覆盖主题跟随系统、显式选择持久化、存储受限、阅读状态独立、文字对比度、深色对话框、提示消息位置及长标题；正常控制台、运行时、请求错误均为0。
 - [x] 主任务已查看本轮浅色与深色桌面、320px手机、深色阅读偏好对话框与顶部/滚动后提示截图，核对中文、控件和响应式；320/390/900/1440px无横向溢出。
-- [ ] 本轮提交与推送等待主任务完成。
-- [ ] 本轮部署及正式站验收等待主任务完成。
+- [x] 本轮界面提交 `cf58083` 已推送GitHub，未强推；前端变更仅涉及HTML、样式和独立主题脚本，保留既有检索与阅读逻辑。
+- [x] 使用现有授权部署Cloudflare，版本 `98490237-ec58-44dc-965c-67d488c29dea`，退出0；回执为 `evidence/imagine-deploy.log`。
+- [x] 2026-11-03 02:14北京时间（11月2日18:14 UTC）正式站首页、健康检查、API、静态索引与四项前端资源共8个路径均为HTTP 200；线上HTML/JS/CSS哈希与本地一致，head中主题脚本先于样式和应用脚本，API与静态索引一致且 `X-Feed-Origin: github`，报告 `evidence/imagine-production-http.json`。
+- [x] 正式站真实Chromium浏览器阅读功能20/20、主题与设计11/11通过，正常控制台、运行时、请求错误均为0；报告 `evidence/imagine-production-browser.json`、`evidence/imagine-production-theme.json`。浅色/深色文字最低对比度为4.64/5.80，320/390/900/1440px无横向溢出。
+- [x] 主任务已查看正式站浅色桌面与深色320px手机截图；另核对浅色手机与深色桌面，截图为 `evidence/imagine-production-light-1440.png`、`evidence/imagine-production-dark-320.png`、`evidence/imagine-production-light-320.png`、`evidence/imagine-production-dark-1440.png`。
 
-边界：本轮是用户提供 Imagine 规则的独立站适配，不声明 Claude `read_me/sendPrompt` 可用。历史测试、提交、部署及截图均不作为本轮验收证据。
+边界：本轮是用户提供 Imagine 规则的独立站适配，不声明 Claude `read_me/sendPrompt` 可用。历史测试、提交、部署及截图均不作为本轮验收证据。浏览器验收为无头Chromium，未验收用户Edge或全部设备；本轮未触发新的采集，正式站读取的索引仍生成于 `2026-11-02T09:43:26.398Z`，含450篇文章、24项活动、43个来源（42状态ok、X人工选录为cached）。其他对话和未保存工作状态未知，保持电脑开机。
 
 ## 2026-11-02 博客版交付
 
