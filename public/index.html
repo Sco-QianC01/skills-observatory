@@ -3,10 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="theme-color" content="#fcfcfa">
+    <meta name="theme-color" content="#faf9f6">
     <meta name="description" content="新知录：关于音乐科技、AI、开源实践与日常见闻的阅读簿。收录官方消息、好用的工具、版权政策及港珠澳活动，保留出处与原文日期。">
     <title>新知录 · 音乐、技术与日常见闻</title>
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <script src="/theme.js"></script>
     <link rel="stylesheet" href="/style.css">
     <script type="module" src="/app.js"></script>
   </head>
@@ -15,7 +16,7 @@
     <div class="page">
       <header class="masthead">
         <div class="identity"><h1><a class="wordmark" href="/" aria-label="新知录首页">新知录<span aria-hidden="true">。</span></a></h1><p>音乐、技术与日常见闻</p></div>
-        <div class="masthead-actions"><span id="edition-date">正在读取</span><button id="source-button" class="text-button" type="button">查看来源</button></div>
+        <div class="masthead-actions"><span id="edition-date">正在读取</span><button id="source-button" class="text-button" type="button">查看来源</button><label class="theme-field"><span class="sr-only">页面外观</span><select id="theme"><option value="system">跟随系统</option><option value="light">浅色</option><option value="dark">深色</option></select></label></div>
       </header>
       <nav class="reading-nav" aria-label="阅读导航">
         <div class="view-tabs"><button type="button" data-view="journal" aria-pressed="true">选读</button><button type="button" data-view="all" aria-pressed="false">全部文章</button><button type="button" data-view="saved" aria-pressed="false">稍后读 <span id="saved-count">0</span></button></div>
@@ -31,7 +32,7 @@
           <section class="archive" aria-labelledby="feed-title">
             <div class="section-heading feed-heading"><h2 id="feed-title">最近收录</h2><span id="result-count" aria-live="polite">正在读取</span></div>
             <form class="filters" id="filter-form" role="search">
-              <label class="search-field"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></svg><input id="search" type="search" maxlength="300" placeholder="搜索文章、工具或作者" aria-label="搜索文章、工具或作者" autocomplete="off"></label>
+              <label class="search-field"><span class="sr-only">搜索文章、工具或作者</span><input id="search" type="search" maxlength="300" placeholder="搜索文章、工具或作者" autocomplete="off"></label>
               <div class="filter-options">
                 <label class="select-field"><span class="sr-only">分类</span><select id="category"><option value="全部">全部分类</option></select></label>
                 <label class="select-field"><span class="sr-only">平台</span><select id="platform"><option value="">全部平台</option></select></label>

@@ -7,7 +7,7 @@
   "scripts": {
     "collect": "node scripts/collect.mjs",
     "test": "node --test",
-    "check": "node --check src/worker.js && node --check src/collector.js && node --check src/regional.js && node --check public/app.js && node --check public/reading.js",
+    "check": "node --check src/worker.js && node --check src/collector.js && node --check src/regional.js && node --check public/app.js && node --check public/reading.js && node --check public/theme.js",
     "dev": "wrangler dev",
     "deploy": "wrangler deploy"
   },
