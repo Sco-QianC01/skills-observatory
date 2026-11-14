@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-14T06:36:20.672Z",
-  "lastAttemptAt": "2026-11-14T06:36:20.672Z",
+  "generatedAt": "2026-11-14T18:13:45.259Z",
+  "lastAttemptAt": "2026-11-14T18:13:45.259Z",
   "schedule": "每日 02:17、08:17、14:17、20:17（北京时间）采集；GitHub 调度可能延迟。",
   "retentionDays": 90,
   "readingProfile": {
@@ -46,10 +46,10 @@
     }
   ],
   "collection": {
-    "successfulSources": 38,
+    "successfulSources": 41,
     "totalSources": 42,
     "itemCount": 450,
-    "eventCount": 13,
+    "eventCount": 11,
     "mode": "公开订阅 / API + 人工精读",
     "fullTextRepublished": false
   },
@@ -63,7 +63,7 @@
       "scope": "AI 动态",
       "status": "ok",
       "count": 14,
-      "lastSuccessAt": "2026-11-14T06:36:20.672Z",
+      "lastSuccessAt": "2026-11-14T18:13:45.259Z",
       "error": null,
       "availableCount": 16,
       "retainedCount": 2,
@@ -78,7 +78,7 @@
       "scope": "AI 动态",
       "status": "ok",
       "count": 12,
-      "lastSuccessAt": "2026-11-14T06:36:20.672Z",
+      "lastSuccessAt": "2026-11-14T18:13:45.259Z",
       "error": null,
       "availableCount": 16,
       "retainedCount": 4,
@@ -93,7 +93,7 @@
       "scope": "AI 动态",
       "status": "ok",
       "count": 12,
-      "lastSuccessAt": "2026-11-14T06:36:20.672Z",
+      "lastSuccessAt": "2026-11-14T18:13:45.259Z",
       "error": null,
       "availableCount": 16,
       "retainedCount": 4,
@@ -106,12 +106,12 @@
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A",
       "type": "atom",
       "scope": "视频分享",
-      "status": "error",
-      "count": 16,
-      "lastSuccessAt": "2026-11-13T19:49:09.892Z",
-      "error": "来源返回 HTTP 404",
+      "status": "ok",
+      "count": 10,
+      "lastSuccessAt": "2026-11-14T18:13:45.259Z",
+      "error": null,
       "availableCount": 16,
-      "retainedCount": 16,
+      "retainedCount": 6,
       "latestPublishedAt": "2026-11-13T18:15:41.000Z"
     },
     {
@@ -121,12 +121,12 @@
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCrDwWp7EBBv4NwvScIpBDOA",
       "type": "atom",
       "scope": "视频分享",
-      "status": "error",
-      "count": 6,
-      "lastSuccessAt": "2026-11-13T19:49:09.892Z",
-      "error": "来源返回 HTTP 404",
+      "status": "ok",
+      "count": 10,
+      "lastSuccessAt": "2026-11-14T18:13:45.259Z",
+      "error": null,
       "availableCount": 6,
-      "retainedCount": 6,
+      "retainedCount": 0,
       "latestPublishedAt": "2026-09-23T18:01:32.000Z"
     },
     {
@@ -136,12 +136,12 @@
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCP7jMXSY2xbc3KCAE0MHQ-A",
       "type": "atom",
       "scope": "视频分享",
-      "status": "error",
-      "count": 11,
-      "lastSuccessAt": "2026-11-13T19:49:09.892Z",
-      "error": "来源返回 HTTP 404",
+      "status": "ok",
+      "count": 10,
+      "lastSuccessAt": "2026-11-14T18:13:45.259Z",
+      "error": null,
       "availableCount": 11,
-      "retainedCount": 11,
+      "retainedCount": 1,
       "latestPublishedAt": "2026-11-11T18:00:31.000Z"
     },
     {
@@ -153,11 +153,11 @@
       "scope": "Skills",
       "status": "ok",
       "count": 14,
-      "lastSuccessAt": "2026-11-14T06:36:20.672Z",
+      "lastSuccessAt": "2026-11-14T18:13:45.259Z",
       "error": null,
       "availableCount": 16,
-      "retainedCount": 2,
-      "latestPublishedAt": "2026-11-14T06:35:03.000Z"
+      "retainedCount": 5,
+      "latestPublishedAt": "2026-11-14T18:11:18.000Z"
     },
     {
       "id": "github-workflows",
@@ -168,11 +168,11 @@
       "scope": "工作流",
       "status": "ok",
       "count": 12,
-      "lastSuccessAt": "2026-11-14T06:36:20.672Z",
+      "lastSuccessAt": "2026-11-14T18:13:45.259Z",
       "error": null,
       "availableCount": 16,
       "retainedCount": 4,
-      "latestPublishedAt": "2026-11-14T06:16:58.000Z"
+      "latestPublishedAt": "2026-11-14T18:02:21.000Z"
     },
     {
       "id": "github-ai",
@@ -183,11 +183,11 @@
       "scope": "开源项目",
       "status": "ok",
       "count": 14,
-      "lastSuccessAt": "2026-11-14T06:36:20.672Z",
+      "lastSuccessAt": "2026-11-14T18:13:45.259Z",
       "error": null,
       "availableCount": 16,
       "retainedCount": 2,
-      "latestPublishedAt": "2026-11-14T06:36:12.000Z"
+      "latestPublishedAt": "2026-11-14T18:13:42.000Z"
     },
     {
       "id": "hn-ai",
@@ -198,11 +198,11 @@
       "scope": "社区热议",
       "status": "ok",
       "count": 12,
-      "lastSuccessAt": "2026-11-14T06:36:20.672Z",
+      "lastSuccessAt": "2026-11-14T18:13:45.259Z",
       "error": null,
       "availableCount": 16,
       "retainedCount": 4,
-      "latestPublishedAt": "2026-11-13T17:30:10.000Z"
+      "latestPublishedAt": "2026-11-14T02:52:59.000Z"
     },
     {
       "id": "x-search",
@@ -230,7 +230,7 @@
       "scope": "音乐科技",
       "status": "ok",
       "count": 12,
-      "lastSuccessAt": "2026-11-14T06:36:20.672Z",
+      "lastSuccessAt": "2026-11-14T18:13:45.259Z",
       "error": null,
       "availableCount": 16,
       "retainedCount": 4,
@@ -245,7 +245,7 @@
       "scope": "音乐科技",
       "status": "ok",
       "count": 12,
-      "lastSuccessAt": "2026-11-14T06:36:20.672Z",
+      "lastSuccessAt": "2026-11-14T18:13:45.259Z",
       "error": null,
       "availableCount": 9,
       "retainedCount": 0,
@@ -260,7 +260,7 @@
       "scope": "音乐科技",
       "status": "ok",
       "count": 3,
-      "lastSuccessAt": "2026-11-14T06:36:20.672Z",
+      "lastSuccessAt": "2026-11-14T18:13:45.259Z",
       "error": null,
       "availableCount": 10,
       "retainedCount": 7,
@@ -275,7 +275,7 @@
       "scope": "音乐科技",
       "status": "ok",
       "count": 5,
-      "lastSuccessAt": "2026-11-14T06:36:20.672Z",
+      "lastSuccessAt": "2026-11-14T18:13:45.259Z",
       "error": null,
       "availableCount": 3,
       "retainedCount": 0,
@@ -290,11 +290,11 @@
       "scope": "音乐科技",
       "status": "ok",
       "count": 10,
-      "lastSuccessAt": "2026-11-14T06:36:20.672Z",
+      "lastSuccessAt": "2026-11-14T18:13:45.259Z",
       "error": null,
       "availableCount": 6,
       "retainedCount": 0,
-      "latestPublishedAt": "2026-11-13T12:01:00.000Z"
+      "latestPublishedAt": "2026-11-14T10:29:22.000Z"
     },
     {
       "id": "github-audio-midi",
@@ -305,11 +305,11 @@
       "scope": "音乐科技",
       "status": "ok",
       "count": 6,
-      "lastSuccessAt": "2026-11-14T06:36:20.672Z",
+      "lastSuccessAt": "2026-11-14T18:13:45.259Z",
       "error": null,
       "availableCount": 2,
       "retainedCount": 0,
-      "latestPublishedAt": "2026-11-13T13:27:31.000Z"
+      "latestPublishedAt": "2026-11-14T13:23:10.000Z"
     },
     {
       "id": "github-spatial-audio",
@@ -320,11 +320,11 @@
       "scope": "音乐科技",
       "status": "ok",
       "count": 8,
-      "lastSuccessAt": "2026-11-14T06:36:20.672Z",
+      "lastSuccessAt": "2026-11-14T18:13:45.259Z",
       "error": null,
       "availableCount": 16,
       "retainedCount": 8,
-      "latestPublishedAt": "2026-11-14T06:30:00.000Z"
+      "latestPublishedAt": "2026-11-14T15:53:35.000Z"
     },
     {
       "id": "github-music-research",
@@ -335,7 +335,7 @@
       "scope": "音乐科技",
       "status": "ok",
       "count": 8,
-      "lastSuccessAt": "2026-11-14T06:36:20.672Z",
+      "lastSuccessAt": "2026-11-14T18:13:45.259Z",
       "error": null,
       "availableCount": 12,
       "retainedCount": 4,
@@ -350,7 +350,7 @@
       "scope": "音乐科技",
       "status": "ok",
       "count": 8,
-      "lastSuccessAt": "2026-11-14T06:36:20.672Z",
+      "lastSuccessAt": "2026-11-14T18:13:45.259Z",
       "error": null,
       "availableCount": 0,
       "retainedCount": 0,
@@ -365,7 +365,7 @@
       "scope": "财经动态",
       "status": "ok",
       "count": 10,
-      "lastSuccessAt": "2026-11-14T06:36:20.672Z",
+      "lastSuccessAt": "2026-11-14T18:13:45.259Z",
       "error": null,
       "availableCount": 16,
       "retainedCount": 6,
@@ -380,7 +380,7 @@
       "scope": "法律政策",
       "status": "ok",
       "count": 8,
-      "lastSuccessAt": "2026-11-14T06:36:20.672Z",
+      "lastSuccessAt": "2026-11-14T18:13:45.259Z",
       "error": null,
       "availableCount": 9,
       "retainedCount": 1,
@@ -395,7 +395,7 @@
       "scope": "财经动态",
       "status": "ok",
       "count": 8,
-      "lastSuccessAt": "2026-11-14T06:36:20.672Z",
+      "lastSuccessAt": "2026-11-14T18:13:45.259Z",
       "error": null,
       "availableCount": 16,
       "retainedCount": 8,
@@ -410,7 +410,7 @@
       "scope": "财经动态",
       "status": "ok",
       "count": 6,
-      "lastSuccessAt": "2026-11-14T06:36:20.672Z",
+      "lastSuccessAt": "2026-11-14T18:13:45.259Z",
       "error": null,
       "availableCount": 3,
       "retainedCount": 0,
@@ -425,7 +425,7 @@
       "scope": "财经动态",
       "status": "ok",
       "count": 8,
-      "lastSuccessAt": "2026-11-14T06:36:20.672Z",
+      "lastSuccessAt": "2026-11-14T18:13:45.259Z",
       "error": null,
       "availableCount": 14,
       "retainedCount": 6,
@@ -440,7 +440,7 @@
       "scope": "财经动态",
       "status": "ok",
       "count": 8,
-      "lastSuccessAt": "2026-11-14T06:36:20.672Z",
+      "lastSuccessAt": "2026-11-14T18:13:45.259Z",
       "error": null,
       "availableCount": 16,
       "retainedCount": 8,
@@ -455,7 +455,7 @@
       "scope": "财经动态",
       "status": "ok",
       "count": 8,
-      "lastSuccessAt": "2026-11-14T06:36:20.672Z",
+      "lastSuccessAt": "2026-11-14T18:13:45.259Z",
       "error": null,
       "availableCount": 11,
       "retainedCount": 3,
@@ -470,7 +470,7 @@
       "scope": "法律政策",
       "status": "ok",
       "count": 8,
-      "lastSuccessAt": "2026-11-14T06:36:20.672Z",
+      "lastSuccessAt": "2026-11-14T18:13:45.259Z",
       "error": null,
       "availableCount": 16,
       "retainedCount": 8,
@@ -485,7 +485,7 @@
       "scope": "法律政策",
       "status": "ok",
       "count": 8,
-      "lastSuccessAt": "2026-11-14T06:36:20.672Z",
+      "lastSuccessAt": "2026-11-14T18:13:45.259Z",
       "error": null,
       "availableCount": 16,
       "retainedCount": 8,
@@ -500,7 +500,7 @@
       "scope": "法律政策",
       "status": "ok",
       "count": 8,
-      "lastSuccessAt": "2026-11-14T06:36:20.672Z",
+      "lastSuccessAt": "2026-11-14T18:13:45.259Z",
       "error": null,
       "availableCount": 13,
       "retainedCount": 5,
@@ -515,7 +515,7 @@
       "scope": "法律政策",
       "status": "ok",
       "count": 8,
-      "lastSuccessAt": "2026-11-14T06:36:20.672Z",
+      "lastSuccessAt": "2026-11-14T18:13:45.259Z",
       "error": null,
       "availableCount": 4,
       "retainedCount": 0,
@@ -530,7 +530,7 @@
       "scope": "法律政策",
       "status": "ok",
       "count": 5,
-      "lastSuccessAt": "2026-11-14T06:36:20.672Z",
+      "lastSuccessAt": "2026-11-14T18:13:45.259Z",
       "error": null,
       "availableCount": 0,
       "retainedCount": 0,
@@ -545,7 +545,7 @@
       "scope": "法律政策",
       "status": "ok",
       "count": 2,
-      "lastSuccessAt": "2026-11-14T06:36:20.672Z",
+      "lastSuccessAt": "2026-11-14T18:13:45.259Z",
       "error": null,
       "availableCount": 2,
       "retainedCount": 0,
@@ -560,11 +560,11 @@
       "scope": "工作流",
       "status": "ok",
       "count": 5,
-      "lastSuccessAt": "2026-11-14T06:36:20.672Z",
+      "lastSuccessAt": "2026-11-14T18:13:45.259Z",
       "error": null,
       "availableCount": 16,
       "retainedCount": 11,
-      "latestPublishedAt": "2026-11-14T04:21:09.000Z"
+      "latestPublishedAt": "2026-11-14T14:24:31.000Z"
     },
     {
       "id": "crawl4ai-releases",
@@ -575,7 +575,7 @@
       "scope": "工作流",
       "status": "ok",
       "count": 5,
-      "lastSuccessAt": "2026-11-14T06:36:20.672Z",
+      "lastSuccessAt": "2026-11-14T18:13:45.259Z",
       "error": null,
       "availableCount": 3,
       "retainedCount": 0,
@@ -590,7 +590,7 @@
       "scope": "工作流",
       "status": "ok",
       "count": 5,
-      "lastSuccessAt": "2026-11-14T06:36:20.672Z",
+      "lastSuccessAt": "2026-11-14T18:13:45.259Z",
       "error": null,
       "availableCount": 2,
       "retainedCount": 0,
@@ -606,11 +606,11 @@
       "region": "macau",
       "status": "ok",
       "count": 9,
-      "lastSuccessAt": "2026-11-14T06:36:20.672Z",
+      "lastSuccessAt": "2026-11-14T18:13:45.259Z",
       "error": null,
       "availableCount": 16,
       "retainedCount": 7,
-      "latestPublishedAt": "2026-11-14T04:00:00.000Z"
+      "latestPublishedAt": "2026-11-14T14:39:00.000Z"
     },
     {
       "id": "macau-culture",
@@ -622,11 +622,11 @@
       "region": "macau",
       "status": "ok",
       "count": 10,
-      "lastSuccessAt": "2026-11-14T06:36:20.672Z",
+      "lastSuccessAt": "2026-11-14T18:13:45.259Z",
       "error": null,
       "availableCount": 16,
       "retainedCount": 6,
-      "latestPublishedAt": "2026-11-12T16:00:00.000Z"
+      "latestPublishedAt": "2026-11-13T16:00:00.000Z"
     },
     {
       "id": "hongkong-news",
@@ -638,11 +638,11 @@
       "region": "hongkong",
       "status": "ok",
       "count": 10,
-      "lastSuccessAt": "2026-11-14T06:36:20.672Z",
+      "lastSuccessAt": "2026-11-14T18:13:45.259Z",
       "error": null,
       "availableCount": 16,
       "retainedCount": 6,
-      "latestPublishedAt": "2026-11-14T02:30:00.000Z"
+      "latestPublishedAt": "2026-11-14T09:00:00.000Z"
     },
     {
       "id": "zhuhai-news",
@@ -654,7 +654,7 @@
       "region": "zhuhai",
       "status": "ok",
       "count": 6,
-      "lastSuccessAt": "2026-11-14T06:36:20.672Z",
+      "lastSuccessAt": "2026-11-14T18:13:45.259Z",
       "error": null,
       "availableCount": 16,
       "retainedCount": 10,
@@ -670,7 +670,7 @@
       "region": "macau",
       "status": "ok",
       "count": 7,
-      "lastSuccessAt": "2026-11-14T06:36:20.672Z",
+      "lastSuccessAt": "2026-11-14T18:13:45.259Z",
       "error": null,
       "availableCount": 7,
       "retainedCount": 0,
@@ -685,10 +685,10 @@
       "scope": "活动",
       "region": "macau",
       "status": "ok",
-      "count": 6,
-      "lastSuccessAt": "2026-11-14T06:36:20.672Z",
+      "count": 4,
+      "lastSuccessAt": "2026-11-14T18:13:45.259Z",
       "error": null,
-      "availableCount": 6,
+      "availableCount": 4,
       "retainedCount": 0,
       "latestPublishedAt": "2026-10-27T16:00:00.000Z"
     },
@@ -708,6 +708,1293 @@
     }
   ],
   "items": [
+    {
+      "title": "mudler/LocalAI",
+      "summary": "LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.",
+      "url": "https://github.com/mudler/LocalAI",
+      "publishedAt": "2026-11-14T18:13:42.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "agents",
+        "ai",
+        "api",
+        "audio-generation",
+        "decentralized",
+        "distributed"
+      ],
+      "stars": 50366,
+      "license": "MIT",
+      "id": "1e8c9128b5ed2b9d1e6a",
+      "platform": "GitHub",
+      "sourceId": "github-ai",
+      "sourceName": "GitHub · AI 开源",
+      "category": "开源项目",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
+      "kind": "collected",
+      "topics": [
+        "AI 音乐"
+      ]
+    },
+    {
+      "title": "NousResearch/hermes-agent",
+      "summary": "The agent that grows with you",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "publishedAt": "2026-11-14T18:13:41.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "ai",
+        "ai-agent",
+        "ai-agents",
+        "anthropic",
+        "chatgpt",
+        "claude"
+      ],
+      "stars": 263343,
+      "license": "MIT",
+      "id": "ec2b8bd43eefd65f9cb1",
+      "platform": "GitHub",
+      "sourceId": "github-ai",
+      "sourceName": "GitHub · AI 开源",
+      "category": "开源项目",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
+      "kind": "collected",
+      "topics": []
+    },
+    {
+      "title": "CherryHQ/cherry-studio",
+      "summary": "Your AI workspace for models, agents, and productivity.",
+      "url": "https://github.com/CherryHQ/cherry-studio",
+      "publishedAt": "2026-11-14T18:13:08.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "agent-skills",
+        "agent-workspace",
+        "agentic-workspace",
+        "ai-agents",
+        "ai-models",
+        "ai-productivity"
+      ],
+      "stars": 53512,
+      "license": "AGPL-3.0",
+      "id": "b1b1542da472edd24925",
+      "platform": "GitHub",
+      "sourceId": "github-ai",
+      "sourceName": "GitHub · AI 开源",
+      "category": "开源项目",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
+      "kind": "collected",
+      "topics": []
+    },
+    {
+      "title": "QwenLM/qwen-code",
+      "summary": "An open-source AI coding agent that lives in your terminal.",
+      "url": "https://github.com/QwenLM/qwen-code",
+      "publishedAt": "2026-11-14T18:12:19.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "agentic",
+        "ai",
+        "ai-agent",
+        "ai-coding",
+        "cli",
+        "coding-agent"
+      ],
+      "stars": 30241,
+      "license": "Apache-2.0",
+      "id": "1922d9d520f9ceba156c",
+      "platform": "GitHub",
+      "sourceId": "github-ai",
+      "sourceName": "GitHub · AI 开源",
+      "category": "开源项目",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
+      "kind": "collected",
+      "topics": []
+    },
+    {
+      "title": "neuron-core/neuron-ai",
+      "summary": "The Agentic Framework of the PHP ecosystem to build production-ready AI driven applications. Connect components (LLMs, Tools, vector DBs, memory) to agents that interact with your data and UI.",
+      "url": "https://github.com/neuron-core/neuron-ai",
+      "publishedAt": "2026-11-14T18:11:43.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "agent",
+        "agentic-ai",
+        "agentic-framework",
+        "agents",
+        "ai",
+        "llm"
+      ],
+      "stars": 2174,
+      "license": "MIT",
+      "id": "37e0e0ef1e2227bffb6d",
+      "platform": "GitHub",
+      "sourceId": "github-ai",
+      "sourceName": "GitHub · AI 开源",
+      "category": "开源项目",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
+      "kind": "collected",
+      "topics": []
+    },
+    {
+      "title": "crmne/ruby_llm",
+      "summary": "The Ruby AI framework.",
+      "url": "https://github.com/crmne/ruby_llm",
+      "publishedAt": "2026-11-14T18:11:23.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "agent-framework",
+        "agentic-ai",
+        "agents",
+        "ai",
+        "ai-agents",
+        "ai-framework"
+      ],
+      "stars": 4512,
+      "license": "MIT",
+      "id": "502e467af17038530255",
+      "platform": "GitHub",
+      "sourceId": "github-ai",
+      "sourceName": "GitHub · AI 开源",
+      "category": "开源项目",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
+      "kind": "collected",
+      "topics": []
+    },
+    {
+      "title": "mvschwarz/openrig",
+      "summary": "Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.",
+      "url": "https://github.com/mvschwarz/openrig",
+      "publishedAt": "2026-11-14T18:11:18.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "agent-harness",
+        "agent-orchestration",
+        "agent-skills",
+        "ai-coding",
+        "claude-code",
+        "cli"
+      ],
+      "stars": 8848,
+      "license": "Apache-2.0",
+      "id": "a5babe6eb0c3a37fb08e",
+      "platform": "GitHub",
+      "sourceId": "github-skills",
+      "sourceName": "GitHub · Agent Skills",
+      "category": "Skills",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
+      "kind": "collected",
+      "topics": []
+    },
+    {
+      "title": "nanocodexyz/nanocode",
+      "summary": "SDK for Frontier Embedded Agents.",
+      "url": "https://github.com/nanocodexyz/nanocode",
+      "publishedAt": "2026-11-14T18:10:22.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "agent-sdk",
+        "ai",
+        "ai-agent",
+        "ai-agents",
+        "anthropic",
+        "chatgpt"
+      ],
+      "stars": 719,
+      "license": "Apache-2.0",
+      "id": "423054622eceb9d5dd28",
+      "platform": "GitHub",
+      "sourceId": "github-ai",
+      "sourceName": "GitHub · AI 开源",
+      "category": "开源项目",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
+      "kind": "collected",
+      "topics": []
+    },
+    {
+      "title": "Cotal-AI/Cotal",
+      "summary": "The open standard for agent coordination",
+      "url": "https://github.com/Cotal-AI/Cotal",
+      "publishedAt": "2026-11-14T18:10:07.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "a2a",
+        "agent-communication",
+        "agent-mesh",
+        "agent-orchestration",
+        "agent-skills",
+        "ai"
+      ],
+      "stars": 392,
+      "license": "Apache-2.0",
+      "id": "85b35344986150527527",
+      "platform": "GitHub",
+      "sourceId": "github-skills",
+      "sourceName": "GitHub · Agent Skills",
+      "category": "Skills",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
+      "kind": "collected",
+      "topics": []
+    },
+    {
+      "title": "paperclipai/paperclip",
+      "summary": "The open-source app everyone uses to manage agents at work",
+      "url": "https://github.com/paperclipai/paperclip",
+      "publishedAt": "2026-11-14T18:08:30.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "acpx",
+        "agent-orchestration",
+        "agent-skills",
+        "agentic-ai",
+        "ai-agents",
+        "ai-engineering"
+      ],
+      "stars": 113887,
+      "license": "MIT",
+      "id": "a5e43b1572bfaf36e264",
+      "platform": "GitHub",
+      "sourceId": "github-ai",
+      "sourceName": "GitHub · AI 开源",
+      "category": "开源项目",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
+      "kind": "collected",
+      "topics": []
+    },
+    {
+      "title": "Mesh-LLM/mesh-llm",
+      "summary": "Distributed AI/LLM for the people. Share compute privately or publicly to power your agents and chat.",
+      "url": "https://github.com/Mesh-LLM/mesh-llm",
+      "publishedAt": "2026-11-14T18:06:59.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "agents",
+        "ai",
+        "decentralized",
+        "distributed",
+        "llm"
+      ],
+      "stars": 4107,
+      "license": "Apache-2.0",
+      "id": "8a3e4614d56d28289601",
+      "platform": "GitHub",
+      "sourceId": "github-ai",
+      "sourceName": "GitHub · AI 开源",
+      "category": "开源项目",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
+      "kind": "collected",
+      "topics": []
+    },
+    {
+      "title": "ccch1mneyyy/dsh-Go",
+      "summary": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+      "url": "https://github.com/ccch1mneyyy/dsh-Go",
+      "publishedAt": "2026-11-14T18:05:38.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "ai-agent",
+        "android",
+        "android-app",
+        "coding-agent",
+        "deepseek",
+        "deepseek-harness"
+      ],
+      "stars": 22641,
+      "license": "AGPL-3.0",
+      "id": "52ed5fcd54e4c7b17d79",
+      "platform": "GitHub",
+      "sourceId": "github-ai",
+      "sourceName": "GitHub · AI 开源",
+      "category": "开源项目",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
+      "kind": "collected",
+      "topics": []
+    },
+    {
+      "title": "panxunying/ai-coding-welfare",
+      "summary": "AI Coding 福利站导航：免费白嫖 Claude Code / Codex 的中转站与公益站合集，含额度、模型、价格自动更新与一键配置脚本",
+      "url": "https://github.com/panxunying/ai-coding-welfare",
+      "publishedAt": "2026-11-14T18:05:33.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "ai-coding",
+        "anthropic",
+        "api-proxy",
+        "claude-code",
+        "codex",
+        "free-api"
+      ],
+      "stars": 1320,
+      "license": "MIT",
+      "id": "2a19541af66cdb0231f0",
+      "platform": "GitHub",
+      "sourceId": "github-ai",
+      "sourceName": "GitHub · AI 开源",
+      "category": "开源项目",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
+      "kind": "collected",
+      "topics": []
+    },
+    {
+      "title": "juyterman1000/entroly",
+      "summary": "Cut AI context cost without trusting the compressor. Every reduction is reversible, byte-exact recoverable, and carries an auditable receipt. Local-first, works through proxy, MCP, SDK, or agent wrapper.",
+      "url": "https://github.com/juyterman1000/entroly",
+      "publishedAt": "2026-11-14T18:05:33.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "agent-skills",
+        "ai-agents",
+        "ai-coding-agents",
+        "claude-code",
+        "codex",
+        "context-compression"
+      ],
+      "stars": 486,
+      "license": "Apache-2.0",
+      "id": "e57e1e71b39a502ee591",
+      "platform": "GitHub",
+      "sourceId": "github-ai",
+      "sourceName": "GitHub · AI 开源",
+      "category": "开源项目",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
+      "kind": "collected",
+      "topics": []
+    },
+    {
+      "title": "modelplan/modelplan",
+      "summary": "Which AI coding model, at which effort, on which plan? Recommended efforts, a leaderboard at those efforts and plan advice from modelplan.ai, in Claude Code, Codex and the terminal (plugins, Skill, CLI).",
+      "url": "https://github.com/modelplan/modelplan",
+      "publishedAt": "2026-11-14T18:04:44.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "agent-skills",
+        "ai-coding",
+        "claude-code",
+        "claude-code-plugin",
+        "cli",
+        "codex"
+      ],
+      "stars": 41,
+      "license": "MIT",
+      "id": "3b94200eecb8f2a9207f",
+      "platform": "GitHub",
+      "sourceId": "github-skills",
+      "sourceName": "GitHub · Agent Skills",
+      "category": "Skills",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
+      "kind": "collected",
+      "topics": []
+    },
+    {
+      "title": "JetBrains/thinkrail",
+      "summary": "ThinkRail is the agentic IDE that gets better every time you use it",
+      "url": "https://github.com/JetBrains/thinkrail",
+      "publishedAt": "2026-11-14T18:04:33.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "agent",
+        "agent-skills",
+        "agentic-ai",
+        "agentic-workflow",
+        "ai-coding",
+        "ai-tools"
+      ],
+      "stars": 8243,
+      "license": "Apache-2.0",
+      "id": "0acf196572ceb07e1cf2",
+      "platform": "GitHub",
+      "sourceId": "github-skills",
+      "sourceName": "GitHub · Agent Skills",
+      "category": "Skills",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
+      "kind": "collected",
+      "topics": []
+    },
+    {
+      "title": "unslothai/unsloth",
+      "summary": "Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4.1, MiniMax-H3, Gemma 4, FLUX and more.",
+      "url": "https://github.com/unslothai/unsloth",
+      "publishedAt": "2026-11-14T18:02:42.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "agent",
+        "ai",
+        "chatgpt",
+        "deepseek",
+        "fine-tuning",
+        "gemma"
+      ],
+      "stars": 79495,
+      "license": "Apache-2.0",
+      "id": "1970f2aab6a882fb2b18",
+      "platform": "GitHub",
+      "sourceId": "github-ai",
+      "sourceName": "GitHub · AI 开源",
+      "category": "开源项目",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
+      "kind": "collected",
+      "topics": []
+    },
+    {
+      "title": "Pinvou/pinvou-agent",
+      "summary": "Open-source desktop AI agent for tools, files, knowledge, workflows, and real deliverables.",
+      "url": "https://github.com/Pinvou/pinvou-agent",
+      "publishedAt": "2026-11-14T18:02:21.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "agent-client-protocol",
+        "agent-skills",
+        "agentic-ai",
+        "ai",
+        "ai-agent",
+        "ai-agents"
+      ],
+      "stars": 3020,
+      "license": "MIT",
+      "id": "75b90b8224bac171a5ab",
+      "platform": "GitHub",
+      "sourceId": "github-workflows",
+      "sourceName": "GitHub · AI 工作流",
+      "category": "工作流",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
+      "kind": "collected",
+      "topics": []
+    },
+    {
+      "title": "kortix-ai/CompanyOS",
+      "summary": "Kortix CompanyOS – the open-source operating system for your company. Multiplayer AI agents, your company as code, sovereign on your infrastructure or ours.",
+      "url": "https://github.com/kortix-ai/CompanyOS",
+      "publishedAt": "2026-11-14T18:01:57.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "ai",
+        "ai-agents",
+        "company-as-code",
+        "company-operating-system",
+        "company-os",
+        "companyos"
+      ],
+      "stars": 20715,
+      "license": "未声明或未识别，请核对仓库许可",
+      "id": "ac9f2eb701cf2463f51b",
+      "platform": "GitHub",
+      "sourceId": "github-ai",
+      "sourceName": "GitHub · AI 开源",
+      "category": "开源项目",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
+      "kind": "collected",
+      "topics": []
+    },
+    {
+      "title": "pbakaus/impeccable",
+      "summary": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+      "url": "https://github.com/pbakaus/impeccable",
+      "publishedAt": "2026-11-14T17:59:31.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "agent-skills",
+        "ai",
+        "anti-slop",
+        "design",
+        "slop"
+      ],
+      "stars": 110083,
+      "license": "Apache-2.0",
+      "id": "ec673bd7694d3a658bba",
+      "platform": "GitHub",
+      "sourceId": "github-skills",
+      "sourceName": "GitHub · Agent Skills",
+      "category": "Skills",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
+      "kind": "collected",
+      "topics": []
+    },
+    {
+      "title": "NVIDIA/SkillEvaluator",
+      "summary": "Multi-tier framework for evaluating AI agent skills with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
+      "url": "https://github.com/NVIDIA/SkillEvaluator",
+      "publishedAt": "2026-11-14T17:51:01.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "agent-evaluation",
+        "agent-plugins",
+        "agent-security",
+        "agent-skills",
+        "agentic-ai",
+        "benchmark"
+      ],
+      "stars": 1214,
+      "license": "Apache-2.0",
+      "id": "d17b0500bab017dea395",
+      "platform": "GitHub",
+      "sourceId": "github-skills",
+      "sourceName": "GitHub · Agent Skills",
+      "category": "Skills",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
+      "kind": "collected",
+      "topics": []
+    },
+    {
+      "title": "axoviq-ai/synthadoc",
+      "summary": "Synthadoc: An open-source LLM knowledge compilation engine that turns raw documents into structured, local-first wikis. A transparent, human-readable alternative to traditional RAG, which can be self-managed and self-improved without the use of any tools.",
+      "url": "https://github.com/axoviq-ai/synthadoc",
+      "publishedAt": "2026-11-14T17:51:00.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "agent-skills",
+        "agentic-ai",
+        "cli-tool",
+        "domain-adaptation",
+        "enterprise",
+        "enterprise-solutions"
+      ],
+      "stars": 2030,
+      "license": "AGPL-3.0",
+      "id": "fafb6aa4bc9c0df6a7e6",
+      "platform": "GitHub",
+      "sourceId": "github-skills",
+      "sourceName": "GitHub · Agent Skills",
+      "category": "Skills",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
+      "kind": "collected",
+      "topics": []
+    },
+    {
+      "title": "digitalsamba/claude-code-video-toolkit",
+      "summary": "Make videos with Claude Code: script, AI voiceover, music, video clips and render, on open-source models that cost cents",
+      "url": "https://github.com/digitalsamba/claude-code-video-toolkit",
+      "publishedAt": "2026-11-14T17:38:52.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "agent-skills",
+        "ai-video",
+        "ai-video-generator",
+        "claude",
+        "claude-code",
+        "developer-tools"
+      ],
+      "stars": 2562,
+      "license": "MIT",
+      "id": "85fe3845cbe84ea35318",
+      "platform": "GitHub",
+      "sourceId": "github-skills",
+      "sourceName": "GitHub · Agent Skills",
+      "category": "Skills",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
+      "kind": "collected",
+      "topics": [
+        "AI 音乐"
+      ]
+    },
+    {
+      "title": "davila7/claude-code-templates",
+      "summary": "Open-source registry and CLI for Claude Code components: agents, commands, skills, hooks, MCPs, settings and mods",
+      "url": "https://github.com/davila7/claude-code-templates",
+      "publishedAt": "2026-11-14T17:32:48.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "agent-skills",
+        "ai-agents",
+        "anthropic",
+        "anthropic-claude",
+        "claude",
+        "claude-code"
+      ],
+      "stars": 33586,
+      "license": "MIT",
+      "id": "25bff0b4a0ece6bc72b2",
+      "platform": "GitHub",
+      "sourceId": "github-skills",
+      "sourceName": "GitHub · Agent Skills",
+      "category": "Skills",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
+      "kind": "collected",
+      "topics": []
+    },
+    {
+      "title": "Cassette-Editor/oh-my-cassette",
+      "summary": "你的随身 AI 剪辑搭档 | Pocket AI co-editor for video montage — AI video editing plugin & MCP server for Claude Code, Codex, Hermes & OpenCode",
+      "url": "https://github.com/Cassette-Editor/oh-my-cassette",
+      "publishedAt": "2026-11-14T17:29:40.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "agent",
+        "agent-skills",
+        "ai-agent",
+        "ai-video-editing",
+        "chat-to-edit",
+        "claude-code"
+      ],
+      "stars": 220,
+      "license": "MIT",
+      "id": "30925bf5bec6ced84290",
+      "platform": "GitHub",
+      "sourceId": "github-skills",
+      "sourceName": "GitHub · Agent Skills",
+      "category": "Skills",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
+      "kind": "collected",
+      "topics": []
+    },
+    {
+      "title": "boyang-hu/website-rebuild-skill",
+      "summary": "复刻网站的 Agent Skill：抓只读镜像、从压缩代码逐行还原、自动比对验收。An agent skill that mirrors a website, rebuilds it from the minified code, and verifies the result with automated diffs.",
+      "url": "https://github.com/boyang-hu/website-rebuild-skill",
+      "publishedAt": "2026-11-14T17:28:32.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "agent-skills",
+        "ai-agents",
+        "claude",
+        "claude-code",
+        "codex",
+        "reverse-engineering"
+      ],
+      "stars": 1751,
+      "license": "MIT",
+      "id": "663574f45febcae5d1ef",
+      "platform": "GitHub",
+      "sourceId": "github-skills",
+      "sourceName": "GitHub · Agent Skills",
+      "category": "Skills",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
+      "kind": "collected",
+      "topics": []
+    },
+    {
+      "title": "bytechefhq/bytechef",
+      "summary": "Open-source AI agents and workflow automation. Self-host or embed in your SaaS. Apache 2.0 alternative to n8n and Zapier.",
+      "url": "https://github.com/bytechefhq/bytechef",
+      "publishedAt": "2026-11-14T16:23:21.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "ai",
+        "ai-agents",
+        "api",
+        "automation",
+        "embedded-ipaas",
+        "hacktoberfest"
+      ],
+      "stars": 1063,
+      "license": "未声明或未识别，请核对仓库许可",
+      "id": "8fab7f8f1f4a757114f9",
+      "platform": "GitHub",
+      "sourceId": "github-workflows",
+      "sourceName": "GitHub · AI 工作流",
+      "category": "工作流",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
+      "kind": "collected",
+      "topics": []
+    },
+    {
+      "title": "n8n-io/n8n",
+      "summary": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "url": "https://github.com/n8n-io/n8n",
+      "publishedAt": "2026-11-14T16:18:07.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "ai",
+        "apis",
+        "automation",
+        "cli",
+        "data-flow",
+        "development"
+      ],
+      "stars": 210478,
+      "license": "未声明或未识别，请核对仓库许可",
+      "id": "c37165a31cd3fc399e84",
+      "platform": "GitHub",
+      "sourceId": "github-workflows",
+      "sourceName": "GitHub · AI 工作流",
+      "category": "工作流",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
+      "kind": "collected",
+      "topics": []
+    },
+    {
+      "title": "loteran/Arctis-Sound-Manager",
+      "summary": "SteelSeries headset manager for Linux — GG & Sonar alternative for Arctis: Sonar EQ with 330+ game presets, ChatMix, Game/Chat/Media mixer, spatial audio, sidetone, ANC, battery and OLED. Arctis Nova Pro Wireless & Wired, Nova Pro Omni, Nova Elite, Nova 7/7P/5",
+      "url": "https://github.com/loteran/Arctis-Sound-Manager",
+      "publishedAt": "2026-11-14T15:53:35.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "arctis",
+        "arctis-nova-pro",
+        "arctis-nova-pro-wireless",
+        "bazzite",
+        "chatmix",
+        "equalizer"
+      ],
+      "stars": 200,
+      "license": "未声明或未识别，请核对仓库许可",
+      "id": "29c0389da759afaeb8ee",
+      "platform": "GitHub",
+      "sourceId": "github-spatial-audio",
+      "sourceName": "GitHub · 空间音频",
+      "category": "音乐科技",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
+      "kind": "collected",
+      "topics": [
+        "空间音频"
+      ]
+    },
+    {
+      "title": "supernovae-st/nika",
+      "summary": "Intent as Code: say what you want done, keep it as a file. Checked before it runs, run with the model you choose, proven afterwards. Rust engine, CLI/TUI and TypeScript SDK. AGPL-3.0 🦋",
+      "url": "https://github.com/supernovae-st/nika",
+      "publishedAt": "2026-11-14T15:51:18.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "agents",
+        "ai",
+        "ai-agents",
+        "ai-workflows",
+        "automation",
+        "cli"
+      ],
+      "stars": 100,
+      "license": "AGPL-3.0",
+      "id": "249dd7e6e1f5dfb99e17",
+      "platform": "GitHub",
+      "sourceId": "github-workflows",
+      "sourceName": "GitHub · AI 工作流",
+      "category": "工作流",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
+      "kind": "collected",
+      "topics": []
+    },
+    {
+      "title": "Sidiora-Labs/hyperfide",
+      "summary": "The ai agent workflow tool that scales from small, simple projects to large, complex codebases.",
+      "url": "https://github.com/Sidiora-Labs/hyperfide",
+      "publishedAt": "2026-11-14T15:32:56.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "agent",
+        "agent-memory",
+        "agent-orchestration",
+        "agentic-workflow",
+        "ai",
+        "codify"
+      ],
+      "stars": 638,
+      "license": "Apache-2.0",
+      "id": "867f81ae204d77097e09",
+      "platform": "GitHub",
+      "sourceId": "github-workflows",
+      "sourceName": "GitHub · AI 工作流",
+      "category": "工作流",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
+      "kind": "collected",
+      "topics": []
+    },
+    {
+      "title": "afjcjsbx/picoclaw",
+      "summary": "Ultra-lightweight, open-source, self-hosted personal AI assistant in Go for RISC-V, SBCs, and embedded systems. Active PicoClaw fork with WebUI, MCP, memory, multi-agent workflows, plugins, and chat apps.",
+      "url": "https://github.com/afjcjsbx/picoclaw",
+      "publishedAt": "2026-11-14T15:22:36.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "agent",
+        "ai",
+        "ai-agent",
+        "arm",
+        "edge-ai",
+        "embedded"
+      ],
+      "stars": 51,
+      "license": "MIT",
+      "id": "c8939df8f47b6405a4e5",
+      "platform": "GitHub",
+      "sourceId": "github-workflows",
+      "sourceName": "GitHub · AI 工作流",
+      "category": "工作流",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
+      "kind": "collected",
+      "topics": []
+    },
+    {
+      "title": "codeaholicguy/ai-devkit",
+      "summary": "The control plane for AI coding agents.",
+      "url": "https://github.com/codeaholicguy/ai-devkit",
+      "publishedAt": "2026-11-14T15:09:04.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "agent-framework",
+        "agent-skills",
+        "ai",
+        "ai-agents",
+        "ai-coding",
+        "antigravity"
+      ],
+      "stars": 1667,
+      "license": "Apache-2.0",
+      "id": "7cecf60e334920ef15c0",
+      "platform": "GitHub",
+      "sourceId": "github-workflows",
+      "sourceName": "GitHub · AI 工作流",
+      "category": "工作流",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
+      "kind": "collected",
+      "topics": []
+    },
+    {
+      "title": "“hush! 沙滩音乐会 x 城市运动节 2026”开幕 “能量岛屿”打造音乐与运动的海岸盛会",
+      "url": "https://www.gov.mo/zh-hans/news/951118/",
+      "summary": "由文化体育局与美高梅合办，澳门海关、市政署、海事及水务局、旅游局协办的“hush! 沙滩音乐会 x 城市运动节2026”，今日（11月14日）于黑沙海滩举行开幕式。主活动一连两日（11月14日及15日）在黑沙海滩打造融合音乐、运动与社群文化的文旅体验。居民及旅客可在旅程中欣赏演出、挑战自我、放松身心及探索本澳文化，为澳门注入更具参与感的盛事活力。 开幕式由文化体育局局长梁惠敏，美高梅助理品牌策划项目总监黄泽群，旅游局局长文绮华，文化体育局代副局长傅斯娜，海关海上监察厅厅长黄永明，市政署文康社群及公共关系处代处长陈颖",
+      "publishedAt": "2026-11-14T14:39:00.000Z",
+      "tags": [],
+      "id": "287ca32ce8cf5c366136",
+      "platform": "官方资讯",
+      "sourceId": "macau-news",
+      "sourceName": "澳门特区政府 · 新闻",
+      "category": "本地新闻",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
+      "kind": "collected",
+      "dateLabel": "原文",
+      "topics": [],
+      "region": "macau"
+    },
+    {
+      "title": "RSSHub v2026.11.14-8649.6538d8f",
+      "summary": "Source commit: 6538d8fdf7183cb75cf29b50b9e60f07ca1c641b Published multi-platform images: - ghcr.io/diygod/rsshub:6538d8fdf7183cb75cf29b50b9e60f07ca1c641b - ghcr.io/diygod/rsshub:chromium-bundled-6538d8fdf7183cb75cf29b50b9e60f07ca1c641b - diygod/rsshub:6538d8fd",
+      "url": "https://github.com/DIYgod/RSSHub/releases/tag/v2026.11.14-8649.6538d8f",
+      "publishedAt": "2026-11-14T14:24:31.000Z",
+      "dateLabel": "正式发行",
+      "tags": [
+        "v2026.11.14-8649.6538d8f"
+      ],
+      "id": "01bbda866ea211a35820",
+      "platform": "GitHub",
+      "sourceId": "rsshub-releases",
+      "sourceName": "RSSHub · 正式发行",
+      "category": "工作流",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
+      "kind": "collected",
+      "topics": []
+    },
+    {
+      "title": "szeremeta1/Vespertine",
+      "summary": "Free, open-source, surround bit-perfect music player for Mac. Switches your DAC to every track's native format, plays DSD, Dolby Atmos, TrueHD and DTS, renders surround as Spatial Audio on AirPods, and catches fake hi-res files.",
+      "url": "https://github.com/szeremeta1/Vespertine",
+      "publishedAt": "2026-11-14T13:52:05.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "airpods-max",
+        "audio-player",
+        "audiophile",
+        "bit-perfect",
+        "core-audio",
+        "dolby-atmos"
+      ],
+      "stars": 25,
+      "license": "GPL-3.0",
+      "id": "99f2b6f2213a0697d7c0",
+      "platform": "GitHub",
+      "sourceId": "github-spatial-audio",
+      "sourceName": "GitHub · 空间音频",
+      "category": "音乐科技",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
+      "kind": "collected",
+      "topics": [
+        "空间音频"
+      ]
+    },
+    {
+      "title": "superuser404notfound/AetherEngine",
+      "summary": "Media player engine for iOS, tvOS, macOS and visionOS. FFmpeg demux, VideoToolbox / dav1d / libavcodec decode, live TV with DVR timeshift and hardware deinterlace, Dolby Atmos passthrough, lossless TrueHD and DTS:X height channels, HDR10 / HDR10+ / Dolby Visio",
+      "url": "https://github.com/superuser404notfound/AetherEngine",
+      "publishedAt": "2026-11-14T13:26:06.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "av1",
+        "avfoundation",
+        "dolby-atmos",
+        "dolby-vision",
+        "dvr",
+        "ffmpeg"
+      ],
+      "stars": 431,
+      "license": "未声明或未识别，请核对仓库许可",
+      "id": "e346bff54c889a087f74",
+      "platform": "GitHub",
+      "sourceId": "github-spatial-audio",
+      "sourceName": "GitHub · 空间音频",
+      "category": "音乐科技",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
+      "kind": "collected",
+      "topics": [
+        "空间音频"
+      ]
+    },
+    {
+      "title": "qdTXTbp/FuFumidi",
+      "summary": "Offline MIDI workstation: transcription, piano roll editing, visualization, analysis, score, film scoring. 离线 MIDI 工作站：转录、编辑、可视化、分析、乐谱、影视配乐。",
+      "url": "https://github.com/qdTXTbp/FuFumidi",
+      "publishedAt": "2026-11-14T13:23:10.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "audio-to-midi",
+        "basic-pitch",
+        "demucs",
+        "desktop-app",
+        "electron",
+        "midi"
+      ],
+      "stars": 37,
+      "license": "未声明或未识别，请核对仓库许可",
+      "id": "a1c156fa97abd0206b93",
+      "platform": "GitHub",
+      "sourceId": "github-audio-midi",
+      "sourceName": "GitHub · 音频转 MIDI",
+      "category": "音乐科技",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
+      "kind": "collected",
+      "topics": [
+        "AI 音乐",
+        "音乐制作"
+      ]
+    },
+    {
+      "title": "“第73届澳门格兰披治大赛车及澳门城市文化节”今日开幕",
+      "url": "https://www.gov.mo/zh-hans/news/951104/",
+      "summary": "年度体坛盛事 “第73届澳门格兰披治大赛车” 将于11月19日至22日在东望洋跑道举行，为提升赛事期间的文体联动氛围，文化体育局于11月14日至22日推出 “澳门城市文化节”。开幕仪式于今(14)日下午3时在塔石广场举行，吸引不少市民和旅客到场，场面热闹。 出席开幕仪式的嘉宾包括：文化体育局局长梁惠敏；旅游局局长文绮华；澳门格兰披治大赛车组织委员会协调员李诗灵；中国-澳门汽车总会会员大会主席钟国荣；主要赞助商代表包括美高梅社会事务行政总监邵碧玲、金沙中国有限公司投资者关系企业行政副总裁张鹏、银河娱乐集团公共关系企业",
+      "publishedAt": "2026-11-14T13:16:00.000Z",
+      "tags": [],
+      "id": "d649a96869abb655140f",
+      "platform": "官方资讯",
+      "sourceId": "macau-news",
+      "sourceName": "澳门特区政府 · 新闻",
+      "category": "本地新闻",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
+      "kind": "collected",
+      "dateLabel": "原文",
+      "topics": [],
+      "region": "macau"
+    },
+    {
+      "title": "aivrar/portable-hermes-agent",
+      "summary": "Hermes Agent made portable desktop for Windows — 100 tools, GUI, local models via LM Studio, TTS, Music, ComfyUI, workflows, tool maker. No install. No Docker. No admin rights.",
+      "url": "https://github.com/aivrar/portable-hermes-agent",
+      "publishedAt": "2026-11-14T12:48:38.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "ai",
+        "ai-agents",
+        "comfyui",
+        "desktop-app",
+        "hacktoberfest",
+        "hermes"
+      ],
+      "stars": 247,
+      "license": "MIT",
+      "id": "2b74c3755281a437c264",
+      "platform": "GitHub",
+      "sourceId": "github-workflows",
+      "sourceName": "GitHub · AI 工作流",
+      "category": "工作流",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
+      "kind": "collected",
+      "topics": []
+    },
+    {
+      "title": "RSSHub v2026.11.14-8648.6e9ae2c",
+      "summary": "Source commit: 6e9ae2cfc02bafb07f551a4c1b9129f4de2febc1 Published multi-platform images: - ghcr.io/diygod/rsshub:6e9ae2cfc02bafb07f551a4c1b9129f4de2febc1 - ghcr.io/diygod/rsshub:chromium-bundled-6e9ae2cfc02bafb07f551a4c1b9129f4de2febc1 - diygod/rsshub:6e9ae2cf",
+      "url": "https://github.com/DIYgod/RSSHub/releases/tag/v2026.11.14-8648.6e9ae2c",
+      "publishedAt": "2026-11-14T12:34:49.000Z",
+      "dateLabel": "正式发行",
+      "tags": [
+        "v2026.11.14-8648.6e9ae2c"
+      ],
+      "id": "89ed063cbf9168c5e794",
+      "platform": "GitHub",
+      "sourceId": "rsshub-releases",
+      "sourceName": "RSSHub · 正式发行",
+      "category": "工作流",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
+      "kind": "collected",
+      "topics": []
+    },
+    {
+      "title": "第四届“粤澳共此时”花海欢乐季欢乐启幕 ——首周活动亲子同乐，开启琴澳活力之旅",
+      "url": "https://www.gov.mo/zh-hans/news/951093/",
+      "summary": "11月14日下午，由横琴粤澳深度合作区民生事务局、澳门特别行政区政府文化体育局、澳门特别行政区政府社会工作局联合主办的第四届“粤澳共此时”花海欢乐季在横琴花海长廊一号驿站欢乐启幕。活动将持续至12月6日，每周六、日14:30—17:30，连续4个周末、4大新意主题周，趣享周末新玩法。 首周活动以“聚好玩·其乐桃桃”为主题，在自然花海与童趣交织的氛围中，为亲子家庭献上集童声合唱、澳门土风舞、小丑巡游与手作市集于一体的欢乐盛宴。 花海启幕 童趣绽放 当日下午2时30分，横琴花海长廊欢声笑语、人气十足，琴澳居民携家带口前",
+      "publishedAt": "2026-11-14T12:27:00.000Z",
+      "tags": [],
+      "id": "42c05e384b76f567a4e9",
+      "platform": "官方资讯",
+      "sourceId": "macau-news",
+      "sourceName": "澳门特区政府 · 新闻",
+      "category": "本地新闻",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
+      "kind": "collected",
+      "dateLabel": "原文",
+      "topics": [],
+      "region": "macau"
+    },
+    {
+      "title": "Rheosoph/flow-like",
+      "summary": "Flow-Like: Strongly Typed Enterprise Scale Workflows. Built for scalability, speed, seamless AI integration and rich customization.",
+      "url": "https://github.com/Rheosoph/flow-like",
+      "publishedAt": "2026-11-14T12:23:59.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "agents",
+        "ai",
+        "apis",
+        "automation",
+        "data-flow",
+        "development"
+      ],
+      "stars": 980,
+      "license": "未声明或未识别，请核对仓库许可",
+      "id": "12b0e3e361ec96a6bd25",
+      "platform": "GitHub",
+      "sourceId": "github-workflows",
+      "sourceName": "GitHub · AI 工作流",
+      "category": "工作流",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
+      "kind": "collected",
+      "topics": []
+    },
+    {
+      "title": "superuser404notfound/AetherPlayer",
+      "summary": "Native media player for macOS and iOS/iPadOS on AetherEngine (FFmpeg). Plays almost any video or audio file, disc image or stream URL, with Dolby Vision and HDR, lossless height channels from TrueHD and DTS:X, Dolby Atmos from E-AC-3, track switching and live ",
+      "url": "https://github.com/superuser404notfound/AetherPlayer",
+      "publishedAt": "2026-11-14T11:44:09.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "airplay",
+        "dolby-atmos",
+        "dolby-vision",
+        "dts-x",
+        "ffmpeg",
+        "hdr"
+      ],
+      "stars": 28,
+      "license": "LGPL-3.0",
+      "id": "9b41c14abe30b8e01ab1",
+      "platform": "GitHub",
+      "sourceId": "github-spatial-audio",
+      "sourceName": "GitHub · 空间音频",
+      "category": "音乐科技",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
+      "kind": "collected",
+      "topics": [
+        "空间音频"
+      ]
+    },
+    {
+      "title": "RSSHub v2026.11.14-8647.60b1d2d",
+      "summary": "Source commit: 60b1d2d237e2cde16b53fb64d533aad135737fc0 Published multi-platform images: - ghcr.io/diygod/rsshub:60b1d2d237e2cde16b53fb64d533aad135737fc0 - ghcr.io/diygod/rsshub:chromium-bundled-60b1d2d237e2cde16b53fb64d533aad135737fc0 - diygod/rsshub:60b1d2d2",
+      "url": "https://github.com/DIYgod/RSSHub/releases/tag/v2026.11.14-8647.60b1d2d",
+      "publishedAt": "2026-11-14T10:30:39.000Z",
+      "dateLabel": "正式发行",
+      "tags": [
+        "v2026.11.14-8647.60b1d2d"
+      ],
+      "id": "7ec4376efeb3ab961090",
+      "platform": "GitHub",
+      "sourceId": "rsshub-releases",
+      "sourceName": "RSSHub · 正式发行",
+      "category": "工作流",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
+      "kind": "collected",
+      "topics": []
+    },
+    {
+      "title": "acids-ircam/acids-cc",
+      "summary": "项目未提供简介，请阅读仓库说明。",
+      "url": "https://github.com/acids-ircam/acids-cc",
+      "publishedAt": "2026-11-14T10:29:22.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [],
+      "stars": 0,
+      "license": "未声明或未识别，请核对仓库许可",
+      "id": "8affe49ffec8d0277bc7",
+      "platform": "GitHub",
+      "sourceId": "github-audio-ai",
+      "sourceName": "IRCAM ACIDS · 音频研究开源",
+      "category": "音乐科技",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
+      "kind": "collected",
+      "topics": [
+        "AI 音乐",
+        "实时交互"
+      ]
+    },
+    {
+      "title": "taskade/mcp",
+      "summary": "🤖 Taskade MCP · Official MCP server and OpenAPI to MCP codegen. Build AI agent tools from any OpenAPI API and connect to Claude, Cursor, and more.",
+      "url": "https://github.com/taskade/mcp",
+      "publishedAt": "2026-11-14T10:23:34.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "ai",
+        "ai-agent",
+        "ai-agents",
+        "autonomous-agents",
+        "claude",
+        "cursor"
+      ],
+      "stars": 169,
+      "license": "MIT",
+      "id": "b7f322b19359e55a0e19",
+      "platform": "GitHub",
+      "sourceId": "github-workflows",
+      "sourceName": "GitHub · AI 工作流",
+      "category": "工作流",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
+      "kind": "collected",
+      "topics": []
+    },
+    {
+      "title": "glaretechnologies/substrata",
+      "summary": "Metaverse client and server written in C++. Runs on Windows, Mac, Linux and Web. Custom 3D engine, networked physics and Lua scripting",
+      "url": "https://github.com/glaretechnologies/substrata",
+      "publishedAt": "2026-11-14T09:52:51.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "c-plus-plus",
+        "game-development",
+        "metaverse",
+        "networked-physics",
+        "networking",
+        "spatial-audio"
+      ],
+      "stars": 87,
+      "license": "MIT",
+      "id": "3b39a04f6ed5c70ca6dd",
+      "platform": "GitHub",
+      "sourceId": "github-spatial-audio",
+      "sourceName": "GitHub · 空间音频",
+      "category": "音乐科技",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
+      "kind": "collected",
+      "topics": [
+        "空间音频"
+      ]
+    },
+    {
+      "title": "第73届澳门格兰披治大赛车及澳门城市文化节开幕仪式在塔石广场举行。",
+      "url": "https://www.gov.mo/zh-hans/news/951033/",
+      "summary": "",
+      "publishedAt": "2026-11-14T09:52:00.000Z",
+      "tags": [],
+      "id": "f2e87a90d2f1ae5e2960",
+      "platform": "官方资讯",
+      "sourceId": "macau-news",
+      "sourceName": "澳门特区政府 · 新闻",
+      "category": "本地新闻",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
+      "kind": "collected",
+      "dateLabel": "原文",
+      "topics": [],
+      "region": "macau"
+    },
+    {
+      "title": "imfeh2/fora",
+      "summary": "Run your own organization of agents",
+      "url": "https://github.com/imfeh2/fora",
+      "publishedAt": "2026-11-14T09:47:29.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "agent",
+        "agent-runtime",
+        "agentic-workflows",
+        "ai",
+        "ai-agent",
+        "ai-workspace"
+      ],
+      "stars": 320,
+      "license": "Apache-2.0",
+      "id": "e5e6309218762de4b4cb",
+      "platform": "GitHub",
+      "sourceId": "github-workflows",
+      "sourceName": "GitHub · AI 工作流",
+      "category": "工作流",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
+      "kind": "collected",
+      "topics": []
+    },
+    {
+      "title": "創新科技及工業局局長出席2026年中銀國際「科創菁英・賦能興港」青年科技人才助學培育計畫頒獎典禮致辭（只有中文）（附圖）",
+      "url": "https://www.info.gov.hk/gia/general/202611/14/P2026111400511.htm",
+      "summary": "以下是創新科技及工業局局長孫東教授今日（十一月十四日）出席2026年中銀國際「科創菁英・賦能興港」青年科技人才助學培育計畫頒獎典禮的致辭： 尊敬的呂峰副部長（中央人民政府駐香港特別行政區聯絡辦公室經濟金融二部副部長）、鄭錦鵬巡視員（中央人民政府駐香港特別行政區聯絡辦公室教育和青年部二級巡視員）、黃錦良主席（香港教育工作者聯會主席）、劉敏董事長（中銀國際控股有限公司董事長）、林生（中銀國際控股有限公司高級顧問林廣兆）、Jeff（教育局副局長施俊輝博士）、各位嘉賓、老師、同學： 大家好！今天很高興出席由香港教育工作者聯",
+      "publishedAt": "2026-11-14T09:00:00.000Z",
+      "tags": [],
+      "id": "064821c9b21e1c33b443",
+      "platform": "官方资讯",
+      "sourceId": "hongkong-news",
+      "sourceName": "香港特区政府 · 新闻公报",
+      "category": "本地新闻",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
+      "kind": "collected",
+      "dateLabel": "原文",
+      "topics": [
+        "金融观察"
+      ],
+      "region": "hongkong"
+    },
+    {
+      "title": "RSSHub v2026.11.14-8646.f7cf9bc",
+      "summary": "Source commit: f7cf9bc4e9b49e4450721f84cf77b706301d4f10 Published multi-platform images: - ghcr.io/diygod/rsshub:f7cf9bc4e9b49e4450721f84cf77b706301d4f10 - ghcr.io/diygod/rsshub:chromium-bundled-f7cf9bc4e9b49e4450721f84cf77b706301d4f10 - diygod/rsshub:f7cf9bc4",
+      "url": "https://github.com/DIYgod/RSSHub/releases/tag/v2026.11.14-8646.f7cf9bc",
+      "publishedAt": "2026-11-14T08:42:47.000Z",
+      "dateLabel": "正式发行",
+      "tags": [
+        "v2026.11.14-8646.f7cf9bc"
+      ],
+      "id": "82e62db8632a3ebbf7c5",
+      "platform": "GitHub",
+      "sourceId": "rsshub-releases",
+      "sourceName": "RSSHub · 正式发行",
+      "category": "工作流",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
+      "kind": "collected",
+      "topics": []
+    },
+    {
+      "title": "“第23届葡语国家共同体总检察长及澳门特别行政区检察长会议”代表团参访深圳市、珠海市和澳门大学",
+      "url": "https://www.gov.mo/zh-hans/news/951026/",
+      "summary": "2026年11月12日至13日，澳门特区检察长唐晓峰率代表团与来澳出席“第23届葡语国家共同体总检察长及澳门特别行政区检察长会议”暨“检察院应对复杂犯罪”研讨会的巴西联邦共和国、佛得角共和国、赤道几内亚共和国、东帝汶民主共和国、莫桑比克共和国、几内亚比绍共和国、圣多美和普林西比民主共和国及葡萄牙共和国的代表团（以中文笔划顺序排位）前往粤港澳大湾区内地城市（深圳市及珠海市）进行参访。 各代表团于12日参访深圳市，获广东省人民检察院检察长冯键接待。各代表团到访深圳市人民检察院，参观检察文化中心，了解深圳检察工作的发展历",
+      "publishedAt": "2026-11-14T08:41:00.000Z",
+      "tags": [],
+      "id": "ad524bca797ca712ee6f",
+      "platform": "官方资讯",
+      "sourceId": "macau-news",
+      "sourceName": "澳门特区政府 · 新闻",
+      "category": "本地新闻",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
+      "kind": "collected",
+      "dateLabel": "原文",
+      "topics": [],
+      "region": "macau"
+    },
+    {
+      "title": "cocofhu/grasp",
+      "summary": "Grasp helps you manage multiple projects and parallel coding agents in one visual workflow, so humans can understand faster and ship more.",
+      "url": "https://github.com/cocofhu/grasp",
+      "publishedAt": "2026-11-14T08:02:01.000Z",
+      "dateLabel": "仓库更新",
+      "tags": [
+        "agent",
+        "ai",
+        "browser-automation",
+        "harness",
+        "harness-ai",
+        "harness-ci"
+      ],
+      "stars": 369,
+      "license": "MIT",
+      "id": "2cc3e2086a6f89e3c148",
+      "platform": "GitHub",
+      "sourceId": "github-workflows",
+      "sourceName": "GitHub · AI 工作流",
+      "category": "工作流",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
+      "kind": "collected",
+      "topics": []
+    },
     {
       "title": "Significant-Gravitas/AutoGPT",
       "summary": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
@@ -784,81 +2071,6 @@
       "topics": []
     },
     {
-      "title": "paperclipai/paperclip",
-      "summary": "The open-source app everyone uses to manage agents at work",
-      "url": "https://github.com/paperclipai/paperclip",
-      "publishedAt": "2026-11-14T06:34:28.000Z",
-      "dateLabel": "仓库更新",
-      "tags": [
-        "acpx",
-        "agent-orchestration",
-        "agent-skills",
-        "agentic-ai",
-        "ai-agents",
-        "ai-engineering"
-      ],
-      "stars": 113747,
-      "license": "MIT",
-      "id": "a5e43b1572bfaf36e264",
-      "platform": "GitHub",
-      "sourceId": "github-skills",
-      "sourceName": "GitHub · Agent Skills",
-      "category": "Skills",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
-      "kind": "collected",
-      "topics": []
-    },
-    {
-      "title": "kirodotdev/KiroCrew",
-      "summary": "A persistent workspace for development work that self-improves and continues beyond one session.",
-      "url": "https://github.com/kirodotdev/KiroCrew",
-      "publishedAt": "2026-11-14T06:34:05.000Z",
-      "dateLabel": "仓库更新",
-      "tags": [
-        "agent",
-        "agentic-ai",
-        "agents",
-        "ai-agent",
-        "ai-agents",
-        "automation"
-      ],
-      "stars": 4936,
-      "license": "Apache-2.0",
-      "id": "f03b6c686a597d54579e",
-      "platform": "GitHub",
-      "sourceId": "github-ai",
-      "sourceName": "GitHub · AI 开源",
-      "category": "开源项目",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
-      "kind": "collected",
-      "topics": []
-    },
-    {
-      "title": "yetone/magpie",
-      "summary": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
-      "url": "https://github.com/yetone/magpie",
-      "publishedAt": "2026-11-14T06:34:03.000Z",
-      "dateLabel": "仓库更新",
-      "tags": [
-        "claude-code",
-        "codex",
-        "deepseek",
-        "gemini-cli",
-        "llm",
-        "macos"
-      ],
-      "stars": 36240,
-      "license": "MIT",
-      "id": "4683cd570ef39debe973",
-      "platform": "GitHub",
-      "sourceId": "github-ai",
-      "sourceName": "GitHub · AI 开源",
-      "category": "开源项目",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
-      "kind": "collected",
-      "topics": []
-    },
-    {
       "title": "JKHeadley/instar",
       "summary": "Persistent Claude Code agents with scheduling, sessions, memory, and Telegram.",
       "url": "https://github.com/JKHeadley/instar",
@@ -875,181 +2087,6 @@
       "stars": 86,
       "license": "MIT",
       "id": "f2ed32d449024a57c318",
-      "platform": "GitHub",
-      "sourceId": "github-skills",
-      "sourceName": "GitHub · Agent Skills",
-      "category": "Skills",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
-      "kind": "collected",
-      "topics": []
-    },
-    {
-      "title": "Cotal-AI/Cotal",
-      "summary": "The open standard for agent coordination",
-      "url": "https://github.com/Cotal-AI/Cotal",
-      "publishedAt": "2026-11-14T06:33:11.000Z",
-      "dateLabel": "仓库更新",
-      "tags": [
-        "a2a",
-        "agent-communication",
-        "agent-mesh",
-        "agent-orchestration",
-        "agent-skills",
-        "ai"
-      ],
-      "stars": 392,
-      "license": "Apache-2.0",
-      "id": "85b35344986150527527",
-      "platform": "GitHub",
-      "sourceId": "github-skills",
-      "sourceName": "GitHub · Agent Skills",
-      "category": "Skills",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
-      "kind": "collected",
-      "topics": []
-    },
-    {
-      "title": "etkecc/baibot",
-      "summary": "🤖 A Matrix bot for using different capabilities (text-generation, text-to-speech, speech-to-text, image-generation, etc.) of AI / Large Language Models (OpenAI, Anthropic, etc.)",
-      "url": "https://github.com/etkecc/baibot",
-      "publishedAt": "2026-11-14T06:33:11.000Z",
-      "dateLabel": "仓库更新",
-      "tags": [
-        "ai",
-        "anthropic",
-        "chatgpt",
-        "llm",
-        "matrix",
-        "openai"
-      ],
-      "stars": 255,
-      "license": "AGPL-3.0",
-      "id": "3918352bfaba3023e775",
-      "platform": "GitHub",
-      "sourceId": "github-ai",
-      "sourceName": "GitHub · AI 开源",
-      "category": "开源项目",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
-      "kind": "collected",
-      "topics": []
-    },
-    {
-      "title": "NousResearch/hermes-agent",
-      "summary": "The agent that grows with you",
-      "url": "https://github.com/NousResearch/hermes-agent",
-      "publishedAt": "2026-11-14T06:33:09.000Z",
-      "dateLabel": "仓库更新",
-      "tags": [
-        "ai",
-        "ai-agent",
-        "ai-agents",
-        "anthropic",
-        "chatgpt",
-        "claude"
-      ],
-      "stars": 263267,
-      "license": "MIT",
-      "id": "ec2b8bd43eefd65f9cb1",
-      "platform": "GitHub",
-      "sourceId": "github-ai",
-      "sourceName": "GitHub · AI 开源",
-      "category": "开源项目",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
-      "kind": "collected",
-      "topics": []
-    },
-    {
-      "title": "ccch1mneyyy/dsh-Go",
-      "summary": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
-      "url": "https://github.com/ccch1mneyyy/dsh-Go",
-      "publishedAt": "2026-11-14T06:33:00.000Z",
-      "dateLabel": "仓库更新",
-      "tags": [
-        "ai-agent",
-        "android",
-        "android-app",
-        "coding-agent",
-        "deepseek",
-        "deepseek-harness"
-      ],
-      "stars": 22059,
-      "license": "AGPL-3.0",
-      "id": "52ed5fcd54e4c7b17d79",
-      "platform": "GitHub",
-      "sourceId": "github-ai",
-      "sourceName": "GitHub · AI 开源",
-      "category": "开源项目",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
-      "kind": "collected",
-      "topics": []
-    },
-    {
-      "title": "metadist/synaplan",
-      "summary": "Own the flow: one open-source AI platform for your knowledge, models and channels – web, WhatsApp, email, Outlook, Nextcloud & ownCloud. Local and cloud models side by side, with the cost on every answer.",
-      "url": "https://github.com/metadist/synaplan",
-      "publishedAt": "2026-11-14T06:32:58.000Z",
-      "dateLabel": "仓库更新",
-      "tags": [
-        "ai",
-        "ai-agents",
-        "anthropic",
-        "chat",
-        "chatbot-widget",
-        "chatgpt-alternative"
-      ],
-      "stars": 876,
-      "license": "Apache-2.0",
-      "id": "d0580c0fa30f064066f7",
-      "platform": "GitHub",
-      "sourceId": "github-ai",
-      "sourceName": "GitHub · AI 开源",
-      "category": "开源项目",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
-      "kind": "collected",
-      "topics": []
-    },
-    {
-      "title": "mdiri-ai/SoduWork",
-      "summary": "The AI-native engine for teams and their agents. Multi-harness, multi-agent, self-hosted.",
-      "url": "https://github.com/mdiri-ai/SoduWork",
-      "publishedAt": "2026-11-14T06:32:55.000Z",
-      "dateLabel": "仓库更新",
-      "tags": [
-        "agent-harness",
-        "agent-orchestration",
-        "agent-workflows",
-        "ai-agents",
-        "ai-workflows",
-        "anti-slop"
-      ],
-      "stars": 719,
-      "license": "MIT",
-      "id": "66c6c22e7581c7e26466",
-      "platform": "GitHub",
-      "sourceId": "github-ai",
-      "sourceName": "GitHub · AI 开源",
-      "category": "开源项目",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
-      "kind": "collected",
-      "topics": []
-    },
-    {
-      "title": "CherryHQ/cherry-studio",
-      "summary": "Your AI workspace for models, agents, and productivity.",
-      "url": "https://github.com/CherryHQ/cherry-studio",
-      "publishedAt": "2026-11-14T06:32:50.000Z",
-      "dateLabel": "仓库更新",
-      "tags": [
-        "agent-skills",
-        "agent-workspace",
-        "agentic-workspace",
-        "ai-agents",
-        "ai-models",
-        "ai-productivity"
-      ],
-      "stars": 53499,
-      "license": "AGPL-3.0",
-      "id": "b1b1542da472edd24925",
       "platform": "GitHub",
       "sourceId": "github-skills",
       "sourceName": "GitHub · Agent Skills",
@@ -1109,158 +2146,6 @@
       "topics": []
     },
     {
-      "title": "superiorlu/AITreasureBox",
-      "summary": "🤖 Automatically collected AI repos, tools, websites, papers & tutorials. 实用AI百宝箱 💎",
-      "url": "https://github.com/superiorlu/AITreasureBox",
-      "publishedAt": "2026-11-14T06:31:08.000Z",
-      "dateLabel": "仓库更新",
-      "tags": [
-        "agentic",
-        "agi",
-        "ai",
-        "ai-gents",
-        "ai-prompts",
-        "ai-tools"
-      ],
-      "stars": 924,
-      "license": "GPL-3.0",
-      "id": "4c159816e4fce1e31eb0",
-      "platform": "GitHub",
-      "sourceId": "github-ai",
-      "sourceName": "GitHub · AI 开源",
-      "category": "开源项目",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
-      "kind": "collected",
-      "topics": []
-    },
-    {
-      "title": "szeremeta1/Vespertine",
-      "summary": "Free, open-source, surround bit-perfect music player for Mac. Switches your DAC to every track's native format, plays DSD, Dolby Atmos, TrueHD and DTS, renders surround as Spatial Audio on AirPods, and catches fake hi-res files.",
-      "url": "https://github.com/szeremeta1/Vespertine",
-      "publishedAt": "2026-11-14T06:30:00.000Z",
-      "dateLabel": "仓库更新",
-      "tags": [
-        "airpods-max",
-        "audio-player",
-        "audiophile",
-        "bit-perfect",
-        "core-audio",
-        "dolby-atmos"
-      ],
-      "stars": 24,
-      "license": "GPL-3.0",
-      "id": "99f2b6f2213a0697d7c0",
-      "platform": "GitHub",
-      "sourceId": "github-spatial-audio",
-      "sourceName": "GitHub · 空间音频",
-      "category": "音乐科技",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
-      "kind": "collected",
-      "topics": [
-        "空间音频"
-      ]
-    },
-    {
-      "title": "tingly-dev/tingly-box",
-      "summary": "Your Intelligence, Orchestrated. Any Model, Any Agent, Any One.",
-      "url": "https://github.com/tingly-dev/tingly-box",
-      "publishedAt": "2026-11-14T06:29:20.000Z",
-      "dateLabel": "仓库更新",
-      "tags": [
-        "claude-code",
-        "dsh",
-        "dsh-plugin",
-        "gateway",
-        "golang",
-        "harness"
-      ],
-      "stars": 381,
-      "license": "MPL-2.0",
-      "id": "26b38a061d0e709a92f0",
-      "platform": "GitHub",
-      "sourceId": "github-ai",
-      "sourceName": "GitHub · AI 开源",
-      "category": "开源项目",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
-      "kind": "collected",
-      "topics": []
-    },
-    {
-      "title": "QwenLM/qwen-code",
-      "summary": "An open-source AI coding agent that lives in your terminal.",
-      "url": "https://github.com/QwenLM/qwen-code",
-      "publishedAt": "2026-11-14T06:27:34.000Z",
-      "dateLabel": "仓库更新",
-      "tags": [
-        "agentic",
-        "ai",
-        "ai-agent",
-        "ai-coding",
-        "cli",
-        "coding-agent"
-      ],
-      "stars": 30131,
-      "license": "Apache-2.0",
-      "id": "1922d9d520f9ceba156c",
-      "platform": "GitHub",
-      "sourceId": "github-ai",
-      "sourceName": "GitHub · AI 开源",
-      "category": "开源项目",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
-      "kind": "collected",
-      "topics": []
-    },
-    {
-      "title": "panxunying/ai-coding-welfare",
-      "summary": "AI Coding 福利站导航：免费白嫖 Claude Code / Codex 的中转站与公益站合集，含额度、模型、价格自动更新与一键配置脚本",
-      "url": "https://github.com/panxunying/ai-coding-welfare",
-      "publishedAt": "2026-11-14T06:27:12.000Z",
-      "dateLabel": "仓库更新",
-      "tags": [
-        "ai-coding",
-        "anthropic",
-        "api-proxy",
-        "claude-code",
-        "codex",
-        "free-api"
-      ],
-      "stars": 1317,
-      "license": "MIT",
-      "id": "2a19541af66cdb0231f0",
-      "platform": "GitHub",
-      "sourceId": "github-ai",
-      "sourceName": "GitHub · AI 开源",
-      "category": "开源项目",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
-      "kind": "collected",
-      "topics": []
-    },
-    {
-      "title": "elie222/rakazo",
-      "summary": "Open-source Grok Bot alternative. Choose your own model and sandbox.",
-      "url": "https://github.com/elie222/rakazo",
-      "publishedAt": "2026-11-14T06:27:00.000Z",
-      "dateLabel": "仓库更新",
-      "tags": [
-        "ai-agents",
-        "chatgpt",
-        "docker",
-        "electron",
-        "expo",
-        "grok"
-      ],
-      "stars": 8291,
-      "license": "Apache-2.0",
-      "id": "f7d22c75b9c000f9ab1c",
-      "platform": "GitHub",
-      "sourceId": "github-ai",
-      "sourceName": "GitHub · AI 开源",
-      "category": "开源项目",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
-      "kind": "collected",
-      "topics": []
-    },
-    {
       "title": "maomaochong-ai/open-astravia",
       "summary": "开源 · 本地优先的 AI 智能体：编程与实干兼备。 自带模型密钥，内置 MCP、技能、插件、工作流、知识库以及数据库。",
       "url": "https://github.com/maomaochong-ai/open-astravia",
@@ -1284,236 +2169,6 @@
       "collectedAt": "2026-11-14T06:36:20.672Z",
       "kind": "collected",
       "topics": []
-    },
-    {
-      "title": "the911fund/skill-of-skills",
-      "summary": "The quality-ranked discovery engine for AI coding skills, plugins and MCP servers across Claude Code, Codex, Cursor, Windsurf, Cline and more.",
-      "url": "https://github.com/the911fund/skill-of-skills",
-      "publishedAt": "2026-11-14T06:25:04.000Z",
-      "dateLabel": "仓库更新",
-      "tags": [
-        "agent-skills",
-        "ai-agents",
-        "ai-tools",
-        "automation",
-        "claude-code",
-        "claude-skills"
-      ],
-      "stars": 84,
-      "license": "MIT",
-      "id": "261ddbf149b536c37d43",
-      "platform": "GitHub",
-      "sourceId": "github-skills",
-      "sourceName": "GitHub · Agent Skills",
-      "category": "Skills",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
-      "kind": "collected",
-      "topics": []
-    },
-    {
-      "title": "UnderleveledBuilder/awesome-seo-geo-skills",
-      "summary": "SEO 和 GEO Skill（技能包）精选：关键词、内容、技术审计、排名数据，以及让 ChatGPT、Perplexity、Google AI 概览、豆包、元宝、Kimi 引用你的 GEO，Claude Code、Codex、龙虾 OpenClaw 等智能体可用 | Curated agent skills for SEO and GEO (generative engine optimization): keyword research, technical audits and AI search visib",
-      "url": "https://github.com/UnderleveledBuilder/awesome-seo-geo-skills",
-      "publishedAt": "2026-11-14T06:23:59.000Z",
-      "dateLabel": "仓库更新",
-      "tags": [
-        "aeo",
-        "agent-skills",
-        "ai-search",
-        "ai-seo",
-        "ai-visibility",
-        "awesome"
-      ],
-      "stars": 53,
-      "license": "CC0-1.0",
-      "id": "7619493f9dbc8620e0d7",
-      "platform": "GitHub",
-      "sourceId": "github-skills",
-      "sourceName": "GitHub · Agent Skills",
-      "category": "Skills",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
-      "kind": "collected",
-      "topics": [
-        "写作与研究"
-      ]
-    },
-    {
-      "title": "shinyobjectz/raea",
-      "summary": "Render Anything Engine: tell your AI what to make. Videos, motion graphics, 3D and games as React and TypeScript, rendered on your own GPU. Rust + Bevy, macOS, Linux and Windows.",
-      "url": "https://github.com/shinyobjectz/raea",
-      "publishedAt": "2026-11-14T06:23:33.000Z",
-      "dateLabel": "仓库更新",
-      "tags": [
-        "3d",
-        "agent-skills",
-        "ai-agents",
-        "ai-video",
-        "bevy",
-        "claude-code"
-      ],
-      "stars": 2393,
-      "license": "未声明或未识别，请核对仓库许可",
-      "id": "63f784d06acc8e23bed9",
-      "platform": "GitHub",
-      "sourceId": "github-skills",
-      "sourceName": "GitHub · Agent Skills",
-      "category": "Skills",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
-      "kind": "collected",
-      "topics": []
-    },
-    {
-      "title": "kajisho5/ffmpeg-skill",
-      "summary": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
-      "url": "https://github.com/kajisho5/ffmpeg-skill",
-      "publishedAt": "2026-11-14T06:22:13.000Z",
-      "dateLabel": "仓库更新",
-      "tags": [
-        "agent-skills",
-        "ai-agents",
-        "audio-processing",
-        "captions",
-        "claude-code",
-        "codex"
-      ],
-      "stars": 5474,
-      "license": "MIT",
-      "id": "bd036b2924d3b3d21ca3",
-      "platform": "GitHub",
-      "sourceId": "github-skills",
-      "sourceName": "GitHub · Agent Skills",
-      "category": "Skills",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
-      "kind": "collected",
-      "topics": [
-        "AI 音乐"
-      ]
-    },
-    {
-      "title": "n8n-io/n8n",
-      "summary": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-      "url": "https://github.com/n8n-io/n8n",
-      "publishedAt": "2026-11-14T06:16:58.000Z",
-      "dateLabel": "仓库更新",
-      "tags": [
-        "ai",
-        "apis",
-        "automation",
-        "cli",
-        "data-flow",
-        "development"
-      ],
-      "stars": 210431,
-      "license": "未声明或未识别，请核对仓库许可",
-      "id": "c37165a31cd3fc399e84",
-      "platform": "GitHub",
-      "sourceId": "github-workflows",
-      "sourceName": "GitHub · AI 工作流",
-      "category": "工作流",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
-      "kind": "collected",
-      "topics": []
-    },
-    {
-      "title": "UnderleveledBuilder/awesome-social-media-skills",
-      "summary": "自媒体运营 Skill（技能包）精选：小红书、抖音、公众号、视频号、B 站、X、YouTube、TikTok、LinkedIn 的选题、写稿、配图、发布和数据，千问、豆包、龙虾 OpenClaw、WorkBuddy、Claude Code、Codex 等智能体可用 | Curated agent skills for social media: Xiaohongshu (RedNote), Douyin, WeChat, X, YouTube, TikTok and LinkedIn",
-      "url": "https://github.com/UnderleveledBuilder/awesome-social-media-skills",
-      "publishedAt": "2026-11-14T06:12:50.000Z",
-      "dateLabel": "仓库更新",
-      "tags": [
-        "agent-skills",
-        "awesome",
-        "awesome-list",
-        "claude-code",
-        "claude-skills",
-        "codex"
-      ],
-      "stars": 278,
-      "license": "CC0-1.0",
-      "id": "df567d9a87881766cbbd",
-      "platform": "GitHub",
-      "sourceId": "github-skills",
-      "sourceName": "GitHub · Agent Skills",
-      "category": "Skills",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
-      "kind": "collected",
-      "topics": []
-    },
-    {
-      "title": "pbakaus/impeccable",
-      "summary": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
-      "url": "https://github.com/pbakaus/impeccable",
-      "publishedAt": "2026-11-14T06:06:41.000Z",
-      "dateLabel": "仓库更新",
-      "tags": [
-        "agent-skills",
-        "ai",
-        "anti-slop",
-        "design",
-        "slop"
-      ],
-      "stars": 109757,
-      "license": "Apache-2.0",
-      "id": "ec673bd7694d3a658bba",
-      "platform": "GitHub",
-      "sourceId": "github-skills",
-      "sourceName": "GitHub · Agent Skills",
-      "category": "Skills",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
-      "kind": "collected",
-      "topics": []
-    },
-    {
-      "title": "aivrar/portable-hermes-agent",
-      "summary": "Hermes Agent made portable desktop for Windows — 100 tools, GUI, local models via LM Studio, TTS, Music, ComfyUI, workflows, tool maker. No install. No Docker. No admin rights.",
-      "url": "https://github.com/aivrar/portable-hermes-agent",
-      "publishedAt": "2026-11-14T06:05:37.000Z",
-      "dateLabel": "仓库更新",
-      "tags": [
-        "ai",
-        "ai-agents",
-        "comfyui",
-        "desktop-app",
-        "hacktoberfest",
-        "hermes"
-      ],
-      "stars": 247,
-      "license": "MIT",
-      "id": "2b74c3755281a437c264",
-      "platform": "GitHub",
-      "sourceId": "github-workflows",
-      "sourceName": "GitHub · AI 工作流",
-      "category": "工作流",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
-      "kind": "collected",
-      "topics": []
-    },
-    {
-      "title": "superuser404notfound/AetherEngine",
-      "summary": "Media player engine for iOS, tvOS, macOS and visionOS. FFmpeg demux, VideoToolbox / dav1d / libavcodec decode, live TV with DVR timeshift and hardware deinterlace, Dolby Atmos passthrough, lossless TrueHD and DTS:X height channels, HDR10 / HDR10+ / Dolby Visio",
-      "url": "https://github.com/superuser404notfound/AetherEngine",
-      "publishedAt": "2026-11-14T05:50:14.000Z",
-      "dateLabel": "仓库更新",
-      "tags": [
-        "av1",
-        "avfoundation",
-        "dolby-atmos",
-        "dolby-vision",
-        "dvr",
-        "ffmpeg"
-      ],
-      "stars": 427,
-      "license": "未声明或未识别，请核对仓库许可",
-      "id": "e346bff54c889a087f74",
-      "platform": "GitHub",
-      "sourceId": "github-spatial-audio",
-      "sourceName": "GitHub · 空间音频",
-      "category": "音乐科技",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
-      "kind": "collected",
-      "topics": [
-        "空间音频"
-      ]
     },
     {
       "title": "caipe-io/ai-platform-engineering",
@@ -1541,31 +2196,6 @@
       "topics": []
     },
     {
-      "title": "Pinvou/pinvou-agent",
-      "summary": "Open-source desktop AI agent for tools, files, knowledge, workflows, and real deliverables.",
-      "url": "https://github.com/Pinvou/pinvou-agent",
-      "publishedAt": "2026-11-14T05:40:05.000Z",
-      "dateLabel": "仓库更新",
-      "tags": [
-        "agent-client-protocol",
-        "agent-skills",
-        "agentic-ai",
-        "ai",
-        "ai-agent",
-        "ai-agents"
-      ],
-      "stars": 3017,
-      "license": "MIT",
-      "id": "75b90b8224bac171a5ab",
-      "platform": "GitHub",
-      "sourceId": "github-workflows",
-      "sourceName": "GitHub · AI 工作流",
-      "category": "工作流",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
-      "kind": "collected",
-      "topics": []
-    },
-    {
       "title": "RSSHub v2026.11.14-8645.31e46f7",
       "summary": "Source commit: 31e46f7618fab85d57bc736ee5b189a4d3419397 Published multi-platform images: - ghcr.io/diygod/rsshub:31e46f7618fab85d57bc736ee5b189a4d3419397 - ghcr.io/diygod/rsshub:chromium-bundled-31e46f7618fab85d57bc736ee5b189a4d3419397 - diygod/rsshub:31e46f76",
       "url": "https://github.com/DIYgod/RSSHub/releases/tag/v2026.11.14-8645.31e46f7",
@@ -1579,7 +2209,7 @@
       "sourceId": "rsshub-releases",
       "sourceName": "RSSHub · 正式发行",
       "category": "工作流",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": []
     },
@@ -1594,14 +2224,33 @@
       "sourceId": "macau-news",
       "sourceName": "澳门特区政府 · 新闻",
       "category": "本地新闻",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [],
       "region": "macau"
     },
     {
-      "title": "創新科技及工業局常任秘書長出席南京理工大學香港科創研究院揭牌儀式致辭（只有中文）",
+      "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
+      "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+      "summary": "Hacker News 社区讨论，收录时 956 点、578 条评论。摘要与观点请以原文为准。",
+      "publishedAt": "2026-11-14T02:52:59.000Z",
+      "tags": [
+        "社区讨论"
+      ],
+      "discussionUrl": "https://news.ycombinator.com/item?id=50493251",
+      "id": "8f4b2632f43363d7fda4",
+      "platform": "Hacker News",
+      "sourceId": "hn-ai",
+      "sourceName": "Hacker News · AI 讨论",
+      "category": "社区热议",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
+      "kind": "collected",
+      "dateLabel": "原文",
+      "topics": []
+    },
+    {
+      "title": "創新科技及工業局常任秘書長出席南京理工大學香港科創研究院揭牌儀式致辭（只有中文）（附圖）",
       "url": "https://www.info.gov.hk/gia/general/202611/14/P2026111300380.htm",
       "summary": "以下是創新科技及工業局常任秘書長蔡傑銘今日（十一月十四日）在南京理工大學香港科創研究院揭牌儀式的致辭： 張司長（國家工業和信息化部國際合作司（港澳台辦公室）副司長張曉雷）、郝院長（中國科學院香港創新研究院執行院長郝銀星博士）、楊校長（南京理工大學校長楊益新教授）、各位嘉賓、各位朋友： 大家好！今天很高興出席南京理工大學香港科創研究院揭牌儀式，與各位共同見證江蘇與香港在科技創新合作方面又一重要樞紐的誕生。 人才是創新科技發展的最大資本。人才興，則產業興；教育強，則人才強。國家創新科技發展一日千里，早已在國際舞台上舉足",
       "publishedAt": "2026-11-14T02:30:00.000Z",
@@ -1611,7 +2260,7 @@
       "sourceId": "hongkong-news",
       "sourceName": "香港特区政府 · 新闻公报",
       "category": "本地新闻",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -1630,86 +2279,11 @@
       "sourceId": "hongkong-news",
       "sourceName": "香港特区政府 · 新闻公报",
       "category": "本地新闻",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [],
       "region": "hongkong"
-    },
-    {
-      "title": "taskade/mcp",
-      "summary": "🤖 Taskade MCP · Official MCP server and OpenAPI to MCP codegen. Build AI agent tools from any OpenAPI API and connect to Claude, Cursor, and more.",
-      "url": "https://github.com/taskade/mcp",
-      "publishedAt": "2026-11-14T01:03:53.000Z",
-      "dateLabel": "仓库更新",
-      "tags": [
-        "ai",
-        "ai-agent",
-        "ai-agents",
-        "autonomous-agents",
-        "claude",
-        "cursor"
-      ],
-      "stars": 169,
-      "license": "MIT",
-      "id": "b7f322b19359e55a0e19",
-      "platform": "GitHub",
-      "sourceId": "github-workflows",
-      "sourceName": "GitHub · AI 工作流",
-      "category": "工作流",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
-      "kind": "collected",
-      "topics": []
-    },
-    {
-      "title": "bytechefhq/bytechef",
-      "summary": "Open-source AI agents and workflow automation. Self-host or embed in your SaaS. Apache 2.0 alternative to n8n and Zapier.",
-      "url": "https://github.com/bytechefhq/bytechef",
-      "publishedAt": "2026-11-14T00:15:11.000Z",
-      "dateLabel": "仓库更新",
-      "tags": [
-        "ai",
-        "ai-agents",
-        "api",
-        "automation",
-        "embedded-ipaas",
-        "hacktoberfest"
-      ],
-      "stars": 1061,
-      "license": "未声明或未识别，请核对仓库许可",
-      "id": "8fab7f8f1f4a757114f9",
-      "platform": "GitHub",
-      "sourceId": "github-workflows",
-      "sourceName": "GitHub · AI 工作流",
-      "category": "工作流",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
-      "kind": "collected",
-      "topics": []
-    },
-    {
-      "title": "cocofhu/grasp",
-      "summary": "Grasp helps you manage multiple projects and parallel coding agents in one visual workflow, so humans can understand faster and ship more.",
-      "url": "https://github.com/cocofhu/grasp",
-      "publishedAt": "2026-11-13T21:22:51.000Z",
-      "dateLabel": "仓库更新",
-      "tags": [
-        "agent",
-        "ai",
-        "browser-automation",
-        "harness",
-        "harness-ai",
-        "harness-ci"
-      ],
-      "stars": 369,
-      "license": "MIT",
-      "id": "2cc3e2086a6f89e3c148",
-      "platform": "GitHub",
-      "sourceId": "github-workflows",
-      "sourceName": "GitHub · AI 工作流",
-      "category": "工作流",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
-      "kind": "collected",
-      "topics": []
     },
     {
       "title": "Agencies extend comment period for proposed third-party risk management guidance",
@@ -1724,140 +2298,13 @@
       "sourceId": "fed-news",
       "sourceName": "美联储 · 新闻",
       "category": "财经动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
         "金融观察"
       ],
       "jurisdiction": "美国"
-    },
-    {
-      "title": "strelov1/freehire",
-      "summary": "freehire — the open-source search engine for job seekers",
-      "url": "https://github.com/strelov1/freehire",
-      "publishedAt": "2026-11-13T19:48:55.000Z",
-      "dateLabel": "仓库更新",
-      "tags": [
-        "ats",
-        "career",
-        "careers",
-        "golang",
-        "hiring",
-        "job-aggregator"
-      ],
-      "stars": 3514,
-      "license": "MIT",
-      "id": "172e551cc00ea091d1be",
-      "platform": "GitHub",
-      "sourceId": "github-ai",
-      "sourceName": "GitHub · AI 开源",
-      "category": "开源项目",
-      "collectedAt": "2026-11-13T19:49:09.892Z",
-      "kind": "collected",
-      "topics": []
-    },
-    {
-      "title": "mastra-ai/mastra",
-      "summary": "Mastra is the modern TypeScript framework for AI-powered applications and agents.",
-      "url": "https://github.com/mastra-ai/mastra",
-      "publishedAt": "2026-11-13T19:47:21.000Z",
-      "dateLabel": "仓库更新",
-      "tags": [
-        "agents",
-        "ai",
-        "chatbots",
-        "evals",
-        "javascript",
-        "llm"
-      ],
-      "stars": 29509,
-      "license": "未声明或未识别，请核对仓库许可",
-      "id": "c597b1a88f392da5207a",
-      "platform": "GitHub",
-      "sourceId": "github-ai",
-      "sourceName": "GitHub · AI 开源",
-      "category": "开源项目",
-      "collectedAt": "2026-11-13T19:49:09.892Z",
-      "kind": "collected",
-      "topics": []
-    },
-    {
-      "title": "reactive-resume/reactive-resume",
-      "summary": "A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever. Try it out today!",
-      "url": "https://github.com/reactive-resume/reactive-resume",
-      "publishedAt": "2026-11-13T19:46:49.000Z",
-      "dateLabel": "仓库更新",
-      "tags": [
-        "agent-skills",
-        "ai",
-        "dsh-plugin",
-        "hacktoberfest",
-        "javascript",
-        "mcp-server"
-      ],
-      "stars": 45723,
-      "license": "MIT",
-      "id": "ebbf4c9b837ca6d0f06a",
-      "platform": "GitHub",
-      "sourceId": "github-skills",
-      "sourceName": "GitHub · Agent Skills",
-      "category": "Skills",
-      "collectedAt": "2026-11-13T19:49:09.892Z",
-      "kind": "collected",
-      "topics": []
-    },
-    {
-      "title": "NVIDIA/SkillEvaluator",
-      "summary": "Multi-tier framework for evaluating AI agent skills with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
-      "url": "https://github.com/NVIDIA/SkillEvaluator",
-      "publishedAt": "2026-11-13T19:46:38.000Z",
-      "dateLabel": "仓库更新",
-      "tags": [
-        "agent-evaluation",
-        "agent-plugins",
-        "agent-security",
-        "agent-skills",
-        "agentic-ai",
-        "benchmark"
-      ],
-      "stars": 1102,
-      "license": "Apache-2.0",
-      "id": "d17b0500bab017dea395",
-      "platform": "GitHub",
-      "sourceId": "github-skills",
-      "sourceName": "GitHub · Agent Skills",
-      "category": "Skills",
-      "collectedAt": "2026-11-13T19:49:09.892Z",
-      "kind": "collected",
-      "topics": []
-    },
-    {
-      "title": "superuser404notfound/AetherPlayer",
-      "summary": "Native media player for macOS and iOS/iPadOS on AetherEngine (FFmpeg). Plays almost any video or audio file, disc image or stream URL, with Dolby Vision and HDR, lossless height channels from TrueHD and DTS:X, Dolby Atmos from E-AC-3, track switching and live ",
-      "url": "https://github.com/superuser404notfound/AetherPlayer",
-      "publishedAt": "2026-11-13T19:46:18.000Z",
-      "dateLabel": "仓库更新",
-      "tags": [
-        "airplay",
-        "dolby-atmos",
-        "dolby-vision",
-        "dts-x",
-        "ffmpeg",
-        "hdr"
-      ],
-      "stars": 27,
-      "license": "LGPL-3.0",
-      "id": "9b41c14abe30b8e01ab1",
-      "platform": "GitHub",
-      "sourceId": "github-spatial-audio",
-      "sourceName": "GitHub · 空间音频",
-      "category": "音乐科技",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
-      "kind": "collected",
-      "topics": [
-        "空间音频"
-      ]
     },
     {
       "title": "RSSHub v2026.11.13-8644.7072c35",
@@ -1889,7 +2336,7 @@
       "sourceId": "yt-openai",
       "sourceName": "OpenAI · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-13T19:49:09.892Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": []
     },
@@ -1904,7 +2351,7 @@
       "sourceId": "huggingface",
       "sourceName": "Hugging Face",
       "category": "AI 动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -1930,7 +2377,7 @@
       "sourceId": "github-spatial-audio",
       "sourceName": "GitHub · 空间音频",
       "category": "音乐科技",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": [
         "空间音频"
@@ -1964,7 +2411,7 @@
     {
       "title": "AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems",
       "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
-      "summary": "Hacker News 社区讨论，收录时 369 点、96 条评论。摘要与观点请以原文为准。",
+      "summary": "Hacker News 社区讨论，收录时 413 点、107 条评论。摘要与观点请以原文为准。",
       "publishedAt": "2026-11-13T17:30:10.000Z",
       "tags": [
         "社区讨论"
@@ -1975,34 +2422,9 @@
       "sourceId": "hn-ai",
       "sourceName": "Hacker News · AI 讨论",
       "category": "社区热议",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
-      "topics": []
-    },
-    {
-      "title": "Rheosoph/flow-like",
-      "summary": "Flow-Like: Strongly Typed Enterprise Scale Workflows. Built for scalability, speed, seamless AI integration and rich customization.",
-      "url": "https://github.com/Rheosoph/flow-like",
-      "publishedAt": "2026-11-13T17:18:24.000Z",
-      "dateLabel": "仓库更新",
-      "tags": [
-        "agents",
-        "ai",
-        "apis",
-        "automation",
-        "data-flow",
-        "development"
-      ],
-      "stars": 979,
-      "license": "未声明或未识别，请核对仓库许可",
-      "id": "12b0e3e361ec96a6bd25",
-      "platform": "GitHub",
-      "sourceId": "github-workflows",
-      "sourceName": "GitHub · AI 工作流",
-      "category": "工作流",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
-      "kind": "collected",
       "topics": []
     },
     {
@@ -2016,7 +2438,7 @@
       "sourceId": "huggingface",
       "sourceName": "Hugging Face",
       "category": "AI 动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -2032,7 +2454,7 @@
       "sourceId": "sec-news",
       "sourceName": "美国SEC · 监管新闻",
       "category": "财经动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -2053,7 +2475,7 @@
       "sourceId": "yt-openai",
       "sourceName": "OpenAI · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-13T19:49:09.892Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": []
     },
@@ -2069,7 +2491,7 @@
       "sourceId": "yt-openai",
       "sourceName": "OpenAI · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-13T19:49:09.892Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": []
     },
@@ -2124,33 +2546,6 @@
       "topics": []
     },
     {
-      "title": "loteran/Arctis-Sound-Manager",
-      "summary": "SteelSeries headset manager for Linux — GG & Sonar alternative for Arctis: Sonar EQ with 330+ game presets, ChatMix, Game/Chat/Media mixer, spatial audio, sidetone, ANC, battery and OLED. Arctis Nova Pro Wireless & Wired, Nova Pro Omni, Nova Elite, Nova 7/7P/5",
-      "url": "https://github.com/loteran/Arctis-Sound-Manager",
-      "publishedAt": "2026-11-13T16:02:04.000Z",
-      "dateLabel": "仓库更新",
-      "tags": [
-        "arctis",
-        "arctis-nova-pro",
-        "arctis-nova-pro-wireless",
-        "bazzite",
-        "chatmix",
-        "equalizer"
-      ],
-      "stars": 200,
-      "license": "未声明或未识别，请核对仓库许可",
-      "id": "29c0389da759afaeb8ee",
-      "platform": "GitHub",
-      "sourceId": "github-spatial-audio",
-      "sourceName": "GitHub · 空间音频",
-      "category": "音乐科技",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
-      "kind": "collected",
-      "topics": [
-        "空间音频"
-      ]
-    },
-    {
       "title": "携湾区机遇 赴青春之约 “百万英才汇南粤”2026年N城联动秋季招聘活动 （湖南农业大学专场）举办",
       "url": "https://www.zhuhai.gov.cn/xw/xwzx/zhyw/content/post_3959383.html",
       "publishedAt": "2026-11-13T16:00:00.000Z",
@@ -2161,12 +2556,30 @@
       "sourceId": "zhuhai-news",
       "sourceName": "珠海市政府 · 珠海要闻",
       "category": "本地新闻",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "tags": [],
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [],
       "region": "zhuhai"
+    },
+    {
+      "title": "“hush! 沙灘音樂會 x 城市運動節 2026”開幕 “能量島嶼”打造音樂與運動的海岸盛會",
+      "url": "https://www.icm.gov.mo/cn/news/detail/25255",
+      "publishedAt": "2026-11-13T16:00:00.000Z",
+      "datePrecision": "day",
+      "id": "eac956be5bc00c01bdcf",
+      "summary": "",
+      "platform": "官方资讯",
+      "sourceId": "macau-culture",
+      "sourceName": "澳门文化局 · 新闻",
+      "category": "本地新闻",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
+      "tags": [],
+      "kind": "collected",
+      "dateLabel": "原文",
+      "topics": [],
+      "region": "macau"
     },
     {
       "title": "珠港澳高校海洋科技成果转化对接会在珠海举行 让更多成果从实验室走向生产线",
@@ -2179,7 +2592,7 @@
       "sourceId": "zhuhai-news",
       "sourceName": "珠海市政府 · 珠海要闻",
       "category": "本地新闻",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "tags": [],
       "kind": "collected",
       "dateLabel": "原文",
@@ -2197,7 +2610,7 @@
       "sourceId": "zhuhai-news",
       "sourceName": "珠海市政府 · 珠海要闻",
       "category": "本地新闻",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "tags": [],
       "kind": "collected",
       "dateLabel": "原文",
@@ -2216,12 +2629,31 @@
       "sourceId": "uk-ipo",
       "sourceName": "英国知识产权局 · 动态",
       "category": "法律政策",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": [
         "法律与版权"
       ],
       "jurisdiction": "英国"
+    },
+    {
+      "title": "Jonathan Blow – If AI solved coding, why is my software still the same? [video]",
+      "url": "https://www.youtube.com/watch?v=IRK8h67ol7Q",
+      "summary": "Hacker News 社区讨论，收录时 438 点、618 条评论。摘要与观点请以原文为准。",
+      "publishedAt": "2026-11-13T15:08:44.000Z",
+      "tags": [
+        "社区讨论"
+      ],
+      "discussionUrl": "https://news.ycombinator.com/item?id=50484658",
+      "id": "b53103b0ebf97fd23bda",
+      "platform": "Hacker News",
+      "sourceId": "hn-ai",
+      "sourceName": "Hacker News · AI 讨论",
+      "category": "社区热议",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
+      "kind": "collected",
+      "dateLabel": "原文",
+      "topics": []
     },
     {
       "title": "Introducing ChatGPT Wallet",
@@ -2236,7 +2668,7 @@
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI 动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -2252,7 +2684,7 @@
       "sourceId": "macau-news",
       "sourceName": "澳门特区政府 · 新闻",
       "category": "本地新闻",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [],
@@ -2269,7 +2701,7 @@
       "sourceId": "huggingface",
       "sourceName": "Hugging Face",
       "category": "AI 动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -2286,7 +2718,7 @@
       "sourceId": "uk-cma",
       "sourceName": "英国CMA · 平台与竞争监管",
       "category": "法律政策",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": [
         "法律与版权"
@@ -2304,36 +2736,11 @@
       "sourceId": "macau-news",
       "sourceName": "澳门特区政府 · 新闻",
       "category": "本地新闻",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [],
       "region": "macau"
-    },
-    {
-      "title": "imfeh2/fora",
-      "summary": "Run your own organization of agents",
-      "url": "https://github.com/imfeh2/fora",
-      "publishedAt": "2026-11-13T13:44:33.000Z",
-      "dateLabel": "仓库更新",
-      "tags": [
-        "agent",
-        "agent-runtime",
-        "agentic-workflows",
-        "ai",
-        "ai-agent",
-        "ai-workspace"
-      ],
-      "stars": 319,
-      "license": "Apache-2.0",
-      "id": "e5e6309218762de4b4cb",
-      "platform": "GitHub",
-      "sourceId": "github-workflows",
-      "sourceName": "GitHub · AI 工作流",
-      "category": "工作流",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
-      "kind": "collected",
-      "topics": []
     },
     {
       "title": "澳门国际音乐节 谭盾与澳门音乐菁英压轴登场",
@@ -2346,7 +2753,7 @@
       "sourceId": "macau-news",
       "sourceName": "澳门特区政府 · 新闻",
       "category": "本地新闻",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [],
@@ -2368,34 +2775,6 @@
       "dateLabel": "原文",
       "topics": [],
       "region": "macau"
-    },
-    {
-      "title": "qdTXTbp/FuFumidi",
-      "summary": "Offline MIDI workstation: transcription, piano roll editing, visualization, analysis, score, film scoring. 离线 MIDI 工作站：转录、编辑、可视化、分析、乐谱、影视配乐。",
-      "url": "https://github.com/qdTXTbp/FuFumidi",
-      "publishedAt": "2026-11-13T13:27:31.000Z",
-      "dateLabel": "仓库更新",
-      "tags": [
-        "audio-to-midi",
-        "basic-pitch",
-        "demucs",
-        "desktop-app",
-        "electron",
-        "midi"
-      ],
-      "stars": 36,
-      "license": "未声明或未识别，请核对仓库许可",
-      "id": "a1c156fa97abd0206b93",
-      "platform": "GitHub",
-      "sourceId": "github-audio-midi",
-      "sourceName": "GitHub · 音频转 MIDI",
-      "category": "音乐科技",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
-      "kind": "collected",
-      "topics": [
-        "AI 音乐",
-        "音乐制作"
-      ]
     },
     {
       "title": "“活力社区—体育健康咨询站” 11月两场活动推广健康资讯",
@@ -2434,31 +2813,6 @@
       "region": "macau"
     },
     {
-      "title": "codeaholicguy/ai-devkit",
-      "summary": "The control plane for AI coding agents.",
-      "url": "https://github.com/codeaholicguy/ai-devkit",
-      "publishedAt": "2026-11-13T13:15:59.000Z",
-      "dateLabel": "仓库更新",
-      "tags": [
-        "agent-framework",
-        "agent-skills",
-        "ai",
-        "ai-agents",
-        "ai-coding",
-        "antigravity"
-      ],
-      "stars": 1667,
-      "license": "Apache-2.0",
-      "id": "7cecf60e334920ef15c0",
-      "platform": "GitHub",
-      "sourceId": "github-workflows",
-      "sourceName": "GitHub · AI 工作流",
-      "category": "工作流",
-      "collectedAt": "2026-11-13T19:49:09.892Z",
-      "kind": "collected",
-      "topics": []
-    },
-    {
       "title": "RSSHub v2026.11.13-8643.e27818a",
       "summary": "Source commit: e27818a57d49fde604131330a9e92dedb863baa9 Published multi-platform images: - ghcr.io/diygod/rsshub:e27818a57d49fde604131330a9e92dedb863baa9 - ghcr.io/diygod/rsshub:chromium-bundled-e27818a57d49fde604131330a9e92dedb863baa9 - diygod/rsshub:e27818a5",
       "url": "https://github.com/DIYgod/RSSHub/releases/tag/v2026.11.13-8643.e27818a",
@@ -2477,33 +2831,6 @@
       "topics": []
     },
     {
-      "title": "glaretechnologies/substrata",
-      "summary": "Metaverse client and server written in C++. Runs on Windows, Mac, Linux and Web. Custom 3D engine, networked physics and Lua scripting",
-      "url": "https://github.com/glaretechnologies/substrata",
-      "publishedAt": "2026-11-13T12:19:09.000Z",
-      "dateLabel": "仓库更新",
-      "tags": [
-        "c-plus-plus",
-        "game-development",
-        "metaverse",
-        "networked-physics",
-        "networking",
-        "spatial-audio"
-      ],
-      "stars": 87,
-      "license": "MIT",
-      "id": "3b39a04f6ed5c70ca6dd",
-      "platform": "GitHub",
-      "sourceId": "github-spatial-audio",
-      "sourceName": "GitHub · 空间音频",
-      "category": "音乐科技",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
-      "kind": "collected",
-      "topics": [
-        "空间音频"
-      ]
-    },
-    {
       "title": "acids-ircam/acids-dataset",
       "summary": "data parsing / loading facility for handy audio machine learning. powered by lmdb",
       "url": "https://github.com/acids-ircam/acids-dataset",
@@ -2517,7 +2844,7 @@
       "sourceId": "github-audio-ai",
       "sourceName": "IRCAM ACIDS · 音频研究开源",
       "category": "音乐科技",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": [
         "AI 音乐",
@@ -2575,7 +2902,7 @@
       "sourceId": "uk-legislation",
       "sourceName": "英国官方立法库 · 新发布文本",
       "category": "法律政策",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": [
         "法律与版权"
@@ -2593,7 +2920,7 @@
       "sourceId": "hongkong-news",
       "sourceName": "香港特区政府 · 新闻公报",
       "category": "本地新闻",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -2622,7 +2949,7 @@
       "sourceId": "github-spatial-audio",
       "sourceName": "GitHub · 空间音频",
       "category": "音乐科技",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": [
         "空间音频"
@@ -2639,7 +2966,7 @@
       "sourceId": "hongkong-news",
       "sourceName": "香港特区政府 · 新闻公报",
       "category": "本地新闻",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -2650,7 +2977,7 @@
     {
       "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
       "url": "https://status.claude.com/incidents/nn11wk485zfn",
-      "summary": "Hacker News 社区讨论，收录时 488 点、383 条评论。摘要与观点请以原文为准。",
+      "summary": "Hacker News 社区讨论，收录时 489 点、390 条评论。摘要与观点请以原文为准。",
       "publishedAt": "2026-11-13T10:18:13.000Z",
       "tags": [
         "社区讨论"
@@ -2661,7 +2988,7 @@
       "sourceId": "hn-ai",
       "sourceName": "Hacker News · AI 讨论",
       "category": "社区热议",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -2677,7 +3004,7 @@
       "sourceId": "hongkong-news",
       "sourceName": "香港特区政府 · 新闻公报",
       "category": "本地新闻",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -2696,7 +3023,7 @@
       "sourceId": "hongkong-news",
       "sourceName": "香港特区政府 · 新闻公报",
       "category": "本地新闻",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -2715,7 +3042,7 @@
       "sourceId": "hongkong-news",
       "sourceName": "香港特区政府 · 新闻公报",
       "category": "本地新闻",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -2734,7 +3061,7 @@
       "sourceId": "hongkong-news",
       "sourceName": "香港特区政府 · 新闻公报",
       "category": "本地新闻",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -2753,7 +3080,7 @@
       "sourceId": "hongkong-news",
       "sourceName": "香港特区政府 · 新闻公报",
       "category": "本地新闻",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -2824,7 +3151,7 @@
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI 动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -2859,7 +3186,7 @@
       "sourceId": "ecb-news",
       "sourceName": "欧洲央行 · 新闻与讲话",
       "category": "财经动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -2991,74 +3318,6 @@
       "region": "hongkong"
     },
     {
-      "title": "房委會通過兩項優化資助出售單位措施",
-      "url": "https://www.info.gov.hk/gia/general/202611/13/P2026111200415.htm",
-      "summary": "下稿代香港房屋委員會發出： 香港房屋委員會（房委會）資助房屋小組委員會今日（十一月十三日）通過兩項優化資助出售單位的措施，協助不同市民購買資助出售單位，達致安居樂業的目標。 降低家有初生家庭置業門檻 行政長官在二○二三年《施政報告》宣布的「家有初生優先配屋計劃」及「家有初生優先選樓計劃」已漸見成效。為更進一步協助家有初生的家庭置業，減輕他們的首期負擔，行政長官在二○二六年《施政報告》宣布，由下一期居者有其屋計劃（居屋）銷售計劃起，將有新生嬰兒的白表家庭申請者的最高按揭成數由九成提升至九成半，與綠表申請者看齊。凡在相",
-      "publishedAt": "2026-11-13T04:00:00.000Z",
-      "tags": [],
-      "id": "3e967d84caa9983cd1b9",
-      "platform": "官方资讯",
-      "sourceId": "hongkong-news",
-      "sourceName": "香港特区政府 · 新闻公报",
-      "category": "本地新闻",
-      "collectedAt": "2026-11-13T06:53:02.803Z",
-      "kind": "collected",
-      "dateLabel": "原文",
-      "topics": [],
-      "region": "hongkong"
-    },
-    {
-      "title": "社会文化司司长柯岚代表行政长官出席第十二届世界大学女校长论坛开幕式。",
-      "url": "https://www.gov.mo/zh-hans/news/950746/",
-      "summary": "",
-      "publishedAt": "2026-11-13T03:59:00.000Z",
-      "tags": [],
-      "id": "098e3795d17980046d8b",
-      "platform": "官方资讯",
-      "sourceId": "macau-news",
-      "sourceName": "澳门特区政府 · 新闻",
-      "category": "本地新闻",
-      "collectedAt": "2026-11-13T06:53:02.803Z",
-      "kind": "collected",
-      "dateLabel": "原文",
-      "topics": [],
-      "region": "macau"
-    },
-    {
-      "title": "“身心健康基础支援讲座”顺利举行",
-      "url": "https://www.gov.mo/zh-hans/news/950743/",
-      "summary": "由社会工作局与劳工事务局合办，旅游局、教育及青年发展局与卫生局鼎力支持的“身心健康基础支援讲座”，于11月6日在行政公职局公务人员培训及关系厅演讲厅顺利举行，本澳多间休闲企业的管理层、人力资源主管及前线人员约120人参与。 社会工作局韩卫局长在致辞时，勉励休闲企业员工在轮班工作中懂得调适自我，活出精彩生活；休闲企业营造职场友善环境，深化守望相助的团队文化。社会工作局联同本澳各区的家庭综合服务中心、心理辅导单位、社区机构及卫生单位，共同构建了全方位覆盖的身心健康支援网络，能为有需要的休闲企业员工提供专业的咨询与支援。",
-      "publishedAt": "2026-11-13T03:43:00.000Z",
-      "tags": [],
-      "id": "8e54ed2b845a5081cb37",
-      "platform": "官方资讯",
-      "sourceId": "macau-news",
-      "sourceName": "澳门特区政府 · 新闻",
-      "category": "本地新闻",
-      "collectedAt": "2026-11-13T06:53:02.803Z",
-      "kind": "collected",
-      "dateLabel": "原文",
-      "topics": [],
-      "region": "macau"
-    },
-    {
-      "title": "劳工局与银娱合作推出就业+培训专项计划 11月16日起接受网上申请",
-      "url": "https://www.gov.mo/zh-hans/news/950740/",
-      "summary": "为进一步推动本澳居民就业与提升职业技能，劳工事务局（下称“劳工局”）与银河娱乐集团（下称“银娱”）合作推出“银娱菁英发展计划（资讯系统科技和设施管理范畴）”（下称“计划”），以“先入职、后培训”方式，旨在为本澳居民提供就业机会，同时透过系统化的职业培训，强化专业能力，协助其职业生涯向上流动，该计划由11月16日起接受网上申请。 提供8个职位空缺 协助拓展职业生涯 该计划提供合共8个职位空缺，包括1个“专员（服务支援中心）”职位空缺、1个“专员（端点技术服务）”职位空缺、1个“主任（系统服务营运）”职位空缺、1个“管",
-      "publishedAt": "2026-11-13T03:25:00.000Z",
-      "tags": [],
-      "id": "66ecb3c438dac8ba98bd",
-      "platform": "官方资讯",
-      "sourceId": "macau-news",
-      "sourceName": "澳门特区政府 · 新闻",
-      "category": "本地新闻",
-      "collectedAt": "2026-11-13T06:53:02.803Z",
-      "kind": "collected",
-      "dateLabel": "原文",
-      "topics": [],
-      "region": "macau"
-    },
-    {
       "title": "urinieto/msaf",
       "summary": "Music Structure Analysis Framework",
       "url": "https://github.com/urinieto/msaf",
@@ -3074,48 +3333,12 @@
       "sourceId": "github-music-research",
       "sourceName": "GitHub · 音乐信息检索",
       "category": "音乐科技",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": [
         "AI 音乐",
         "写作与研究"
       ]
-    },
-    {
-      "title": "第二十四届澳门高等院校学生辩论比赛圆满结束",
-      "url": "https://www.gov.mo/zh-hans/news/950730/",
-      "summary": "由教育及青年发展局主办、澳门演辩文化协会协办、中国工商银行（澳门）股份有限公司奖金赞助的2026/2027学年“第二十四届澳门高等院校学生辩论比赛”决赛已于2026年11月8日（星期日）假澳门科学馆会议厅顺利举行。 比赛于本年10月下旬拉开序幕，设有广州话组及普通话组，吸引了7所高等院校逾180名辩手参加。经过激烈的角逐，晋身广州话组准决赛的院校包括（按晋级排名）澳门大学、澳门保安部队高等学校、澳门科技大学及澳门镜湖护理学院。而晋身普通话组准决赛的院校则包括（按晋级排名）澳门科技大学、澳门理工大学、澳门大学及澳门城",
-      "publishedAt": "2026-11-13T02:56:00.000Z",
-      "tags": [],
-      "id": "6fc7cfa807a7de874b77",
-      "platform": "官方资讯",
-      "sourceId": "macau-news",
-      "sourceName": "澳门特区政府 · 新闻",
-      "category": "本地新闻",
-      "collectedAt": "2026-11-13T06:53:02.803Z",
-      "kind": "collected",
-      "dateLabel": "原文",
-      "topics": [],
-      "region": "macau"
-    },
-    {
-      "title": "教青局举办“家校一心”社区推广日活动暨“阅读奖励计划”颁奖礼",
-      "url": "https://www.gov.mo/zh-hans/news/950723/",
-      "summary": "为鼓励家校合作共同关注子女的身心健康，并持续深化“阅读之城”建设与促进亲子共读，教育及青年发展局于10月31日（星期六）假祐汉街市公园举办2026年“家校一心”社区推广日暨2025/2026学年“阅读奖励计划”颁奖礼，活动吸引超过2,800人次亲子及市民热烈参与。 教青局副局长黄嘉祺、非高等教育厅代厅长余汉生、文化局公共图书馆管理厅代厅长林颖娜、廉政公署社区推广及公关处处长辛孟曦、司法警察局社区警务及公共关系处关注少年科职务主管张剑锋及各家长会代表等多位嘉宾出席。 家长会是推动家校合作的重要桥梁，是次活动特别邀请多",
-      "publishedAt": "2026-11-13T02:49:00.000Z",
-      "tags": [],
-      "id": "ef2d3adf613ba4ce8061",
-      "platform": "官方资讯",
-      "sourceId": "macau-news",
-      "sourceName": "澳门特区政府 · 新闻",
-      "category": "本地新闻",
-      "collectedAt": "2026-11-13T06:53:02.803Z",
-      "kind": "collected",
-      "dateLabel": "原文",
-      "topics": [
-        "法律与版权"
-      ],
-      "region": "macau"
     },
     {
       "title": "RSSHub v2026.11.13-8639.351cb78",
@@ -3156,7 +3379,7 @@
       "sourceId": "github-spatial-audio",
       "sourceName": "GitHub · 空间音频",
       "category": "音乐科技",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": [
         "空间音频"
@@ -3200,9 +3423,9 @@
       "topics": []
     },
     {
-      "title": "Cyber at the Frontier",
+      "title": "Cyber at the Frontier: Introducing Daybreak Red Team & Daybreak Defense Factory",
       "url": "https://www.youtube.com/watch?v=YmxpxJZvm4M",
-      "summary": "A live keynote featuring OpenAI's latest cyber announcements.",
+      "summary": "Greg Brockman, Nancy Wang, Fouad Matin, Clint Gibler, Alexander Thiemann, and Matt Boyle took the stage at Cyber at the Frontier, where OpenAI introduced two cybersecurity products under one unified Codex plugin called Daybreak: Daybreak Defense Factory: build",
       "publishedAt": "2026-11-12T22:37:14.000Z",
       "dateLabel": "原文",
       "tags": [],
@@ -3211,14 +3434,14 @@
       "sourceId": "yt-openai",
       "sourceName": "OpenAI · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-13T19:49:09.892Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": []
     },
     {
       "title": "Reverse engineering my Coway air purifier to ditch the cloud",
       "url": "https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/",
-      "summary": "Hacker News 社区讨论，收录时 729 点、210 条评论。摘要与观点请以原文为准。",
+      "summary": "Hacker News 社区讨论，收录时 776 点、214 条评论。摘要与观点请以原文为准。",
       "publishedAt": "2026-11-12T22:03:09.000Z",
       "tags": [
         "社区讨论"
@@ -3229,7 +3452,7 @@
       "sourceId": "hn-ai",
       "sourceName": "Hacker News · AI 讨论",
       "category": "社区热议",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -3237,7 +3460,7 @@
     {
       "title": "Chinese frontier AI models carry the fingerprint of export-controlled GPUs",
       "url": "https://unemploymentlabs.com/checkpoint-forensics",
-      "summary": "Hacker News 社区讨论，收录时 357 点、152 条评论。摘要与观点请以原文为准。",
+      "summary": "Hacker News 社区讨论，收录时 369 点、160 条评论。摘要与观点请以原文为准。",
       "publishedAt": "2026-11-12T21:56:11.000Z",
       "tags": [
         "社区讨论"
@@ -3248,7 +3471,7 @@
       "sourceId": "hn-ai",
       "sourceName": "Hacker News · AI 讨论",
       "category": "社区热议",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -3319,7 +3542,7 @@
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI 动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -3335,7 +3558,7 @@
       "sourceId": "huggingface",
       "sourceName": "Hugging Face",
       "category": "AI 动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -3353,7 +3576,7 @@
       "sourceId": "fed-news",
       "sourceName": "美联储 · 新闻",
       "category": "财经动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -3376,7 +3599,7 @@
       "sourceId": "google-ai",
       "sourceName": "Google AI",
       "category": "AI 动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -3394,7 +3617,7 @@
       "sourceId": "fed-news",
       "sourceName": "美联储 · 新闻",
       "category": "财经动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -3441,7 +3664,7 @@
       "sourceId": "uk-legislation",
       "sourceName": "英国官方立法库 · 新发布文本",
       "category": "法律政策",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": [
         "法律与版权"
@@ -3461,7 +3684,7 @@
       "sourceId": "steinberg-updates",
       "sourceName": "Steinberg · 官方公告",
       "category": "音乐科技",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -3479,7 +3702,7 @@
       "sourceId": "hkma-scam-alert",
       "sourceName": "香港金管局 · 防骗提醒",
       "category": "财经动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -3498,7 +3721,7 @@
       "sourceId": "hkma-news",
       "sourceName": "香港金管局 · 新闻",
       "category": "财经动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -3517,7 +3740,7 @@
       "sourceId": "macau-culture",
       "sourceName": "澳门文化局 · 新闻",
       "category": "本地新闻",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "tags": [],
       "kind": "collected",
       "dateLabel": "原文",
@@ -3535,7 +3758,7 @@
       "sourceId": "hkma-news",
       "sourceName": "香港金管局 · 新闻",
       "category": "财经动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -3554,7 +3777,7 @@
       "sourceId": "macau-culture",
       "sourceName": "澳门文化局 · 新闻",
       "category": "本地新闻",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "tags": [],
       "kind": "collected",
       "dateLabel": "原文",
@@ -3572,31 +3795,13 @@
       "sourceId": "hkma-news",
       "sourceName": "香港金管局 · 新闻",
       "category": "财经动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
         "金融观察"
       ],
       "jurisdiction": "香港"
-    },
-    {
-      "title": "澳門國際音樂節 譚盾與澳門音樂菁英壓軸登場",
-      "url": "https://www.icm.gov.mo/cn/news/detail/25248",
-      "publishedAt": "2026-11-12T16:00:00.000Z",
-      "datePrecision": "day",
-      "id": "b0e8e17fc34cfbafd167",
-      "summary": "",
-      "platform": "官方资讯",
-      "sourceId": "macau-culture",
-      "sourceName": "澳门文化局 · 新闻",
-      "category": "本地新闻",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
-      "tags": [],
-      "kind": "collected",
-      "dateLabel": "原文",
-      "topics": [],
-      "region": "macau"
     },
     {
       "title": "Federal Reserve Board issues enforcement action with former employee of United Community Bank",
@@ -3611,7 +3816,7 @@
       "sourceId": "fed-news",
       "sourceName": "美联储 · 新闻",
       "category": "财经动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -3630,12 +3835,30 @@
       "sourceId": "zhuhai-news",
       "sourceName": "珠海市政府 · 珠海要闻",
       "category": "本地新闻",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "tags": [],
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [],
       "region": "zhuhai"
+    },
+    {
+      "title": "澳門國際音樂節 譚盾與澳門音樂菁英壓軸登場",
+      "url": "https://www.icm.gov.mo/cn/news/detail/25248",
+      "publishedAt": "2026-11-12T16:00:00.000Z",
+      "datePrecision": "day",
+      "id": "b0e8e17fc34cfbafd167",
+      "summary": "",
+      "platform": "官方资讯",
+      "sourceId": "macau-culture",
+      "sourceName": "澳门文化局 · 新闻",
+      "category": "本地新闻",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
+      "tags": [],
+      "kind": "collected",
+      "dateLabel": "原文",
+      "topics": [],
+      "region": "macau"
     },
     {
       "title": "超万名学子雨中竞聘 “百万英才汇南粤”2026年N城联动秋季招聘活动（中南大学专场）举办",
@@ -3648,7 +3871,7 @@
       "sourceId": "zhuhai-news",
       "sourceName": "珠海市政府 · 珠海要闻",
       "category": "本地新闻",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "tags": [],
       "kind": "collected",
       "dateLabel": "原文",
@@ -3668,34 +3891,9 @@
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI 动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
-      "topics": []
-    },
-    {
-      "title": "supernovae-st/nika",
-      "summary": "Intent as Code: say what you want done, keep it as a file. Checked before it runs, run with the model you choose, proven afterwards. Rust engine, CLI/TUI and TypeScript SDK. AGPL-3.0 🦋",
-      "url": "https://github.com/supernovae-st/nika",
-      "publishedAt": "2026-11-12T11:45:09.000Z",
-      "dateLabel": "仓库更新",
-      "tags": [
-        "agents",
-        "ai",
-        "ai-agents",
-        "ai-workflows",
-        "automation",
-        "cli"
-      ],
-      "stars": 100,
-      "license": "AGPL-3.0",
-      "id": "249dd7e6e1f5dfb99e17",
-      "platform": "GitHub",
-      "sourceId": "github-workflows",
-      "sourceName": "GitHub · AI 工作流",
-      "category": "工作流",
-      "collectedAt": "2026-11-13T06:53:02.803Z",
-      "kind": "collected",
       "topics": []
     },
     {
@@ -3712,7 +3910,7 @@
       "sourceId": "uk-cma",
       "sourceName": "英国CMA · 平台与竞争监管",
       "category": "法律政策",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": [
         "法律与版权"
@@ -3733,7 +3931,7 @@
       "sourceId": "uk-dsit",
       "sourceName": "英国DSIT · 科技与AI政策",
       "category": "法律政策",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": [],
       "jurisdiction": "英国"
@@ -3750,7 +3948,7 @@
       "sourceId": "yt-openai",
       "sourceName": "OpenAI · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-13T19:49:09.892Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": []
     },
@@ -3765,7 +3963,7 @@
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI 动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -3843,42 +4041,6 @@
       "topics": []
     },
     {
-      "title": "RSSHub v2026.11.12-8633.c86f1d5",
-      "summary": "Source commit: c86f1d53768ed6adbe3d34c9542243a8821de2e3 Published multi-platform images: - ghcr.io/diygod/rsshub:c86f1d53768ed6adbe3d34c9542243a8821de2e3 - ghcr.io/diygod/rsshub:chromium-bundled-c86f1d53768ed6adbe3d34c9542243a8821de2e3 - diygod/rsshub:c86f1d53",
-      "url": "https://github.com/DIYgod/RSSHub/releases/tag/v2026.11.12-8633.c86f1d5",
-      "publishedAt": "2026-11-12T04:16:44.000Z",
-      "dateLabel": "正式发行",
-      "tags": [
-        "v2026.11.12-8633.c86f1d5"
-      ],
-      "id": "babeb1feabb626186c76",
-      "platform": "GitHub",
-      "sourceId": "rsshub-releases",
-      "sourceName": "RSSHub · 正式发行",
-      "category": "工作流",
-      "collectedAt": "2026-11-12T20:01:56.950Z",
-      "kind": "collected",
-      "topics": []
-    },
-    {
-      "title": "RSSHub v2026.11.12-8632.2643635",
-      "summary": "Source commit: 26436357a8cf2bd69f408abefffcdaa69a5952e1 Published multi-platform images: - ghcr.io/diygod/rsshub:26436357a8cf2bd69f408abefffcdaa69a5952e1 - ghcr.io/diygod/rsshub:chromium-bundled-26436357a8cf2bd69f408abefffcdaa69a5952e1 - diygod/rsshub:26436357",
-      "url": "https://github.com/DIYgod/RSSHub/releases/tag/v2026.11.12-8632.2643635",
-      "publishedAt": "2026-11-12T03:58:00.000Z",
-      "dateLabel": "正式发行",
-      "tags": [
-        "v2026.11.12-8632.2643635"
-      ],
-      "id": "032c994e601e6222bbfa",
-      "platform": "GitHub",
-      "sourceId": "rsshub-releases",
-      "sourceName": "RSSHub · 正式发行",
-      "category": "工作流",
-      "collectedAt": "2026-11-12T07:20:30.936Z",
-      "kind": "collected",
-      "topics": []
-    },
-    {
       "title": "luka-dev/mib2q-carplay-rgi",
       "summary": "Better CarPlay for MHI2Q! Cluster Map, HUD Projection, Spatial Audio and more",
       "url": "https://github.com/luka-dev/mib2q-carplay-rgi",
@@ -3906,24 +4068,6 @@
       ]
     },
     {
-      "title": "RSSHub v2026.11.12-8631.0c19317",
-      "summary": "Source commit: 0c19317b2a3e604c8afb9acfdf0d8ed2417cc2f0 Published multi-platform images: - ghcr.io/diygod/rsshub:0c19317b2a3e604c8afb9acfdf0d8ed2417cc2f0 - ghcr.io/diygod/rsshub:chromium-bundled-0c19317b2a3e604c8afb9acfdf0d8ed2417cc2f0 - diygod/rsshub:0c19317b",
-      "url": "https://github.com/DIYgod/RSSHub/releases/tag/v2026.11.12-8631.0c19317",
-      "publishedAt": "2026-11-12T01:01:34.000Z",
-      "dateLabel": "正式发行",
-      "tags": [
-        "v2026.11.12-8631.0c19317"
-      ],
-      "id": "40562c9f1ba794190655",
-      "platform": "GitHub",
-      "sourceId": "rsshub-releases",
-      "sourceName": "RSSHub · 正式发行",
-      "category": "工作流",
-      "collectedAt": "2026-11-12T07:20:30.936Z",
-      "kind": "collected",
-      "topics": []
-    },
-    {
       "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
       "url": "https://huggingface.co/blog/3d-lora-finetuning",
       "summary": "",
@@ -3934,7 +4078,7 @@
       "sourceId": "huggingface",
       "sourceName": "Hugging Face",
       "category": "AI 动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -3950,7 +4094,7 @@
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI 动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -3968,7 +4112,7 @@
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI 动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -3988,7 +4132,7 @@
       "sourceId": "derivative-community",
       "sourceName": "TouchDesigner · 官方社区讨论",
       "category": "音乐科技",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "社区发帖",
       "topics": [
@@ -4000,7 +4144,7 @@
     {
       "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
       "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
-      "summary": "Hacker News 社区讨论，收录时 677 点、702 条评论。摘要与观点请以原文为准。",
+      "summary": "Hacker News 社区讨论，收录时 678 点、706 条评论。摘要与观点请以原文为准。",
       "publishedAt": "2026-11-11T21:24:35.000Z",
       "tags": [
         "社区讨论"
@@ -4011,7 +4155,7 @@
       "sourceId": "hn-ai",
       "sourceName": "Hacker News · AI 讨论",
       "category": "社区热议",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -4028,7 +4172,7 @@
       "sourceId": "yt-openai",
       "sourceName": "OpenAI · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-13T19:49:09.892Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": []
     },
@@ -4044,7 +4188,7 @@
       "sourceId": "yt-openai",
       "sourceName": "OpenAI · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-13T19:49:09.892Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": []
     },
@@ -4060,7 +4204,7 @@
       "sourceId": "yt-openai",
       "sourceName": "OpenAI · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-13T19:49:09.892Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": []
     },
@@ -4076,7 +4220,7 @@
       "sourceId": "yt-openai",
       "sourceName": "OpenAI · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-13T19:49:09.892Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": []
     },
@@ -4092,7 +4236,7 @@
       "sourceId": "yt-deepmind",
       "sourceName": "Google DeepMind · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-13T19:49:09.892Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": []
     },
@@ -4110,52 +4254,9 @@
       "sourceId": "google-ai",
       "sourceName": "Google AI",
       "category": "AI 动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
-      "topics": []
-    },
-    {
-      "title": "linghungegeg/Linghun",
-      "summary": "AGI-oriented, hallucination-resistant AI coding runtime grounded in evidence, tools, memory, agents, and verification.",
-      "url": "https://github.com/linghungegeg/Linghun",
-      "publishedAt": "2026-11-11T17:50:23.000Z",
-      "dateLabel": "仓库更新",
-      "tags": [
-        "agent-runtime",
-        "agi",
-        "ai",
-        "ai-agent",
-        "ai-coding",
-        "capability-runtime"
-      ],
-      "stars": 475,
-      "license": "Apache-2.0",
-      "id": "813a9c0486ac6cc86a82",
-      "platform": "GitHub",
-      "sourceId": "github-workflows",
-      "sourceName": "GitHub · AI 工作流",
-      "category": "工作流",
-      "collectedAt": "2026-11-13T06:53:02.803Z",
-      "kind": "collected",
-      "topics": []
-    },
-    {
-      "title": "RSSHub v2026.11.11-8630.75822b7",
-      "summary": "Source commit: 75822b7e88d12552ee60c44785f644171d691142 Published multi-platform images: - ghcr.io/diygod/rsshub:75822b7e88d12552ee60c44785f644171d691142 - ghcr.io/diygod/rsshub:chromium-bundled-75822b7e88d12552ee60c44785f644171d691142 - diygod/rsshub:75822b7e",
-      "url": "https://github.com/DIYgod/RSSHub/releases/tag/v2026.11.11-8630.75822b7",
-      "publishedAt": "2026-11-11T17:44:16.000Z",
-      "dateLabel": "正式发行",
-      "tags": [
-        "v2026.11.11-8630.75822b7"
-      ],
-      "id": "bdf9cd2b5ffb8c5c8219",
-      "platform": "GitHub",
-      "sourceId": "rsshub-releases",
-      "sourceName": "RSSHub · 正式发行",
-      "category": "工作流",
-      "collectedAt": "2026-11-12T07:20:30.936Z",
-      "kind": "collected",
       "topics": []
     },
     {
@@ -4172,7 +4273,7 @@
       "sourceId": "google-ai",
       "sourceName": "Google AI",
       "category": "AI 动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -4190,7 +4291,7 @@
       "sourceId": "hkma-news",
       "sourceName": "香港金管局 · 新闻",
       "category": "财经动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -4209,7 +4310,7 @@
       "sourceId": "macau-culture",
       "sourceName": "澳门文化局 · 新闻",
       "category": "本地新闻",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "tags": [],
       "kind": "collected",
       "dateLabel": "原文",
@@ -4227,7 +4328,7 @@
       "sourceId": "hkma-news",
       "sourceName": "香港金管局 · 新闻",
       "category": "财经动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -4246,7 +4347,7 @@
       "sourceId": "zhuhai-news",
       "sourceName": "珠海市政府 · 珠海要闻",
       "category": "本地新闻",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "tags": [],
       "kind": "collected",
       "dateLabel": "原文",
@@ -4264,34 +4365,13 @@
       "sourceId": "hkma-news",
       "sourceName": "香港金管局 · 新闻",
       "category": "财经动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
         "金融观察"
       ],
       "jurisdiction": "香港"
-    },
-    {
-      "title": "acids-ircam/acids-cc",
-      "summary": "项目未提供简介，请阅读仓库说明。",
-      "url": "https://github.com/acids-ircam/acids-cc",
-      "publishedAt": "2026-11-11T15:47:25.000Z",
-      "dateLabel": "仓库更新",
-      "tags": [],
-      "stars": 0,
-      "license": "未声明或未识别，请核对仓库许可",
-      "id": "8affe49ffec8d0277bc7",
-      "platform": "GitHub",
-      "sourceId": "github-audio-ai",
-      "sourceName": "IRCAM ACIDS · 音频研究开源",
-      "category": "音乐科技",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
-      "kind": "collected",
-      "topics": [
-        "AI 音乐",
-        "实时交互"
-      ]
     },
     {
       "title": "Google SWE points 48 AI agents at NASA Lidar, finds unmapped Maya pyramid in 72h",
@@ -4326,7 +4406,7 @@
       "sourceId": "hn-ai",
       "sourceName": "Hacker News · AI 讨论",
       "category": "社区热议",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -4343,37 +4423,12 @@
       "sourceId": "uk-cma",
       "sourceName": "英国CMA · 平台与竞争监管",
       "category": "法律政策",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": [
         "法律与版权"
       ],
       "jurisdiction": "英国"
-    },
-    {
-      "title": "manor-os/manor-ai",
-      "summary": "Source-available, self-hosted AI agent workspace for small businesses and lean teams — with BYOK, workflows, tools, and human approvals.",
-      "url": "https://github.com/manor-os/manor-ai",
-      "publishedAt": "2026-11-11T10:52:08.000Z",
-      "dateLabel": "仓库更新",
-      "tags": [
-        "agentic-ai",
-        "ai",
-        "ai-agents",
-        "ai-workflows",
-        "ai-workspaces",
-        "business-automation"
-      ],
-      "stars": 158,
-      "license": "未声明或未识别，请核对仓库许可",
-      "id": "c8b23fd54334a9b01c4e",
-      "platform": "GitHub",
-      "sourceId": "github-workflows",
-      "sourceName": "GitHub · AI 工作流",
-      "category": "工作流",
-      "collectedAt": "2026-11-12T07:20:30.936Z",
-      "kind": "collected",
-      "topics": []
     },
     {
       "title": "IP for self-employed creatives: materials for stakeholders",
@@ -4387,7 +4442,7 @@
       "sourceId": "uk-ipo",
       "sourceName": "英国知识产权局 · 动态",
       "category": "法律政策",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": [
         "法律与版权"
@@ -4406,7 +4461,7 @@
       "sourceId": "uk-ipo",
       "sourceName": "英国知识产权局 · 动态",
       "category": "法律政策",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": [
         "法律与版权"
@@ -4428,7 +4483,7 @@
       "sourceId": "google-ai",
       "sourceName": "Google AI",
       "category": "AI 动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -4446,7 +4501,7 @@
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI 动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -4463,7 +4518,7 @@
       "sourceId": "uk-cma",
       "sourceName": "英国CMA · 平台与竞争监管",
       "category": "法律政策",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": [
         "法律与版权"
@@ -4482,7 +4537,7 @@
       "sourceId": "uk-cma",
       "sourceName": "英国CMA · 平台与竞争监管",
       "category": "法律政策",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": [
         "法律与版权"
@@ -4500,7 +4555,7 @@
       "sourceId": "huggingface",
       "sourceName": "Hugging Face",
       "category": "AI 动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -4519,7 +4574,7 @@
       "sourceId": "uk-ipo",
       "sourceName": "英国知识产权局 · 动态",
       "category": "法律政策",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": [
         "法律与版权"
@@ -4538,7 +4593,7 @@
       "sourceId": "yt-openai",
       "sourceName": "OpenAI · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-13T19:49:09.892Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": []
     },
@@ -4651,7 +4706,7 @@
       "sourceId": "huggingface",
       "sourceName": "Hugging Face",
       "category": "AI 动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -4667,7 +4722,7 @@
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI 动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -4685,7 +4740,7 @@
       "sourceId": "derivative-community",
       "sourceName": "TouchDesigner · 官方社区讨论",
       "category": "音乐科技",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "社区发帖",
       "topics": [
@@ -4696,7 +4751,7 @@
     {
       "title": "Apple has new Mac app coming to make running local AI models easy",
       "url": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/",
-      "summary": "Hacker News 社区讨论，收录时 566 点、557 条评论。摘要与观点请以原文为准。",
+      "summary": "Hacker News 社区讨论，收录时 568 点、558 条评论。摘要与观点请以原文为准。",
       "publishedAt": "2026-11-10T21:25:03.000Z",
       "tags": [
         "社区讨论"
@@ -4707,7 +4762,7 @@
       "sourceId": "hn-ai",
       "sourceName": "Hacker News · AI 讨论",
       "category": "社区热议",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -4728,7 +4783,7 @@
       "sourceId": "google-ai",
       "sourceName": "Google AI",
       "category": "AI 动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -4744,7 +4799,7 @@
       "sourceId": "ecb-news",
       "sourceName": "欧洲央行 · 新闻与讲话",
       "category": "财经动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -4763,7 +4818,7 @@
       "sourceId": "sec-news",
       "sourceName": "美国SEC · 监管新闻",
       "category": "财经动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -4783,7 +4838,7 @@
       "sourceId": "hkma-scam-alert",
       "sourceName": "香港金管局 · 防骗提醒",
       "category": "财经动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -4802,25 +4857,7 @@
       "sourceId": "macau-culture",
       "sourceName": "澳门文化局 · 新闻",
       "category": "本地新闻",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
-      "tags": [],
-      "kind": "collected",
-      "dateLabel": "原文",
-      "topics": [],
-      "region": "macau"
-    },
-    {
-      "title": "莫桑比克傳奇歌手Stewart Sukuma與指揮張列跨界合作",
-      "url": "https://www.icm.gov.mo/cn/news/detail/25240",
-      "publishedAt": "2026-11-10T16:00:00.000Z",
-      "datePrecision": "day",
-      "id": "3069080ac8cecf3bbe4b",
-      "summary": "",
-      "platform": "官方资讯",
-      "sourceId": "macau-culture",
-      "sourceName": "澳门文化局 · 新闻",
-      "category": "本地新闻",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "tags": [],
       "kind": "collected",
       "dateLabel": "原文",
@@ -4846,6 +4883,24 @@
       "region": "zhuhai"
     },
     {
+      "title": "莫桑比克傳奇歌手Stewart Sukuma與指揮張列跨界合作",
+      "url": "https://www.icm.gov.mo/cn/news/detail/25240",
+      "publishedAt": "2026-11-10T16:00:00.000Z",
+      "datePrecision": "day",
+      "id": "3069080ac8cecf3bbe4b",
+      "summary": "",
+      "platform": "官方资讯",
+      "sourceId": "macau-culture",
+      "sourceName": "澳门文化局 · 新闻",
+      "category": "本地新闻",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
+      "tags": [],
+      "kind": "collected",
+      "dateLabel": "原文",
+      "topics": [],
+      "region": "macau"
+    },
+    {
       "title": "金管局與保監局聯合執法行動 - 保監局禁止林嘉傑申請保險中介人牌照九個月",
       "url": "https://www.hkma.gov.hk/chi/news-and-media/press-releases/2026/11/20261111-3/",
       "summary": "",
@@ -4856,7 +4911,7 @@
       "sourceId": "hkma-news",
       "sourceName": "香港金管局 · 新闻",
       "category": "财经动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -4875,7 +4930,7 @@
       "sourceId": "macau-culture",
       "sourceName": "澳门文化局 · 新闻",
       "category": "本地新闻",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "tags": [],
       "kind": "collected",
       "dateLabel": "原文",
@@ -4893,7 +4948,7 @@
       "sourceId": "hkma-news",
       "sourceName": "香港金管局 · 新闻",
       "category": "财经动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -4912,7 +4967,7 @@
       "sourceId": "hkma-news",
       "sourceName": "香港金管局 · 新闻",
       "category": "财经动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -4961,7 +5016,7 @@
       "sourceId": "uk-ipo",
       "sourceName": "英国知识产权局 · 动态",
       "category": "法律政策",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": [
         "法律与版权"
@@ -4982,7 +5037,7 @@
       "sourceId": "uk-ipo",
       "sourceName": "英国知识产权局 · 动态",
       "category": "法律政策",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": [
         "法律与版权"
@@ -5001,7 +5056,7 @@
       "sourceId": "uk-cma",
       "sourceName": "英国CMA · 平台与竞争监管",
       "category": "法律政策",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": [
         "法律与版权"
@@ -5020,7 +5075,7 @@
       "sourceId": "uk-cma",
       "sourceName": "英国CMA · 平台与竞争监管",
       "category": "法律政策",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": [
         "法律与版权"
@@ -5041,7 +5096,7 @@
       "sourceId": "uk-cma",
       "sourceName": "英国CMA · 平台与竞争监管",
       "category": "法律政策",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": [
         "法律与版权"
@@ -5059,7 +5114,7 @@
       "sourceId": "ecb-news",
       "sourceName": "欧洲央行 · 新闻与讲话",
       "category": "财经动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -5085,7 +5140,7 @@
       "sourceId": "google-ai",
       "sourceName": "Google AI",
       "category": "AI 动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -5104,7 +5159,7 @@
       "sourceId": "google-ai",
       "sourceName": "Google AI",
       "category": "AI 动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -5141,7 +5196,7 @@
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI 动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -5160,7 +5215,7 @@
       "sourceId": "ableton-link",
       "sourceName": "Ableton Link · 正式发行",
       "category": "音乐科技",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": [
         "实时交互",
@@ -5191,7 +5246,7 @@
     {
       "title": "AI usage generates a fragile codebase",
       "url": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/",
-      "summary": "Hacker News 社区讨论，收录时 641 点、626 条评论。摘要与观点请以原文为准。",
+      "summary": "Hacker News 社区讨论，收录时 642 点、626 条评论。摘要与观点请以原文为准。",
       "publishedAt": "2026-11-10T10:25:58.000Z",
       "tags": [
         "社区讨论"
@@ -5202,7 +5257,7 @@
       "sourceId": "hn-ai",
       "sourceName": "Hacker News · AI 讨论",
       "category": "社区热议",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -5220,7 +5275,7 @@
       "sourceId": "steinberg-updates",
       "sourceName": "Steinberg · 官方公告",
       "category": "音乐科技",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -5240,7 +5295,7 @@
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI 动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -5258,7 +5313,7 @@
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI 动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -5278,7 +5333,7 @@
       "sourceId": "ableton-blog",
       "sourceName": "Ableton · 创作与技术",
       "category": "音乐科技",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -5296,7 +5351,7 @@
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI 动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -5314,7 +5369,7 @@
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI 动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -5351,7 +5406,7 @@
       "sourceId": "huggingface",
       "sourceName": "Hugging Face",
       "category": "AI 动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -5367,7 +5422,7 @@
       "sourceId": "huggingface",
       "sourceName": "Hugging Face",
       "category": "AI 动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -5403,7 +5458,7 @@
       "sourceId": "fed-news",
       "sourceName": "美联储 · 新闻",
       "category": "财经动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -5440,7 +5495,7 @@
       "sourceId": "hkma-scam-alert",
       "sourceName": "香港金管局 · 防骗提醒",
       "category": "财经动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -5477,7 +5532,7 @@
       "sourceId": "macau-culture",
       "sourceName": "澳门文化局 · 新闻",
       "category": "本地新闻",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "tags": [],
       "kind": "collected",
       "dateLabel": "原文",
@@ -5495,7 +5550,7 @@
       "sourceId": "macau-culture",
       "sourceName": "澳门文化局 · 新闻",
       "category": "本地新闻",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "tags": [],
       "kind": "collected",
       "dateLabel": "原文",
@@ -5550,7 +5605,7 @@
       "sourceId": "hkma-news",
       "sourceName": "香港金管局 · 新闻",
       "category": "财经动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -5588,7 +5643,7 @@
       "sourceId": "uk-ipo",
       "sourceName": "英国知识产权局 · 动态",
       "category": "法律政策",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": [
         "法律与版权",
@@ -5607,7 +5662,7 @@
       "sourceId": "huggingface",
       "sourceName": "Hugging Face",
       "category": "AI 动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -5634,7 +5689,7 @@
     {
       "title": "Foldable Flight: The Best Paper Airplanes",
       "url": "https://www.foldableflight.com/",
-      "summary": "Hacker News 社区讨论，收录时 1277 点、168 条评论。摘要与观点请以原文为准。",
+      "summary": "Hacker News 社区讨论，收录时 1283 点、168 条评论。摘要与观点请以原文为准。",
       "publishedAt": "2026-11-09T12:19:22.000Z",
       "tags": [
         "社区讨论"
@@ -5645,7 +5700,7 @@
       "sourceId": "hn-ai",
       "sourceName": "Hacker News · AI 讨论",
       "category": "社区热议",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -5692,7 +5747,7 @@
       "sourceId": "steinberg-updates",
       "sourceName": "Steinberg · 官方公告",
       "category": "音乐科技",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -5713,14 +5768,14 @@
         "generative-model",
         "neural-network"
       ],
-      "stars": 1833,
+      "stars": 1834,
       "license": "未声明或未识别，请核对仓库许可",
       "id": "d9ae209ac0fc9babd194",
       "platform": "GitHub",
       "sourceId": "github-audio-ai",
       "sourceName": "IRCAM ACIDS · 音频研究开源",
       "category": "音乐科技",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": [
         "AI 音乐",
@@ -5741,7 +5796,7 @@
       "sourceId": "uk-ipo",
       "sourceName": "英国知识产权局 · 动态",
       "category": "法律政策",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": [
         "法律与版权"
@@ -5772,7 +5827,7 @@
     {
       "title": "I'm not convinced the AI bubble exists",
       "url": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html",
-      "summary": "Hacker News 社区讨论，收录时 577 点、974 条评论。摘要与观点请以原文为准。",
+      "summary": "Hacker News 社区讨论，收录时 578 点、974 条评论。摘要与观点请以原文为准。",
       "publishedAt": "2026-11-08T23:44:36.000Z",
       "tags": [
         "社区讨论"
@@ -5783,7 +5838,7 @@
       "sourceId": "hn-ai",
       "sourceName": "Hacker News · AI 讨论",
       "category": "社区热议",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -5821,7 +5876,7 @@
       "sourceId": "github-audio-ai",
       "sourceName": "IRCAM ACIDS · 音频研究开源",
       "category": "音乐科技",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": [
         "AI 音乐",
@@ -5847,7 +5902,7 @@
       "sourceId": "github-music-research",
       "sourceName": "GitHub · 音乐信息检索",
       "category": "音乐科技",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": [
         "AI 音乐",
@@ -5868,7 +5923,7 @@
       "sourceId": "github-audio-ai",
       "sourceName": "IRCAM ACIDS · 音频研究开源",
       "category": "音乐科技",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": [
         "AI 音乐",
@@ -5886,7 +5941,7 @@
       "sourceId": "hkma-scam-alert",
       "sourceName": "香港金管局 · 防骗提醒",
       "category": "财经动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -5905,7 +5960,7 @@
       "sourceId": "hkma-scam-alert",
       "sourceName": "香港金管局 · 防骗提醒",
       "category": "财经动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -5968,27 +6023,6 @@
       "region": "macau"
     },
     {
-      "title": "The end of Microsoft Research's AI Frontiers group",
-      "url": "https://hunch.net/?p=13764006",
-      "summary": "Hacker News 社区讨论，收录时 514 点、309 条评论。摘要与观点请以原文为准。",
-      "publishedAt": "2026-11-07T18:02:17.000Z",
-      "tags": [
-        "社区讨论"
-      ],
-      "discussionUrl": "https://news.ycombinator.com/item?id=50406563",
-      "id": "8017ce29f6d88c8d95a2",
-      "platform": "Hacker News",
-      "sourceId": "hn-ai",
-      "sourceName": "Hacker News · AI 讨论",
-      "category": "社区热议",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
-      "kind": "collected",
-      "dateLabel": "原文",
-      "topics": [
-        "写作与研究"
-      ]
-    },
-    {
       "title": "文明互鑒國際論壇分論壇探討中葡國家的文明連接 積極發揮澳門作為中國與葡語國家“精準聯繫人”作用",
       "url": "https://www.icm.gov.mo/cn/news/detail/25229",
       "publishedAt": "2026-11-07T16:00:00.000Z",
@@ -6035,34 +6069,13 @@
       "sourceId": "ecb-news",
       "sourceName": "欧洲央行 · 新闻与讲话",
       "category": "财经动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
         "金融观察"
       ],
       "jurisdiction": "欧盟"
-    },
-    {
-      "title": "AI is dramatically accelerating AI research",
-      "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
-      "summary": "Hacker News 社区讨论，收录时 382 点、360 条评论。摘要与观点请以原文为准。",
-      "publishedAt": "2026-11-06T20:27:23.000Z",
-      "tags": [
-        "社区讨论"
-      ],
-      "discussionUrl": "https://news.ycombinator.com/item?id=50397994",
-      "id": "e0c8b4541e0b5e8be31a",
-      "platform": "Hacker News",
-      "sourceId": "hn-ai",
-      "sourceName": "Hacker News · AI 讨论",
-      "category": "社区热议",
-      "collectedAt": "2026-11-13T19:49:09.892Z",
-      "kind": "collected",
-      "dateLabel": "原文",
-      "topics": [
-        "写作与研究"
-      ]
     },
     {
       "title": "香山文化记忆暨珠琴澳留学知识文化交流活动在珠海举办 回望香山根脉 传承留学报国精神",
@@ -6172,7 +6185,7 @@
       "sourceId": "uk-dsit",
       "sourceName": "英国DSIT · 科技与AI政策",
       "category": "法律政策",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": [
         "写作与研究"
@@ -6190,7 +6203,7 @@
       "sourceId": "ecb-news",
       "sourceName": "欧洲央行 · 新闻与讲话",
       "category": "财经动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -6209,7 +6222,7 @@
       "sourceId": "huggingface",
       "sourceName": "Hugging Face",
       "category": "AI 动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -6253,7 +6266,7 @@
       "sourceId": "github-music-research",
       "sourceName": "GitHub · 音乐信息检索",
       "category": "音乐科技",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": [
         "AI 音乐",
@@ -6276,7 +6289,7 @@
       "sourceId": "google-ai",
       "sourceName": "Google AI",
       "category": "AI 动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -6294,7 +6307,7 @@
       "sourceId": "fed-news",
       "sourceName": "美联储 · 新闻",
       "category": "财经动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -6313,7 +6326,7 @@
       "sourceId": "hkma-scam-alert",
       "sourceName": "香港金管局 · 防骗提醒",
       "category": "财经动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -6435,24 +6448,6 @@
       "jurisdiction": "香港"
     },
     {
-      "title": "大三巴11月上旬起分階段進行監測維護及銅像修復工作",
-      "url": "https://www.icm.gov.mo/cn/news/detail/25225",
-      "publishedAt": "2026-11-05T16:00:00.000Z",
-      "datePrecision": "day",
-      "id": "f279a3496561f94319ae",
-      "summary": "",
-      "platform": "官方资讯",
-      "sourceId": "macau-culture",
-      "sourceName": "澳门文化局 · 新闻",
-      "category": "本地新闻",
-      "collectedAt": "2026-11-11T06:37:17.764Z",
-      "tags": [],
-      "kind": "collected",
-      "dateLabel": "原文",
-      "topics": [],
-      "region": "macau"
-    },
-    {
       "title": "Transparency data: Disability equality and wellbeing at the IPO",
       "url": "https://www.gov.uk/government/publications/disability-equality-and-wellbeing-at-the-ipo",
       "summary": "This report sets out our disability representation and work to remove barriers, support equal opportunities and improve staff wellbeing.",
@@ -6508,14 +6503,14 @@
         "essentia",
         "music"
       ],
-      "stars": 3803,
+      "stars": 3804,
       "license": "AGPL-3.0",
       "id": "3c19933e5e81f408a5b2",
       "platform": "GitHub",
       "sourceId": "github-music-research",
       "sourceName": "GitHub · 音乐信息检索",
       "category": "音乐科技",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": [
         "AI 音乐",
@@ -6651,7 +6646,7 @@
       "sourceId": "ecb-news",
       "sourceName": "欧洲央行 · 新闻与讲话",
       "category": "财经动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -6670,7 +6665,7 @@
       "sourceId": "ecb-news",
       "sourceName": "欧洲央行 · 新闻与讲话",
       "category": "财经动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -6716,7 +6711,7 @@
       "sourceId": "huggingface",
       "sourceName": "Hugging Face",
       "category": "AI 动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -6778,14 +6773,14 @@
         "lyrica",
         "lyrica-api"
       ],
-      "stars": 86,
+      "stars": 87,
       "license": "MIT",
       "id": "dc6f75b2de3386ed4658",
       "platform": "GitHub",
       "sourceId": "github-music-research",
       "sourceName": "GitHub · 音乐信息检索",
       "category": "音乐科技",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": [
         "AI 音乐",
@@ -6807,7 +6802,7 @@
       "sourceId": "uk-dsit",
       "sourceName": "英国DSIT · 科技与AI政策",
       "category": "法律政策",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": [
         "写作与研究"
@@ -6825,7 +6820,7 @@
       "sourceId": "sec-news",
       "sourceName": "美国SEC · 监管新闻",
       "category": "财经动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -6845,7 +6840,7 @@
       "sourceId": "hkma-scam-alert",
       "sourceName": "香港金管局 · 防骗提醒",
       "category": "财经动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -6903,7 +6898,7 @@
       "sourceId": "steinberg-updates",
       "sourceName": "Steinberg · 官方公告",
       "category": "音乐科技",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -6943,7 +6938,7 @@
       "sourceId": "uk-dsit",
       "sourceName": "英国DSIT · 科技与AI政策",
       "category": "法律政策",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": [
         "写作与研究"
@@ -6961,7 +6956,7 @@
       "sourceId": "ecb-news",
       "sourceName": "欧洲央行 · 新闻与讲话",
       "category": "财经动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -7019,7 +7014,7 @@
       "sourceId": "ableton-blog",
       "sourceName": "Ableton · 创作与技术",
       "category": "音乐科技",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -7040,7 +7035,7 @@
       "sourceId": "uk-dsit",
       "sourceName": "英国DSIT · 科技与AI政策",
       "category": "法律政策",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": [
         "写作与研究"
@@ -7061,7 +7056,7 @@
       "sourceId": "uk-dsit",
       "sourceName": "英国DSIT · 科技与AI政策",
       "category": "法律政策",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": [
         "写作与研究"
@@ -7081,7 +7076,7 @@
       "sourceId": "derivative-community",
       "sourceName": "TouchDesigner · 官方社区讨论",
       "category": "音乐科技",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "社区发帖",
       "topics": [
@@ -7107,7 +7102,7 @@
       "sourceId": "google-ai",
       "sourceName": "Google AI",
       "category": "AI 动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -7123,7 +7118,7 @@
       "sourceId": "hkma-scam-alert",
       "sourceName": "香港金管局 · 防骗提醒",
       "category": "财经动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -7171,7 +7166,7 @@
       "sourceId": "github-music-research",
       "sourceName": "GitHub · 音乐信息检索",
       "category": "音乐科技",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": [
         "AI 音乐",
@@ -7199,7 +7194,7 @@
       "sourceId": "github-music-research",
       "sourceName": "GitHub · 音乐信息检索",
       "category": "音乐科技",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": [
         "AI 音乐",
@@ -7239,7 +7234,7 @@
       "sourceId": "miniflux-releases",
       "sourceName": "Miniflux · 正式发行",
       "category": "工作流",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": []
     },
@@ -7254,7 +7249,7 @@
       "sourceId": "hkma-circulars",
       "sourceName": "香港金管局 · 监管通告",
       "category": "法律政策",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -7320,7 +7315,7 @@
       "dateLabel": "原帖",
       "cautions": "已读取公开原帖；收录不代表已完成其中各项安装与兼容性测试。",
       "browserReadOn": "2026-11-01",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "topics": []
     },
     {
@@ -7341,7 +7336,7 @@
       "dateLabel": "原帖",
       "cautions": "社区作者的项目介绍；原帖中的版本、数量和效果宣称未作为本索引的已验证结论。",
       "browserReadOn": "2026-11-01",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "topics": []
     },
     {
@@ -7363,7 +7358,7 @@
       "dateLabel": "原帖",
       "cautions": "已读取公开分享，尚未在本项目安装运行该工具。",
       "browserReadOn": "2026-11-01",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "topics": []
     },
     {
@@ -7385,7 +7380,7 @@
       "dateLabel": "原帖",
       "cautions": "社区索引不构成安装推荐；本次未逐一运行索引中的第三方 Skills。",
       "browserReadOn": "2026-11-01",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "topics": []
     },
     {
@@ -7435,7 +7430,7 @@
       "sourceId": "sec-news",
       "sourceName": "美国SEC · 监管新闻",
       "category": "财经动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -7514,7 +7509,7 @@
       "sourceId": "fed-news",
       "sourceName": "美联储 · 新闻",
       "category": "财经动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -7533,7 +7528,7 @@
       "sourceId": "sec-news",
       "sourceName": "美国SEC · 监管新闻",
       "category": "财经动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -7556,7 +7551,7 @@
       "sourceId": "uk-dsit",
       "sourceName": "英国DSIT · 科技与AI政策",
       "category": "法律政策",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": [
         "写作与研究"
@@ -7577,7 +7572,7 @@
       "sourceId": "uk-dsit",
       "sourceName": "英国DSIT · 科技与AI政策",
       "category": "法律政策",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": [],
       "jurisdiction": "英国"
@@ -7748,7 +7743,7 @@
       "sourceId": "ableton-blog",
       "sourceName": "Ableton · 创作与技术",
       "category": "音乐科技",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -7769,7 +7764,7 @@
       "sourceId": "ableton-blog",
       "sourceName": "Ableton · 创作与技术",
       "category": "音乐科技",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -7851,7 +7846,7 @@
       "sourceId": "fed-news",
       "sourceName": "美联储 · 新闻",
       "category": "财经动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -7897,7 +7892,7 @@
       "sourceId": "github-music-research",
       "sourceName": "GitHub · 音乐信息检索",
       "category": "音乐科技",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": [
         "AI 音乐",
@@ -7917,7 +7912,7 @@
       "sourceId": "steinberg-updates",
       "sourceName": "Steinberg · 官方公告",
       "category": "音乐科技",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -7937,7 +7932,7 @@
       "sourceId": "steinberg-updates",
       "sourceName": "Steinberg · 官方公告",
       "category": "音乐科技",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -7977,7 +7972,7 @@
       "sourceId": "yt-deepmind",
       "sourceName": "Google DeepMind · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-13T19:49:09.892Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": [
         "实时交互"
@@ -8034,7 +8029,7 @@
       "sourceId": "steinberg-updates",
       "sourceName": "Steinberg · 官方公告",
       "category": "音乐科技",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -8168,7 +8163,7 @@
       "sourceId": "google-ai",
       "sourceName": "Google AI",
       "category": "AI 动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -8186,7 +8181,7 @@
       "sourceId": "hkma-insight",
       "sourceName": "香港金管局 · 汇思",
       "category": "财经动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -8265,14 +8260,14 @@
         "gradio",
         "midi"
       ],
-      "stars": 365,
+      "stars": 367,
       "license": "MIT",
       "id": "a7fb24973e445da888bc",
       "platform": "GitHub",
       "sourceId": "github-audio-midi",
       "sourceName": "GitHub · 音频转 MIDI",
       "category": "音乐科技",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": [
         "AI 音乐",
@@ -8307,7 +8302,7 @@
       "sourceId": "sec-news",
       "sourceName": "美国SEC · 监管新闻",
       "category": "财经动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -8354,7 +8349,7 @@
       "sourceId": "hkma-circulars",
       "sourceName": "香港金管局 · 监管通告",
       "category": "法律政策",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -8399,7 +8394,7 @@
       "sourceId": "ableton-blog",
       "sourceName": "Ableton · 创作与技术",
       "category": "音乐科技",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -8417,7 +8412,7 @@
       "sourceId": "hkma-circulars",
       "sourceName": "香港金管局 · 监管通告",
       "category": "法律政策",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -8450,7 +8445,7 @@
         "编辑方法",
         "事实核验"
       ],
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "sourceId": "editorial-writing",
       "sourceName": "写作资料 · 原文精读",
       "topics": [
@@ -8471,7 +8466,7 @@
       "sourceId": "google-ai",
       "sourceName": "Google AI",
       "category": "AI 动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -8487,7 +8482,7 @@
       "sourceId": "sec-news",
       "sourceName": "美国SEC · 监管新闻",
       "category": "财经动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -8507,7 +8502,7 @@
       "sourceId": "sec-news",
       "sourceName": "美国SEC · 监管新闻",
       "category": "财经动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -8530,7 +8525,7 @@
       "sourceId": "miniflux-releases",
       "sourceName": "Miniflux · 正式发行",
       "category": "工作流",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": []
     },
@@ -8568,7 +8563,7 @@
       "sourceId": "ableton-link",
       "sourceName": "Ableton Link · 正式发行",
       "category": "音乐科技",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": [
         "实时交互",
@@ -8589,7 +8584,7 @@
       "sourceId": "github-audio-ai",
       "sourceName": "IRCAM ACIDS · 音频研究开源",
       "category": "音乐科技",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": [
         "AI 音乐",
@@ -8631,7 +8626,7 @@
       "sourceId": "ableton-blog",
       "sourceName": "Ableton · 创作与技术",
       "category": "音乐科技",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -8649,7 +8644,7 @@
       "sourceId": "hkma-circulars",
       "sourceName": "香港金管局 · 监管通告",
       "category": "法律政策",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -8692,7 +8687,7 @@
       "sourceId": "crawl4ai-releases",
       "sourceName": "Crawl4AI · 正式发行",
       "category": "工作流",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": []
     },
@@ -8707,7 +8702,7 @@
       "sourceId": "wipo-news",
       "sourceName": "WIPO · 知识产权新闻",
       "category": "法律政策",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -8748,7 +8743,7 @@
       "sourceId": "yt-deepmind",
       "sourceName": "Google DeepMind · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-13T19:49:09.892Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": []
     },
@@ -8764,7 +8759,7 @@
       "sourceId": "yt-deepmind",
       "sourceName": "Google DeepMind · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-13T19:49:09.892Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": []
     },
@@ -8782,7 +8777,7 @@
       "sourceId": "google-ai",
       "sourceName": "Google AI",
       "category": "AI 动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": []
@@ -8799,7 +8794,7 @@
       "sourceId": "yt-deepmind",
       "sourceName": "Google DeepMind · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-13T19:49:09.892Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": []
     },
@@ -8815,7 +8810,7 @@
       "sourceId": "yt-deepmind",
       "sourceName": "Google DeepMind · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-13T19:49:09.892Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": []
     },
@@ -8830,7 +8825,7 @@
       "sourceId": "wipo-news",
       "sourceName": "WIPO · 知识产权新闻",
       "category": "法律政策",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -8849,7 +8844,7 @@
       "sourceId": "hkma-circulars",
       "sourceName": "香港金管局 · 监管通告",
       "category": "法律政策",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -8956,7 +8951,7 @@
       "sourceId": "ableton-blog",
       "sourceName": "Ableton · 创作与技术",
       "category": "音乐科技",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -8974,7 +8969,7 @@
       "sourceId": "hkma-circulars",
       "sourceName": "香港金管局 · 监管通告",
       "category": "法律政策",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -9033,7 +9028,7 @@
       "sourceId": "hkma-insight",
       "sourceName": "香港金管局 · 汇思",
       "category": "财经动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -9078,7 +9073,7 @@
       "sourceId": "yt-deepmind",
       "sourceName": "Google DeepMind · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-13T19:49:09.892Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": [
         "写作与研究"
@@ -9098,7 +9093,7 @@
       "sourceId": "ableton-blog",
       "sourceName": "Ableton · 创作与技术",
       "category": "音乐科技",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -9116,7 +9111,7 @@
       "sourceId": "wipo-news",
       "sourceName": "WIPO · 知识产权新闻",
       "category": "法律政策",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -9156,7 +9151,7 @@
       "sourceId": "ableton-blog",
       "sourceName": "Ableton · 创作与技术",
       "category": "音乐科技",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -9177,7 +9172,7 @@
       "sourceId": "ableton-blog",
       "sourceName": "Ableton · 创作与技术",
       "category": "音乐科技",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -9207,7 +9202,7 @@
         "编辑方法",
         "事实核验"
       ],
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "sourceId": "editorial-writing",
       "sourceName": "写作资料 · 原文精读",
       "topics": [
@@ -9226,7 +9221,7 @@
       "sourceId": "yt-anthropic",
       "sourceName": "Anthropic · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-13T19:49:09.892Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": [
         "写作与研究"
@@ -9266,7 +9261,7 @@
       "sourceId": "yt-deepmind",
       "sourceName": "Google DeepMind · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-13T19:49:09.892Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": []
     },
@@ -9284,7 +9279,7 @@
       "sourceId": "crawl4ai-releases",
       "sourceName": "Crawl4AI · 正式发行",
       "category": "工作流",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": []
     },
@@ -9302,7 +9297,7 @@
       "sourceId": "ableton-link",
       "sourceName": "Ableton Link · 正式发行",
       "category": "音乐科技",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": [
         "实时交互",
@@ -9332,7 +9327,7 @@
         "编辑方法",
         "事实核验"
       ],
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "sourceId": "editorial-writing",
       "sourceName": "写作资料 · 原文精读",
       "topics": [
@@ -9350,7 +9345,7 @@
       "sourceId": "hkma-circulars",
       "sourceName": "香港金管局 · 监管通告",
       "category": "法律政策",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -9370,7 +9365,7 @@
       "sourceId": "hkma-circulars",
       "sourceName": "香港金管局 · 监管通告",
       "category": "法律政策",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -9392,7 +9387,7 @@
       "sourceId": "steinberg-updates",
       "sourceName": "Steinberg · 官方公告",
       "category": "音乐科技",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -9413,7 +9408,7 @@
       "sourceId": "ableton-blog",
       "sourceName": "Ableton · 创作与技术",
       "category": "音乐科技",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -9432,7 +9427,7 @@
       "sourceId": "yt-deepmind",
       "sourceName": "Google DeepMind · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-13T19:49:09.892Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": [
         "写作与研究"
@@ -9454,7 +9449,7 @@
       "sourceId": "ableton-blog",
       "sourceName": "Ableton · 创作与技术",
       "category": "音乐科技",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -9493,7 +9488,7 @@
       "sourceId": "yt-deepmind",
       "sourceName": "Google DeepMind · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-13T19:49:09.892Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": []
     },
@@ -9524,7 +9519,7 @@
       "sourceId": "wipo-news",
       "sourceName": "WIPO · 知识产权新闻",
       "category": "法律政策",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -9543,7 +9538,7 @@
       "sourceId": "hkma-insight",
       "sourceName": "香港金管局 · 汇思",
       "category": "财经动态",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -9564,7 +9559,7 @@
       "sourceId": "steinberg-updates",
       "sourceName": "Steinberg · 官方公告",
       "category": "音乐科技",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "dateLabel": "原文",
       "topics": [
@@ -9625,7 +9620,7 @@
       "sourceId": "yt-anthropic",
       "sourceName": "Anthropic · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-13T19:49:09.892Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": [
         "写作与研究"
@@ -9643,7 +9638,7 @@
       "sourceId": "yt-anthropic",
       "sourceName": "Anthropic · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-13T19:49:09.892Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": [
         "写作与研究"
@@ -9663,7 +9658,7 @@
       "sourceId": "crawl4ai-releases",
       "sourceName": "Crawl4AI · 正式发行",
       "category": "工作流",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": []
     },
@@ -9700,7 +9695,7 @@
       "sourceId": "yt-anthropic",
       "sourceName": "Anthropic · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-13T19:49:09.892Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": [
         "写作与研究"
@@ -9718,7 +9713,7 @@
       "sourceId": "yt-anthropic",
       "sourceName": "Anthropic · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-13T19:49:09.892Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": []
     },
@@ -9734,7 +9729,7 @@
       "sourceId": "yt-anthropic",
       "sourceName": "Anthropic · YouTube",
       "category": "视频分享",
-      "collectedAt": "2026-11-13T19:49:09.892Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "kind": "collected",
       "topics": [
         "写作与研究"
@@ -9784,7 +9779,7 @@
         "编辑方法",
         "事实核验"
       ],
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "sourceId": "editorial-writing",
       "sourceName": "写作资料 · 原文精读",
       "topics": [
@@ -9814,7 +9809,7 @@
         "编辑方法",
         "事实核验"
       ],
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "sourceId": "editorial-writing",
       "sourceName": "写作资料 · 原文精读",
       "topics": [
@@ -9845,7 +9840,7 @@
         "编辑方法",
         "事实核验"
       ],
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "sourceId": "editorial-writing",
       "sourceName": "写作资料 · 原文精读",
       "topics": [
@@ -9866,7 +9861,7 @@
       "summary": "[2025年11月3日至2026年12月6日 ]",
       "publishedAt": "2026-11-03T07:56:11.000Z",
       "dateLabel": "来源更新",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "sourceId": "macau-events",
       "sourceName": "澳门文化局 · 活动日历",
       "region": "macau",
@@ -9885,7 +9880,7 @@
       "summary": "[2026年4月27日至12月27日 ]",
       "publishedAt": "2026-10-13T01:26:48.000Z",
       "dateLabel": "来源更新",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "sourceId": "macau-events",
       "sourceName": "澳门文化局 · 活动日历",
       "region": "macau",
@@ -9904,7 +9899,7 @@
       "summary": "[2026年10月20日至2027年12月31日 ]",
       "publishedAt": "2026-10-23T07:39:43.000Z",
       "dateLabel": "来源更新",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "sourceId": "macau-events",
       "sourceName": "澳门文化局 · 活动日历",
       "region": "macau",
@@ -9923,7 +9918,7 @@
       "summary": "[2026年11月3日至30日 ]",
       "publishedAt": "2026-11-03T07:24:01.000Z",
       "dateLabel": "来源更新",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "sourceId": "macau-events",
       "sourceName": "澳门文化局 · 活动日历",
       "region": "macau",
@@ -9942,7 +9937,7 @@
       "summary": "[2026年11月3日至2028年7月30日 ]",
       "publishedAt": "2026-11-03T08:36:29.000Z",
       "dateLabel": "来源更新",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "sourceId": "macau-events",
       "sourceName": "澳门文化局 · 活动日历",
       "region": "macau",
@@ -9961,7 +9956,7 @@
       "summary": "[2026年11月3日至2027年3月28日 ]",
       "publishedAt": "2026-11-03T08:39:51.000Z",
       "dateLabel": "来源更新",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "sourceId": "macau-events",
       "sourceName": "澳门文化局 · 活动日历",
       "region": "macau",
@@ -9980,45 +9975,7 @@
       "summary": "",
       "publishedAt": "2026-10-27T16:00:00.000Z",
       "dateLabel": "来源更新",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
-      "sourceId": "macau-hush-2026",
-      "sourceName": "澳门文化局 · hush! 2026",
-      "region": "macau",
-      "platform": "官方活动",
-      "topics": []
-    },
-    {
-      "id": "c3e8e0d8107b668ee3e4",
-      "title": "hush! Slow Run 慢步靚聲王",
-      "url": "https://www.icm.gov.mo/cn/news/detail/25185",
-      "startsOn": "2026-11-14",
-      "endsOn": "2026-11-14",
-      "timeText": "20:45-21:30",
-      "venue": "黑沙海灘",
-      "registrationText": "一戶通報名",
-      "summary": "",
-      "publishedAt": "2026-10-27T16:00:00.000Z",
-      "dateLabel": "来源更新",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
-      "sourceId": "macau-hush-2026",
-      "sourceName": "澳门文化局 · hush! 2026",
-      "region": "macau",
-      "platform": "官方活动",
-      "topics": []
-    },
-    {
-      "id": "a1dc4f3f98b290d45139",
-      "title": "低窪供電派對",
-      "url": "https://www.icm.gov.mo/cn/news/detail/25185",
-      "startsOn": "2026-11-14",
-      "endsOn": "2026-11-14",
-      "timeText": "15:00-22:00",
-      "venue": "黑沙海灘",
-      "registrationText": "現場免費參與",
-      "summary": "",
-      "publishedAt": "2026-10-27T16:00:00.000Z",
-      "dateLabel": "来源更新",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "sourceId": "macau-hush-2026",
       "sourceName": "澳门文化局 · hush! 2026",
       "region": "macau",
@@ -10037,7 +9994,7 @@
       "summary": "[2026年11月14日至22日 ] 澳門城市文化節將於11月14日至22日，在澳門格蘭披治大賽車期間限定登場，通過新穎的文化互動及體驗，傳播澳門的“中國第一”寶貴的文化資源。透過世界遺產、非物質文化遺產，展現中西文明交匯的特色，讓大眾感受澳門文化的深度與絢麗。 澳門綜藝館化為“澳門時光廣場”，以“城韻流轉，中西共生”為題，特設澳門與中西文明主題展覽、文化體驗、非遺展演及文創攤位。此外，活動亦延伸至大賽車附近不同場地，更開放多個世遺景點，設“澳門歷史城區 OPEN DAY”，包括何東圖書館、鄭家大屋、議事亭藏書樓、",
       "publishedAt": "2026-11-13T07:43:11.000Z",
       "dateLabel": "来源更新",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "sourceId": "macau-events",
       "sourceName": "澳门文化局 · 活动日历",
       "region": "macau",
@@ -10056,7 +10013,7 @@
       "summary": "",
       "publishedAt": "2026-10-27T16:00:00.000Z",
       "dateLabel": "来源更新",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "sourceId": "macau-hush-2026",
       "sourceName": "澳门文化局 · hush! 2026",
       "region": "macau",
@@ -10075,7 +10032,7 @@
       "summary": "",
       "publishedAt": "2026-10-27T16:00:00.000Z",
       "dateLabel": "来源更新",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "sourceId": "macau-hush-2026",
       "sourceName": "澳门文化局 · hush! 2026",
       "region": "macau",
@@ -10094,7 +10051,7 @@
       "summary": "",
       "publishedAt": "2026-10-27T16:00:00.000Z",
       "dateLabel": "来源更新",
-      "collectedAt": "2026-11-14T06:36:20.672Z",
+      "collectedAt": "2026-11-14T18:13:45.259Z",
       "sourceId": "macau-hush-2026",
       "sourceName": "澳门文化局 · hush! 2026",
       "region": "macau",
